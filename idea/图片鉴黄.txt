@@ -1,0 +1,13 @@
+[高级][/s/S]*
+b:$替换 Э %IMG0%Э.jpgЭ$
+b:$替换 Э %b%Э.gifЭ$
+b:$替换 Э %b%Э.pngЭ$
+b:$替换 Э %b%Э-Э$
+b:$替换 Э %b%Э{Э$
+b:$替换 Э %b%Э}Э$
+a:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/tpjh.php?img=%b%$
+p:@a[id]
+如果:%p%==1
+±rep %Msgbar%±\r
+±strmsg 违规图片±这张图片看起来趋近r15或r18，如果是r18图请立即撤回。
+返回

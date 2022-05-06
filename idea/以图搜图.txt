@@ -1,0 +1,21 @@
+以图搜图
+$写 data/搜图/%QQ%/%群号%/以图搜图判断 a 1$
+$写 data/搜图/%QQ%/%群号%/以图搜图时间 a %时间mm:dd:hh%$
+s:$读 data/搜图/%QQ%/%群号%/以图搜图时间 a 0$
+b:$替换 Э %IMG0%Э.jpgЭ$ b:$替换 Э %b%Э.gifЭ$
+b:$替换 Э %b%Э.pngЭ$
+b:$替换 Э %b%Э-Э$
+b:$替换 Э %b%Э{Э$
+b:$替换 Э %b%Э}Э$
+a:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/ytst1.php?zh=%QQ%&img=%b%&time=%s%$
+±rep %Msgbar%±\r
+±strmsg %参数-1%±
+%a%请发送 开始匹配 进行搜索
+
+开始匹配
+s:$读 data/搜图/%QQ%/%群号%/以图搜图时间 a 0$ 
+a:$读 data/搜图/%QQ%/%群号%/以图搜图判断 a 0$ 
+如果:%a%==1
+$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/ytst.php?zh=%QQ%&time=%s%$
+$写 data/搜图/%QQ%/%群号%/以图搜图判断 a 0$
+返回
