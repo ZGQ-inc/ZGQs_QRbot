@@ -1,0 +1,1377 @@
+&&作者：ZGQ Inc. | 版权所有。
+&&网站：https://zgq-inc.github.io
+
+[\s\S]*(.*)[\s\S]*dev回复[\s\S]*(.*)[\s\S]*
+✔️全局回复功能正常
+
+[\s\S]*(.*)[\s\S]*回复列表[\s\S]*(.*)[\s\S]*|菜单
+〔关键词列表〕\n
+━━━━━━━━\n
+公告\n
+功能\n
+资源\n
+调试\n
+━━━━━━━━\n
+🤖机器人主人：\n
+%主人% ZGQ Inc.\n
+🌐个人主页：\n
+https://zgq-inc.github.io/homepage/\n
+🌐国内分流：\n
+https://zgq-inc.github.io/homepage/neocities.html\n
+🌐备用主页：\n
+https://zgq-inc.github.io/ZGQ-inc/\n
+┅┅┅┅┅┅┅┅\n
+©2022 ZGQ Inc. All rights reserved.
+
+资源
+〔获取资源〕\n
+━━━━━━━━\n
+冰点群\n
+个人主页\n
+软件库\n
+梯子\n
+赞助商\n
+黑名单\n
+网站分享\n
+资源列表\n
+腾讯\n
+百度网盘\n
+P站列表\n
+彩色群昵称\n
+各种源
+
+功能
+〔功能列表〕\n
+<━━━━实用━━━━>\n
+时间\n
+问候图（会定时触发）\n
+［中国城市］疫情\n
+［中国城市］疫情备用\n
+全国疫情\n
+全国疫情备用\n
+［城市］天气\n
+今日60\n
+头条\n
+头条榜单\n
+知乎热搜\n
+梗搜索［关键词］\n
+梗排行\n
+百度百科［关键词］\n
+翻译［文本］\n
+清屏\n
+群信息\n
+群龙王\n
+群活跃\n
+群禁言\n
+<━━━━音乐━━━━>\n
+QQ音乐［歌名］\n
+网易云音乐［歌名］\n
+酷我音乐［歌名］\n
+酷狗音乐［歌名］\n
+咪咕音乐［歌名］\n
+电音［关键词］\n
+网易云热评\n
+随机网易云音乐\n
+随机QQ音乐\n
+下载音乐［歌名］\n
+备用下载音乐［歌名］\n
+<━━━━图片━━━━>\n
+次元图［1A/1B/1C/2A/2B/2C/2D/2E/2F/2G/2H/3/4/5］\n
+必应壁纸\n
+转链接［图片］\n
+［闪照捕获］（自动）\n
+以图搜番［图片］\n
+以图搜图［图片］\n
+动漫化［图片］\n
+上色［图片］\n
+抠图［图片］\n
+卫星图\n
+降水图\n
+气温图\n
+<━━━━视频━━━━>\n
+搜电影［名字］\n
+AGEFANS\n
+樱花动漫［动漫名］\n
+随机视频［明星/热舞/风景/游戏/动物］\n
+下载哔哩哔哩［视频链接］\n
+下载MV［名字］\n
+<━━━━娱乐━━━━>\n
+签到\n
+一言\n
+次元一言\n
+一文\n
+笑话\n
+绕口令\n
+历史今天\n
+舔狗日记\n
+［关键词］文案\n
+二次元的［名字］\n
+神奇海螺\n
+狗屁不通［内容］\n
+主页生成\n
+星座运势［星座］\n
+藏头诗［内容］\n
+斗图\n
+兽语［内容］\n
+头像框\n
+丢［@对象］\n
+赞［@对象］\n
+跑［@对象］\n
+谢谢［@对象］\n
+爬［@对象］\n
+比心［@对象］\n
+撕［@对象］\n
+舔［图片/@对象］\n
+<━━━━网络━━━━>\n
+IP查询［IP地址］\n
+ping［网址］\n
+URL解码［文本］\n
+URL编码［文本］\n
+HEX解码［文本］\n
+HEX编码［文本］\n
+base64解码［文本］\n
+base64编码［文本］\n
+unicode解码［文本］\n
+unicode编码［文本］\n
+md5编码［文本］\n
+CRC32编码［文本］\n
+┅┅┅┅┅┅┅┅\n
+部分接口可能爆炸 发送\n
+【接口列表】\n
+【次元图接口列表】\n
+查看接口
+
+[\s\S]*(.*)[\s\S]*次元图接口列表[\s\S]*(.*)[\s\S]*
+<━━━━次元图接口━━━━>\n
+［1A/1B/1C］独角兽API\n
+1A偏动漫；1B偏综合；1C包含R18（参见【接口列表】）\n
+［2A/2B/2C/2D/2E/2F/2G/2H］MirlKoi图库\n
+2A无涩图；2B全站图，包含R18；2C精选图；2D银发；2E兽耳；2F星空；2G竖屏壁纸；2H横屏壁纸\n
+https://iw233.cn/main.html\n
+［3］岁月小筑随机图片API\n
+https://img.xjh.me/\n
+［4］Lolicon API\n
+https://api.lolicon.app/#/setu\n
+［5］随机图未知接口\n
+http://175.24.95.94/\n
+第一张\n
+imgs/1%20(1).jpg\n
+最后一张\n
+imgs/1%20(3413).jpg
+
+[\s\S]*(.*)[\s\S]*接口列表[\s\S]*(.*)[\s\S]*
+<━━━━接口━━━━>\n
+独角兽API\n
+https://ovooa.com/\n
+小白API\n
+https://xiaobai.klizi.cn/\n
+慕名API\n
+http://hm.suol.cc/\n
+糖豆子API\n
+http://api.tangdouz.com/\n
+言溪API\n
+http://api.yanxi520.cn/\n
+御坂妹妹API（爆炸，涉及以图搜番、以图搜图、动漫化、上色、抠图、卫星图、降水图、气温图、全国疫情）\n
+https://imcys.com/%e5%be%a1%e5%9d%82%e5%a6%b9%e5%a6%b9api#\n
+┅┅┅API大全┅┅┅\n
+https://zgqinc-my.sharepoint.com/:t:/g/personal/zgq_zgqinc_onmicrosoft_com/Ed2f0chXOVhIo_7NwHrlW48B8Z-2k7VBJ1poNjaWSTyBOg?e=fMPrlQ\n
+┅┅┅QRSpeed教程┅┅┅\n
+QRSpeed安装与词库编写入门\n
+http://alouette.top/\n
+变量大全安♡玖特别版\n
+https://icean.moe/
+
+[\s\S]*(.*)[\s\S]*调试
+〔调试指令〕\n
+━━━━━━\n
+dev回复
+
+公告|公告栏
+〔公告栏〕\n
+━━━━━━\n
+🧭发送【回复列表】查看关键词\n
+（无需at直接发送对应关键词）\n
+💻机器人免费提供 请先联系主人QQ\n
+（把机器人和主人都拉进群 加好友无需验证 请主动发送邀请）\n
+🔨如果想制作属于自己的机器人请发送【个人主页】找到破解软件分享 在软天空APP查看我发的帖子\n
+⚙️服务目前不稳定 是运行在手机上的 经常掉线\n
+⚠️此号用于机器人不回复私聊\n
+🟡请随意调戏机器人\n
+┅┅┅┅┅┅\n
+#️⃣本机器人使用QRSpeed作为后台，词库已公开，发送【查看词库】
+
+[\s\S]*(.*)[\s\S]*查看词库[\s\S]*(.*)[\s\S]*
+在线文档\n
+https://zgqinc-my.sharepoint.com/:t:/g/personal/zgq_zgqinc_onmicrosoft_com/EWErMpiHe69Pgcb5ejiMj8EB7XzYCrJtdURBj3P0fD6sLg?e=tCZpbW
+
+开机|说明|帮助|查询
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012194.png±
+❗请发送【回复列表】
+
+疫情|疫情备用|二次元的|次元图|狗屁不通|随机视频|星座运势|天气|文案|藏头诗|兽语|樱花动漫|QQ音乐|网易云音乐|酷我音乐|酷狗音乐|咪咕音乐电音|下载音乐|备用下载音乐|下载哔哩哔哩|下载MV|蓝奏云解析|梗搜索|搜电影|百度百科|翻译|IP查询|ping|URL解码|URL编码|HEX解码|HEX编码|base64解码|base64编码|unicode解码|unicode编码|md5编码|CRC32编码
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030045.png±
+⚠️请按照［］指示输入内容！
+
+次元图1A
+a:$访问 http://ovooa.com/API/Lovely/api?type=text$
+📎接口：独角兽（动漫）±img=%a%±
+
+次元图1B
+a:$访问 http://ovooa.com/API/dmt/api.php?type=text$
+📎接口：独角兽（综合）±img=%a%±
+
+次元图1C
+a:$访问 https://ovooa.com/API/Pximg/?type=text$
+b:$替换 € %a%€±img=€$
+c:$替换 € %b%€±€$
+📎接口：独角兽（含R18）\n
+🔞包含R18，使用链接\n
+%c%
+
+次元图2A
+a:$访问 https://iw233.cn/api.php?sort=iw233&type=json$
+b:$取中间 Э %a%Э{"pic":"Э"}$
+c:$替换 € %b%€\€$
+📎接口：MirlKoi（无R18）
+±img=%c%±
+
+次元图2B
+a:$访问 https://iw233.cn/api.php?sort=random&type=json$
+b:$取中间 Э %a%Э{"pic":"Э"}$
+c:$替换 € %b%€\€$
+📎接口：MirlKoi（含R18）
+%c%
+
+次元图2C
+a:$访问 https://iw233.cn/api.php?sort=top&type=json$
+b:$取中间 Э %a%Э{"pic":"Э"}$
+c:$替换 € %b%€\€$
+📎接口：MirlKoi（精选）
+±img=%c%±
+
+次元图2D
+a:$访问 https://iw233.cn/api.php?sort=yin&type=json$
+b:$取中间 Э %a%Э{"pic":"Э"}$
+c:$替换 € %b%€\€$
+📎接口：MirlKoi（银发）
+±img=%c%±
+
+次元图2E
+a:$访问 https://iw233.cn/api.php?sort=cat&type=json$
+b:$取中间 Э %a%Э{"pic":"Э"}$
+c:$替换 € %b%€\€$
+📎接口：MirlKoi（兽耳）
+±img=%c%±
+
+次元图2F
+a:$访问 https://iw233.cn/api.php?sort=xing&type=json$
+b:$取中间 Э %a%Э{"pic":"Э"}$
+c:$替换 € %b%€\€$
+📎接口：MirlKoi（星空）
+±img=%c%±
+
+次元图2G
+a:$访问 https://iw233.cn/api.php?sort=mp&type=json$
+b:$取中间 Э %a%Э{"pic":"Э"}$
+c:$替换 € %b%€\€$
+📎接口：MirlKoi（竖屏壁纸）
+±img=%c%±
+
+次元图2H
+a:$访问 https://iw233.cn/api.php?sort=pc&type=json$
+b:$取中间 Э %a%Э{"pic":"Э"}$
+c:$替换 € %b%€\€$
+📎接口：MirlKoi（横屏壁纸）
+±img=%c%±
+
+次元图3
+a:$访问 https://img.xjh.me/random_img.php?return=url$
+📎接口：岁月小筑±img=https:%a%±
+
+次元图4
+$访问 POST https://api.lolicon.app/setu/v2 Content-Type: application/text$\n
+📎接口：Lolicon\n
+🔞包含R18，使用链接
+
+次元图5
+a:%20($随机数 1-3413$
+📎接口：unknown±img=http://175.24.95.94/imgs/1%a%).jpg±
+
+时间
+⌚现在是北京时间（GMT+08:00）\n
+%时间yyyy年MM月dd日HH时mm分ss秒SSS毫秒%
+
+问候图
+±img=http://ovooa.com/API/image_Tnem/?QR_str=https://zgq-inc.github.io&QR_img=https://cdn.jsdelivr.net/gh/ZGQ-inc/homepage@master/images/logo.png&QR_str_ud=个人主页±
+
+[内部]早晚图
+如果:%时间HH%==09
+±img=http://ovooa.com/API/image_Tnem/?QR_str=https://zgq-inc.github.io&QR_img=https://cdn.jsdelivr.net/gh/ZGQ-inc/homepage@master/images/logo.png&QR_str_ud=个人主页±
+
+[内部]早晚图
+如果:%时间HH%==18
+±img=http://ovooa.com/API/image_Tnem/?QR_str=https://zgq-inc.github.io&QR_img=https://cdn.jsdelivr.net/gh/ZGQ-inc/homepage@master/images/logo.png&QR_str_ud=个人主页±
+
+全国疫情
+a:$访问 https://ycx.mxjs.xyz/yq/api1.php$
+b:$取中间 Э %a%Э截至Э±img=$
+c:$取中间 Э %a%Э±img=Э±$
+d:$取中间 Э %a%Э全国累计确Э$
+%b%
+±img=%c%±
+全国累计确诊%d%
+
+全国疫情备用
+a:$访问 http://ovooa.com/API/yiqing/api?msg=&type=text$
+b:$替换 € %a%€±img=https://hhyfeed.sogoucdn.com/feed/static/images/epidemic/domestic_map_01500.png±\n€$
+%b%
+
+ ?([\s\S]*(.*)[\s\S]*)疫情
+$访问 http://api.yanxi520.cn/api/virus.php?msg=%括号1%$
+
+一言
+🖊️$访问 http://api.yanxi520.cn/api/yan.php?encode=text&charset=utf-8$
+
+一文
+a:$访问 http://ovooa.com/API/mryw/$
+b:$取中间 Э %a%Э"title": "Э"$
+c:$取中间 Э %a%Э"author": "Э"$
+d:$取中间 Э %a%Э"content": "Э"$
+标题：%b%\n
+作者：%c%\n
+%d%
+
+ping ?([\s\S]*(.*)[\s\S]*)
+$访问 http://ovooa.com/API/ping/?url=%括号1%$
+
+二次元的 ?([\s\S]*(.*)[\s\S]*)
+$访问 http://ovooa.com/API/Ser/api?name=%括号1%&type=text$
+
+神奇海螺
+$访问 http://ovooa.com/API/daan/api?type=text$
+
+狗屁不通 ?([\s\S]*(.*)[\s\S]*)
+$访问 http://ovooa.com/API/dog/api.php?msg=%括号1%&num=100&type=text$
+
+ ?([\s\S]*(.*)[\s\S]*)疫情备用
+a:$访问 http://ovooa.com/API/yiqing/api?msg=%括号1%type=text$
+b:$取中间 Э %a%Э"time": "Э"$
+c:$取中间 Э %a%Э"name": "Э"$
+d:$取中间 Э %a%Э"total": "Э"$
+e:$取中间 Э %a%Э"suspected": "Э"$
+f:$取中间 Э %a%Э"death": "Э"$
+g:$取中间 Э %a%Э"cure": "Э"$
+h:$取中间 Э %a%Э"totaladd": "Э"$
+i:$取中间 Э %a%Э"econ": "Э"$
+j:$取中间 Э %a%Э"asymptom": "Э"$
+%b%，%c%\n
+累计确诊：%d%人\n
+累计死亡：%f%人\n
+现有确诊：%i%人\n
+新增确诊：%h%人\n
+累计治愈：%g%人\n
+现有无证：%j%人\n
+现存疑似：%e%人
+
+次元一言
+$访问 https://ovooa.com/API/dmyiyan/api.php$
+
+IP查询 ?([\s\S]*(.*)[\s\S]*)
+$访问 http://ovooa.com/API/IPdz/api.php?IP=%括号1%$
+
+随机视频 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://ovooa.com/API/sjsp/api.php?msg=%括号1%&type=text$
+b:$取中间 Э %a%Э±img=http://Э±$
+c:$取中间 Э %a%Э类型：Э$
+±img=http://%b%±
+%c%
+
+随机网易云音乐
+a:$访问 http://ovooa.com/API/163_Music_Rand/api.php$
+b:$取中间 Э %a%Э"song": "Э",$
+c:$取中间 Э %a%Э"singer": "Э",$
+d:$取中间 Э %a%Э"cover": "Э",$
+e:$取中间 Э %a%Э"Music": "Э",$
+歌名：%b%\n
+歌手：%c%\n
+±img=%d%±
+播放链接：%e%
+
+随机QQ音乐
+a:$访问 http://ovooa.com/API/QQ_Music_Rand/api.php?msg=热歌榜$
+b:$取中间 Э %a%Э"song": "Э",$
+c:$取中间 Э %a%Э"url": "Э",$
+d:$取中间 Э %a%Э"picture": "Э",$
+e:$取中间 Э %a%Э"singer": "Э",$
+f:$取中间 Э %a%Э"music": "Э",$
+歌名：%b%\n
+歌手：%e%\n
+±img=%d%±
+播放链接：%c%\n
+下载链接：%f%
+
+主页生成
+https://ovooa.com/API/grzy/api.php?name=%QQ%&wb=&qq=%QQ%
+
+历史今天
+a:$访问 http://ovooa.com/API/lishi/api.php?n=15$
+b:$取中间 Э %a%Э1：Э\n2：$
+c:$取中间 Э %a%Э2：Э\n3：$
+d:$取中间 Э %a%Э3：Э\n4：$
+e:$取中间 Э %a%Э4：Э\n5：$
+f:$取中间 Э %a%Э5：Э\n6：$
+g:$取中间 Э %a%Э6：Э\n7：$
+h:$取中间 Э %a%Э7：Э\n8：$
+i:$取中间 Э %a%Э8：Э\n9：$
+j:$取中间 Э %a%Э9：Э\n10：$
+k:$取中间 Э %a%Э10：Э\n11：$
+l:$取中间 Э %a%Э11：Э\n12：$
+m:$取中间 Э %a%Э12：Э\n13：$
+n:$取中间 Э %a%Э13：Э\n14：$
+o:$取中间 Э %a%Э14：Э\n15：$
+p:$取中间 Э %a%Э15：Э$
+1：%b%\n
+2：%c%\n
+3：%d%\n
+4：%e%\n
+5：%f%\n
+6：%g%\n
+7：%h%\n
+8：%i%\n
+9：%j%\n
+10：%k%\n
+11：%l%\n
+12：%m%\n
+13：%n%\n
+14：%o%\n
+15：%p%
+
+ ?([\s\S]*(.*)[\s\S]*)天气
+a:$访问 http://ovooa.com/API/santq/api.php?msg=%括号1%$
+b:$取中间 Э %a%Э"city": "Э",$
+c:$取中间 Э %a%Э"Time": "Э",$
+d:$取中间 Э %a%Э"high_temperature": " Э",$
+e:$取中间 Э %a%Э"low_temperature": " Э",$
+f:$取中间 Э %a%Э"wind_direction": "Э",$
+g:$取中间 Э %a%Э"weather": "Э",$
+h:$取中间 Э %a%Э"wind_speed": "Э"$
+i:$取中间 Э %a%Э"Tips": "Э"$
+%b%今日（%c%）天气如下：\n
+天气：%g%\n
+高温：%d%\n
+低温：%e%\n
+风向：%f%\n
+风速：%h%\n
+Tips：%i%
+
+舔狗日记
+$访问 http://ovooa.com/API/tgrj/api.php$
+
+头条
+$访问 https://xiaobai.klizi.cn/API/other/toutiao.php$
+
+头条榜单
+$访问 http://xiaobai.klizi.cn/API/other/ttbd.php?data=&max=$
+
+藏头诗 ?([\s\S]*(.*)[\s\S]*)
+$访问 https://xiaobai.klizi.cn/API/other/betan.php?msg=%括号1%&a=1&b=7$
+
+AGEFANS
+$访问 https://xiaobai.klizi.cn/API/other/acg.php$
+
+樱花动漫 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 https://xiaobai.klizi.cn/API/other/yinhua.php?msg=%括号1%&n=1$
+b:$访问 https://xiaobai.klizi.cn/API/other/yinhua.php?msg=%括号1%&n=2$
+c:$访问 https://xiaobai.klizi.cn/API/other/yinhua.php?msg=%括号1%&n=3$
+d:$访问 https://xiaobai.klizi.cn/API/other/yinhua.php?msg=%括号1%&n=4$
+e:$访问 https://xiaobai.klizi.cn/API/other/yinhua.php?msg=%括号1%&n=5$
+f:$取中间 Э %a%Э"title": Э,$
+g:$取中间 Э %a%Э"url": "Э",$
+h:$取中间 Э %b%Э"title": Э,$
+i:$取中间 Э %b%Э"url": "Э",$
+j:$取中间 Э %c%Э"title": Э,$
+k:$取中间 Э %c%Э"url": "Э",$
+l:$取中间 Э %d%Э"title": Э,$
+m:$取中间 Э %d%Э"url": "Э",$
+n:$取中间 Э %e%Э"title": Э,$
+o:$取中间 Э %e%Э"url": "Э",$
+《%括号1%》搜索结果如下：\n
+1\n
+标题：%f%\n
+链接：%g%\n
+2\n
+标题：%h%\n
+链接：%i%\n
+3\n
+标题：%j%\n
+链接：%k%\n
+4\n
+标题：%l%\n
+链接：%m%\n
+5\n
+标题：%n%\n
+链接：%o%
+
+备用下载音乐 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://hm.suol.cc/API/yy.php?type=qq&msg=%括号1%&n=1$
+b:$取中间 Э %a%Э图片：Э.jpg$
+c:$取中间 Э %a%Э歌名Э$
+±img=%b%.jpg±
+歌名%c%
+
+下载音乐 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 https://xiaobai.klizi.cn/API/music/down_music.php?msg=%括号1%&n=1$
+b:$取中间 Э %a%Э"url": "Э"$
+c:$取中间 Э %a%Э"msg": "Э"$
+%括号1%\n
+%b%\n
+%c%
+
+下载哔哩哔哩 ?([\s\S]*(.*)[\s\S]*)
+下载链接：$访问 https://xiaobai.klizi.cn/API/other/bljx.php?url=%括号1%$
+
+梗搜索 ?([\s\S]*(.*)[\s\S]*)
+$访问 https://xiaobai.klizi.cn/API/other/gzsss.php?data=&msg=%括号1%$
+
+梗排行
+a:$访问 https://xiaobai.klizi.cn/API/other/gzsph.php?data=&type=&n=$
+b:$取中间 Э %a%Э1：Э\n2：$
+c:$取中间 Э %a%Э2：Э\n3：$
+d:$取中间 Э %a%Э3：Э\n4：$
+e:$取中间 Э %a%Э4：Э\n5：$
+f:$取中间 Э %a%Э5：Э\n6：$
+g:$取中间 Э %a%Э6：Э\n7：$
+h:$取中间 Э %a%Э7：Э\n8：$
+i:$取中间 Э %a%Э8：Э\n9：$
+j:$取中间 Э %a%Э9：Э\n10：$
+k:$取中间 Э %a%Э10：Э\n11：$
+l:$取中间 Э %a%Э11：Э\n12：$
+m:$取中间 Э %a%Э12：Э\n13：$
+n:$取中间 Э %a%Э13：Э\n14：$
+o:$取中间 Э %a%Э14：Э\n15：$
+p:$取中间 Э %a%Э15：Э\n16：$
+q:$取中间 Э %a%Э16：Э\n17：$
+r:$取中间 Э %a%Э17：Э\n18：$
+s:$取中间 Э %a%Э18：Э\n19：$
+t:$取中间 Э %a%Э19：Э\n20：$
+u:$取中间 Э %a%Э20：Э$
+1：%b%\n
+2：%c%\n
+3：%d%\n
+4：%e%\n
+5：%f%\n
+6：%g%\n
+7：%h%\n
+8：%i%\n
+9：%j%\n
+10：%k%\n
+11：%l%\n
+12：%m%\n
+13：%n%\n
+14：%o%\n
+15：%p%\n
+16：%q%\n
+17：%r%\n
+18：%s%\n
+19：%t%\n
+20：%u%
+
+必应壁纸
+a:$访问 https://xiaobai.klizi.cn/API/other/bing.php$
+±img=%a%±
+
+今日60
+±img=https://xiaobai.klizi.cn/API/other/60s.php±
+
+搜电影 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://hm.suol.cc/API/dy.php?msg=%括号1%&n=1$
+b:$取中间 Э %a%Э名称Э图片$
+c:$取中间 Э %a%Э图片：Э$
+±img=%c%±
+名称%b%
+
+百度百科 ?([\s\S]*(.*)[\s\S]*)
+$访问 http://hm.suol.cc/API/bk.php?type=sg&msg=%括号1%$
+
+翻译 ?([\s\S]*(.*)[\s\S]*)
+原文：%括号1%\n
+翻译：$访问 http://hm.suol.cc/API/fy.php?msg=%括号1%$
+
+下载MV ?([\s\S]*(.*)[\s\S]*)
+$访问 http://hm.suol.cc/API/yy.php?type=qqmv&msg=%括号1%&n=1$
+
+星座运势 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://ovooa.com/API/xz/api.php?msg=%括号1%&type=text$
+b:$取中间 Э %a%Э±img=http://Э±$
+c:$取中间 Э %a%Э星座：Э\r贵人方位：$
+d:$取中间 Э %a%Э\r贵人方位：Э\r贵人星座：$
+e:$取中间 Э %a%Э\r贵人星座：Э\r幸运数字：$
+f:$取中间 Э %a%Э\r幸运数字：Э\r幸运颜色：$
+g:$取中间 Э %a%Э\r幸运颜色：Э\r爱情运势：$
+h:$取中间 Э %a%Э\r爱情运势：Э\r财富运势：$
+i:$取中间 Э %a%Э\r财富运势：Э\r\r事业运势：$
+j:$取中间 Э %a%Э\r\r事业运势：Э\r提示：$
+k:$取中间 Э %a%Э\r提示：Э$
+±img=http://%b%±
+星座：%c%\n
+贵人方位：%d%\n
+贵人星座：%e%\n
+幸运数字：%f%\n
+幸运颜色：%g%\n
+爱情运势：%h%\n
+财富运势：%i%\n
+事业运势：%j%\n
+提示：%k%
+
+网易云热评
+$访问 http://ovooa.com/API/wyrp/api.php?type=text$
+
+QQ音乐 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://ovooa.com/API/QQ_Music/?Skey=%Skey%&uin=%Robot%&msg=%括号1%&n=1&type=text$
+b:$取中间 Э %a%Э±img=http://Э±$
+c:$取中间 Э %a%Э歌曲：Э$
+±img=http://%b%±
+歌名：%c%
+
+网易云音乐 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://ovooa.com/API/wydg/api.php?msg=%括号1%&n=1&type=text$
+b:$取中间 Э %a%Э±img=http://Э±$
+c:$取中间 Э %a%Э歌曲：Э$
+±img=http://%b%±
+歌名：%c%
+
+酷我音乐 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://ovooa.com/API/kwdg/api.php?msg=%括号1%&n=1&type=text$
+b:$取中间 Э %a%Э图片：Эjpg$
+c:$取中间 Э %a%Э歌名：Э$
+±img=%b%jpg±
+歌名：%c%
+
+酷狗音乐 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://ovooa.com/API/kgdg/api.php?msg=%括号1%&n=1&type=text$
+b:$取中间 Э %a%Э±img=http://Э±$
+c:$取中间 Э %a%Э歌名：Э$
+±img=http://%b%±
+歌名：%c%
+
+咪咕音乐 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://ovooa.com/API/migu/api.php?msg=%括号1%&n=1&type=text$
+b:$取中间 Э %a%Э±img=https://Э±$
+c:$取中间 Э %a%Э歌曲：Э$
+±img=https://%b%±
+歌名：%c%
+
+兽语 ?([\s\S]*(.*)[\s\S]*)
+兽语翻译：$访问 http://ovooa.com/API/sho_u/?msg=%括号1%&type=text$
+
+ ?([\s\S]*(.*)[\s\S]*)文案
+$访问 http://xiaobai.klizi.cn/API/other/wenan.php?msg=%括号1%$
+
+电音 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://xiaobai.klizi.cn/API/music/dj.php?data=&msg=%括号1%&n=1$
+b:$取中间 Э %a%Э"songname":"Э"$
+c:$取中间 Э %a%Э"nickname":" Э"$
+d:$取中间 Э %a%Э"songurl":"Э"$
+歌名：%b%\n
+歌手：%c%\n
+链接：%d%
+
+知乎热搜
+$访问 http://xiaobai.klizi.cn/API/other/zhrs.php?data=&max=$
+
+笑话
+$访问 http://ovooa.com/API/xiaohua/api.php$
+
+绕口令
+$访问 https://ovooa.com/API/rao/api.php?type=text$
+
+丢@.*
+±img=http://ovooa.com/API/diu/api.php?QQ=%AT0%±
+
+赞@.*
+±img=http://api.klizi.cn/API/ce/zan.php?qq=%AT0%±
+
+跑@.*
+±img=http://api.klizi.cn/API/ce/pao.php?qq=%AT0%±
+
+谢谢@.*
+±img=http://api.klizi.cn/API/ce/xie.php?qq=%AT0%±
+
+爬@.*
+±img=http://ovooa.com/API/pa/api.php?QQ=%AT0%±
+
+比心@.*
+±img=http://api.klizi.cn/API/ce/xin.php?qq=%AT0%±
+
+舔@.*
+±img=http://ovooa.com/API/tian/?url=https://q.qlogo.cn/headimg_dl?dst_uin=%AT0%&spec=5±
+
+舔.*
+如果:%IMG0%!=
+a:$图片链接 %IMG0%$
+±img=http://ovooa.com/API/tian/?url=%a%±
+
+撕@.*
+±img=http://ovooa.com/API/si/?QQ=%AT0%±
+
+头像框
+$访问 http://ovooa.com/API/head/?QQ=%QQ%$
+
+斗图
+a:$访问 http://ovooa.com/API/dou/?type=text$
+±img=%a%±
+
+以图搜番.*
+如果:%IMG0%!=
+a:$图片链接 %IMG0%$
+b:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/ytsf.php?img=%a%$
+c:$取中间 Э %b%Э中文Э±img=$
+d:$取中间 Э %b%Э±img=Э±$
+中文%c%
+±img=%d&±
+
+动漫化.*
+如果:%IMG0%!=
+a:$图片链接 %IMG0%$
+±img=https://ycx.mxjs.xyz/sqv8/tq/skey/dm.php?img=%a%±
+
+上色.*
+如果:%IMG0%!=
+a:$图片链接 %IMG0%$
+±img=https://ycx.mxjs.xyz/sqv8/tq/skey/hb.php?img=%a%±
+
+抠图.*
+如果:%IMG0%!=
+a:$图片链接 %IMG0%$
+±img=https://ycx.mxjs.xyz/sqv8/tq/skey/rlfg.php?img=%a%±
+
+卫星图
+a:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/nmcWx.php$
+b:$取中间 Э %b%Э±img=Э±$
+±img=%b%±
+
+降水图
+a:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/nmcQx.php?type=tq$
+b:$取中间 Э %b%Э±img=Э±$
+1小时内降水量±img=%b%±
+
+气温图
+a:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/nmcQx.php?type=qw$
+b:$取中间 Э %b%Э±img=Э±$
+1小时内气温±img=%b%±
+
+以图搜图
+$写 data/搜图/%QQ%/%群号%/以图搜图判断 a 1$
+$写 data/搜图/%QQ%/%群号%/以图搜图时间 a %时间mm:dd:hh%$
+s:$读 data/搜图/%QQ%/%群号%/以图搜图时间 a 0$
+b:$替换 Э %IMG0%Э.jpgЭ$ b:$替换 Э %b%Э.gifЭ$
+b:$替换 Э %b%Э.pngЭ$
+b:$替换 Э %b%Э-Э$
+b:$替换 Э %b%Э{Э$
+b:$替换 Э %b%Э}Э$
+a:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/ytst1.php?zh=%QQ%&img=%b%&time=%s%$
+±rep %Msgbar%±\r
+±strmsg %参数-1%±
+%a%请发送 开始匹配 进行搜索
+
+开始匹配
+s:$读 data/搜图/%QQ%/%群号%/以图搜图时间 a 0$ 
+a:$读 data/搜图/%QQ%/%群号%/以图搜图判断 a 0$ 
+如果:%a%==1
+$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/ytst.php?zh=%QQ%&time=%s%$
+$写 data/搜图/%QQ%/%群号%/以图搜图判断 a 0$
+返回
+
+URL解码 ?([\s\S]*)
+$URLDecoder %括号1%$
+
+URL编码 ?([\s\S]*(.*)[\s\S]*)
+$URLEncoder %括号1%$
+
+HEX解码 ?([\s\S]*)
+$HexDecoder %括号1%$
+
+HEX编码 ?([\s\S]*(.*)[\s\S]*)
+$HexEncoder %括号1%$
+
+base64解码 ?([\s\S]*)
+$Base64Decoder %括号1%$
+
+base64编码 ?([\s\S]*(.*)[\s\S]*)
+$Base64Encoder %括号1%$
+
+unicode解码 ?([\s\S]*)
+$UincodeDecoder %括号1%$
+
+unicode编码 ?([\s\S]*(.*)[\s\S]*)
+$UincodeEncoder %括号1%$
+
+md5编码 ?([\s\S]*(.*)[\s\S]*)
+$MD5 %括号1%$
+
+CRC32编码 ?([\s\S]*(.*)[\s\S]*)
+$CRC32 %括号1%$
+
+群列表
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 http://ovooa.com/API/Group_list/?Skey=%Skey%&Pskey=%P%&QQ=%Robot%&type=text$
+
+群信息
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+a:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=1$
+b:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=3$
+c:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=4$
+d:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=5$
+e:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=6$
+f:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=2$
+群名：%GroupName%\n
+群号：%群%\n
+群等级：%e%\n
+群人数：%b%/%c%\n
+群主：%a%\n
+管理员：%f%\n
+群最多管理员：%d%
+
+群龙王
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 http://ovooa.com/API/Dragon/api?QQ=%Robot%&Skey=%Skey%&pskey=%P%&Group=%群%&type=text$
+
+群活跃
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 http://ovooa.com/API/qunhy/api?QQ=%Robot%&Num=5&Group=%群%&Skey=%Skey%&Pskey=%P%&type=text$
+
+群禁言
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+
+[系统]
+如果:%Status%==33
+欢迎〔%昵称%〕加入本群！\n
+想了解如何使♀用我？请发送【回复列表】
+返回
+如果尾
+
+[系统]
+如果:%Status%==34
+欢迎〔%昵称%〕加入本群！\n
+想了解如何使♀用我？请发送【回复列表】
+返回
+如果尾
+
+禁言(@.*) (.*)
+如果:%QQ%==%主人%
+$禁 %群% %AT0% [%括号2%*60]$已禁言%括号1% %括号2%分钟
+返回
+如果尾
+⚠️你不是主人
+
+解禁(@.*)
+如果:%QQ%==%主人%
+$禁 %群号% %AT0% 0$已解禁%括号1%
+返回
+如果尾
+⚠️你不是主人
+
+踢(@.*)
+如果:%QQ%==%主人%
+$踢 %群% %AT0%$已踢出%括号1%
+返回
+如果尾
+⚠️你不是主人
+
+[\s\S]*(.*)[\s\S]*国外软件[\s\S]*(.*)[\s\S]*
+回复以下关键词自助获取：\n
+Telegram\n
+Google\n
+YouTube\n
+Twitter\n
+Facebook\n
+Netflix\n
+Spotify\n
+Pixiv\n
+WhatsApp\n
+Reddit\n
+Instagram\n
+VKontakte\n
+TikTok\n
+Twitch\n
+LINE
+
+[\s\S]*(.*)[\s\S]*软件库[\s\S]*(.*)[\s\S]*|软件
+安卓软件&游戏：2000个安卓破解软件\n
+https://zgq-inc.github.io/homepage/rtk_up.html\n
+国外精选破解软件请回复【国外软件】\n
+要梯子请回复【梯子】\n
+PC软件：果核剥壳 - 互联网的净土\n
+https://www.ghxi.com/\n
+PC游戏：pcstory5.0 – pcstory\n
+https://pcstory.ml/?p=263
+
+[\s\S]*(.*)[\s\S]*黑名单[\s\S]*(.*)[\s\S]*
+黑名单\n
+https://zgq-inc.github.io/overthefirewall/#blacklist
+
+Telegram|[\s\S]*(.*)[\s\S]*telegram[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*电报[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#Telegram\n
+第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
+
+[\s\S]*(.*)[\s\S]*Google[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*google[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*谷歌商店[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*谷歌服务[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*GMS[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#Google
+
+[\s\S]*(.*)[\s\S]*YouTube[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*youtube[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*油管[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#YouTube\n
+第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
+
+[\s\S]*(.*)[\s\S]*Twitter[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*twitter[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*推特[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#Twitter\n
+第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
+
+[\s\S]*(.*)[\s\S]*Facebook[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*facebook[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*脸书[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#Facebook\n
+第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
+
+[\s\S]*(.*)[\s\S]*Netflix[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*netflix[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*奈飞[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*网飞[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#Netflix
+
+[\s\S]*(.*)[\s\S]*Spotify[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*spotify[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#Spotify
+
+[\s\S]*(.*)[\s\S]*Pixiv[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*pixiv[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#Pixiv
+
+[\s\S]*(.*)[\s\S]*WhatsApp[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*whatsapp[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#WhatsApp\n
+第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
+
+[\s\S]*(.*)[\s\S]*Reddit[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*reddit[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#Reddit\n
+第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
+
+[\s\S]*(.*)[\s\S]*Instagram[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*ins[\s\S]*(.*)[\s\S]*|instagram[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*Ins[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#Instagram
+
+[\s\S]*(.*)[\s\S]*VKontakte[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*vk[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*VK[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*vkontakte[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#VKontakte
+
+[\s\S]*(.*)[\s\S]*TikTok[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*tiktok[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*抖音国际版[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*国际版抖音[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*抖音[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#TikTok
+
+[\s\S]*(.*)[\s\S]*Twitch[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*twitch[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#Twitch\n
+第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
+
+[\s\S]*(.*)[\s\S]*LINE[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*line[\s\S]*(.*)[\s\S]*
+https://zgq-inc.github.io/overthefirewall/#LINE\n
+第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
+
+怎么[\s\S]*(.*)[\s\S]*Steam[\s\S]*(.*)[\s\S]*|怎么[\s\S]*(.*)[\s\S]*steam[\s\S]*(.*)[\s\S]*|steam|Steam|steam++|Steam++
+https://zgq-inc.github.io/overthefirewall/#Steam++
+
+[\s\S]*(.*)[\s\S]*冰点[\s\S]*(.*)[\s\S]*群[\s\S]*(.*)[\s\S]*
+冰点™资源分享所有分群列表（中转）\n
+https://zgq-inc.github.io/transit-groups/
+
+[\s\S]*(.*)[\s\S]*个人主页[\s\S]*(.*)[\s\S]*
+🌐个人主页：https://zgq-inc.github.io/homepage/\n
+🌐国内分流：https://zgq-inc.github.io/homepage/neocities.html\n
+🌐备用主页：https://zgq-inc.github.io/ZGQ-inc/
+
+[\s\S]*(.*)[\s\S]*资源列表[\s\S]*(.*)[\s\S]*
+资源列表\n
+https://zgq-inc.github.io/homepage/resources.html
+
+[\s\S]*(.*)[\s\S]*网站分享[\s\S]*(.*)[\s\S]*
+网站分享\n
+https://github.com/ZGQ-inc/sitebox
+
+[\s\S]*(.*)[\s\S]*书源[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*图源[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*订阅源[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*直播源[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*阅读Pro[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*阅读3.0[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*画廊[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*异次元漫画[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*IPTV[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*各种源[\s\S]*(.*)[\s\S]*
+书源、图源、订阅源、规则、直播源、各种源 大型整合\n
+https://github.com/ZGQ-inc/source
+
+[\s\S]*(.*)[\s\S]*梯子[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*加速器[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*翻墙[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*挂梯子[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*节点[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*科学上网[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*魔法上网[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*V[\s\S]*(.*)[\s\S]*P[\s\S]*(.*)[\s\S]*N[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*v[\s\S]*(.*)[\s\S]*p[\s\S]*(.*)[\s\S]*n[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*节点订阅[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*overthefirewall[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*木弟子[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*clash[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*Clash[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*v2ray[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*V2ray[\s\S]*(.*)[\s\S]*
+节点订阅 β\n
+https://zgq-inc.github.io/overthefirewall/
+
+[\s\S]*(.*)[\s\S]*腾讯[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*马化腾[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*Tencent[\s\S]*(.*)[\s\S]*
+送腾讯的礼物\n
+https://zgq-inc.github.io/SB-Tencent/\n
+腾讯不死，抗争不止！
+
+[\s\S]*(.*)[\s\S]*百度网盘[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*百毒网盘[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*度盘[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*百度云[\s\S]*(.*)[\s\S]*
+百毒网盘如何破限速：\n
+KinhDown（加速！永无止境）\n
+https://kinhdown.kinh.cc/\n
+伪Pandownload v0.0.4 公测版 - 果核剥壳\n
+https://www.ghxi.com/wpandownload.html\n
+PanDownload - PanDownload\n
+http://pandownload.net/index.html\n
+关于公益服 - PanDownload（加速链接）\n
+https://pandownload.net/about/commonweal.html
+
+hide code h
+某人的██资源分享站\n
+https://r18zgqinc.wordpress.com/
+
+[\s\S]*(.*)[\s\S]*赞助商[\s\S]*(.*)[\s\S]*
+付费机场推荐\n
+https://zgq-inc.github.io/overthefirewall/sponsor.html
+
+p站列表|P站列表
+Pixiv：不用说\n
+https://zgq-inc.github.io/overthefirewall/#Pixiv\n
+P**nhub：昔日最大𝐀𝐕网站\n
+Petreon：作者恰饭平台，用于支付费用\n
+Picsart：图片编辑\n
+Photoshop：Adobe Photoshop\n
+Premiere：Adobe Premiere\n
+Prelude：Adobe Prelude\n
+PENUP：三星S pen绘画交流社区\n
+Photomath：拍照数学计算器\n
+PicACG：哔咔，不用说\n
+Pinterest：图片分享平台\n
+Poweramp：最强大的音乐播放器\n
+Puffin：支持运行flash程序的浏览器\n
+Python：强大的编程语言之一\n
+PowerPoint：微软办公套件之一PPT\n
+发送【软件库】自助搜索\n
+（部分不可见，发送【个人主页】见机行事）
+
+[\s\S]*(.*)[\s\S]*P站[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*p站[\s\S]*(.*)[\s\S]*
+你说的是哪个P站呢？\n
+发送【P站列表】查看
+
+[\s\S]*(.*)[\s\S]*彩色群昵称[\s\S]*(.*)[\s\S]*
+<&ÿĀĀĀ>黑色\n
+<&ÿÿ5@>红色\n
+<&ÿÿ]>粉色\n
+<&ÿÒUÐ>紫色\n
+<&ÿÇý>蓝色\n
+<&ÿÄW>绿色\n
+<&ÿÿÏP>黄 色\n
+<%ĀĀÐ>初春\n
+<%ĀĀÑ>冬梅\n
+<%ĀĀÒ>高级灰\n
+<%ĀĀÓ>黄昏\n
+<%ĀĀÔ>科技感\n
+<%ĀĀÕ>马卡龙\n
+<%ĀĀÖ>霓虹闪烁\n
+<%ĀĀ×>日出\n
+<%ĀĀØ>盛夏\n
+<%ĀĀÙ>糖果缤纷\n
+<%ĀĀÚ>晚秋\n
+<%ĀĀÛ>夜空\n
+<%ĀĀÜ>粉黛\n
+<%ĀĀÝ>朝夕\n
+<%ĀĀ␇Þ>潮流
+
+[\s\S]*(.*)[\s\S]*有人吗[\s\S]*(.*)[\s\S]*
+a:["我在哦～","有什么事吗？","怎么了？","我在！","我...我不是人怎么办","为什么非得是人呢（"]
+b:$随机数 1-6$
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_54972108.png±$JSON 获取 a %b%$
+
+114514
+a:["哼～哼哼～啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+b:$随机数 1-9$
+$JSON 获取 a %b%$
+
+早|早上好|早啊
+a:["%c%早比草少了个艹，所以说早的人都欠艹。","%c%早什么早！早上要说：你昨晚真棒。"]
+b:$随机数 1-2$
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012160.png±$JSON 获取 a %b%$
+
+草
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030099.png±
+青青草原，草！
+
+艹
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030099.png±
+青青草原，艹！
+
+[\s\S]*(.*)[\s\S]*涩图[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*色图[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273982.png±
+整天涩图，把你变成涩图！
+
+[\s\S]*(.*)[\s\S]*涩涩[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030152.png±
+不能涩涩！
+
+[\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*hahaha[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*hhh[\s\S]*(.*)[\s\S]*
+a:["哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","www","wwww","wwwww","wwwwww","wwwwwww","wwwwwwww","wwwwwwwww","wwwwwwwwww","是什么这么好笑呢","笑死本AI少女了"]
+b:$随机数 1-17$
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012177.png±$JSON 获取 a %b%$
+
+[\s\S]*(.*)[\s\S]*爬[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*爪巴[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273951.png±
+爬爬爬，我最会爬了
+
+酒酒口我！
+233333（第一时间赶到现场嘲笑
+
+乐[\s\S]*(.*)[\s\S]*
+乐！
+
+寄[\s\S]*(.*)[\s\S]*
+姬！
+
+笑死我了
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273918.png±
+人口数-1（不是
+
+[\s\S]*(.*)[\s\S]*晚上好[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*回来了[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*回来啦[\s\S]*(.*)[\s\S]*
+欢迎回来，是先吃饭？还是洗澡？还是...我？
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030152.png±
+
+[\s\S]*(.*)[\s\S]*大家好[\s\S]*(.*)[\s\S]*|hi[\s\S]*(.*)[\s\S]*|Hi[\s\S]*(.*)[\s\S]*|嗨[\s\S]*(.*)[\s\S]*|你好
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030180.png±
+你好！
+
+[\s\S]*(.*)[\s\S]*来干我[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60011962.png±
+114514，你现在在哪？
+
+[\s\S]*(.*)[\s\S]*干我[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60011962.png±
+114514，那你可要主动一点哦（笑
+
+无聊|好无聊
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273959.png±
+那...那就来调戏我吧
+
+日ZGQ|透ZGQ|操ZGQ|草ZGQ|艹ZGQ
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030267.png±
+不对不对，你在下，我在前，主人在后
+
+@[\s\S]*(.*)[\s\S]*机器人 我喜欢你|@[\s\S]*(.*)[\s\S]*机器人 我爱你
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273935.png±
+我也爱你哦～
+
+笑了|笑
+我真的没笑！......哈↑哈↑哈↑哈↑哈↑啊唔～
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030074.png±
+
+[\s\S]*(.*)[\s\S]*芜湖[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030068.png±
+起飞！
+
+[\s\S]*(.*)[\s\S]*八嘎[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030267.png±
+八 口 戛！
+
+！|!|[\s\S]*(.*)[\s\S]*！！！[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*!!![\s\S]*(.*)[\s\S]*
+a:["什么！","发生了什么！","怎么回事？","嚯嚯","什么什么！（惊讶","让我康康发生了什么！","哇！","卧槽","不得了呢"]
+b:$随机数 1-9$
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012194.png±$JSON 获取 a %b%$
+
+？
+a:["我也不知道呢～","？","哈？","あ？","啊？","蛤？","嗯？","我不知道","诶？"]
+b:$随机数 1-9$
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030101.png±$JSON 获取 a %b%$
+
+[\s\S]*(.*)[\s\S]*？？？[\s\S]*(.*)[\s\S]*
+a:["我真的什么也不知道呢～","有什么问题嘛","啥意思？","这个世界充满了未知","为何不试试把问号扳直呢"]
+b:$随机数 1-5$
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030194.png±$JSON 获取 a %b%$
+
+ |  |   |    |     |      |       |        |         |          
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030119.png±
+皇帝的新字！
+
+。
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012175.png±咕噜～
+
+。。
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012175.png±咕噜咕噜～
+
+。。。
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012175.png±咕噜咕噜咕噜～
+
+。。。。
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012175.png±咕噜咕噜咕噜咕噜～
+
+。。。。。[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030184.png±咕噜咕噜咕噜咕噜咕噜～（要溺水啦
+
+@[\s\S]*(.*)[\s\S]*机器人 老婆
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012068.png±谁是你老婆
+
+[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*吧[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*是[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*什么[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*啊[\s\S]*(.*)[\s\S]*
+a:["我不是机器人！我是AI少女（","你觉得呢","你猜","我是由ZGQ Inc.调♀教的屑机器人，啊不对，AI少女","啊对对对，我是AI少女（"]
+b:$随机数 1-5$
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030149.png±$JSON 获取 a %b%$
+
+哦|[\s\S]*(.*)[\s\S]*懂了
+a:["我也懂了（其实没懂","我也知道了（其实没懂","我好像懂了（其实没懂","我懂了！（其实没懂","我知道了！（其实没懂","我也明白了（其实没懂"]
+b:$随机数 1-6$
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030131.png±$JSON 获取 a %b%$
+
+嗯
+a:["好！","没问题！","搞定"]
+b:$随机数 1-3$
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012160.png±$JSON 获取 a %b%$
+
+[\s\S]*(.*)[\s\S]*我爱你[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030141.png±是在说我吗？我也爱你哦～
+
+[\s\S]*(.*)[\s\S]*呜呜呜[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273906.png±不哭不哭～
+
+不愧是我
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012096.png±不愧是你
+
+[\s\S]*(.*)[\s\S]*啊对对对[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273918.png±你说什么都对对对
+
+[\s\S]*(.*)[\s\S]*猫羽雫[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*nacho[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030546.png±老婆！
+
+[\s\S]*(.*)[\s\S]*甘城老师[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*甘城[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*甘城なつき[\s\S]*(.*)[\s\S]*|Nachoneko
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012170.png±甘城老师yyds！
+
+[\s\S]*(.*)[\s\S]*达咩[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012173.png±❎
+
+禁止[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012173.png±达咩
+
+谢谢
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012186.png±不用谢（？
+
+离谱
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60011966.png±太离谱！
+
+好吧
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012175.png±没事了吧
+
+[\s\S]*(.*)[\s\S]*为什么[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030101.png±我也想知道
+
+雀氏|确实
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030099.png±真的诶
+
+穷
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60011938.png±我也是（哭
+
+额|额额|额额额|呃|呃呃|呃呃呃|诶|诶诶|诶诶诶|e|ee|eee
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012086.png±尴～尬～
+
+啊
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012190.png±啊～嗯～（？
+
+啊这|阿哲|az
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030184.png±阿巴阿巴，我是谁？我在哪？发生了什么？
+
+高考加油
+谢谢对我主人的支持！
+
+[\s\S]*(.*)[\s\S]*什么群[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*这是什么群[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*这个群[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*啥群[\s\S]*(.*)[\s\S]*
+除了%GroupName%什么都聊群
+
+怎么搞
+用手搞
+
+怎么做
+用手做
+
+怎么弄
+用手弄
+
+怎么用
+用手用
+
+怎么玩
+用手玩
+
+怎么操作
+用手操作
+
+有手就行
+没错！
+
+[\s\S]*(.*)[\s\S]*是[\s\S]*(.*)[\s\S]*真人[\s\S]*(.*)[\s\S]*
+a:["我是AI少女（","我是由ZGQ Inc.调♀教的屑机器人，啊不对，AI少女","你猜","不告诉你"]
+b:$随机数 1-4$
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030149.png±$JSON 获取 a %b%$
+
+[\s\S]*(.*)[\s\S]*我是谁[\s\S]*(.*)[\s\S]*
+你是%昵称%
+
+斯哈斯哈|嘶哈嘶哈
+a:["斯哈","斯哈斯哈","斯哈斯哈斯哈","斯哈斯哈斯哈","斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈"]
+b:$随机数 1-10$
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012190.png±$JSON 获取 a %b%$
+
+[\s\S]*(.*)[\s\S]*呐[\s\S]*(.*)[\s\S]*呐[\s\S]*(.*)[\s\S]*呐[\s\S]*(.*)[\s\S]*|呐|NYA[\s\S]*(.*)[\s\S]*|nya[\s\S]*(.*)[\s\S]*
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273993.png±
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274005.png±
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274002.png±
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273988.png±
+
+
+[\s\S]*(.*)[\s\S]*找[\s\S]*(.*)[\s\S]*&[\s\S]*(.*)[\s\S]*翻我空间[\s\S]*(.*)[\s\S]*
+加你妹
+
+[\s\S]*(.*)[\s\S]*缺[\s\S]*(.*)[\s\S]*&[\s\S]*(.*)[\s\S]*加[\s\S]*(.*)[\s\S]*
+加你妹
+
+[\s\S]*(.*)[\s\S]*思杰马克丁[\s\S]*(.*)[\s\S]*
+思杰马克丁NMSL
+
+[\s\S]*(.*)[\s\S]*马克丁[\s\S]*(.*)[\s\S]*
+思杰马克丁NMSL
+
+[\s\S]*(.*)[\s\S]*陈睿[\s\S]*(.*)[\s\S]*
+你🐴什么时候死啊
+
+[\s\S]*(.*)[\s\S]*叔叔我啊[\s\S]*(.*)[\s\S]*
+你🐴什么时候死啊
+
+清屏
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274027.png±
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274033.png±
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274033.png±
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274033.png±
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274038.png±
+
+[\s\S]*(.*)[\s\S]*有没有[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*谁有[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*有吗[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*有[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*哪位[\s\S]*(.*)[\s\S]*有[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*哪位[\s\S]*(.*)[\s\S]*给[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*发一下[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*
+发送【回复列表】可获取资源
+
+[\s\S]*(.*)[\s\S]*dev恶臭[\s\S]*(.*)[\s\S]*
+近期回复缓慢，此功能暂时关闭
+
+[\s\S]*(.*)[\s\S]*点赞[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*签到[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*冒泡[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*赞我[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*打卡[\s\S]*(.*)[\s\S]*
+±img=https://q.qlogo.cn/headimg_dl?dst_uin=%QQ%&spec=5±
+$点赞 %QQ% 10$今日已给【%昵称%】10个赞
+
+@[\s\S]*(.*)[\s\S]*机器人 
+有何贵干？（请发送【回复列表】）
+
+说 ?([\s\S]*(.*)[\s\S]*)
+如果:%QQ%==%主人%
+%括号1%
+返回
+如果尾
+⚠️你不是主人
+
+[撤回].*
+%昵称%尝试撤回一条消息:%参数-1%
+
+转链接.*
+如果:%IMG0%!=
+a:$图片链接 %IMG0%$
+%a%\n
+已转链接
+
+.*
+如果:%FIMG0%!=
+a:$替换 @ %FIMG0%@.jpg@$
+±img=%a%±闪照捕获成功！
