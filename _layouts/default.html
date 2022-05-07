@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "zh-CN" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="https://github.com/ZGQ-inc">ZGQ的机器人</a></h1>
+
+        {% if site.logo %}
+          <img src="https://cdn.jsdelivr.net/gh/ZGQ-inc/homepage@master/images/logo.png" alt="Logo" />
+        {% endif %}
+
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+           <a href="https://zgq-inc.github.io/ZGQs_QRbot/">ZGQ的机器人</p></a>
+        
+        <p>&copy;2022 ZGQ Inc. <span>All rights reserved</span>.</p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
