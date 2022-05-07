@@ -1,8 +1,9 @@
 &&作者：ZGQ Inc. | 版权所有。
-&&网站：https://zgq-inc.github.io
+&&项目地址：https://github.com/ZGQ-inc/ZGQs_QRbot
+&&个人主页：https://zgq-inc.github.io
 
 [\s\S]*(.*)[\s\S]*dev回复[\s\S]*(.*)[\s\S]*
-✔️全局回复功能正常
+✅全局回复功能正常
 
 [\s\S]*(.*)[\s\S]*回复列表[\s\S]*(.*)[\s\S]*|菜单
 〔关键词列表〕\n
@@ -15,11 +16,7 @@
 🤖机器人主人：\n
 %主人% ZGQ Inc.\n
 🌐个人主页：\n
-https://zgq-inc.github.io/homepage/\n
-🌐国内分流：\n
-https://zgq-inc.github.io/homepage/neocities.html\n
-🌐备用主页：\n
-https://zgq-inc.github.io/ZGQ-inc/\n
+https://zgq-inc.github.io/\n
 ┅┅┅┅┅┅┅┅\n
 ©2022 ZGQ Inc. All rights reserved.
 
@@ -44,7 +41,7 @@ P站列表\n
 〔功能列表〕\n
 <━━━━实用━━━━>\n
 时间\n
-问候图（会定时触发）\n
+问候图\n
 ［中国城市］疫情\n
 ［中国城市］疫情备用\n
 全国疫情\n
@@ -80,17 +77,17 @@ QQ音乐［歌名］\n
 必应壁纸\n
 转链接［图片］\n
 ［闪照捕获］（自动）\n
-以图搜番［图片］\n
-以图搜图［图片］\n
-动漫化［图片］\n
-上色［图片］\n
-抠图［图片］\n
-卫星图\n
-降水图\n
-气温图\n
+以图搜番［图片］❌\n
+以图搜图［图片］❌\n
+动漫化［图片］❌\n
+上色［图片］❌\n
+抠图［图片］❌\n
+卫星图❌\n
+降水图❌\n
+气温图❌\n
 <━━━━视频━━━━>\n
 搜电影［名字］\n
-AGEFANS\n
+AGEFANS❌\n
 樱花动漫［动漫名］\n
 随机视频［明星/热舞/风景/游戏/动物］\n
 下载哔哩哔哩［视频链接］\n
@@ -123,8 +120,7 @@ AGEFANS\n
 撕［@对象］\n
 舔［图片/@对象］\n
 <━━━━网络━━━━>\n
-IP查询［IP地址］\n
-ping［网址］\n
+ping［网址/IP地址］\n
 URL解码［文本］\n
 URL编码［文本］\n
 HEX解码［文本］\n
@@ -136,9 +132,8 @@ unicode编码［文本］\n
 md5编码［文本］\n
 CRC32编码［文本］\n
 ┅┅┅┅┅┅┅┅\n
-部分接口可能爆炸 发送\n
-【接口列表】\n
-【次元图接口列表】\n
+❌代表接口可能爆炸\n
+发送【接口列表】【次元图接口列表】\n
 查看接口
 
 [\s\S]*(.*)[\s\S]*次元图接口列表[\s\S]*(.*)[\s\S]*
@@ -174,7 +169,7 @@ http://api.yanxi520.cn/\n
 御坂妹妹API（爆炸，涉及以图搜番、以图搜图、动漫化、上色、抠图、卫星图、降水图、气温图、全国疫情）\n
 https://imcys.com/%e5%be%a1%e5%9d%82%e5%a6%b9%e5%a6%b9api#\n
 ┅┅┅API大全┅┅┅\n
-https://zgqinc-my.sharepoint.com/:t:/g/personal/zgq_zgqinc_onmicrosoft_com/Ed2f0chXOVhIo_7NwHrlW48B8Z-2k7VBJ1poNjaWSTyBOg?e=fMPrlQ\n
+https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/tutorial/API.txt\n
 ┅┅┅QRSpeed教程┅┅┅\n
 QRSpeed安装与词库编写入门\n
 http://alouette.top/\n
@@ -192,7 +187,7 @@ dev回复
 🧭发送【回复列表】查看关键词\n
 （无需at直接发送对应关键词）\n
 💻机器人免费提供 请先联系主人QQ\n
-（把机器人和主人都拉进群 加好友无需验证 请主动发送邀请）\n
+（把机器人和主人都拉进群 加好友无需验证 请主动发送邀请 不一定能及时处理 见谅）\n
 🔨如果想制作属于自己的机器人请发送【个人主页】找到破解软件分享 在软天空APP查看我发的帖子\n
 ⚙️服务目前不稳定 是运行在手机上的 经常掉线\n
 ⚠️此号用于机器人不回复私聊\n
@@ -201,8 +196,8 @@ dev回复
 #️⃣本机器人使用QRSpeed作为后台，词库已公开，发送【查看词库】
 
 [\s\S]*(.*)[\s\S]*查看词库[\s\S]*(.*)[\s\S]*
-在线文档\n
-https://zgqinc-my.sharepoint.com/:t:/g/personal/zgq_zgqinc_onmicrosoft_com/EWErMpiHe69Pgcb5ejiMj8EB7XzYCrJtdURBj3P0fD6sLg?e=tCZpbW
+〔词库〕\n
+https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/dicpro.txt
 
 开机|说明|帮助|查询
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012194.png±
@@ -304,14 +299,6 @@ a:%20($随机数 1-3413$
 问候图
 ±img=http://ovooa.com/API/image_Tnem/?QR_str=https://zgq-inc.github.io&QR_img=https://cdn.jsdelivr.net/gh/ZGQ-inc/homepage@master/images/logo.png&QR_str_ud=个人主页±
 
-[内部]早晚图
-如果:%时间HH%==09
-±img=http://ovooa.com/API/image_Tnem/?QR_str=https://zgq-inc.github.io&QR_img=https://cdn.jsdelivr.net/gh/ZGQ-inc/homepage@master/images/logo.png&QR_str_ud=个人主页±
-
-[内部]早晚图
-如果:%时间HH%==18
-±img=http://ovooa.com/API/image_Tnem/?QR_str=https://zgq-inc.github.io&QR_img=https://cdn.jsdelivr.net/gh/ZGQ-inc/homepage@master/images/logo.png&QR_str_ud=个人主页±
-
 全国疫情
 a:$访问 https://ycx.mxjs.xyz/yq/api1.php$
 b:$取中间 Э %a%Э截至Э±img=$
@@ -342,7 +329,27 @@ d:$取中间 Э %a%Э"content": "Э"$
 %d%
 
 ping ?([\s\S]*(.*)[\s\S]*)
-$访问 http://ovooa.com/API/ping/?url=%括号1%$
+a:$访问 http://ovooa.com/API/ping/?url=%括号1%$
+b:$取中间 Э %a%Э"url": "Э"$
+c:$取中间 Э %a%Э"IP": "Э"$
+d:$取中间 Э %a%Э"address": "Э"$
+e:$取中间 Э %a%Э"small": "Э"$
+f:$取中间 Э %a%Э"max": "Э"$
+g:$取中间 Э %a%Э"average": "Э"$
+h:$取中间 Э %a%Э"num": "Э"$
+i:$取中间 Э %a%Э"receive": "Э"$
+j:$取中间 Э %a%Э"abandon": "Э"$
+k:$取中间 Э %a%Э"Times": "Э"$
+查询地址：%b%\n
+IP地址：%c%\n
+IP归 属地：%d%\n
+最小延迟：%e%ms\n
+最大延迟：%f%ms\n
+平均延迟：%g%ms\n
+发包数量：%h%\n
+接包数量：%i%\n
+丢包率：%j%\n
+总耗时：%k%
 
 二次元的 ?([\s\S]*(.*)[\s\S]*)
 $访问 http://ovooa.com/API/Ser/api?name=%括号1%&type=text$
@@ -375,9 +382,6 @@ j:$取中间 Э %a%Э"asymptom": "Э"$
 
 次元一言
 $访问 https://ovooa.com/API/dmyiyan/api.php$
-
-IP查询 ?([\s\S]*(.*)[\s\S]*)
-$访问 http://ovooa.com/API/IPdz/api.php?IP=%括号1%$
 
 随机视频 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ovooa.com/API/sjsp/api.php?msg=%括号1%&type=text$
@@ -628,7 +632,7 @@ $访问 http://ovooa.com/API/wyrp/api.php?type=text$
 
 QQ音乐 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ovooa.com/API/QQ_Music/?Skey=%Skey%&uin=%Robot%&msg=%括号1%&n=1&type=text$
-b:$取中间 Э %a%Э±img=http://Э±$
+b:$取中间 Э %a%Э±img=https://Э±$
 c:$取中间 Э %a%Э歌曲：Э$
 ±img=http://%b%±
 歌名：%c%
@@ -764,7 +768,8 @@ b:$取中间 Э %b%Э±img=Э±$
 $写 data/搜图/%QQ%/%群号%/以图搜图判断 a 1$
 $写 data/搜图/%QQ%/%群号%/以图搜图时间 a %时间mm:dd:hh%$
 s:$读 data/搜图/%QQ%/%群号%/以图搜图时间 a 0$
-b:$替换 Э %IMG0%Э.jpgЭ$ b:$替换 Э %b%Э.gifЭ$
+b:$替换 Э %IMG0%Э.jpgЭ$
+b:$替换 Э %b%Э.gifЭ$
 b:$替换 Э %b%Э.pngЭ$
 b:$替换 Э %b%Э-Э$
 b:$替换 Э %b%Э{Э$
@@ -1085,7 +1090,7 @@ b:$随机数 1-9$
 $JSON 获取 a %b%$
 
 早|早上好|早啊
-a:["%c%早比草少了个艹，所以说早的人都欠艹。","%c%早什么早！早上要说：你昨晚真棒。"]
+a:["%c%早比草少了个艹，所以说早的人都欠艹。","早什么早！早上要说：你昨晚真棒。"]
 b:$随机数 1-2$
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012160.png±$JSON 获取 a %b%$
 
