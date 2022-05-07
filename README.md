@@ -1,1 +1,1 @@
-# https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/dicpro.txt
+# [dicpro.txt](https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/dicpro.txt)
