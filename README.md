@@ -1,2 +1,1 @@
-# ZGQs_QRbot
-ZGQ的机器人|词库、图片存放
+# https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/dicpro.txt
