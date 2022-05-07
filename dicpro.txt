@@ -73,7 +73,7 @@ QQ音乐［歌名］\n
 下载音乐［歌名］\n
 备用下载音乐［歌名］\n
 <━━━━图片━━━━>\n
-次元图［1A/1B/1C/2A/2B/2C/2D/2E/2F/2G/2H/3/4/5］\n
+次元图［1A/1B/1C/2A/2B/2C/2D/2E/2F/2G/2H/3/4/5/6/7/8］\n
 必应壁纸\n
 转链接［图片］\n
 ［闪照捕获］（自动）\n
@@ -97,6 +97,7 @@ AGEFANS❌\n
 一言\n
 次元一言\n
 一文\n
+诗词\n
 笑话\n
 绕口令\n
 历史今天\n
@@ -152,7 +153,13 @@ http://175.24.95.94/\n
 第一张\n
 imgs/1%20(1).jpg\n
 最后一张\n
-imgs/1%20(3413).jpg
+imgs/1%20(3413).jpg\n
+［6］樱花随机二次元图片API\n
+https://www.dmoe.cc/\n
+［7］墨天逸随机图片API\n
+https://api.mtyqx.cn/\n
+［8］小歪API\n
+https://api.ixiaowai.cn/
 
 [\s\S]*(.*)[\s\S]*接口列表[\s\S]*(.*)[\s\S]*
 <━━━━接口━━━━>\n
@@ -168,6 +175,8 @@ http://api.tangdouz.com/\n
 http://api.yanxi520.cn/\n
 御坂妹妹API（爆炸，涉及以图搜番、以图搜图、动漫化、上色、抠图、卫星图、降水图、气温图、全国疫情）\n
 https://imcys.com/%e5%be%a1%e5%9d%82%e5%a6%b9%e5%a6%b9api#\n
+今日诗词API\n
+https://www.jinrishici.com/\n
 ┅┅┅API大全┅┅┅\n
 https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/tutorial/API.txt\n
 ┅┅┅QRSpeed教程┅┅┅\n
@@ -292,6 +301,25 @@ $访问 POST https://api.lolicon.app/setu/v2 Content-Type: application/text$\n
 a:%20($随机数 1-3413$
 📎接口：unknown±img=http://175.24.95.94/imgs/1%a%).jpg±
 
+次元图6
+a:$访问 https://www.dmoe.cc/random.php?return=json$
+b:$取中间 Э %a%Э"imgurl":"Э"$
+c:$替换 € %b%€\€$
+📎接口：樱花±img=%c%±
+
+次元图7
+a:$访问 https://api.mtyqx.cn/api/random.php?return=json$
+b:$取中间 Э %a%Э"imgurl":"Э"$
+c:$替换 € %b%€\€$
+📎接口：墨天逸±img=%c%±
+
+次元图8
+a:$访问 https://api.ixiaowai.cn/api/api.php?return=json$
+b:$取中间 Э %a%Э"imgurl":"Э"$
+c:$替换 € %b%€\€$
+📎接口：小歪±img=%c%±
+
+https://api.ixiaowai.cn/api/api.php
 时间
 ⌚现在是北京时间（GMT+08:00）\n
 %时间yyyy年MM月dd日HH时mm分ss秒SSS毫秒%
@@ -787,6 +815,11 @@ $访问 https://ycx.mxjs.xyz/sqv8/tq/skey/ytst.php?zh=%QQ%&time=%s%$
 $写 data/搜图/%QQ%/%群号%/以图搜图判断 a 0$
 返回
 
+诗词
+a:$访问 https://v2.jinrishici.com/one.svg$
+b:$取中间 Э %a%Э000000">Э</text>$
+%b%
+
 URL解码 ?([\s\S]*)
 $URLDecoder %括号1%$
 
@@ -912,7 +945,7 @@ TikTok\n
 Twitch\n
 LINE
 
-[\s\S]*(.*)[\s\S]*软件库[\s\S]*(.*)[\s\S]*|软件
+[\s\S]*(.*)[\s\S]*软件库[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*软件
 安卓软件&游戏：2000个安卓破解软件\n
 https://zgq-inc.github.io/homepage/rtk_up.html\n
 国外精选破解软件请回复【国外软件】\n
