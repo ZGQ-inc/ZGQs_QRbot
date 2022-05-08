@@ -57,7 +57,7 @@ P站列表\n
 翻译［文本］\n
 清屏\n
 <━━━━群管━━━━>\n
-禁言［@对象］\n
+禁言［@对象+分钟］\n
 解禁［@对象］\n
 踢［@对象］\n
 @全体\n
@@ -194,7 +194,10 @@ https://icean.moe/
 [\s\S]*(.*)[\s\S]*调试
 〔调试指令〕\n
 ━━━━━━\n
-dev回复
+dev回复\n
+添加管理员［@对象］\n
+删除管理员［@对象］\n
+查看管理员
 
 公告|公告栏
 〔公告栏〕\n
@@ -393,7 +396,7 @@ $访问 http://ovooa.com/API/Ser/api?name=%括号1%&type=text$
 $访问 http://ovooa.com/API/daan/api?type=text$
 
 狗屁不通 ?([\s\S]*(.*)[\s\S]*)
-$访问 http://ovooa.com/API/dog/api.php?msg=%括号1%&num=100&type=text$
+$访问 http://ovooa.com/API/dog/api.php?msg=%括号1%&num=800&type=text$
 
  ?([\s\S]*(.*)[\s\S]*)疫情备用
 a:$访问 http://ovooa.com/API/yiqing/api?msg=%括号1%type=text$
@@ -968,6 +971,12 @@ $删除管理员 %AT0%%$已成功移除〔%AT0%〕的管理权限
 如果尾
 ⚠你不是主人
 
+查看管理员
+主人：\n
+%主人%\n
+本AI少女的管理者：\n
+%管理员%
+
 [\s\S]*(.*)[\s\S]*国外软件[\s\S]*(.*)[\s\S]*
 回复以下关键词自助获取：\n
 Telegram\n
@@ -1185,7 +1194,7 @@ b:$随机数 1-2$
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030152.png±
 不能涩涩！
 
-[\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*hahaha[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*hhh[\s\S]*(.*)[\s\S]*
+[\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*蛤[\s\S]*(.*)[\s\S]*蛤[\s\S]*(.*)[\s\S]*蛤[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*hahaha[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*hhh[\s\S]*(.*)[\s\S]*
 a:["哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","www","wwww","wwwww","wwwwww","wwwwwww","wwwwwwww","wwwwwwwww","wwwwwwwwww","是什么这么好笑呢","笑死本AI少女了"]
 b:$随机数 1-17$
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012177.png±$JSON 获取 a %b%$
@@ -1403,8 +1412,6 @@ b:$随机数 1-10$
 a:$获取消息 uin_str2$
 如果:%a%==%Robot%
 干嘛拍人家啦
-返回
-如果尾
 
 [\s\S]*(.*)[\s\S]*找[\s\S]*(.*)[\s\S]*&[\s\S]*(.*)[\s\S]*翻我空间[\s\S]*(.*)[\s\S]*
 加你妹
