@@ -56,6 +56,11 @@ P站列表\n
 百度百科［关键词］\n
 翻译［文本］\n
 清屏\n
+<━━━━群管━━━━>\n
+禁言［@对象］\n
+解禁［@对象］\n
+踢［@对象］\n
+@全体\n
 群信息\n
 群龙王\n
 群活跃\n
@@ -120,6 +125,7 @@ AGEFANS❌\n
 比心［@对象］\n
 撕［@对象］\n
 舔［图片/@对象］\n
+禁言我\n
 <━━━━网络━━━━>\n
 ping［网址/IP地址］\n
 URL解码［文本］\n
@@ -199,7 +205,7 @@ dev回复
 （把机器人和主人都拉进群 加好友无需验证 请主动发送邀请 不一定能及时处理 见谅）\n
 🔨如果想制作属于自己的机器人请发送【个人主页】找到破解软件分享 在软天空APP查看我发的帖子\n
 ⚙️服务目前不稳定 是运行在手机上的 经常掉线\n
-⚠️此号用于机器人不回复私聊\n
+⚠此号用于机器人不回复私聊\n
 🟡请随意调戏机器人\n
 ┅┅┅┅┅┅\n
 #️⃣本机器人使用QRSpeed作为后台，词库已公开，发送【查看词库】
@@ -214,7 +220,7 @@ https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/dicpro.txt
 
 疫情|疫情备用|二次元的|次元图|狗屁不通|随机视频|星座运势|天气|文案|藏头诗|兽语|樱花动漫|QQ音乐|网易云音乐|酷我音乐|酷狗音乐|咪咕音乐电音|下载音乐|备用下载音乐|下载哔哩哔哩|下载MV|蓝奏云解析|梗搜索|搜电影|百度百科|翻译|IP查询|ping|URL解码|URL编码|HEX解码|HEX编码|base64解码|base64编码|unicode解码|unicode编码|md5编码|CRC32编码
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030045.png±
-⚠️请按照［］指示输入内容！
+⚠请按照［］指示输入内容！
 
 次元图1A
 a:$访问 http://ovooa.com/API/Lovely/api?type=text$
@@ -226,65 +232,66 @@ a:$访问 http://ovooa.com/API/dmt/api.php?type=text$
 
 次元图1C
 a:$访问 https://ovooa.com/API/Pximg/?type=text$
-b:$替换 € %a%€±img=€$
-c:$替换 € %b%€±€$
+b:$替换 ⬚ %a%⬚±img=⬚$
+c:$替换 ⬚ %b%⬚±⬚$
 📎接口：独角兽（含R18）\n
 🔞包含R18，使用链接\n
 %c%
 
 次元图2A
 a:$访问 https://iw233.cn/api.php?sort=iw233&type=json$
-b:$取中间 Э %a%Э{"pic":"Э"}$
-c:$替换 € %b%€\€$
+b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（无R18）
 ±img=%c%±
 
 次元图2B
 a:$访问 https://iw233.cn/api.php?sort=random&type=json$
-b:$取中间 Э %a%Э{"pic":"Э"}$
-c:$替换 € %b%€\€$
+b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（含R18）
-%c%
+%c%\n
+🔞包含R18，使用链接\n
 
 次元图2C
 a:$访问 https://iw233.cn/api.php?sort=top&type=json$
-b:$取中间 Э %a%Э{"pic":"Э"}$
-c:$替换 € %b%€\€$
+b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（精选）
 ±img=%c%±
 
 次元图2D
 a:$访问 https://iw233.cn/api.php?sort=yin&type=json$
-b:$取中间 Э %a%Э{"pic":"Э"}$
-c:$替换 € %b%€\€$
+b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（银发）
 ±img=%c%±
 
 次元图2E
 a:$访问 https://iw233.cn/api.php?sort=cat&type=json$
-b:$取中间 Э %a%Э{"pic":"Э"}$
-c:$替换 € %b%€\€$
+b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（兽耳）
 ±img=%c%±
 
 次元图2F
 a:$访问 https://iw233.cn/api.php?sort=xing&type=json$
-b:$取中间 Э %a%Э{"pic":"Э"}$
-c:$替换 € %b%€\€$
+b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（星空）
 ±img=%c%±
 
 次元图2G
 a:$访问 https://iw233.cn/api.php?sort=mp&type=json$
-b:$取中间 Э %a%Э{"pic":"Э"}$
-c:$替换 € %b%€\€$
+b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（竖屏壁纸）
 ±img=%c%±
 
 次元图2H
 a:$访问 https://iw233.cn/api.php?sort=pc&type=json$
-b:$取中间 Э %a%Э{"pic":"Э"}$
-c:$替换 € %b%€\€$
+b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（横屏壁纸）
 ±img=%c%±
 
@@ -303,20 +310,20 @@ a:%20($随机数 1-3413$
 
 次元图6
 a:$访问 https://www.dmoe.cc/random.php?return=json$
-b:$取中间 Э %a%Э"imgurl":"Э"$
-c:$替换 € %b%€\€$
+b:$取中间 ⬚ %a%⬚"imgurl":"⬚"$
+c:$替换 ⬚ %b%⬚\⬚$
 📎接口：樱花±img=%c%±
 
 次元图7
 a:$访问 https://api.mtyqx.cn/api/random.php?return=json$
-b:$取中间 Э %a%Э"imgurl":"Э"$
-c:$替换 € %b%€\€$
+b:$取中间 ⬚ %a%⬚"imgurl":"⬚"$
+c:$替换 ⬚ %b%⬚\⬚$
 📎接口：墨天逸±img=%c%±
 
 次元图8
 a:$访问 https://api.ixiaowai.cn/api/api.php?return=json$
-b:$取中间 Э %a%Э"imgurl":"Э"$
-c:$替换 € %b%€\€$
+b:$取中间 ⬚ %a%⬚"imgurl":"⬚"$
+c:$替换 ⬚ %b%⬚\⬚$
 📎接口：小歪±img=%c%±
 
 https://api.ixiaowai.cn/api/api.php
@@ -329,16 +336,16 @@ https://api.ixiaowai.cn/api/api.php
 
 全国疫情
 a:$访问 https://ycx.mxjs.xyz/yq/api1.php$
-b:$取中间 Э %a%Э截至Э±img=$
-c:$取中间 Э %a%Э±img=Э±$
-d:$取中间 Э %a%Э全国累计确Э$
+b:$取中间 ⬚ %a%⬚截至⬚±img=$
+c:$取中间 ⬚ %a%⬚±img=⬚±$
+d:$取中间 ⬚ %a%⬚全国累计确⬚$
 %b%
 ±img=%c%±
 全国累计确诊%d%
 
 全国疫情备用
 a:$访问 http://ovooa.com/API/yiqing/api?msg=&type=text$
-b:$替换 € %a%€±img=https://hhyfeed.sogoucdn.com/feed/static/images/epidemic/domestic_map_01500.png±\n€$
+b:$替换 ⬚ %a%⬚±img=https://hhyfeed.sogoucdn.com/feed/static/images/epidemic/domestic_map_01500.png±\n⬚$
 %b%
 
  ?([\s\S]*(.*)[\s\S]*)疫情
@@ -349,25 +356,25 @@ $访问 http://api.yanxi520.cn/api/virus.php?msg=%括号1%$
 
 一文
 a:$访问 http://ovooa.com/API/mryw/$
-b:$取中间 Э %a%Э"title": "Э"$
-c:$取中间 Э %a%Э"author": "Э"$
-d:$取中间 Э %a%Э"content": "Э"$
+b:$取中间 ⬚ %a%⬚"title": "⬚"$
+c:$取中间 ⬚ %a%⬚"author": "⬚"$
+d:$取中间 ⬚ %a%⬚"content": "⬚"$
 标题：%b%\n
 作者：%c%\n
 %d%
 
 ping ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ovooa.com/API/ping/?url=%括号1%$
-b:$取中间 Э %a%Э"url": "Э"$
-c:$取中间 Э %a%Э"IP": "Э"$
-d:$取中间 Э %a%Э"address": "Э"$
-e:$取中间 Э %a%Э"small": "Э"$
-f:$取中间 Э %a%Э"max": "Э"$
-g:$取中间 Э %a%Э"average": "Э"$
-h:$取中间 Э %a%Э"num": "Э"$
-i:$取中间 Э %a%Э"receive": "Э"$
-j:$取中间 Э %a%Э"abandon": "Э"$
-k:$取中间 Э %a%Э"Times": "Э"$
+b:$取中间 ⬚ %a%⬚"url": "⬚"$
+c:$取中间 ⬚ %a%⬚"IP": "⬚"$
+d:$取中间 ⬚ %a%⬚"address": "⬚"$
+e:$取中间 ⬚ %a%⬚"small": "⬚"$
+f:$取中间 ⬚ %a%⬚"max": "⬚"$
+g:$取中间 ⬚ %a%⬚"average": "⬚"$
+h:$取中间 ⬚ %a%⬚"num": "⬚"$
+i:$取中间 ⬚ %a%⬚"receive": "⬚"$
+j:$取中间 ⬚ %a%⬚"abandon": "⬚"$
+k:$取中间 ⬚ %a%⬚"Times": "⬚"$
 查询地址：%b%\n
 IP地址：%c%\n
 IP归 属地：%d%\n
@@ -390,15 +397,15 @@ $访问 http://ovooa.com/API/dog/api.php?msg=%括号1%&num=100&type=text$
 
  ?([\s\S]*(.*)[\s\S]*)疫情备用
 a:$访问 http://ovooa.com/API/yiqing/api?msg=%括号1%type=text$
-b:$取中间 Э %a%Э"time": "Э"$
-c:$取中间 Э %a%Э"name": "Э"$
-d:$取中间 Э %a%Э"total": "Э"$
-e:$取中间 Э %a%Э"suspected": "Э"$
-f:$取中间 Э %a%Э"death": "Э"$
-g:$取中间 Э %a%Э"cure": "Э"$
-h:$取中间 Э %a%Э"totaladd": "Э"$
-i:$取中间 Э %a%Э"econ": "Э"$
-j:$取中间 Э %a%Э"asymptom": "Э"$
+b:$取中间 ⬚ %a%⬚"time": "⬚"$
+c:$取中间 ⬚ %a%⬚"name": "⬚"$
+d:$取中间 ⬚ %a%⬚"total": "⬚"$
+e:$取中间 ⬚ %a%⬚"suspected": "⬚"$
+f:$取中间 ⬚ %a%⬚"death": "⬚"$
+g:$取中间 ⬚ %a%⬚"cure": "⬚"$
+h:$取中间 ⬚ %a%⬚"totaladd": "⬚"$
+i:$取中间 ⬚ %a%⬚"econ": "⬚"$
+j:$取中间 ⬚ %a%⬚"asymptom": "⬚"$
 %b%，%c%\n
 累计确诊：%d%人\n
 累计死亡：%f%人\n
@@ -413,17 +420,17 @@ $访问 https://ovooa.com/API/dmyiyan/api.php$
 
 随机视频 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ovooa.com/API/sjsp/api.php?msg=%括号1%&type=text$
-b:$取中间 Э %a%Э±img=http://Э±$
-c:$取中间 Э %a%Э类型：Э$
+b:$取中间 ⬚ %a%⬚±img=http://⬚±$
+c:$取中间 ⬚ %a%⬚类型：⬚$
 ±img=http://%b%±
 %c%
 
 随机网易云音乐
 a:$访问 http://ovooa.com/API/163_Music_Rand/api.php$
-b:$取中间 Э %a%Э"song": "Э",$
-c:$取中间 Э %a%Э"singer": "Э",$
-d:$取中间 Э %a%Э"cover": "Э",$
-e:$取中间 Э %a%Э"Music": "Э",$
+b:$取中间 ⬚ %a%⬚"song": "⬚",$
+c:$取中间 ⬚ %a%⬚"singer": "⬚",$
+d:$取中间 ⬚ %a%⬚"cover": "⬚",$
+e:$取中间 ⬚ %a%⬚"Music": "⬚",$
 歌名：%b%\n
 歌手：%c%\n
 ±img=%d%±
@@ -431,11 +438,11 @@ e:$取中间 Э %a%Э"Music": "Э",$
 
 随机QQ音乐
 a:$访问 http://ovooa.com/API/QQ_Music_Rand/api.php?msg=热歌榜$
-b:$取中间 Э %a%Э"song": "Э",$
-c:$取中间 Э %a%Э"url": "Э",$
-d:$取中间 Э %a%Э"picture": "Э",$
-e:$取中间 Э %a%Э"singer": "Э",$
-f:$取中间 Э %a%Э"music": "Э",$
+b:$取中间 ⬚ %a%⬚"song": "⬚",$
+c:$取中间 ⬚ %a%⬚"url": "⬚",$
+d:$取中间 ⬚ %a%⬚"picture": "⬚",$
+e:$取中间 ⬚ %a%⬚"singer": "⬚",$
+f:$取中间 ⬚ %a%⬚"music": "⬚",$
 歌名：%b%\n
 歌手：%e%\n
 ±img=%d%±
@@ -447,21 +454,21 @@ https://ovooa.com/API/grzy/api.php?name=%QQ%&wb=&qq=%QQ%
 
 历史今天
 a:$访问 http://ovooa.com/API/lishi/api.php?n=15$
-b:$取中间 Э %a%Э1：Э\n2：$
-c:$取中间 Э %a%Э2：Э\n3：$
-d:$取中间 Э %a%Э3：Э\n4：$
-e:$取中间 Э %a%Э4：Э\n5：$
-f:$取中间 Э %a%Э5：Э\n6：$
-g:$取中间 Э %a%Э6：Э\n7：$
-h:$取中间 Э %a%Э7：Э\n8：$
-i:$取中间 Э %a%Э8：Э\n9：$
-j:$取中间 Э %a%Э9：Э\n10：$
-k:$取中间 Э %a%Э10：Э\n11：$
-l:$取中间 Э %a%Э11：Э\n12：$
-m:$取中间 Э %a%Э12：Э\n13：$
-n:$取中间 Э %a%Э13：Э\n14：$
-o:$取中间 Э %a%Э14：Э\n15：$
-p:$取中间 Э %a%Э15：Э$
+b:$取中间 ⬚ %a%⬚1：⬚\n2：$
+c:$取中间 ⬚ %a%⬚2：⬚\n3：$
+d:$取中间 ⬚ %a%⬚3：⬚\n4：$
+e:$取中间 ⬚ %a%⬚4：⬚\n5：$
+f:$取中间 ⬚ %a%⬚5：⬚\n6：$
+g:$取中间 ⬚ %a%⬚6：⬚\n7：$
+h:$取中间 ⬚ %a%⬚7：⬚\n8：$
+i:$取中间 ⬚ %a%⬚8：⬚\n9：$
+j:$取中间 ⬚ %a%⬚9：⬚\n10：$
+k:$取中间 ⬚ %a%⬚10：⬚\n11：$
+l:$取中间 ⬚ %a%⬚11：⬚\n12：$
+m:$取中间 ⬚ %a%⬚12：⬚\n13：$
+n:$取中间 ⬚ %a%⬚13：⬚\n14：$
+o:$取中间 ⬚ %a%⬚14：⬚\n15：$
+p:$取中间 ⬚ %a%⬚15：⬚$
 1：%b%\n
 2：%c%\n
 3：%d%\n
@@ -480,14 +487,14 @@ p:$取中间 Э %a%Э15：Э$
 
  ?([\s\S]*(.*)[\s\S]*)天气
 a:$访问 http://ovooa.com/API/santq/api.php?msg=%括号1%$
-b:$取中间 Э %a%Э"city": "Э",$
-c:$取中间 Э %a%Э"Time": "Э",$
-d:$取中间 Э %a%Э"high_temperature": " Э",$
-e:$取中间 Э %a%Э"low_temperature": " Э",$
-f:$取中间 Э %a%Э"wind_direction": "Э",$
-g:$取中间 Э %a%Э"weather": "Э",$
-h:$取中间 Э %a%Э"wind_speed": "Э"$
-i:$取中间 Э %a%Э"Tips": "Э"$
+b:$取中间 ⬚ %a%⬚"city": "⬚",$
+c:$取中间 ⬚ %a%⬚"Time": "⬚",$
+d:$取中间 ⬚ %a%⬚"high_temperature": " ⬚",$
+e:$取中间 ⬚ %a%⬚"low_temperature": " ⬚",$
+f:$取中间 ⬚ %a%⬚"wind_direction": "⬚",$
+g:$取中间 ⬚ %a%⬚"weather": "⬚",$
+h:$取中间 ⬚ %a%⬚"wind_speed": "⬚"$
+i:$取中间 ⬚ %a%⬚"Tips": "⬚"$
 %b%今日（%c%）天气如下：\n
 天气：%g%\n
 高温：%d%\n
@@ -517,16 +524,16 @@ b:$访问 https://xiaobai.klizi.cn/API/other/yinhua.php?msg=%括号1%&n=2$
 c:$访问 https://xiaobai.klizi.cn/API/other/yinhua.php?msg=%括号1%&n=3$
 d:$访问 https://xiaobai.klizi.cn/API/other/yinhua.php?msg=%括号1%&n=4$
 e:$访问 https://xiaobai.klizi.cn/API/other/yinhua.php?msg=%括号1%&n=5$
-f:$取中间 Э %a%Э"title": Э,$
-g:$取中间 Э %a%Э"url": "Э",$
-h:$取中间 Э %b%Э"title": Э,$
-i:$取中间 Э %b%Э"url": "Э",$
-j:$取中间 Э %c%Э"title": Э,$
-k:$取中间 Э %c%Э"url": "Э",$
-l:$取中间 Э %d%Э"title": Э,$
-m:$取中间 Э %d%Э"url": "Э",$
-n:$取中间 Э %e%Э"title": Э,$
-o:$取中间 Э %e%Э"url": "Э",$
+f:$取中间 ⬚ %a%⬚"title": ⬚,$
+g:$取中间 ⬚ %a%⬚"url": "⬚",$
+h:$取中间 ⬚ %b%⬚"title": ⬚,$
+i:$取中间 ⬚ %b%⬚"url": "⬚",$
+j:$取中间 ⬚ %c%⬚"title": ⬚,$
+k:$取中间 ⬚ %c%⬚"url": "⬚",$
+l:$取中间 ⬚ %d%⬚"title": ⬚,$
+m:$取中间 ⬚ %d%⬚"url": "⬚",$
+n:$取中间 ⬚ %e%⬚"title": ⬚,$
+o:$取中间 ⬚ %e%⬚"url": "⬚",$
 《%括号1%》搜索结果如下：\n
 1\n
 标题：%f%\n
@@ -546,15 +553,15 @@ o:$取中间 Э %e%Э"url": "Э",$
 
 备用下载音乐 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://hm.suol.cc/API/yy.php?type=qq&msg=%括号1%&n=1$
-b:$取中间 Э %a%Э图片：Э.jpg$
-c:$取中间 Э %a%Э歌名Э$
+b:$取中间 ⬚ %a%⬚图片：⬚.jpg$
+c:$取中间 ⬚ %a%⬚歌名⬚$
 ±img=%b%.jpg±
 歌名%c%
 
 下载音乐 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 https://xiaobai.klizi.cn/API/music/down_music.php?msg=%括号1%&n=1$
-b:$取中间 Э %a%Э"url": "Э"$
-c:$取中间 Э %a%Э"msg": "Э"$
+b:$取中间 ⬚ %a%⬚"url": "⬚"$
+c:$取中间 ⬚ %a%⬚"msg": "⬚"$
 %括号1%\n
 %b%\n
 %c%
@@ -567,26 +574,26 @@ $访问 https://xiaobai.klizi.cn/API/other/gzsss.php?data=&msg=%括号1%$
 
 梗排行
 a:$访问 https://xiaobai.klizi.cn/API/other/gzsph.php?data=&type=&n=$
-b:$取中间 Э %a%Э1：Э\n2：$
-c:$取中间 Э %a%Э2：Э\n3：$
-d:$取中间 Э %a%Э3：Э\n4：$
-e:$取中间 Э %a%Э4：Э\n5：$
-f:$取中间 Э %a%Э5：Э\n6：$
-g:$取中间 Э %a%Э6：Э\n7：$
-h:$取中间 Э %a%Э7：Э\n8：$
-i:$取中间 Э %a%Э8：Э\n9：$
-j:$取中间 Э %a%Э9：Э\n10：$
-k:$取中间 Э %a%Э10：Э\n11：$
-l:$取中间 Э %a%Э11：Э\n12：$
-m:$取中间 Э %a%Э12：Э\n13：$
-n:$取中间 Э %a%Э13：Э\n14：$
-o:$取中间 Э %a%Э14：Э\n15：$
-p:$取中间 Э %a%Э15：Э\n16：$
-q:$取中间 Э %a%Э16：Э\n17：$
-r:$取中间 Э %a%Э17：Э\n18：$
-s:$取中间 Э %a%Э18：Э\n19：$
-t:$取中间 Э %a%Э19：Э\n20：$
-u:$取中间 Э %a%Э20：Э$
+b:$取中间 ⬚ %a%⬚1：⬚\n2：$
+c:$取中间 ⬚ %a%⬚2：⬚\n3：$
+d:$取中间 ⬚ %a%⬚3：⬚\n4：$
+e:$取中间 ⬚ %a%⬚4：⬚\n5：$
+f:$取中间 ⬚ %a%⬚5：⬚\n6：$
+g:$取中间 ⬚ %a%⬚6：⬚\n7：$
+h:$取中间 ⬚ %a%⬚7：⬚\n8：$
+i:$取中间 ⬚ %a%⬚8：⬚\n9：$
+j:$取中间 ⬚ %a%⬚9：⬚\n10：$
+k:$取中间 ⬚ %a%⬚10：⬚\n11：$
+l:$取中间 ⬚ %a%⬚11：⬚\n12：$
+m:$取中间 ⬚ %a%⬚12：⬚\n13：$
+n:$取中间 ⬚ %a%⬚13：⬚\n14：$
+o:$取中间 ⬚ %a%⬚14：⬚\n15：$
+p:$取中间 ⬚ %a%⬚15：⬚\n16：$
+q:$取中间 ⬚ %a%⬚16：⬚\n17：$
+r:$取中间 ⬚ %a%⬚17：⬚\n18：$
+s:$取中间 ⬚ %a%⬚18：⬚\n19：$
+t:$取中间 ⬚ %a%⬚19：⬚\n20：$
+u:$取中间 ⬚ %a%⬚20：⬚$
 1：%b%\n
 2：%c%\n
 3：%d%\n
@@ -617,13 +624,17 @@ a:$访问 https://xiaobai.klizi.cn/API/other/bing.php$
 
 搜电影 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://hm.suol.cc/API/dy.php?msg=%括号1%&n=1$
-b:$取中间 Э %a%Э名称Э图片$
-c:$取中间 Э %a%Э图片：Э$
+b:$取中间 ⬚ %a%⬚名称⬚图片$
+c:$取中间 ⬚ %a%⬚图片：⬚$
 ±img=%c%±
 名称%b%
 
 百度百科 ?([\s\S]*(.*)[\s\S]*)
-$访问 http://hm.suol.cc/API/bk.php?type=sg&msg=%括号1%$
+a:$访问 http://ovooa.com/API/bdbk/?Msg=%括号1%&type=text$
+b:$取中间 ⬚ %a%⬚±img=⬚±$
+c:$取中间 ⬚ %a%⬚f_auto±⬚$
+±img=%b%±
+%c%
 
 翻译 ?([\s\S]*(.*)[\s\S]*)
 原文：%括号1%\n
@@ -634,16 +645,16 @@ $访问 http://hm.suol.cc/API/yy.php?type=qqmv&msg=%括号1%&n=1$
 
 星座运势 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ovooa.com/API/xz/api.php?msg=%括号1%&type=text$
-b:$取中间 Э %a%Э±img=http://Э±$
-c:$取中间 Э %a%Э星座：Э\r贵人方位：$
-d:$取中间 Э %a%Э\r贵人方位：Э\r贵人星座：$
-e:$取中间 Э %a%Э\r贵人星座：Э\r幸运数字：$
-f:$取中间 Э %a%Э\r幸运数字：Э\r幸运颜色：$
-g:$取中间 Э %a%Э\r幸运颜色：Э\r爱情运势：$
-h:$取中间 Э %a%Э\r爱情运势：Э\r财富运势：$
-i:$取中间 Э %a%Э\r财富运势：Э\r\r事业运势：$
-j:$取中间 Э %a%Э\r\r事业运势：Э\r提示：$
-k:$取中间 Э %a%Э\r提示：Э$
+b:$取中间 ⬚ %a%⬚±img=http://⬚±$
+c:$取中间 ⬚ %a%⬚星座：⬚\r贵人方位：$
+d:$取中间 ⬚ %a%⬚\r贵人方位：⬚\r贵人星座：$
+e:$取中间 ⬚ %a%⬚\r贵人星座：⬚\r幸运数字：$
+f:$取中间 ⬚ %a%⬚\r幸运数字：⬚\r幸运颜色：$
+g:$取中间 ⬚ %a%⬚\r幸运颜色：⬚\r爱情运势：$
+h:$取中间 ⬚ %a%⬚\r爱情运势：⬚\r财富运势：$
+i:$取中间 ⬚ %a%⬚\r财富运势：⬚\r\r事业运势：$
+j:$取中间 ⬚ %a%⬚\r\r事业运势：⬚\r提示：$
+k:$取中间 ⬚ %a%⬚\r提示：⬚$
 ±img=http://%b%±
 星座：%c%\n
 贵人方位：%d%\n
@@ -660,37 +671,37 @@ $访问 http://ovooa.com/API/wyrp/api.php?type=text$
 
 QQ音乐 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ovooa.com/API/QQ_Music/?Skey=%Skey%&uin=%Robot%&msg=%括号1%&n=1&type=text$
-b:$取中间 Э %a%Э±img=https://Э±$
-c:$取中间 Э %a%Э歌曲：Э$
-±img=http://%b%±
+b:$取中间 ⬚ %a%⬚±img=⬚±$
+c:$取中间 ⬚ %a%⬚歌曲：⬚$
+±img=%b%±
 歌名：%c%
 
 网易云音乐 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ovooa.com/API/wydg/api.php?msg=%括号1%&n=1&type=text$
-b:$取中间 Э %a%Э±img=http://Э±$
-c:$取中间 Э %a%Э歌曲：Э$
-±img=http://%b%±
+b:$取中间 ⬚ %a%⬚±img=⬚±$
+c:$取中间 ⬚ %a%⬚歌曲：⬚$
+±img=%b%±
 歌名：%c%
 
 酷我音乐 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ovooa.com/API/kwdg/api.php?msg=%括号1%&n=1&type=text$
-b:$取中间 Э %a%Э图片：Эjpg$
-c:$取中间 Э %a%Э歌名：Э$
+b:$取中间 ⬚ %a%⬚图片：⬚jpg$
+c:$取中间 ⬚ %a%⬚歌名：⬚$
 ±img=%b%jpg±
 歌名：%c%
 
 酷狗音乐 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ovooa.com/API/kgdg/api.php?msg=%括号1%&n=1&type=text$
-b:$取中间 Э %a%Э±img=http://Э±$
-c:$取中间 Э %a%Э歌名：Э$
-±img=http://%b%±
+b:$取中间 ⬚ %a%⬚±img=⬚±$
+c:$取中间 ⬚ %a%⬚歌名：⬚$
+±img=%b%±
 歌名：%c%
 
 咪咕音乐 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ovooa.com/API/migu/api.php?msg=%括号1%&n=1&type=text$
-b:$取中间 Э %a%Э±img=https://Э±$
-c:$取中间 Э %a%Э歌曲：Э$
-±img=https://%b%±
+b:$取中间 ⬚ %a%⬚±img=⬚±$
+c:$取中间 ⬚ %a%⬚歌曲：⬚$
+±img=%b%±
 歌名：%c%
 
 兽语 ?([\s\S]*(.*)[\s\S]*)
@@ -701,9 +712,9 @@ $访问 http://xiaobai.klizi.cn/API/other/wenan.php?msg=%括号1%$
 
 电音 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://xiaobai.klizi.cn/API/music/dj.php?data=&msg=%括号1%&n=1$
-b:$取中间 Э %a%Э"songname":"Э"$
-c:$取中间 Э %a%Э"nickname":" Э"$
-d:$取中间 Э %a%Э"songurl":"Э"$
+b:$取中间 ⬚ %a%⬚"songname":"⬚"$
+c:$取中间 ⬚ %a%⬚"nickname":" ⬚"$
+d:$取中间 ⬚ %a%⬚"songurl":"⬚"$
 歌名：%b%\n
 歌手：%c%\n
 链接：%d%
@@ -757,8 +768,8 @@ a:$访问 http://ovooa.com/API/dou/?type=text$
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
 b:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/ytsf.php?img=%a%$
-c:$取中间 Э %b%Э中文Э±img=$
-d:$取中间 Э %b%Э±img=Э±$
+c:$取中间 ⬚ %b%⬚中文⬚±img=$
+d:$取中间 ⬚ %b%⬚±img=⬚±$
 中文%c%
 ±img=%d&±
 
@@ -779,29 +790,29 @@ a:$图片链接 %IMG0%$
 
 卫星图
 a:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/nmcWx.php$
-b:$取中间 Э %b%Э±img=Э±$
+b:$取中间 ⬚ %b%⬚±img=⬚±$
 ±img=%b%±
 
 降水图
 a:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/nmcQx.php?type=tq$
-b:$取中间 Э %b%Э±img=Э±$
+b:$取中间 ⬚ %b%⬚±img=⬚±$
 1小时内降水量±img=%b%±
 
 气温图
 a:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/nmcQx.php?type=qw$
-b:$取中间 Э %b%Э±img=Э±$
+b:$取中间 ⬚ %b%⬚±img=⬚±$
 1小时内气温±img=%b%±
 
 以图搜图
 $写 data/搜图/%QQ%/%群号%/以图搜图判断 a 1$
 $写 data/搜图/%QQ%/%群号%/以图搜图时间 a %时间mm:dd:hh%$
 s:$读 data/搜图/%QQ%/%群号%/以图搜图时间 a 0$
-b:$替换 Э %IMG0%Э.jpgЭ$
-b:$替换 Э %b%Э.gifЭ$
-b:$替换 Э %b%Э.pngЭ$
-b:$替换 Э %b%Э-Э$
-b:$替换 Э %b%Э{Э$
-b:$替换 Э %b%Э}Э$
+b:$替换 ⬚ %IMG0%⬚.jpg⬚$
+b:$替换 ⬚ %b%⬚.gif⬚$
+b:$替换 ⬚ %b%⬚.png⬚$
+b:$替换 ⬚ %b%⬚-⬚$
+b:$替换 ⬚ %b%⬚{⬚$
+b:$替换 ⬚ %b%⬚}⬚$
 a:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/ytst1.php?zh=%QQ%&img=%b%&time=%s%$
 ±rep %Msgbar%±\r
 ±strmsg %参数-1%±
@@ -817,7 +828,7 @@ $写 data/搜图/%QQ%/%群号%/以图搜图判断 a 0$
 
 诗词
 a:$访问 https://v2.jinrishici.com/one.svg$
-b:$取中间 Э %a%Э000000">Э</text>$
+b:$取中间 ⬚ %a%⬚000000">⬚</text>$
 %b%
 
 URL解码 ?([\s\S]*)
@@ -856,7 +867,7 @@ P:@P[pskey]
 P:@P[qun.qq.com]
 $访问 http://ovooa.com/API/Group_list/?Skey=%Skey%&Pskey=%P%&QQ=%Robot%&type=text$
 
-群信息
+[群]群信息
 P:%Json%
 P:@P[pskey]
 P:@P[qun.qq.com]
@@ -866,6 +877,7 @@ c:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=tex
 d:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=5$
 e:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=6$
 f:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=2$
+±img=http://p.qlogo.cn/gh/%群号%/%群号%/±
 群名：%GroupName%\n
 群号：%群%\n
 群等级：%e%\n
@@ -874,19 +886,19 @@ f:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=tex
 管理员：%f%\n
 群最多管理员：%d%
 
-群龙王
+[群]群龙王
 P:%Json%
 P:@P[pskey]
 P:@P[qun.qq.com]
 $访问 http://ovooa.com/API/Dragon/api?QQ=%Robot%&Skey=%Skey%&pskey=%P%&Group=%群%&type=text$
 
-群活跃
+[群]群活跃
 P:%Json%
 P:@P[pskey]
 P:@P[qun.qq.com]
 $访问 http://ovooa.com/API/qunhy/api?QQ=%Robot%&Num=5&Group=%群%&Skey=%Skey%&Pskey=%P%&type=text$
 
-群禁言
+[群]群禁言
 P:%Json%
 P:@P[pskey]
 P:@P[qun.qq.com]
@@ -906,26 +918,55 @@ $访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&grou
 返回
 如果尾
 
-禁言(@.*) (.*)
-如果:%QQ%==%主人%
+[群]禁言(@.*) (.*)
+如果:%QQ%==%主人%|$管理员 %QQ%$==%QQ%
 $禁 %群% %AT0% [%括号2%*60]$已禁言%括号1% %括号2%分钟
 返回
 如果尾
-⚠️你不是主人
+⚠你不是主人/机器人管理员
 
-解禁(@.*)
-如果:%QQ%==%主人%
+[群]禁言我
+如果:%QQ%==%主人%|$管理员 %QQ%$==%QQ%
+⚠主人/机器人管理员无法使用此功能
+返回
+如果尾
+a:$随机数 1-60$
+$禁 %群% %QQ% [%a%*60]$〔%昵称% 〕被我塞了个口球，所以他/她在接下来的%a%分钟内要怪怪挨艹了
+
+[群]解禁(@.*)
+如果:%QQ%==%主人%|$管理员 %QQ%$==%QQ%
 $禁 %群号% %AT0% 0$已解禁%括号1%
 返回
 如果尾
-⚠️你不是主人
+⚠你不是主人/机器人管理员
 
-踢(@.*)
-如果:%QQ%==%主人%
+[群]踢(@.*)
+如果:%QQ%==%主人%|$管理员 %QQ%$==%QQ%
 $踢 %群% %AT0%$已踢出%括号1%
 返回
 如果尾
-⚠️你不是主人
+⚠你不是主人/机器人管理员
+
+[群]@全体
+如果:%QQ%==%主人%|$管理员 %QQ%$==%QQ%
+±at 0±已@全体成员
+返回
+如果尾
+⚠你不是主人/机器人管理员
+
+添加管理员@.*
+如果:%QQ%==%主人%
+$添加管理员 %AT0%$已成功添加〔%AT0%〕为我的管理者
+返回
+如果尾
+⚠你不是主人
+
+删除管理员@.*
+如果:%QQ%==%主人%
+$删除管理员 %AT0%%$已成功移除〔%AT0%〕的管理权限
+返回
+如果尾
+⚠你不是主人
 
 [\s\S]*(.*)[\s\S]*国外软件[\s\S]*(.*)[\s\S]*
 回复以下关键词自助获取：\n
@@ -1110,14 +1151,15 @@ PowerPoint：微软办公套件之一PPT\n
 <%ĀĀÛ>夜空\n
 <%ĀĀÜ>粉黛\n
 <%ĀĀÝ>朝夕\n
-<%ĀĀ␇Þ>潮流
+<%ĀĀ␇Þ>潮流\n
+在群昵称前面加上代码。
 
 [\s\S]*(.*)[\s\S]*有人吗[\s\S]*(.*)[\s\S]*
 a:["我在哦～","有什么事吗？","怎么了？","我在！","我...我不是人怎么办","为什么非得是人呢（"]
 b:$随机数 1-6$
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_54972108.png±$JSON 获取 a %b%$
 
-114514
+114514|1919810|1145141919810|野兽先辈|臭[\s\S]*(.*)[\s\S]*
 a:["哼～哼哼～啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊啊啊啊"]
 b:$随机数 1-9$
 $JSON 获取 a %b%$
@@ -1354,6 +1396,15 @@ b:$随机数 1-10$
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274002.png±
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273988.png±
 
+[\s\S]*(.*)[\s\S]*咕[\s\S]*(.*)[\s\S]*咕[\s\S]*(.*)[\s\S]*咕[\s\S]*(.*)[\s\S]*
+来炖鸽子汤吧
+
+[戳一戳]
+a:$获取消息 uin_str2$
+如果:%a%==%Robot%
+干嘛拍人家啦
+返回
+如果尾
 
 [\s\S]*(.*)[\s\S]*找[\s\S]*(.*)[\s\S]*&[\s\S]*(.*)[\s\S]*翻我空间[\s\S]*(.*)[\s\S]*
 加你妹
@@ -1373,6 +1424,9 @@ b:$随机数 1-10$
 [\s\S]*(.*)[\s\S]*叔叔我啊[\s\S]*(.*)[\s\S]*
 你🐴什么时候死啊
 
+[\s\S]*(.*)[\s\S]*你的消息违反了群主设定的发言管理规则[\s\S]*(.*)[\s\S]*
+Q群管家我肏你🐴
+
 清屏
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274027.png±
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274033.png±
@@ -1388,7 +1442,8 @@ b:$随机数 1-10$
 
 [\s\S]*(.*)[\s\S]*点赞[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*签到[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*冒泡[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*赞我[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*打卡[\s\S]*(.*)[\s\S]*
 ±img=https://q.qlogo.cn/headimg_dl?dst_uin=%QQ%&spec=5±
-$点赞 %QQ% 10$今日已给【%昵称%】10个赞
+$点赞 %QQ% 10$今日已给【%昵称%】10个赞\n
+⚠仅限好友
 
 @[\s\S]*(.*)[\s\S]*机器人 
 有何贵干？（请发送【回复列表】）
@@ -1398,7 +1453,7 @@ $点赞 %QQ% 10$今日已给【%昵称%】10个赞
 %括号1%
 返回
 如果尾
-⚠️你不是主人
+⚠你不是主人
 
 [撤回].*
 %昵称%尝试撤回一条消息:%参数-1%
@@ -1413,3 +1468,12 @@ a:$图片链接 %IMG0%$
 如果:%FIMG0%!=
 a:$替换 @ %FIMG0%@.jpg@$
 ±img=%a%±闪照捕获成功！
+如果尾
+如果:%JSON0%!=
+捕获到JSON卡片：\n
+%JSON0%
+如果尾
+如果:%XML0%!=
+捕获到XML卡片：\n
+%XML0%
+如果尾
