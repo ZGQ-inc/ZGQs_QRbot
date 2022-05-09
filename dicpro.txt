@@ -141,7 +141,7 @@ CRC32编码［文本］\n
 ┅┅┅┅┅┅┅┅\n
 ❌代表接口可能爆炸\n
 发送【接口列表】【次元图接口列表】\n
-查看接口
+查看接口，附送教程和API
 
 [\s\S]*(.*)[\s\S]*次元图接口列表[\s\S]*(.*)[\s\S]*
 <━━━━次元图接口━━━━>\n
@@ -195,11 +195,11 @@ https://icean.moe/
 〔调试指令〕\n
 ━━━━━━\n
 dev回复\n
+运行信息\n
 添加管理员［@对象］\n
 删除管理员［@对象］\n
 查看管理员\n
 发［内容］到［群号］
-
 
 公告|公告栏
 〔公告栏〕\n
@@ -210,6 +210,7 @@ dev回复\n
 （把机器人和主人都拉进群 加好友无需验证 请主动发送邀请 不一定能及时处理 见谅）\n
 🔨如果想制作属于自己的机器人请发送【个人主页】找到破解软件分享 在软天空APP查看我发的帖子\n
 ⚙️服务目前不稳定 是运行在手机上的 经常掉线\n
+（目前已给大约200个群提供服务）\n
 ⚠此号用于机器人不回复私聊\n
 🟡请随意调戏机器人\n
 ┅┅┅┅┅┅\n
@@ -217,7 +218,12 @@ dev回复\n
 
 [\s\S]*(.*)[\s\S]*查看词库[\s\S]*(.*)[\s\S]*
 〔词库〕\n
-https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/dicpro.txt
+━━━━━━\n
+［词库主体］本地相对路径：/QR/QRDic/dicpro.txt\n
+https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/dicpro.txt\n
+┅┅┅┅┅┅\n
+［BSH文件］本地相对路径：/QR/QRDic/BSH/DeviceUtils.java\n
+https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/BSH/DeviceUtils.java
 
 开机|说明|帮助|查询
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012194.png±
@@ -331,10 +337,12 @@ b:$取中间 ⬚ %a%⬚"imgurl":"⬚"$
 c:$替换 ⬚ %b%⬚\⬚$
 📎接口：小歪±img=%c%±
 
-https://api.ixiaowai.cn/api/api.php
 时间
-⌚现在是北京时间（GMT+08:00）\n
-%时间yyyy年MM月dd日HH时mm分ss秒SSS毫秒%
+现在是%时间zzzz（ZZZZ）%\n
+$时间格式 %NDTime% yyyy年MM月dd日$\n
+$时间格式 %NDTime% a hh时mm分ss秒SSS毫秒 EEEE$\n
+同步自服务器原子钟\n
+当前UNIX时间戳：%NDTime%
 
 问候图
 ±img=http://ovooa.com/API/image_Tnem/?QR_str=https://zgq-inc.github.io&QR_img=https://cdn.jsdelivr.net/gh/ZGQ-inc/homepage@master/images/logo.png&QR_str_ud=个人主页±
@@ -936,7 +944,7 @@ $禁 %群% %AT0% [%括号2%*60]$已禁言%括号1% %括号2%分钟
 返回
 如果尾
 a:$随机数 1-60$
-$禁 %群% %QQ% [%a%*60]$〔%昵称% 〕被我塞了个口球，所以他/她在接下来的%a%分钟内要怪怪挨艹了
+$禁 %群% %QQ% [%a%*60]$〔%昵称% 〕被我塞了个口球，所以他/她在接下来的%a%分钟内要乖乖挨艹了
 
 [群]解禁(@.*)
 如果:%QQ%==%主人%|$管理员 %QQ%$==%QQ%
@@ -1422,22 +1430,13 @@ a:$获取消息 uin_str2$
 如果:%a%==%Robot%
 干嘛拍人家啦
 
-[\s\S]*(.*)[\s\S]*找[\s\S]*(.*)[\s\S]*&[\s\S]*(.*)[\s\S]*翻我空间[\s\S]*(.*)[\s\S]*
+[\s\S]*(.*)[\s\S]*找[\s\S]*(.*)[\s\S]*&[\s\S]*(.*)[\s\S]*翻我空间[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*缺[\s\S]*(.*)[\s\S]*&[\s\S]*(.*)[\s\S]*加[\s\S]*(.*)[\s\S]*
 加你妹
 
-[\s\S]*(.*)[\s\S]*缺[\s\S]*(.*)[\s\S]*&[\s\S]*(.*)[\s\S]*加[\s\S]*(.*)[\s\S]*
-加你妹
-
-[\s\S]*(.*)[\s\S]*思杰马克丁[\s\S]*(.*)[\s\S]*
+[\s\S]*(.*)[\s\S]*思杰马克丁[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*马克丁[\s\S]*(.*)[\s\S]*
 思杰马克丁NMSL
 
-[\s\S]*(.*)[\s\S]*马克丁[\s\S]*(.*)[\s\S]*
-思杰马克丁NMSL
-
-[\s\S]*(.*)[\s\S]*陈睿[\s\S]*(.*)[\s\S]*
-你🐴什么时候死啊
-
-[\s\S]*(.*)[\s\S]*叔叔我啊[\s\S]*(.*)[\s\S]*
+[\s\S]*(.*)[\s\S]*陈睿[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*叔叔我啊[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*你所热爱的[\s\S]*(.*)[\s\S]*
 你🐴什么时候死啊
 
 [\s\S]*(.*)[\s\S]*你的消息违反了群主设定的发言管理规则[\s\S]*(.*)[\s\S]*
@@ -1479,6 +1478,14 @@ $点赞 %QQ% 10$今日已给【%昵称%】10个赞\n
 a:$图片链接 %IMG0%$
 %a%\n
 已转链接
+
+运行信息
+电量：$BSH DeviceUtils.java getDevicePower$\n
+内存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$\n
+系统本地时间：%时间yyyy年MM月dd日HH时mm分ss秒SSS毫秒%\n
+系统运行时间：$BSH DeviceUtils.java getBootTimeStr$\n
+手机型号：$BSH DeviceUtils.java getPhone$\n
+$BSH DeviceUtils.java getDeviceInfo$
 
 .*
 如果:%FIMG0%!=
