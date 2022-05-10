@@ -1,9 +1,11 @@
-&&作者：ZGQ Inc. | 版权所有。
+&&©2022 ZGQ Inc. | 版权所有。
 &&项目地址：https://github.com/ZGQ-inc/ZGQs_QRbot
 &&个人主页：https://zgq-inc.github.io
 
 [\s\S]*(.*)[\s\S]*dev回复[\s\S]*(.*)[\s\S]*
-✅全局回复功能正常
+✅全局回复功能正常\n
+电量：$BSH DeviceUtils.java getDevicePower$%\n
+内存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$
 
 [\s\S]*(.*)[\s\S]*回复列表[\s\S]*(.*)[\s\S]*|菜单
 〔关键词列表〕\n
@@ -145,7 +147,7 @@ CRC32编码［文本］\n
 发送以下关键词查看接口，附送教程和API\n
 【接口列表】\n
 【次元图接口列表】\n
-【搜图接口列表】\n
+【搜图接口列表】
 
 [\s\S]*(.*)[\s\S]*次元图接口列表[\s\S]*(.*)[\s\S]*
 <━━━━次元图接口━━━━>\n
@@ -235,10 +237,10 @@ dev回复\n
 （无需at直接发送对应关键词）\n
 💻机器人免费提供 请先联系主人QQ\n
 （把机器人和主人都拉进群 加好友无需验证 请主动发送邀请 不一定能及时处理 见谅）\n
-🔨如果想制作属于自己的机器人请发送【个人主页】找到破解软件分享 在软天空APP查看我发的帖子\n
+🔨如果想制作属于自己的机器人请发送【个人主页】找到资源列表 在软天空APP查看我发的帖子\n
 ⚙️服务目前不稳定 是运行在手机上的 经常掉线\n
 （目前已给大约200个群提供服务）\n
-⚠此号用于机器人不回复私聊\n
+⚠此号用于机器人不回复私聊 仅限私聊使用\n
 🟡请随意调戏机器人\n
 ┅┅┅┅┅┅\n
 #️⃣本机器人使用QRSpeed作为后台，词库已公开，发送【查看词库】
@@ -1563,8 +1565,8 @@ a:$图片链接 %IMG0%$
 %a%\n
 已转链接
 
-运行信息
-电量：$BSH DeviceUtils.java getDevicePower$\n
+运行信息|运行状态|系统信息
+电量：$BSH DeviceUtils.java getDevicePower$%\n
 内存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$\n
 系统本地时间：%时间yyyy年MM月dd日HH时mm分ss秒SSS毫秒%\n
 系统运行时间：$BSH DeviceUtils.java getBootTimeStr$\n
