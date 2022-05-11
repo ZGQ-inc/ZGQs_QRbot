@@ -84,7 +84,7 @@ QQ音乐［歌名］\n
 必应壁纸\n
 转链接［图片］\n
 ［闪照捕获］（自动）\n
-以图搜图\n
+以图搜图［图片］\n
 saucenao搜图［图片］\n
 ascii2d搜图［图片］（有BUG勿使用）\n
 以图搜番［图片］❌\n
@@ -101,6 +101,7 @@ AGEFANS❌\n
 随机视频［明星/热舞/风景/游戏/动物］\n
 下载哔哩哔哩［视频链接］\n
 下载MV［名字］\n
+视频解析［视频播放地址］\n
 <━━━━娱乐━━━━>\n
 签到\n
 一言\n
@@ -212,6 +213,8 @@ http://api.yanxi520.cn/\n
 https://imcys.com/%e5%be%a1%e5%9d%82%e5%a6%b9%e5%a6%b9api#\n
 今日诗词API\n
 https://www.jinrishici.com/\n
+kingtail智能解析\n
+https://jx.kingtail.xyz/\n
 ┅┅┅API大全┅┅┅\n
 https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/tutorial/API.txt\n
 ┅┅┅QRSpeed教程┅┅┅\n
@@ -258,7 +261,11 @@ https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/BSH/DeviceUtils.java
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012194.png±
 ❗请发送【回复列表】
 
-疫情|疫情备用|二次元的|次元图|狗屁不通|随机视频|星座运势|天气|文案|藏头诗|兽语|樱花动漫|QQ音乐|网易云音乐|酷我音乐|酷狗音乐|咪咕音乐电音|下载音乐|备用下载音乐|下载哔哩哔哩|下载MV|蓝奏云解析|梗搜索|搜电影|百度百科|翻译|IP查询|ping|URL解码|URL编码|HEX解码|HEX编码|base64解码|base64编码|unicode解码|unicode编码|md5编码|CRC32编码
+关机
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012194.png±
+❗本AI少女无法被关闭哦
+
+疫情|疫情备用|二次元的|次元图|狗屁不通|随机视频|星座运势|天气|文案|藏头诗|兽语|樱花动漫|QQ音乐|网易云音乐|酷我音乐|酷狗音乐|咪咕音乐电音|下载音乐|备用下载音乐|下载哔哩哔哩|下载MV|梗搜索|搜电影|百度百科|翻译|IP查询|ping|URL解码|URL编码|HEX解码|HEX编码|base64解码|base64编码|unicode解码|unicode编码|md5编码|CRC32编码|禁言|解禁|踢|视频解析
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030045.png±
 ⚠请按照［］指示输入内容！
 
@@ -289,9 +296,9 @@ c:$替换 ⬚ %b%⬚\⬚$
 a:$访问 https://iw233.cn/api.php?sort=random&type=json$
 b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
 c:$替换 ⬚ %b%⬚\⬚$
-📎接口：MirlKoi（含R18）
-%c%\n
+📎接口：MirlKoi（含R18）\n
 🔞包含R18，使用链接\n
+%c%
 
 次元图2C
 a:$访问 https://iw233.cn/api.php?sort=top&type=json$
@@ -340,9 +347,9 @@ a:$访问 https://img.xjh.me/random_img.php?return=url$
 📎接口：岁月小筑±img=https:%a%±
 
 次元图4
-$访问 POST https://api.lolicon.app/setu/v2 Content-Type: application/text$\n
 📎接口：Lolicon\n
-🔞包含R18，使用链接
+🔞包含R18，使用链接\n
+$访问 POST https://api.lolicon.app/setu/v2 Content-Type: application/text$
 
 次元图5
 a:%20($随机数 1-3413$
@@ -929,6 +936,9 @@ b:$取中间 ⬚ %b%⬚±img=⬚±$
 a:$访问 https://v2.jinrishici.com/one.svg$
 b:$取中间 ⬚ %a%⬚000000">⬚</text>$
 %b%
+
+视频解析 ?([\s\S]*(.*)[\s\S]*)
+https://jx.kingtail.xyz/?url=%括号1%
 
 URL解码 ?([\s\S]*)
 $URLDecoder %括号1%$
