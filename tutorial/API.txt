@@ -132,3 +132,5 @@ KIENGAPI
 https://api.kieng.cn/
 烧鱼API
 http://api.shaoyu520.xyz/
+福福API
+http://ff.shengapi.cn/
