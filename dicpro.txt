@@ -172,7 +172,9 @@ https://www.dmoe.cc/\n
 ［7］墨天逸随机图片API\n
 https://api.mtyqx.cn/\n
 ［8］小歪API\n
-https://api.ixiaowai.cn/
+https://api.ixiaowai.cn/\n
+［9A/9B］福福API\n
+9A竖版壁纸；9B精选（参见【接口列表】）
 
 [\s\S]*(.*)[\s\S]*搜图接口列表[\s\S]*(.*)[\s\S]*
 <━━━━搜图接口━━━━>\n
@@ -215,6 +217,8 @@ https://imcys.com/%e5%be%a1%e5%9d%82%e5%a6%b9%e5%a6%b9api#\n
 https://www.jinrishici.com/\n
 kingtail智能解析\n
 https://jx.kingtail.xyz/\n
+福福API\n
+http://ff.shengapi.cn/\n
 ┅┅┅API大全┅┅┅\n
 https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/tutorial/API.txt\n
 ┅┅┅QRSpeed教程┅┅┅\n
@@ -251,11 +255,15 @@ dev回复\n
 [\s\S]*(.*)[\s\S]*查看词库[\s\S]*(.*)[\s\S]*
 〔词库〕\n
 ━━━━━━\n
+使用插件：QRDICPro\n
+┅┅┅┅┅┅\n
 ［词库主体］本地相对路径：/QR/QRDic/dicpro.txt\n
 https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/dicpro.txt\n
 ┅┅┅┅┅┅\n
 ［BSH文件］本地相对路径：/QR/QRDic/BSH/DeviceUtils.java\n
-https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/BSH/DeviceUtils.java
+https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/BSH/DeviceUtils.java\n
+┅┅┅┅┅┅\n
+提示：你可以保存网页为txt或者使用下载器比如ADM下载词库文件。
 
 开机|说明|帮助|查询
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012194.png±
@@ -373,6 +381,12 @@ b:$取中间 ⬚ %a%⬚"imgurl":"⬚"$
 c:$替换 ⬚ %b%⬚\⬚$
 📎接口：小歪±img=%c%±
 
+次元图9A
+📎接口：福福（竖版）±img=http://ffy.shengapi.cn/api/img/peacg.php?return=img±
+
+次元图9B
+📎接口：福福（精选）±img=http://ffy.shengapi.cn/api/img/acg.php?return=img±
+
 saucenao搜图.*
 如果:%IMG0%!=
 1:$图片链接 %IMG0%$
@@ -454,11 +468,17 @@ Trace.moe以图搜番：\n
 https://trace.moe/?auto&url=%a%
 
 时间
-现在是%时间zzzz（ZZZZ）%\n
-$时间格式 %NDTime% yyyy年MM月dd日$\n
-$时间格式 %NDTime% ah:mm EEEE$\n
-同步自服务器原子钟\n
-当前UNIX时间戳：%NDTime%
+a:现在是%时间zzzz（ZZZZ）%
+b:$时间格式 %NDTime% yyyy年MM月dd日$
+c:$时间格式 %NDTime% ah:mm EEEE$
+d:同步自服务器原子钟
+e:当前UNIX时间戳：%NDTime%
+±img=http://ffy.shengapi.cn/api/img/hct/hbt.php?msg=%a%|%b%|%c%±
+%a%\n
+%b%\n
+%c%\n
+%d%\n
+%e%
 
 问候图
 ±img=http://ovooa.com/API/image_Tnem/?QR_str=https://zgq-inc.github.io&QR_img=https://cdn.jsdelivr.net/gh/ZGQ-inc/homepage@master/images/logo.png&QR_str_ud=个人主页±
@@ -1017,15 +1037,11 @@ $访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&grou
 如果:%Status%==33
 欢迎〔%昵称%〕加入本群！\n
 想了解如何使♀用我？请发送【回复列表】
-返回
-如果尾
 
 [系统]
 如果:%Status%==34
 欢迎〔%昵称%〕加入本群！\n
 想了解如何使♀用我？请发送【回复列表】
-返回
-如果尾
 
 [群]禁言(@.*) (.*)
 如果:%QQ%==%主人%|$管理员 %QQ%$==%QQ%
