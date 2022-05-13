@@ -2,6 +2,7 @@
 &&项目地址：https://github.com/ZGQ-inc/ZGQs_QRbot
 &&个人主页：https://zgq-inc.github.io
 
+//检测状态，调用BSH文件
 [\s\S]*(.*)[\s\S]*dev回复[\s\S]*(.*)[\s\S]*
 ✅全局回复功能正常\n
 电量：$BSH DeviceUtils.java getDevicePower$%\n
@@ -244,7 +245,7 @@ dev回复\n
 （无需at直接发送对应关键词）\n
 💻机器人免费提供 请先联系主人QQ\n
 （把机器人和主人都拉进群 加好友无需验证 请主动发送邀请 不一定能及时处理 见谅）\n
-🔨如果想制作属于自己的机器人请发送【个人主页】找到资源列表 在软天空APP查看我发的帖子\n
+🔨如果想简单几步建立属于自己的机器人请发送【个人主页】找到资源列表 在软天空APP查看我发的帖子\n
 ⚙️服务目前不稳定 是运行在手机上的 经常掉线\n
 （目前已给大约200个群提供服务）\n
 ⚠此号用于机器人不回复私聊 仅限私聊使用\n
@@ -255,7 +256,10 @@ dev回复\n
 [\s\S]*(.*)[\s\S]*查看词库[\s\S]*(.*)[\s\S]*
 〔词库〕\n
 ━━━━━━\n
+使用后台：QRSpeed\n
+https://zgq-inc.lanzouh.com/iGqdI04ri41a\n
 使用插件：QRDICPro\n
+https://zgq-inc.lanzouh.com/iu0St04ri43c\n
 ┅┅┅┅┅┅\n
 ［词库主体］本地相对路径：/QR/QRDic/dicpro.txt\n
 https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/dicpro.txt\n
@@ -406,6 +410,7 @@ i:$取中间 ⬚ %c%⬚⬚"$
 画师：%h%\n
 画师链接：https://www.pixiv.net/users/%i%
 
+//有BUG勿使用！
 ascii2d搜图.*
 如果:%IMG0%!=
 1:$图片链接 %IMG0%$
@@ -449,6 +454,7 @@ w:$取中间 ⬚ %u%⬚">⬚$
 画师：%w%\n
 画师链接：%v%
 
+//摆烂模式（
 以图搜图.*
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
@@ -984,12 +990,14 @@ $MD5 %括号1%$
 CRC32编码 ?([\s\S]*(.*)[\s\S]*)
 $CRC32 %括号1%$
 
+//机器人加入的群
 群列表
 P:%Json%
 P:@P[pskey]
 P:@P[qun.qq.com]
 $访问 http://ovooa.com/API/Group_list/?Skey=%Skey%&Pskey=%P%&QQ=%Robot%&type=text$
 
+//入群欢迎&申请进群提示
 [系统]
 如果:%Status%==33|%Status%==34
 欢迎〔%昵称%〕加入本群！\n
@@ -1380,7 +1388,8 @@ b:$随机数 1-17$
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030267.png±
 不对不对，你在下，我在前，主人在后
 
-@[\s\S]*(.*)[\s\S]*机器人 我喜欢你|@[\s\S]*(.*)[\s\S]*机器人 我爱你
+@.*我喜欢你|@.*我爱你
+如果:%AT0%==%Robot%
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273935.png±
 我也爱你哦～
 
@@ -1430,13 +1439,17 @@ b:$随机数 1-5$
 。。。。。[\s\S]*(.*)[\s\S]*
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030184.png±咕噜咕噜咕噜咕噜咕噜～（要溺水啦
 
-@[\s\S]*(.*)[\s\S]*机器人 老婆
+@.*老婆
+如果:%AT0%==%Robot%
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012068.png±谁是你老婆
 
 [\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*吧[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*是[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*什么[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*啊[\s\S]*(.*)[\s\S]*|机器人
 a:["我不是机器人！我是AI少女（","你觉得呢","你猜","我是由ZGQ Inc.调♀教的屑机器人，啊不对，AI少女","啊对对对，我是AI少女（"]
 b:$随机数 1-5$
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030149.png±$JSON 获取 a %b%$
+
+[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*名字[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*叫[\s\S]*(.*)[\s\S]*
+本机器人没有名字哦，如果你是群主或群管理员，可以修改我的群昵称 给我起个好听的名字。
 
 哦|[\s\S]*(.*)[\s\S]*懂了
 a:["我也懂了（其实没懂","我也知道了（其实没懂","我好像懂了（其实没懂","我懂了！（其实没懂","我知道了！（其实没懂","我也明白了（其实没懂"]
@@ -1548,12 +1561,13 @@ b:$随机数 1-10$
 [\s\S]*(.*)[\s\S]*咕[\s\S]*(.*)[\s\S]*咕[\s\S]*(.*)[\s\S]*咕[\s\S]*(.*)[\s\S]*
 来炖鸽子汤吧
 
-[戳一戳]
-a:$获取消息 uin_str2$
-如果:%a%==%Robot%
-干嘛拍人家啦
-返回
-如果尾
+//因滥用导致刷屏，此功能关闭
+//[戳一戳]
+//a:$获取消息 uin_str2$
+//如果:%a%==%Robot%
+//干嘛拍人家啦
+//返回
+//如果尾
 
 [\s\S]*(.*)[\s\S]*找[\s\S]*(.*)[\s\S]*&[\s\S]*(.*)[\s\S]*翻我空间[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*缺[\s\S]*(.*)[\s\S]*&[\s\S]*(.*)[\s\S]*加[\s\S]*(.*)[\s\S]*
 加你妹
@@ -1585,8 +1599,10 @@ Q群管家我肏你🐴
 $点赞 %QQ% 10$今日已给【%昵称%】10个赞\n
 ⚠仅限好友
 
-@[\s\S]*(.*)[\s\S]*机器人 
-有何贵干？（请发送【回复列表】）
+@.*
+如果:%AT0%==%Robot%
+有何贵干？\n
+请发送【回复列表】
 
 说 ?([\s\S]*(.*)[\s\S]*)
 如果:%QQ%==%主人%
@@ -1604,6 +1620,7 @@ a:$图片链接 %IMG0%$
 %a%\n
 已转链接
 
+//调用BSH文件
 运行信息|运行状态|系统信息
 电量：$BSH DeviceUtils.java getDevicePower$%\n
 内存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$\n
