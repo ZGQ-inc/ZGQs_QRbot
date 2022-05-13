@@ -458,7 +458,7 @@ Yandex识图：\n
 https://yandex.com/images/search?url=%a%&rpt=imageview\n
 必应识图：\n
 https://www.bing.com/images/search?q=imgurl:%a%\n
-天眼搜图：\n
+天眼识图：\n
 https://tineye.com/search?url=%a%\n
 Saucenao搜图：\n
 https://saucenao.com/search.php?url=%a%\n
@@ -468,17 +468,11 @@ Trace.moe以图搜番：\n
 https://trace.moe/?auto&url=%a%
 
 时间
-a:现在是%时间zzzz（ZZZZ）%
-b:$时间格式 %NDTime% yyyy年MM月dd日$
-c:$时间格式 %NDTime% ah:mm EEEE$
-d:同步自服务器原子钟
-e:当前UNIX时间戳：%NDTime%
-±img=http://ffy.shengapi.cn/api/img/hct/hbt.php?msg=%a%|%b%|%c%±
-%a%\n
-%b%\n
-%c%\n
-%d%\n
-%e%
+现在是%时间zzzz（ZZZZ）%\n
+$时间格式 %NDTime% yyyy年MM月dd日$\n
+$时间格式 %NDTime% ah:mm EEEE$\n
+同步自服务器原子钟\n
+当前UNIX时间戳：%NDTime%
 
 问候图
 ±img=http://ovooa.com/API/image_Tnem/?QR_str=https://zgq-inc.github.io&QR_img=https://cdn.jsdelivr.net/gh/ZGQ-inc/homepage@master/images/logo.png&QR_str_ud=个人主页±
@@ -996,6 +990,17 @@ P:@P[pskey]
 P:@P[qun.qq.com]
 $访问 http://ovooa.com/API/Group_list/?Skey=%Skey%&Pskey=%P%&QQ=%Robot%&type=text$
 
+[系统]
+如果:%Status%==33|%Status%==34
+欢迎〔%昵称%〕加入本群！\n
+想了解如何使♀用我？请发送【回复列表】
+返回
+如果尾
+如果:%Status%==84|%Status%==87 
+〔%昵称%〕%QQ%\n
+申请加入本群\n
+请管理员及时查看
+
 [群]群信息
 P:%Json%
 P:@P[pskey]
@@ -1032,16 +1037,6 @@ P:%Json%
 P:@P[pskey]
 P:@P[qun.qq.com]
 $访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
-
-[系统]
-如果:%Status%==33
-欢迎〔%昵称%〕加入本群！\n
-想了解如何使♀用我？请发送【回复列表】
-
-[系统]
-如果:%Status%==34
-欢迎〔%昵称%〕加入本群！\n
-想了解如何使♀用我？请发送【回复列表】
 
 [群]禁言(@.*) (.*)
 如果:%QQ%==%主人%|$管理员 %QQ%$==%QQ%
@@ -1139,59 +1134,75 @@ https://pcstory.ml/?p=263
 https://zgq-inc.github.io/overthefirewall/#blacklist
 
 Telegram|[\s\S]*(.*)[\s\S]*telegram[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*电报[\s\S]*(.*)[\s\S]*
+第三方Telegram、主题、贴纸包下载\n
 https://zgq-inc.github.io/overthefirewall/#Telegram\n
 第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
 
 [\s\S]*(.*)[\s\S]*Google[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*google[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*谷歌商店[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*谷歌服务[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*GMS[\s\S]*(.*)[\s\S]*
+谷歌三件套、第三方谷歌商店\n
 https://zgq-inc.github.io/overthefirewall/#Google
 
 [\s\S]*(.*)[\s\S]*YouTube[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*youtube[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*油管[\s\S]*(.*)[\s\S]*
+第三方YouTube\n
 https://zgq-inc.github.io/overthefirewall/#YouTube\n
 第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
 
 [\s\S]*(.*)[\s\S]*Twitter[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*twitter[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*推特[\s\S]*(.*)[\s\S]*
+第三方Twitter\n
 https://zgq-inc.github.io/overthefirewall/#Twitter\n
 第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
 
 [\s\S]*(.*)[\s\S]*Facebook[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*facebook[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*脸书[\s\S]*(.*)[\s\S]*
+第三方Facebook\n
 https://zgq-inc.github.io/overthefirewall/#Facebook\n
 第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
 
 [\s\S]*(.*)[\s\S]*Netflix[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*netflix[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*奈飞[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*网飞[\s\S]*(.*)[\s\S]*
+第三方Netflix\n
 https://zgq-inc.github.io/overthefirewall/#Netflix
 
 [\s\S]*(.*)[\s\S]*Spotify[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*spotify[\s\S]*(.*)[\s\S]*
+破解版Spotify下载器、音乐下载器\n
 https://zgq-inc.github.io/overthefirewall/#Spotify
 
 [\s\S]*(.*)[\s\S]*Pixiv[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*pixiv[\s\S]*(.*)[\s\S]*
+Pixiv会员破解版、第三方
 https://zgq-inc.github.io/overthefirewall/#Pixiv
 
 [\s\S]*(.*)[\s\S]*WhatsApp[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*whatsapp[\s\S]*(.*)[\s\S]*
+第三方WhatsApp、工具箱、媒体下载器\n
 https://zgq-inc.github.io/overthefirewall/#WhatsApp\n
 第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
 
 [\s\S]*(.*)[\s\S]*Reddit[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*reddit[\s\S]*(.*)[\s\S]*
+Reddit破解会员、第三方\n
 https://zgq-inc.github.io/overthefirewall/#Reddit\n
 第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
 
 [\s\S]*(.*)[\s\S]*Instagram[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*ins[\s\S]*(.*)[\s\S]*|instagram[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*Ins[\s\S]*(.*)[\s\S]*
+Instagram修改版，视频下载器\n
 https://zgq-inc.github.io/overthefirewall/#Instagram
 
 [\s\S]*(.*)[\s\S]*VKontakte[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*vk[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*VK[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*vkontakte[\s\S]*(.*)[\s\S]*
+VKontakte修改版、第三方\n
 https://zgq-inc.github.io/overthefirewall/#VKontakte
 
 [\s\S]*(.*)[\s\S]*TikTok[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*tiktok[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*抖音国际版[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*国际版抖音[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*抖音[\s\S]*(.*)[\s\S]*
+TikTok修改版、插件\n
 https://zgq-inc.github.io/overthefirewall/#TikTok
 
 [\s\S]*(.*)[\s\S]*Twitch[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*twitch[\s\S]*(.*)[\s\S]*
+Twitch修改版、第三方\n
 https://zgq-inc.github.io/overthefirewall/#Twitch\n
 第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
 
 [\s\S]*(.*)[\s\S]*LINE[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*line[\s\S]*(.*)[\s\S]*
+LINE相机\n
 https://zgq-inc.github.io/overthefirewall/#LINE\n
 第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
 
 怎么[\s\S]*(.*)[\s\S]*Steam[\s\S]*(.*)[\s\S]*|怎么[\s\S]*(.*)[\s\S]*steam[\s\S]*(.*)[\s\S]*|steam|Steam|steam++|Steam++
+Steam++\n
 https://zgq-inc.github.io/overthefirewall/#Steam++
 
 [\s\S]*(.*)[\s\S]*冰点[\s\S]*(.*)[\s\S]*群[\s\S]*(.*)[\s\S]*
@@ -1541,6 +1552,8 @@ b:$随机数 1-10$
 a:$获取消息 uin_str2$
 如果:%a%==%Robot%
 干嘛拍人家啦
+返回
+如果尾
 
 [\s\S]*(.*)[\s\S]*找[\s\S]*(.*)[\s\S]*&[\s\S]*(.*)[\s\S]*翻我空间[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*缺[\s\S]*(.*)[\s\S]*&[\s\S]*(.*)[\s\S]*加[\s\S]*(.*)[\s\S]*
 加你妹
