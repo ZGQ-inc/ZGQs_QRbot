@@ -1322,7 +1322,7 @@ b:$随机数 1-9$
 $JSON 获取 a %b%$
 
 早|早上好|早啊
-a:["%c%早比草少了个艹，所以说早的人都欠艹。","早什么早！早上要说：你昨晚真棒。"]
+a:["早比草少了个艹，所以说早的人都欠艹。","早什么早！早上要说：你昨晚真棒。"]
 b:$随机数 1-2$
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012160.png±$JSON 获取 a %b%$
 
