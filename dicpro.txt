@@ -156,6 +156,7 @@ AGEFANS❌\n
 比心［@对象］\n
 撕［@对象］\n
 舔［图片/@对象］\n
+说［内容］\n
 禁言我
 
 网络
@@ -257,7 +258,8 @@ dev回复\n
 添加管理员［@对象］\n
 删除管理员［@对象］\n
 查看管理员\n
-发［内容］到［群号］
+发［内容］到［群号］\n
+强制说［内容］
 
 公告|公告栏
 〔公告栏〕\n
@@ -522,7 +524,7 @@ b:$替换 ⬚ %a%⬚±img=https://hhyfeed.sogoucdn.com/feed/static/images/epidem
 $访问 http://api.yanxi520.cn/api/virus.php?msg=%括号1%$
 
 一言
-🖊️$访问 http://api.yanxi520.cn/api/yan.php?encode=text&charset=utf-8$
+$访问 http://api.yanxi520.cn/api/yan.php?encode=text&charset=utf-8$
 
 一文
 a:$访问 http://ovooa.com/API/mryw/$
@@ -695,31 +697,36 @@ c:$访问 https://xiaobai.klizi.cn/API/other/yinhua.php?msg=%括号1%&n=3$
 d:$访问 https://xiaobai.klizi.cn/API/other/yinhua.php?msg=%括号1%&n=4$
 e:$访问 https://xiaobai.klizi.cn/API/other/yinhua.php?msg=%括号1%&n=5$
 f:$取中间 ⬚ %a%⬚"title": ⬚,$
+1:$替换 ⬚ %f%⬚"序号错误"⬚无结果$
 g:$取中间 ⬚ %a%⬚"url": "⬚",$
+2:$替换 ⬚ %g%⬚序号错误⬚$
 h:$取中间 ⬚ %b%⬚"title": ⬚,$
+3:$替换 ⬚ %h%⬚"序号错误"⬚无结果$
 i:$取中间 ⬚ %b%⬚"url": "⬚",$
+4:$替换 ⬚ %i%⬚序号错误⬚$
 j:$取中间 ⬚ %c%⬚"title": ⬚,$
+5:$替换 ⬚ %j%⬚"序号错误"⬚无结果$
 k:$取中间 ⬚ %c%⬚"url": "⬚",$
+6:$替换 ⬚ %k%⬚序号错误⬚$
 l:$取中间 ⬚ %d%⬚"title": ⬚,$
+7:$替换 ⬚ %l%⬚"序号错误"⬚无结果$
 m:$取中间 ⬚ %d%⬚"url": "⬚",$
+8:$替换 ⬚ %m%⬚序号错误⬚$
 n:$取中间 ⬚ %e%⬚"title": ⬚,$
+9:$替换 ⬚ %n%⬚"序号错误"⬚无结果$
 o:$取中间 ⬚ %e%⬚"url": "⬚",$
-《%括号1%》搜索结果如下：\n
-1\n
-标题：%f%\n
-链接：%g%\n
-2\n
-标题：%h%\n
-链接：%i%\n
-3\n
-标题：%j%\n
-链接：%k%\n
-4\n
-标题：%l%\n
-链接：%m%\n
-5\n
-标题：%n%\n
-链接：%o%
+0:$替换 ⬚ %o%⬚序号错误⬚$
+〔%括号1%〕搜索结果如下：\n
+1.标题：%1%\n
+链接：%2%\n
+2.标题：%3%\n
+链接：%4%\n
+3.标题：%5%\n
+链接：%6%\n
+4.标题：%7%\n
+链接：%8%\n
+5.标题：%9%\n
+链接：%0%
 
 备用下载音乐 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://hm.suol.cc/API/yy.php?type=qq&msg=%括号1%&n=1$
@@ -980,6 +987,11 @@ b:$取中间 ⬚ %a%⬚000000">⬚</text>$
 
 视频解析 ?([\s\S]*(.*)[\s\S]*)
 https://jx.kingtail.xyz/?url=%括号1%
+
+说 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://ovooa.com/API/yuyin/api.php?msg=%括号1%&type=text$
+%a%\n
+此链接只保留30秒
 
 URL解码 ?([\s\S]*)
 $URLDecoder %括号1%$
@@ -1335,7 +1347,7 @@ PowerPoint：微软办公套件之一PPT\n
 <%ĀĀÜ>粉黛\n
 <%ĀĀÝ>朝夕\n
 <%ĀĀ␇Þ>潮流\n
-在群昵称前面加上代码。
+在群昵称前面加上代码
 
 [\s\S]*(.*)[\s\S]*有人吗[\s\S]*(.*)[\s\S]*
 a:["我在哦～","有什么事吗？","怎么了？","我在！","我...我不是人怎么办","为什么非得是人呢（"]
@@ -1630,7 +1642,7 @@ $点赞 %QQ% 10$今日已给【%昵称%】10个赞\n
 有何贵干？\n
 请发送【回复列表】
 
-说 ?([\s\S]*(.*)[\s\S]*)
+强制说 ?([\s\S]*(.*)[\s\S]*)
 如果:%QQ%==%主人%
 %括号1%
 返回
