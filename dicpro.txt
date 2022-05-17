@@ -102,7 +102,7 @@ QQ音乐［歌名］\n
 
 图片
 🖼️━━━图片━━━🖼️\n
-次元图［1A/1B/1C/2A/2B/2C/2D/2E/2F/2G/2H/2Z/3/4/5/6/7/8］\n
+次元图［1A/1B/1C/2A/2B/2C/2D/2E/2F/2G/2H/2X/3/4/5/6/7/8］\n
 必应壁纸\n
 转链接［图片］\n
 ［闪照捕获］（自动）\n
@@ -177,8 +177,8 @@ CRC32编码［文本］
 <━━━━次元图接口━━━━>\n
 ［1A/1B/1C］独角兽API\n
 1A偏动漫；1B偏综合；1C包含R18（参见【接口列表】）\n
-［2A/2B/2C/2D/2E/2F/2G/2H/2Z］MirlKoi图库\n
-2A无涩图；2B全站图，包含R18；2C精选图；2D银发；2E兽耳；2F星空；2G竖屏壁纸；2H横屏壁纸；2Z干好事\n
+［2A/2B/2C/2D/2E/2F/2G/2H/2X］MirlKoi图库\n
+2A无涩图；2B全站图，包含R18；2C精选图；2D银发；2E兽耳；2F星空；2G竖屏壁纸；2H横屏壁纸；2X干好事\n
 https://iw233.cn/main.html\n
 隐藏接口：http://iw233.fgimax2.fgnwctvip.com/API/Ghs.php?type=json\n
 ?type=json删掉为GET指令\n
@@ -379,7 +379,7 @@ c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（横屏壁纸）
 ±img=%c%±
 
-次元图2Z
+次元图2X
 a:$访问 http://iw233.fgimax2.fgnwctvip.com/API/Ghs.php?type=json$
 b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
 c:$替换 ⬚ %b%⬚\⬚$
