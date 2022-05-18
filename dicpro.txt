@@ -945,7 +945,7 @@ a:$图片链接 %IMG0%$
 ±img=http://ovooa.com/API/si/?QQ=%AT0%±
 
 头像框
-$访问 http://ovooa.com/API/head/?QQ=%QQ%$
+±img=http://ovooa.com/API/head/?QQ=%QQ%±
 
 斗图
 a:$访问 http://ovooa.com/API/dou/?type=text$
