@@ -134,3 +134,7 @@ https://api.kieng.cn/
 http://api.shaoyu520.xyz/
 福福API
 http://ff.shengapi.cn/
+星之阁API
+https://api.xingzhige.com/
+世道API
+http://api.sheng123.top/
