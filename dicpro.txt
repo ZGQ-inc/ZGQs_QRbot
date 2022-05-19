@@ -270,13 +270,13 @@ dev回复\n
 （无需at直接发送对应关键词）\n
 💻机器人免费提供 请先联系主人QQ\n
 （把机器人和主人都拉进群 加好友无需验证 请主动发送邀请 不一定能及时处理 见谅）\n
-🔨如果想简单几步建立属于自己的机器人请发送【个人主页】找到资源列表 在软天空APP查看我发的帖子\n
+🔨如果想简单几步建立属于自己的机器人请发送【资源列表】在软天空APP查看我发的帖子\n
 ⚙️服务目前不稳定 是运行在手机上的 经常掉线\n
 （目前已给大约200个群提供服务）\n
 ⚠此号用于机器人不回复私聊 仅限私聊使用\n
 🟡请随意调戏机器人\n
 ┅┅┅┅┅┅\n
-#️⃣本机器人使用QRSpeed作为后台，词库已公开，发送【查看词库】
+#️⃣本机器人使用QRSpeed作为后台，词库已全开源，发送【查看词库】
 
 [\s\S]*(.*)[\s\S]*查看词库[\s\S]*(.*)[\s\S]*
 〔词库〕\n
@@ -1094,6 +1094,69 @@ P:@P[pskey]
 P:@P[qun.qq.com]
 $访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
 
+[群]一键解禁全部
+如果:%QQ%==%主人%|$管理员 %QQ%$==%QQ%
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+a:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+b:$取中间 ⬚ %a%⬚账号：⬚\n禁言$
+$禁 %群号% %b% 0$
+c:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+d:$取中间 ⬚ %c%⬚账号：⬚\n禁言$
+$禁 %群号% %d% 0$
+e:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+f:$取中间 ⬚ %e%⬚账号：⬚\n禁言$
+$禁 %群号% %f% 0$
+g:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+h:$取中间 ⬚ %g%⬚账号：⬚\n禁言$
+$禁 %群号% %h% 0$
+i:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+j:$取中间 ⬚ %i%⬚账号：⬚\n禁言$
+$禁 %群号% %j% 0$
+k:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+l:$取中间 ⬚ %k%⬚账号：⬚\n禁言$
+$禁 %群号% %l% 0$
+m:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+n:$取中间 ⬚ %m%⬚账号：⬚\n禁言$
+$禁 %群号% %n% 0$
+o:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+p:$取中间 ⬚ %o%⬚账号：⬚\n禁言$
+$禁 %群号% %p% 0$
+q:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+r:$取中间 ⬚ %q%⬚账号：⬚\n禁言$
+$禁 %群号% %r% 0$
+s:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+t:$取中间 ⬚ %s%⬚账号：⬚\n禁言$
+$禁 %群号% %t% 0$
+u:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+v:$取中间 ⬚ %u%⬚账号：⬚\n禁言$
+$禁 %群号% %v% 0$
+w:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+x:$取中间 ⬚ %w%⬚账号：⬚\n禁言$
+$禁 %群号% %x% 0$
+y:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+z:$取中间 ⬚ %y%⬚账号：⬚\n禁言$
+$禁 %群号% %z% 0$
+1:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+2:$取中间 ⬚ %1%⬚账号：⬚\n禁言$
+$禁 %群号% %2% 0$
+3:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+4:$取中间 ⬚ %3%⬚账号：⬚\n禁言$
+$禁 %群号% %4% 0$
+5:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+6:$取中间 ⬚ %5%⬚账号：⬚\n禁言$
+$禁 %群号% %6% 0$
+7:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+8:$取中间 ⬚ %7%⬚账号：⬚\n禁言$
+$禁 %群号% %8% 0$
+9:$访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+0:$取中间 ⬚ %9%⬚账号：⬚\n禁言$
+$禁 %群号% %0% 0$
+返回
+如果尾
+⚠你不是主人/机器人管理员
+
 [群]禁言(@.*) (.*)
 如果:%QQ%==%主人%|$管理员 %QQ%$==%QQ%
 $禁 %群% %AT0% [%括号2%*60]$已禁言%括号1% %括号2%分钟
@@ -1272,9 +1335,18 @@ https://zgq-inc.github.io/overthefirewall/#Shadowrocket_Apple_ID
 https://zgq-inc.github.io/transit-groups/
 
 [\s\S]*(.*)[\s\S]*个人主页[\s\S]*(.*)[\s\S]*
-🌐个人主页：https://zgq-inc.github.io/homepage/\n
-🌐国内分流：https://zgq-inc.github.io/homepage/neocities.html\n
-🌐备用主页：https://zgq-inc.github.io/ZGQ-inc/
+🌐个人主页\n
+https://zgq-inc.github.io/homepage/\n
+（Github pages）\n
+🌐Neocities分流\n
+https://zgq-inc.github.io/homepage/neocities.html\n
+（Neocities）\n
+🌐Cloudflare分流\n
+https://zgqinc.pages.dev/\n
+（Cloudflare pages）\n
+🌐备用主页\n
+https://zgq-inc.github.io/ZGQ-inc/\n
+（Github pages）
 
 [\s\S]*(.*)[\s\S]*资源列表[\s\S]*(.*)[\s\S]*
 资源列表\n
@@ -1557,6 +1629,9 @@ b:$随机数 1-3$
 穷
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60011938.png±我也是（哭
 
+贴贴
+±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030141.png±贴～贴～
+
 额|额额|额额额|呃|呃呃|呃呃呃|诶|诶诶|诶诶诶|e|ee|eee
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012086.png±尴～尬～
 
@@ -1601,7 +1676,7 @@ b:$随机数 1-4$
 [\s\S]*(.*)[\s\S]*我是谁[\s\S]*(.*)[\s\S]*
 你是%昵称%
 
-斯哈斯哈|嘶哈嘶哈
+[\s\S]*(.*)[\s\S]*斯哈斯哈[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*嘶哈嘶哈[\s\S]*(.*)[\s\S]*
 a:["斯哈","斯哈斯哈","斯哈斯哈斯哈","斯哈斯哈斯哈","斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈"]
 b:$随机数 1-10$
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012190.png±$JSON 获取 a %b%$
@@ -1642,7 +1717,7 @@ Q群管家我肏你🐴
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274033.png±
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274038.png±
 
-[\s\S]*(.*)[\s\S]*有没有[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*谁有[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*有吗[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*有[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*哪位[\s\S]*(.*)[\s\S]*有[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*哪位[\s\S]*(.*)[\s\S]*给[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*发一下[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*
+[\s\S]*(.*)[\s\S]*有没有[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*谁有[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*有[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*哪位[\s\S]*(.*)[\s\S]*有[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*哪位[\s\S]*(.*)[\s\S]*给[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*发一下[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*
 发送【回复列表】可获取资源
 
 [\s\S]*(.*)[\s\S]*dev恶臭[\s\S]*(.*)[\s\S]*
@@ -1665,9 +1740,6 @@ $点赞 %QQ% 10$今日已给【%昵称%】10个赞\n
 如果尾
 ⚠你不是主人
 
-[撤回].*
-%昵称%尝试撤回一条消息:%参数-1%
-
 转链接.*
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
@@ -1685,5 +1757,5 @@ $BSH DeviceUtils.java getDeviceInfo$
 
 .*
 如果:%FIMG0%!=
-a:$替换 @ %FIMG0%@.jpg@$
+a:$替换 ⬚ %FIMG0%⬚.jpg⬚$
 ±img=%a%±闪照捕获成功！
