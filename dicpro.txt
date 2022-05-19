@@ -84,6 +84,7 @@ P站列表\n
 群龙王\n
 群活跃\n
 群禁言\n
+解禁全部\n
 清屏
 
 音乐
@@ -1094,7 +1095,7 @@ P:@P[pskey]
 P:@P[qun.qq.com]
 $访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
 
-[群]一键解禁全部
+[群]解禁全部
 如果:%QQ%==%主人%|$管理员 %QQ%$==%QQ%
 P:%Json%
 P:@P[pskey]
