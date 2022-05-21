@@ -108,7 +108,7 @@ QQ音乐［歌名］\n
 转链接［图片］\n
 ［闪照捕获］（自动）\n
 以图搜图［图片］\n
-saucenao搜图［图片］\n
+saucenao搜图［图片］（可能有BUG）\n
 ascii2d搜图［图片］（有BUG勿使用）\n
 以图搜番［图片］❌\n
 动漫化［图片］❌\n
@@ -163,6 +163,7 @@ AGEFANS❌\n
 网络
 💻━━━网络━━━💻\n
 ping［网址/IP地址］\n
+端口扫描［网址/IP地址］\n
 URL解码［文本］\n
 URL编码［文本］\n
 HEX解码［文本］\n
@@ -289,7 +290,6 @@ https://zgq-inc.lanzouh.com/iu0St04ri43c\n
 ┅┅┅┅┅┅\n
 ［词库主体］本地相对路径：/QR/QRDic/dicpro.txt\n
 https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/dicpro.txt\n
-┅┅┅┅┅┅\n
 ［BSH文件］本地相对路径：/QR/QRDic/BSH/DeviceUtils.java\n
 https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/BSH/DeviceUtils.java\n
 ┅┅┅┅┅┅\n
@@ -569,6 +569,12 @@ IP归 属地：%d%\n
 丢包率：%j%\n
 总耗时：%k%
 
+端口扫描 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://ffy.shengapi.cn/api/openport.php?ip=%括号1%&port=$
+b:$取中间 ⬚ %a%⬚目标:⬚$
+c:$替换 ⬚ %b%⬚\n━━━━━━━━━\nTips:福福API技术支持⬚$
+查询地址：%c%
+
 二次元的 ?([\s\S]*(.*)[\s\S]*)
 $访问 http://ovooa.com/API/Ser/api?name=%括号1%&type=text$
 
@@ -635,8 +641,8 @@ f:$取中间 ⬚ %a%⬚"music": "⬚",$
 主页生成
 https://ovooa.com/API/grzy/api.php?name=%QQ%&wb=&qq=%QQ%
 
-历史今天
-a:$访问 http://ovooa.com/API/lishi/api.php?n=15$
+历史今天|历史上的今天
+a:$访问 http://ovooa.com/API/lishi/api.php?n=20$
 b:$取中间 ⬚ %a%⬚1：⬚\n2：$
 c:$取中间 ⬚ %a%⬚2：⬚\n3：$
 d:$取中间 ⬚ %a%⬚3：⬚\n4：$
@@ -651,7 +657,7 @@ l:$取中间 ⬚ %a%⬚11：⬚\n12：$
 m:$取中间 ⬚ %a%⬚12：⬚\n13：$
 n:$取中间 ⬚ %a%⬚13：⬚\n14：$
 o:$取中间 ⬚ %a%⬚14：⬚\n15：$
-p:$取中间 ⬚ %a%⬚15：⬚$
+p:$取中间 ⬚ %a%⬚15：⬚\n$
 1：%b%\n
 2：%c%\n
 3：%d%\n
@@ -1515,7 +1521,7 @@ b:$随机数 1-17$
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030267.png±
 不对不对，你在下，我在前，主人在后
 
-@.*我喜欢你|@.*我爱你
+[\s\S]*(.*)[\s\S]*@.*[\s\S]*(.*)[\s\S]*我喜欢你[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*@.*[\s\S]*(.*)[\s\S]*我爱你[\s\S]*(.*)[\s\S]*
 如果:%AT0%==%Robot%
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273935.png±
 我也爱你哦～
@@ -1566,7 +1572,7 @@ b:$随机数 1-5$
 。。。。。[\s\S]*(.*)[\s\S]*
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030184.png±咕噜咕噜咕噜咕噜咕噜～（要溺水啦
 
-@.*老婆
+[\s\S]*(.*)[\s\S]*@.*[\s\S]*(.*)[\s\S]*老婆[\s\S]*(.*)[\s\S]*
 如果:%AT0%==%Robot%
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012068.png±谁是你老婆
 
