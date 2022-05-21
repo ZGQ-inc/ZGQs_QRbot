@@ -72,7 +72,8 @@ P站列表\n
 梗搜索［关键词］\n
 梗排行\n
 百度百科［关键词］\n
-翻译［文本］
+翻译［文本］\n
+搜索［关键词］
 
 群管
 ⚖️━━━群管━━━⚖️\n
@@ -137,6 +138,8 @@ AGEFANS❌\n
 诗词\n
 笑话\n
 绕口令\n
+污句子\n
+祖安\n
 历史今天\n
 舔狗日记\n
 ［关键词］文案\n
@@ -144,6 +147,7 @@ AGEFANS❌\n
 神奇海螺\n
 狗屁不通［内容］\n
 主页生成\n
+运势\n
 星座运势［星座］\n
 藏头诗［内容］\n
 斗图\n
@@ -206,25 +210,50 @@ https://api.ixiaowai.cn/\n
 [\s\S]*(.*)[\s\S]*搜图接口列表[\s\S]*(.*)[\s\S]*
 <━━━━搜图接口━━━━>\n
 谷歌识图：\n
-https://www.google.com/searchbyimage?&image_url=链接\n
+https://www.google.com/searchbyimage?&image_url=［图片链接］\n
 Yandex识图：\n
-https://yandex.com/images/search?url=链接&rpt=imageview\n
+https://yandex.com/images/search?url=［图片链接］&rpt=imageview\n
 必应识图：\n
-https://www.bing.com/images/search?q=imgurl:链接\n
+https://www.bing.com/images/search?q=imgurl:［图片链接］\n
 天眼搜图：\n
-https://tineye.com/search?url=链接\n
+https://tineye.com/search?url=［图片链接］\n
 Saucenao搜图：\n
-https://saucenao.com/search.php?url=链接\n
+https://saucenao.com/search.php?url=［图片链接］\n
 Ascii2d搜图：\n
-https://ascii2d.net/search/url/链接\n
+https://ascii2d.net/search/url/［图片链接］\n
 Trace.moe以图搜番：\n
-https://trace.moe/?auto&url=链接\n
+https://trace.moe/?auto&url=［图片链接］\n
 IQDB搜图：\n
-http://iqdb.org/?url=链接\n
+http://iqdb.org/?url=［图片链接］\n
 IQDB-3Q搜图：\n
-http://3d.iqdb.org/?url=链接\n
+http://3d.iqdb.org/?url=［图片链接］\n
 Karmadecay搜图：\n
-http://karmadecay.com/search?url=链接
+http://karmadecay.com/search?url=［图片链接］
+
+[\s\S]*(.*)[\s\S]*搜索接口列表[\s\S]*(.*)[\s\S]*
+<━━━━搜索接口━━━━>\n
+百度\n
+https://www.baidu.com/s?&tn=68018901_2_oem_dgie=utf-8&wd=［关键词］\n
+Google\n
+https://www.google.com/search?q=［关键词］\n
+必应\n
+https://www4.bing.com/search?q=［关键词］\n
+NAVER\n
+https://search.naver.com/search.naver?&query=［关键词］\n
+DuckDuckGo\n
+https://duckduckgo.com/?q=［关键词］\n
+GitHub\n
+https://github.com/search?q=［关键词］\n
+F搜\n
+https://fsofso.com/search?q=［关键词］\n
+StackOverflow\n
+https://stackoverflow.com/nocaptcha?s=［关键词］\n
+哔哩哔哩\n
+https://search.bilibili.com/all?keyword=［关键词］\n
+Yahoo\n
+https://hk.search.yahoo.com/search?p=［关键词］\n
+Yandex\n
+https://yandex.com/search/?text=［关键词］
 
 [\s\S]*(.*)[\s\S]*接口列表[\s\S]*(.*)[\s\S]*
 <━━━━接口━━━━>\n
@@ -246,6 +275,8 @@ kingtail智能解析\n
 https://jx.kingtail.xyz/\n
 福福API\n
 http://ff.shengapi.cn/\n
+天一API\n
+http://tianyi.qrspeed.pro/\n
 ┅┅┅API大全┅┅┅\n
 https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/tutorial/API.txt\n
 ┅┅┅QRSpeed教程┅┅┅\n
@@ -860,6 +891,9 @@ k:$取中间 ⬚ %a%⬚\r提示：⬚$
 事业运势：%j%\n
 提示：%k%
 
+运势
+$访问 https://ovooa.com/API/Ren/?name=%昵称%&type=text$
+
 网易云热评
 $访问 http://ovooa.com/API/wyrp/api.php?type=text$
 
@@ -1010,6 +1044,41 @@ a:$访问 http://ovooa.com/API/yuyin/api.php?msg=%括号1%&type=text$
 %a%\n
 此链接只保留30秒
 
+污句子
+a:$访问 http://tianyi.qrspeed.pro/api/text_wu.php$
+b:$替换 ⬚ %a%⬚天一API污句子\n━━━━━━━━━\n⬚$
+c:$替换 ⬚ %b%⬚\n━━━━━━━━━\nTips:天一API技术支持⬚$
+%c%
+
+祖安
+a:$随机数 1-5$
+$访问 http://tianyi.qrspeed.pro/api/Ridicule.php?msg=%a%$
+
+搜索 ?([\s\S]*(.*)[\s\S]*)
+a:$URLEncoder %括号1%$
+百度\n
+https://www.baidu.com/s?&tn=68018901_2_oem_dgie=utf-8&wd=%a%\n
+Google\n
+https://www.google.com/search?q=%a%\n
+必应\n
+https://www4.bing.com/search?q=%a%\n
+NAVER\n
+https://search.naver.com/search.naver?&query=%a%\n
+DuckDuckGo\n
+https://duckduckgo.com/?q=%a%\n
+GitHub\n
+https://github.com/search?q=%a%\n
+F搜\n
+https://fsofso.com/search?q=%a%\n
+StackOverflow\n
+https://stackoverflow.com/nocaptcha?s=%a%\n
+哔哩哔哩\n
+https://search.bilibili.com/all?keyword=%a%\n
+Yahoo\n
+https://hk.search.yahoo.com/search?p=%a%\n
+Yandex\n
+https://yandex.com/search/?text=%a%
+
 URL解码 ?([\s\S]*)
 $URLDecoder %括号1%$
 
@@ -1065,9 +1134,6 @@ $访问 http://ovooa.com/API/Group_list/?Skey=%Skey%&Pskey=%P%&QQ=%Robot%&type=t
 请管理员及时查看
 
 [群]群信息
-P:%Json%
-P:@P[pskey]
-P:@P[qun.qq.com]
 a:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=1$
 b:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=3$
 c:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=4$
@@ -1264,7 +1330,7 @@ Telegram|[\s\S]*(.*)[\s\S]*telegram[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*电报[\
 https://zgq-inc.github.io/overthefirewall/#Telegram\n
 第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
 
-[\s\S]*(.*)[\s\S]*Google[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*google[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*谷歌商店[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*谷歌服务[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*GMS[\s\S]*(.*)[\s\S]*
+[\s\S]*(.*)[\s\S]*Google[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*google[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*谷歌商店[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*谷歌服务[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*GMS[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*谷歌三件套[\s\S]*(.*)[\s\S]*
 谷歌三件套、第三方谷歌商店\n
 https://zgq-inc.github.io/overthefirewall/#Google
 
