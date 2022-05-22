@@ -6,7 +6,7 @@
 [\s\S]*(.*)[\s\S]*dev回复[\s\S]*(.*)[\s\S]*
 ✅全局回复功能正常\n
 电量：$BSH DeviceUtils.java getDevicePower$%\n
-内存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$
+运存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$
 
 [\s\S]*(.*)[\s\S]*回复列表[\s\S]*(.*)[\s\S]*|菜单
 〔关键词列表〕\n
@@ -1822,7 +1822,7 @@ a:$图片链接 %IMG0%$
 //调用BSH文件
 运行信息|运行状态|系统信息
 电量：$BSH DeviceUtils.java getDevicePower$%\n
-内存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$\n
+运存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$\n
 系统本地时间：%时间yyyy年MM月dd日HH时mm分ss秒SSS毫秒%\n
 系统运行时间：$BSH DeviceUtils.java getBootTimeStr$\n
 手机型号：$BSH DeviceUtils.java getPhone$\n
