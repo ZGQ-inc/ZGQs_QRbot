@@ -62,7 +62,7 @@ P站列表\n
 ［中国城市］疫情备用\n
 全国疫情❌\n
 全国疫情备用\n
-［城市］天气\n
+［中国城市］天气\n
 今日60\n
 头条\n
 头条榜单\n
@@ -80,13 +80,13 @@ github用户［用户名］
 ⚖️━━━群管━━━⚖️\n
 禁言［@对象+分钟］\n
 解禁［@对象］\n
+群禁言\n
+解禁全部\n
 踢［@对象］\n
 @全体\n
 群信息\n
 群龙王\n
 群活跃\n
-群禁言\n
-解禁全部\n
 清屏
 
 音乐
@@ -309,8 +309,11 @@ dev回复\n
 🔨如果想简单几步建立属于自己的机器人请发送【资源列表】在软天空APP查看我发的帖子\n
 ⚙️服务目前不稳定 是运行在手机上的 经常掉线\n
 （目前已给大约200个群提供服务）\n
-⚠此号用于机器人不回复私聊 仅限私聊使用\n
+⚠此号用于机器人不回复私聊 私聊使用例外\n
 🟡请随意调戏机器人\n
+┅┅┅┅┅┅\n
+零号机：726405624
+一号机：3586924397
 ┅┅┅┅┅┅\n
 #️⃣本机器人使用QRSpeed作为后台，词库已全开源，发送【查看词库】
 
@@ -337,7 +340,7 @@ https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/BSH/DeviceUtils.java\n
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012194.png±
 ❗本AI少女无法被关闭哦
 
-疫情|疫情备用|二次元的|次元图|狗屁不通|随机视频|星座运势|天气|文案|藏头诗|兽语|樱花动漫|QQ音乐|网易云音乐|酷我音乐|酷狗音乐|咪咕音乐电音|下载音乐|备用下载音乐|下载哔哩哔哩|下载MV|梗搜索|搜电影|百度百科|翻译|IP查询|ping|URL解码|URL编码|HEX解码|HEX编码|base64解码|base64编码|unicode解码|unicode编码|md5编码|CRC32编码|禁言|解禁|踢|视频解析
+疫情|疫情备用|二次元的|次元图|狗屁不通|随机视频|星座运势|天气|文案|藏头诗|兽语|樱花动漫|QQ音乐|网易云音乐|酷我音乐|酷狗音乐|咪咕音乐电音|下载音乐|备用下载音乐|下载哔哩哔哩|下载MV|梗搜索|搜电影|百度百科|翻译|IP查询|ping|URL解码|URL编码|HEX解码|HEX编码|base64解码|base64编码|unicode解码|unicode编码|md5编码|CRC32编码|禁言|解禁|踢|视频解析|说|github搜索仓库|github仓库|github用户|搜索
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030045.png±
 ⚠请按照［］指示输入内容！
 
@@ -1147,27 +1150,27 @@ Github主页：%e%\n
 
 搜索 ?([\s\S]*(.*)[\s\S]*)
 a:$URLEncoder %括号1%$
-百度\n
+你就不能百度一下吗？\n
 https://www.baidu.com/s?&tn=68018901_2_oem_dgie=utf-8&wd=%a%\n
-Google\n
+你就不能Google一下吗？\n
 https://www.google.com/search?q=%a%\n
-必应\n
-https://www4.bing.com/search?q=%a%\n
-NAVER\n
+你就不能Bing一下吗？\n
+https://www.bing.com/search?q=%a%\n
+你就不能NAVER一下吗？\n
 https://search.naver.com/search.naver?&query=%a%\n
-DuckDuckGo\n
+你就不能DuckDuckGo一下吗？\n
 https://duckduckgo.com/?q=%a%\n
-GitHub\n
+你就不能GitHub一下吗？\n
 https://github.com/search?q=%a%\n
-F搜\n
+你就不能F搜一下吗？\n
 https://fsofso.com/search?q=%a%\n
-StackOverflow\n
+你就不能StackOverflow一下吗？\n
 https://stackoverflow.com/nocaptcha?s=%a%\n
-哔哩哔哩\n
+你就不能哔哩哔哩一下吗？\n
 https://search.bilibili.com/all?keyword=%a%\n
-Yahoo\n
+你就不能Yahoo一下吗？\n
 https://hk.search.yahoo.com/search?p=%a%\n
-Yandex\n
+你就不能Yandex一下吗？\n
 https://yandex.com/search/?text=%a%
 
 URL解码 ?([\s\S]*)
@@ -1881,7 +1884,7 @@ Q群管家我肏你🐴
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274033.png±
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274038.png±
 
-[\s\S]*(.*)[\s\S]*有没有[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*谁有[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*有[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*哪位[\s\S]*(.*)[\s\S]*有[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*哪位[\s\S]*(.*)[\s\S]*给[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*发一下[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*
+有没有[\s\S]*(.*)[\s\S]*|谁有[\s\S]*(.*)[\s\S]*|有[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*|哪位[\s\S]*(.*)[\s\S]*有[\s\S]*(.*)[\s\S]*|哪位[\s\S]*(.*)[\s\S]*给[\s\S]*(.*)[\s\S]*|发一下[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*
 发送【回复列表】可获取资源
 
 [\s\S]*(.*)[\s\S]*dev恶臭[\s\S]*(.*)[\s\S]*
