@@ -1488,8 +1488,8 @@ https://zgq-inc.github.io/overthefirewall/#LINE\n
 第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
 
 怎么[\s\S]*(.*)[\s\S]*Steam[\s\S]*(.*)[\s\S]*|怎么[\s\S]*(.*)[\s\S]*steam[\s\S]*(.*)[\s\S]*|steam|Steam|steam++|Steam++
-Steam++\n
-https://zgq-inc.github.io/overthefirewall/#Steam++
+Steam++|SteamTools|steamtools\n
+https://zgq-inc.github.io/overthefirewall/#SteamTools
 
 [\s\S]*(.*)[\s\S]*Apple[\s\S]*(.*)[\s\S]*ID[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*apple[\s\S]*(.*)[\s\S]*id[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*苹果[\s\S]*(.*)[\s\S]*ID[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*苹果[\s\S]*(.*)[\s\S]*id[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*apple[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*Apple[\s\S]*(.*)[\s\S]*
 Apple ID注册教程\n
