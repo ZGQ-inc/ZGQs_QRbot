@@ -1909,8 +1909,11 @@ $点赞 %QQ% 10$今日已给【%昵称%】10个赞\n
 
 转链接.*
 如果:%IMG0%!=
-a:$图片链接 %IMG0%$
+//a:$替换 ⬚ %IMG0%⬚.jpg⬚$
+//±img=%a%±
+链接：$图片链接 %IMG0%$
 %a%\n
+MD5：%IMG0%\n
 已转链接
 
 //调用BSH文件
@@ -1925,4 +1928,7 @@ $BSH DeviceUtils.java getDeviceInfo$
 .*
 如果:%FIMG0%!=
 a:$替换 ⬚ %FIMG0%⬚.jpg⬚$
-±img=%a%±闪照捕获成功！
+±img=%a%±
+链接：$图片链接 %FIMG0%$\n
+MD5：%a%\n
+闪照捕获成功！
