@@ -16,7 +16,7 @@
 🤖机器人主人：\n
 %主人% ZGQ Inc.\n
 🌐个人主页：\n
-https://zgq-inc.github.io/\n
+https://zgq-inc.github.io\n
 ┅┅┅┅┅┅┅┅\n
 ©2022 ZGQ Inc. All rights reserved.
 
@@ -87,7 +87,8 @@ github用户［用户名］
 群信息\n
 群龙王\n
 群活跃\n
-清屏
+清屏\n
+强制打开［QQ号］
 
 音乐
 🎵━━━音乐━━━🎵\n
@@ -162,6 +163,16 @@ AGEFANS❌\n
 比心［@对象］\n
 撕［@对象］\n
 舔［图片/@对象］\n
+可莉吃［@对象］\n
+拍［@对象］\n
+吃［@对象］\n
+需要［@对象］\n
+玩［@对象］\n
+捣［@对象］\n
+咬［@对象］\n
+看［@对象］\n
+膜拜［@对象］\n
+摸［@对象］\n
 说［内容］\n
 禁言我
 
@@ -206,7 +217,9 @@ https://api.mtyqx.cn/\n
 ［8］小歪API\n
 https://api.ixiaowai.cn/\n
 ［9A/9B］福福API\n
-9A竖版壁纸；9B精选（参见【接口列表】）
+9A竖版壁纸；9B精选（参见【接口列表】）\n
+［10］清風涩图随机查看器\n
+http://www.oqmm.top/wangy/
 
 [\s\S]*(.*)[\s\S]*搜图接口列表[\s\S]*(.*)[\s\S]*
 <━━━━搜图接口━━━━>\n
@@ -302,18 +315,20 @@ dev回复\n
 公告|公告栏
 〔公告栏〕\n
 ━━━━━━\n
+❗️重要通知❗️\n
+由于零号机频繁被冻结，开始实行白名单制，必须通过主人本人许可或由主人决定是否给本群提供服务。\n
+┅┅┅┅┅┅\n
 🧭发送【回复列表】查看关键词\n
 （无需at直接发送对应关键词）\n
 💻机器人免费提供 请先联系主人QQ\n
 （把机器人和主人都拉进群 加好友无需验证 请主动发送邀请 不一定能及时处理 见谅）\n
 🔨如果想简单几步建立属于自己的机器人请发送【资源列表】在软天空APP查看我发的帖子\n
 ⚙️服务目前不稳定 是运行在手机上的 经常掉线\n
-（目前已给大约200个群提供服务）\n
 ⚠此号用于机器人不回复私聊 私聊使用例外\n
 🟡请随意调戏机器人\n
 ┅┅┅┅┅┅\n
-零号机：726405624
-一号机：3586924397
+零号机：726405624\n
+一号机：3586924397\n
 ┅┅┅┅┅┅\n
 #️⃣本机器人使用QRSpeed作为后台，词库已全开源，发送【查看词库】
 
@@ -339,6 +354,9 @@ https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/BSH/DeviceUtils.java\n
 关机
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012194.png±
 ❗本AI少女无法被关闭哦
+
+查 ?([\s\S]*(.*)[\s\S]*)
+🚫禁止使用机器人查询Q 绑或进行违规违法信息宣传。
 
 疫情|疫情备用|二次元的|次元图|狗屁不通|随机视频|星座运势|天气|文案|藏头诗|兽语|樱花动漫|QQ音乐|网易云音乐|酷我音乐|酷狗音乐|咪咕音乐电音|下载音乐|备用下载音乐|下载哔哩哔哩|下载MV|梗搜索|搜电影|百度百科|翻译|IP查询|ping|URL解码|URL编码|HEX解码|HEX编码|base64解码|base64编码|unicode解码|unicode编码|md5编码|CRC32编码|禁言|解禁|踢|视频解析|说|github搜索仓库|github仓库|github用户|搜索
 ±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030045.png±
@@ -371,9 +389,8 @@ c:$替换 ⬚ %b%⬚\⬚$
 a:$访问 https://iw233.cn/api.php?sort=random&type=json$
 b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
 c:$替换 ⬚ %b%⬚\⬚$
-📎接口：MirlKoi（含R18）\n
-🔞包含R18，使用链接\n
-%c%
+📎接口：MirlKoi（含R18）
+±img=%c%±
 
 次元图2C
 a:$访问 https://iw233.cn/api.php?sort=top&type=json$
@@ -432,7 +449,20 @@ a:$访问 https://img.xjh.me/random_img.php?return=url$
 次元图4
 📎接口：Lolicon\n
 🔞包含R18，使用链接\n
-$访问 POST https://api.lolicon.app/setu/v2 Content-Type: application/text$
+a:$访问 POST https://api.lolicon.app/setu/v2 Content-Type: application/text$
+b:$取中间 ⬚ %a%⬚"pid":⬚,$
+c:$取中间 ⬚ %a%⬚"uid":⬚,$
+d:$取中间 ⬚ %a%⬚"title":"⬚"$
+e:$取中间 ⬚ %a%⬚"author":"⬚"$
+f:$取中间 ⬚ %a%⬚"tags":[⬚],$
+g:$取中间 ⬚ %a%⬚"urls":⬚"}$
+h:$替换 ⬚ %g%⬚{"original":"⬚$
+标题：%d%\n
+画师：%e%\n
+标签：%f%\n
+链接：%h%\n
+作品ID：%b%\n
+画师ID：%c%
 
 次元图5
 a:%20($随机数 1-3413$
@@ -461,6 +491,13 @@ c:$替换 ⬚ %b%⬚\⬚$
 
 次元图9B
 📎接口：福福（精选）±img=http://ffy.shengapi.cn/api/img/acg.php?return=img±
+
+次元图10
+a:$访问 http://www.oqmm.top/wangy/php/api.php$
+b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+c:$替换 ⬚ %b%⬚\⬚$
+📎接口：清風（有点涩）
+±img=%c%±
 
 saucenao搜图.*
 如果:%IMG0%!=
@@ -998,6 +1035,36 @@ a:$图片链接 %IMG0%$
 a:$访问 http://ovooa.com/API/dou/?type=text$
 ±img=%a%±
 
+可莉吃@.*
+±img=http://ovooa.com/API/chi/?QQ=%AT0%±
+
+拍@.*
+±img=http://ovooa.com/API/face_pat/?QQ=%AT0%±
+
+吃@.*
+±img=http://ovooa.com/API/face_bite/?QQ=%AT0%±
+
+需要@.*
+±img=http://ovooa.com/API/face_need/?QQ=%AT0%±
+
+玩@.*
+±img=http://ovooa.com/API/face_play/?QQ=%AT0%±
+
+捣@.*
+±img=http://ovooa.com/API/face_pound/?QQ=%AT0%±
+
+咬@.*
+±img=http://ovooa.com/API/face_suck/?QQ=%AT0%±
+
+看@.*
+±img=http://ovooa.com/API/face_thsee/?QQ=%AT0%±
+
+膜拜@.*
+±img=http://ovooa.com/API/face_worship/?QQ=%AT0%±
+
+摸@.*
+±img=http://ovooa.com/API/face_petpet/?QQ=%AT0%±
+
 以图搜番.*
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
@@ -1226,6 +1293,9 @@ $访问 http://ovooa.com/API/Group_list/?Skey=%Skey%&Pskey=%P%&QQ=%Robot%&type=t
 〔%昵称%〕%QQ%\n
 申请加入本群\n
 请管理员及时查看
+
+强制打开 ?([\s\S]*(.*)[\s\S]*)
+http://ovooa.com/API/tzmp/api.php?qq=%括号1%
 
 [群]群信息
 a:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=1$
@@ -1503,17 +1573,7 @@ https://zgq-inc.github.io/transit-groups/
 
 [\s\S]*(.*)[\s\S]*个人主页[\s\S]*(.*)[\s\S]*
 🌐个人主页\n
-https://zgq-inc.github.io/homepage/\n
-（Github pages）\n
-🌐Neocities分流\n
-https://zgq-inc.github.io/homepage/neocities.html\n
-（Neocities）\n
-🌐Cloudflare分流\n
-https://zgqinc.pages.dev/\n
-（Cloudflare pages）\n
-🌐备用主页\n
-https://zgq-inc.github.io/ZGQ-inc/\n
-（Github pages）
+https://zgq-inc.github.io
 
 [\s\S]*(.*)[\s\S]*资源列表[\s\S]*(.*)[\s\S]*
 资源列表\n
