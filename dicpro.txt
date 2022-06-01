@@ -111,8 +111,8 @@ QQ音乐［歌名］\n
 转链接［图片］\n
 ［闪照捕获］（自动）\n
 以图搜图［图片］\n
-saucenao搜图［图片］（可能有BUG）\n
-ascii2d搜图［图片］（有BUG勿使用）\n
+//saucenao搜图［图片］（可能有BUG）\n
+//ascii2d搜图［图片］（有BUG勿使用）\n
 以图搜番［图片］❌\n
 动漫化［图片］❌\n
 上色［图片］❌\n
@@ -499,68 +499,68 @@ c:$替换 ⬚ %b%⬚\⬚$
 📎接口：清風（有点涩）
 ±img=%c%±
 
-saucenao搜图.*
-如果:%IMG0%!=
-1:$图片链接 %IMG0%$
-a:$访问 POST https://saucenao.com/search.php url=%1%$
-b:$取中间 ⬚ %a%⬚Pixiv Images - ⬚<div class="resultimage" >$
-c:$取中间 ⬚ %b%⬚member.php?id⬚</a>$
-d:$取中间 ⬚ %b%⬚raw-rating="1" src="⬚"$
-e:$取中间 ⬚ %b%⬚<div class="resulttitle"><strong>⬚</strong>$
-f:$取中间 ⬚ %b%⬚"resultsimilarityinfo">⬚</div>$
-g:$取中间 ⬚ %b%⬚illust_id=⬚"$
-h:$取中间 ⬚ %c%⬚"linkify">⬚$
-i:$取中间 ⬚ %c%⬚⬚"$
+//saucenao搜图.*
+//如果:%IMG0%!=
+//1:$图片链接 %IMG0%$
+//a:$访问 POST https://saucenao.com/search.php //url=%1%$
+//b:$取中间 ⬚ %a%⬚Pixiv Images - ⬚<div class="resultimage" >$
+//c:$取中间 ⬚ %b%⬚member.php?id⬚</a>$
+//d:$取中间 ⬚ %b%⬚raw-rating="1" src="⬚"$
+//e:$取中间 ⬚ %b%⬚<div class="resulttitle"><strong>⬚</strong>$
+//f:$取中间 ⬚ %b%⬚"resultsimilarityinfo">⬚</div>$
+//g:$取中间 ⬚ %b%⬚illust_id=⬚"$
+//h:$取中间 ⬚ %c%⬚"linkify">⬚$
+//i:$取中间 ⬚ %c%⬚⬚"$
 //±img=%d%±
-标题：%e%\n
-相似度：%f%\n
-作品链接：https://www.pixiv.net/artworks/%g%\n
-画师：%h%\n
-画师链接：https://www.pixiv.net/users/%i%
+//标题：%e%\n
+//相似度：%f%\n
+//作品链接：https://www.pixiv.net/artworks/%g%\n
+//画师：%h%\n
+//画师链接：https://www.pixiv.net/users/%i%
 
 //有BUG勿使用！
-ascii2d搜图.*
-如果:%IMG0%!=
-1:$图片链接 %IMG0%$
-a:$访问 https://ascii2d.net/search/url/%1%$
-z:$取中间 ⬚ %a%⬚<html><body>You are being <a href="⬚">redirected</a>$
-y:$访问 %z%$
-b:$取中间 ⬚ %y%⬚色合検索⬚</h6>$
-2:$取中间 ⬚ %b%⬚<img loading="eager" src="⬚"$
-c:$取中间 ⬚ %b%⬚<small class="text-muted">⬚</small>$
-d:$取中间 ⬚ %b%⬚<a target="_blank" rel="noopener" href="⬚<small>$
-e:$取中间 ⬚ %d%⬚⬚</a>$
-f:$取中间 ⬚ %e%⬚⬚">$
-g:$取中间 ⬚ %e%⬚">⬚$
-h:$取中间 ⬚ %d%⬚<a target="_blank" rel="noopener" href="⬚</a>$
-i:$取中间 ⬚ %h%⬚⬚">$
-j:$取中间 ⬚ %h%⬚">⬚$
-x:$替换 ⬚ %z%⬚color⬚bovw$
-4:$访问 %x%$
-o:$取中间 ⬚ %4%⬚色合検索⬚</h6>$
-2:$取中间 ⬚ %o%⬚<img loading="eager" src="⬚"$
-p:$取中间 ⬚ %o%⬚<small class="text-muted">⬚</small>$
-q:$取中间 ⬚ %o%⬚<a target="_blank" rel="noopener" href="⬚<small>$
-r:$取中间 ⬚ %q%⬚⬚</a>$
-s:$取中间 ⬚ %r%⬚⬚">$
-t:$取中间 ⬚ %r%⬚">⬚$
-u:$取中间 ⬚ %q%⬚<a target="_blank" rel="noopener" href="⬚</a>$
-i:$取中间 ⬚ %u%⬚⬚">$
-w:$取中间 ⬚ %u%⬚">⬚$
-色合検索
-±img=https://ascii2d.net/%2%±
-作品详情：%c%\n
-作品：%g%\n
-作品链接：%f%\n
-画师：%j%\n
-画师链接：%i%
-特徴検索
-±img=https://ascii2d.net/%3%±
-作品详情：%p%\n
-作品：%t%\n
-作品链接：%s%\n
-画师：%w%\n
-画师链接：%v%
+//ascii2d搜图.*
+//如果:%IMG0%!=
+//1:$图片链接 %IMG0%$
+//a:$访问 https://ascii2d.net/search/url/%1%$
+//z:$取中间 ⬚ %a%⬚<html><body>You are being <a href="⬚">redirected</a>$
+//y:$访问 %z%$
+//b:$取中间 ⬚ %y%⬚色合検索⬚</h6>$
+//2:$取中间 ⬚ %b%⬚<img loading="eager" src="⬚"$
+//c:$取中间 ⬚ %b%⬚<small class="text-muted">⬚</small>$
+//d:$取中间 ⬚ %b%⬚<a target="_blank" rel="noopener" href="⬚<small>$
+//e:$取中间 ⬚ %d%⬚⬚</a>$
+//f:$取中间 ⬚ %e%⬚⬚">$
+//g:$取中间 ⬚ %e%⬚">⬚$
+//h:$取中间 ⬚ %d%⬚<a target="_blank" rel="noopener" href="⬚</a>$
+//i:$取中间 ⬚ %h%⬚⬚">$
+//j:$取中间 ⬚ %h%⬚">⬚$
+//x:$替换 ⬚ %z%⬚color⬚bovw$
+//4:$访问 %x%$
+//o:$取中间 ⬚ %4%⬚色合検索⬚</h6>$
+//2:$取中间 ⬚ %o%⬚<img loading="eager" src="⬚"$
+//p:$取中间 ⬚ %o%⬚<small class="text-muted">⬚</small>$
+//q:$取中间 ⬚ %o%⬚<a target="_blank" rel="noopener" href="⬚<small>$
+//r:$取中间 ⬚ %q%⬚⬚</a>$
+//s:$取中间 ⬚ %r%⬚⬚">$
+//t:$取中间 ⬚ %r%⬚">⬚$
+//u:$取中间 ⬚ %q%⬚<a target="_blank" rel="noopener" href="⬚</a>$
+//i:$取中间 ⬚ %u%⬚⬚">$
+//w:$取中间 ⬚ %u%⬚">⬚$
+//色合検索
+//±img=https://ascii2d.net/%2%±
+//作品详情：%c%\n
+//作品：%g%\n
+//作品链接：%f%\n
+//画师：%j%\n
+//画师链接：%i%
+//特徴検索
+//±img=https://ascii2d.net/%3%±
+//作品详情：%p%\n
+//作品：%t%\n
+//作品链接：%s%\n
+//画师：%w%\n
+//画师链接：%v%
 
 //摆烂模式（
 以图搜图.*
@@ -1295,7 +1295,7 @@ $访问 http://ovooa.com/API/Group_list/?Skey=%Skey%&Pskey=%P%&QQ=%Robot%&type=t
 请管理员及时查看
 
 强制打开 ?([\s\S]*(.*)[\s\S]*)
-http://ovooa.com/API/tzmp/api.php?qq=%括号1%
+强制打开名片：http://ovooa.com/API/tzmp/api.php?qq=%括号1%
 
 [群]群信息
 a:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=1$
@@ -1517,7 +1517,7 @@ https://zgq-inc.github.io/overthefirewall/#Facebook\n
 第三方Netflix\n
 https://zgq-inc.github.io/overthefirewall/#Netflix
 
-[\s\S]*(.*)[\s\S]*Spotify[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*spotify[\s\S]*(.*)[\s\S]*
+[\s\S]*(.*)[\s\S]*Spotify[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*spotify[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*声破天[\s\S]*(.*)[\s\S]*
 破解版Spotify下载器、音乐下载器\n
 https://zgq-inc.github.io/overthefirewall/#Spotify
 
