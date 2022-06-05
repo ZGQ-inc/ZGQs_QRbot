@@ -67,6 +67,11 @@ P站列表\n
 头条\n
 头条榜单\n
 知乎热搜\n
+少数派热度\n
+少数派推荐\n
+少数派早报\n
+IT热榜\n
+IT最新\n
 梗搜索［关键词］\n
 梗排行\n
 百度百科［关键词］\n
@@ -88,7 +93,20 @@ github用户［用户名］
 群龙王\n
 群活跃\n
 清屏\n
-强制打开［QQ号］
+强制打开［QQ号］\n
+群最近事件\n
+群文件\n
+群活跃备用\n
+群不活跃\n
+群精华\n
+群介绍\n
+进群人数\n
+退群人数\n
+发言人数\n
+申请进群\n
+群消息\n
+昨日发言\n
+专属头衔
 
 音乐
 🎵━━━音乐━━━🎵\n
@@ -110,19 +128,18 @@ QQ音乐［歌名］\n
 必应壁纸\n
 转链接［图片］\n
 ［闪照捕获］（自动）\n
-以图搜图［图片］\n
+搜图［图片］\n
 //saucenao搜图［图片］（可能有BUG）\n
 //ascii2d搜图［图片］（有BUG勿使用）\n
 以图搜番［图片］❌\n
 动漫化［图片］❌\n
 上色［图片］❌\n
 抠图［图片］❌\n
-卫星图❌\n
-降水图❌\n
-气温图❌
+气象图
 
 视频
 🎞️━━━视频━━━🎞️\n
+影视［关键词］\n
 搜电影［名字］\n
 AGEFANS❌\n
 樱花动漫［动漫名］\n
@@ -155,6 +172,13 @@ AGEFANS❌\n
 斗图\n
 兽语［内容］\n
 头像框\n
+表情列表\n
+语音［内容］\n
+不存在的人\n
+禁言我
+
+表情列表
+😜━━━表情━━━😜\n
 丢［@对象］\n
 赞［@对象］\n
 跑［@对象］\n
@@ -173,13 +197,49 @@ AGEFANS❌\n
 看［@对象］\n
 膜拜［@对象］\n
 摸［@对象］\n
-说［内容］\n
-禁言我
+抓［@对象］\n
+顶球［@对象］\n
+咬2［@对象］\n
+看这个［@对象］\n
+抱［@对象］\n
+一起笑［@对象］\n
+招财［@对象］\n
+舞鸡腿［@对象］\n
+锤［@对象］\n
+抓2［@对象］\n
+顶［@对象］\n
+垃圾桶［@对象］\n
+推［@对象］\n
+快逃［@对象］\n
+牵［@对象］\n
+马什么梅［内容］\n
+听［@对象］\n
+警察［@对象］\n
+看2［@对象］\n
+想［@对象］\n
+瑞克［@对象］\n
+at我［@对象］\n
+雪球［@对象］\n
+像画［@对象］\n
+脸［@对象］\n
+问号［@对象］\n
+抱着哭［@对象］\n
+精神支柱［@对象］\n
+电视［@对象］\n
+回去工作［@对象］\n
+看3［@对象］\n
+跑2［@对象］\n
+看4［@对象］\n
+看5［@对象］\n
+踢［@对象］\n
+举［@对象］
 
 网络
 💻━━━网络━━━💻\n
 ping［网址/IP地址］\n
+多地ping［网址/IP地址］\n
 端口扫描［网址/IP地址］\n
+备案［网址］\n
 URL解码［文本］\n
 URL编码［文本］\n
 HEX解码［文本］\n
@@ -189,7 +249,20 @@ base64编码［文本］\n
 unicode解码［文本］\n
 unicode编码［文本］\n
 md5编码［文本］\n
-CRC32编码［文本］
+CRC32编码［文本］\n
+摩斯电码编码［文本］\n
+摩斯电码解码［文本］
+
+调试
+〔调试指令〕\n
+━━━━━━\n
+dev回复\n
+运行信息\n
+添加管理员［@对象］\n
+删除管理员［@对象］\n
+查看管理员\n
+发［内容］到［群号］\n
+强制说［内容］
 
 [\s\S]*(.*)[\s\S]*次元图接口列表[\s\S]*(.*)[\s\S]*
 <━━━━次元图接口━━━━>\n
@@ -293,6 +366,14 @@ http://ff.shengapi.cn/\n
 http://tianyi.qrspeed.pro/\n
 Github官方API\n
 https://api.github.com/\n
+韩小韩API\n
+https://api.vvhan.com/\n
+Hitokoto一言API\n
+https://hitokoto.cn/\n
+小冰科技API\n
+http://yysk.yitzu.cn.qingf.top/api/\n
+http://yysk.qingf.top/api/\n
+http://xiaobapi.top/api/\n
 ┅┅┅API大全┅┅┅\n
 https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/tutorial/API.txt\n
 ┅┅┅QRSpeed教程┅┅┅\n
@@ -300,17 +381,6 @@ QRSpeed安装与词库编写入门\n
 http://alouette.top/\n
 变量大全安♡玖特别版\n
 https://icean.moe/
-
-调试
-〔调试指令〕\n
-━━━━━━\n
-dev回复\n
-运行信息\n
-添加管理员［@对象］\n
-删除管理员［@对象］\n
-查看管理员\n
-发［内容］到［群号］\n
-强制说［内容］
 
 公告|公告栏
 〔公告栏〕\n
@@ -380,63 +450,63 @@ c:$替换 ⬚ %b%⬚±⬚$
 
 次元图2A
 a:$访问 https://iw233.cn/api.php?sort=iw233&type=json$
-b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+b:$取中间 ⬚ %a%⬚{"pic":["⬚"]}$
 c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（无R18）
 ±img=%c%±
 
 次元图2B
 a:$访问 https://iw233.cn/api.php?sort=random&type=json$
-b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+b:$取中间 ⬚ %a%⬚{"pic":["⬚"]}$
 c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（含R18）
 ±img=%c%±
 
 次元图2C
 a:$访问 https://iw233.cn/api.php?sort=top&type=json$
-b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+b:$取中间 ⬚ %a%⬚{"pic":["⬚"]}$
 c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（精选）
 ±img=%c%±
 
 次元图2D
 a:$访问 https://iw233.cn/api.php?sort=yin&type=json$
-b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+b:$取中间 ⬚ %a%⬚{"pic":["⬚"]}$
 c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（银发）
 ±img=%c%±
 
 次元图2E
 a:$访问 https://iw233.cn/api.php?sort=cat&type=json$
-b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+b:$取中间 ⬚ %a%⬚{"pic":["⬚"]}$
 c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（兽耳）
 ±img=%c%±
 
 次元图2F
 a:$访问 https://iw233.cn/api.php?sort=xing&type=json$
-b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+b:$取中间 ⬚ %a%⬚{"pic":["⬚"]}$
 c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（星空）
 ±img=%c%±
 
 次元图2G
 a:$访问 https://iw233.cn/api.php?sort=mp&type=json$
-b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+b:$取中间 ⬚ %a%⬚{"pic":["⬚"]}$
 c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（竖屏壁纸）
 ±img=%c%±
 
 次元图2H
 a:$访问 https://iw233.cn/api.php?sort=pc&type=json$
-b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+b:$取中间 ⬚ %a%⬚{"pic":["⬚"]}$
 c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（横屏壁纸）
 ±img=%c%±
 
 次元图2X
 a:$访问 http://iw233.fgimax2.fgnwctvip.com/API/Ghs.php?type=json$
-b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
+b:$取中间 ⬚ %a%⬚{"pic":["⬚"]}$
 c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（秘密接口）\n
 🔞这是个不存在的接口\n
@@ -563,7 +633,7 @@ c:$替换 ⬚ %b%⬚\⬚$
 //画师链接：%v%
 
 //摆烂模式（
-以图搜图.*
+搜图.*
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
 谷歌识图：\n
@@ -608,9 +678,6 @@ b:$替换 ⬚ %a%⬚±img=https://hhyfeed.sogoucdn.com/feed/static/images/epidem
  ?([\s\S]*(.*)[\s\S]*)疫情
 $访问 http://api.yanxi520.cn/api/virus.php?msg=%括号1%$
 
-一言
-$访问 http://api.yanxi520.cn/api/yan.php?encode=text&charset=utf-8$
-
 一文
 a:$访问 http://ovooa.com/API/mryw/$
 b:$取中间 ⬚ %a%⬚"title": "⬚"$
@@ -642,6 +709,23 @@ IP归 属地：%d%\n
 接包数量：%i%\n
 丢包率：%j%\n
 总耗时：%k%
+
+备案 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://xiaobai.klizi.cn/API/wl/icp.php?data=&url=%括号1%$
+b:$取中间 ⬚ %a%⬚"主办单位：": "⬚"$
+c:$取中间 ⬚ %a%⬚"单位性质：": "⬚"$
+d:$取中间 ⬚ %a%⬚"备案号：": "⬚"$
+e:$取中间 ⬚ %a%⬚"网站名称：": "⬚"$
+f:$取中间 ⬚ %a%⬚"网站首页：": "⬚"$
+g:$取中间 ⬚ %a%⬚"审核时间：": "⬚"$
+h:$取中间 ⬚ %a%⬚"最近检测：": "⬚"$
+主办单位：%b%\n
+单位性质：%c%\n
+备案号：%d%\n
+网站名称：%e%\n
+网站首页：%f%\n
+审核时间：%g%\n
+最近检测：%h%
 
 端口扫描 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ffy.shengapi.cn/api/openport.php?ip=%括号1%&port=$
@@ -774,6 +858,268 @@ $访问 https://xiaobai.klizi.cn/API/other/toutiao.php$
 
 头条榜单
 $访问 http://xiaobai.klizi.cn/API/other/ttbd.php?data=&max=$
+
+少数派热度
+a:$访问 https://api.vvhan.com/api/hotlist?type=ssPai$
+b:$取中间 ⬚ %a%⬚"update_time":"⬚"$
+c:$替换 ⬚ %a%⬚\⬚$
+d:$取中间 ⬚ %c%⬚{"index":1,⬚}$
+e:$取中间 ⬚ %d%⬚"title":"⬚"$
+f:$取中间 ⬚ %d%⬚"pic":"⬚"$
+g:$取中间 ⬚ %d%⬚"hot":⬚,$
+h:$取中间 ⬚ %d%⬚"url":"⬚"$
+i:$取中间 ⬚ %c%⬚{"index":2,⬚}$
+j:$取中间 ⬚ %i%⬚"title":"⬚"$
+k:$取中间 ⬚ %i%⬚"pic":"⬚"$
+l:$取中间 ⬚ %i%⬚"hot":⬚,$
+m:$取中间 ⬚ %i%⬚"url":"⬚"$
+n:$取中间 ⬚ %c%⬚{"index":3,⬚}$
+o:$取中间 ⬚ %n%⬚"title":"⬚"$
+p:$取中间 ⬚ %n%⬚"pic":"⬚"$
+q:$取中间 ⬚ %n%⬚"hot":⬚,$
+r:$取中间 ⬚ %n%⬚"url":"⬚"$
+s:$取中间 ⬚ %c%⬚{"index":4,⬚}$
+t:$取中间 ⬚ %s%⬚"title":"⬚"$
+u:$取中间 ⬚ %s%⬚"pic":"⬚"$
+v:$取中间 ⬚ %s%⬚"hot":⬚,$
+w:$取中间 ⬚ %s%⬚"url":"⬚"$
+x:$取中间 ⬚ %c%⬚{"index":5,⬚}$
+y:$取中间 ⬚ %x%⬚"title":"⬚"$
+z:$取中间 ⬚ %x%⬚"pic":"⬚"$
+1:$取中间 ⬚ %x%⬚"hot":⬚,$
+2:$取中间 ⬚ %x%⬚"url":"⬚"$
+3:$取中间 ⬚ %c%⬚{"index":6,⬚}$
+4:$取中间 ⬚ %3%⬚"title":"⬚"$
+5:$取中间 ⬚ %3%⬚"pic":"⬚"$
+6:$取中间 ⬚ %3%⬚"hot":⬚,$
+7:$取中间 ⬚ %3%⬚"url":"⬚"$
+8:$取中间 ⬚ %c%⬚{"index":7,⬚}$
+9:$取中间 ⬚ %8%⬚"title":"⬚"$
+0:$取中间 ⬚ %8%⬚"pic":"⬚"$
+A:$取中间 ⬚ %8%⬚"hot":⬚,$
+B:$取中间 ⬚ %8%⬚"url":"⬚"$
+C:$取中间 ⬚ %c%⬚{"index":8,⬚}$
+D:$取中间 ⬚ %C%⬚"title":"⬚"$
+E:$取中间 ⬚ %C%⬚"pic":"⬚"$
+F:$取中间 ⬚ %C%⬚"hot":⬚,$
+G:$取中间 ⬚ %C%⬚"url":"⬚"$
+H:$取中间 ⬚ %c%⬚{"index":9,⬚}$
+I:$取中间 ⬚ %H%⬚"title":"⬚"$
+J:$取中间 ⬚ %H%⬚"pic":"⬚"$
+K:$取中间 ⬚ %H%⬚"hot":⬚,$
+L:$取中间 ⬚ %H%⬚"url":"⬚"$
+M:$取中间 ⬚ %c%⬚{"index":10,⬚}$
+N:$取中间 ⬚ %M%⬚"title":"⬚"$
+O:$取中间 ⬚ %M%⬚"pic":"⬚"$
+P:$取中间 ⬚ %M%⬚"hot":⬚,$
+Q:$取中间 ⬚ %M%⬚"url":"⬚"$
+少数派最热文章\n
+更新时间：%b%\n
+1.%e%
+±img=%f%±
+热度：%g%℃\n
+链接：%h%\n
+2.%j%
+±img=%k%±
+热度：%l%℃\n
+链接：%m%\n
+3.%o%
+±img=%p%±
+热度：%q%℃\n
+链接：%r%\n
+4.%t%
+±img=%u%±
+热度：%v%℃\n
+链接：%w%\n
+5.%y%
+±img=%z%±
+热度：%1%℃\n
+链接：%2%\n
+6.%4%
+±img=%5%±
+热度：%6%℃\n
+链接：%7%\n
+7.%9%
+±img=%0%±
+热度：%A%℃\n
+链接：%B%\n
+8.%D%
+±img=%E%±
+热度：%F%℃\n
+链接：%G%\n
+9.%I%
+±img=%J%±
+热度：%K%℃\n
+链接：%L%\n
+10.%N%
+±img=%O%±
+热度：%P%℃\n
+链接：%Q%
+
+IT热榜
+a:$访问 https://api.vvhan.com/api/hotlist?type=itInfo$
+b:$取中间 ⬚ %a%⬚"update_time":"⬚"$
+c:$替换 ⬚ %a%⬚\⬚$
+d:$取中间 ⬚ %c%⬚{"index":1,⬚}$
+e:$取中间 ⬚ %d%⬚"title":"⬚"$
+f:$取中间 ⬚ %d%⬚"url":"⬚"$
+g:$取中间 ⬚ %c%⬚{"index":2,⬚}$
+h:$取中间 ⬚ %g%⬚"title":"⬚"$
+i:$取中间 ⬚ %g%⬚"url":"⬚"$
+j:$取中间 ⬚ %c%⬚{"index":3,⬚}$
+k:$取中间 ⬚ %j%⬚"title":"⬚"$
+l:$取中间 ⬚ %j%⬚"url":"⬚"$
+m:$取中间 ⬚ %c%⬚{"index":4,⬚}$
+n:$取中间 ⬚ %m%⬚"title":"⬚"$
+o:$取中间 ⬚ %m%⬚"url":"⬚"$
+p:$取中间 ⬚ %c%⬚{"index":5,⬚}$
+q:$取中间 ⬚ %p%⬚"title":"⬚"$
+r:$取中间 ⬚ %p%⬚"url":"⬚"$
+s:$取中间 ⬚ %c%⬚{"index":6,⬚}$
+t:$取中间 ⬚ %s%⬚"title":"⬚"$
+u:$取中间 ⬚ %s%⬚"url":"⬚"$
+v:$取中间 ⬚ %c%⬚{"index":7,⬚}$
+w:$取中间 ⬚ %v%⬚"title":"⬚"$
+x:$取中间 ⬚ %v%⬚"url":"⬚"$
+y:$取中间 ⬚ %c%⬚{"index":8,⬚}$
+z:$取中间 ⬚ %y%⬚"title":"⬚"$
+1:$取中间 ⬚ %y%⬚"url":"⬚"$
+2:$取中间 ⬚ %c%⬚{"index":9,⬚}$
+3:$取中间 ⬚ %2%⬚"title":"⬚"$
+4:$取中间 ⬚ %2%⬚"url":"⬚"$
+5:$取中间 ⬚ %c%⬚{"index":10,⬚}$
+6:$取中间 ⬚ %5%⬚"title":"⬚"$
+7:$取中间 ⬚ %5%⬚"url":"⬚"$
+IT之家日榜\n
+更新时间：%b%\n
+1.%e%\n
+链接：%f%\n
+2.%h%\n
+链接：%i%\n
+3.%k%\n
+链接：%l%\n
+4.%n%\n
+链接：%o%\n
+5.%q%\n
+链接：%r%\n
+6.%t%\n
+链接：%u%\n
+7.%w%\n
+链接：%x%\n
+8.%z%\n
+链接：%1%\n
+9.%3%\n
+链接：%4%\n
+10.%6%\n
+链接：%7%
+
+IT最新
+a:$访问 https://api.vvhan.com/api/hotlist?type=itNews$
+b:$取中间 ⬚ %a%⬚"update_time":"⬚"$
+c:$替换 ⬚ %a%⬚\⬚$
+d:$取中间 ⬚ %c%⬚{"index":1,⬚}$
+e:$取中间 ⬚ %d%⬚"title":"⬚"$
+f:$取中间 ⬚ %d%⬚"pic":"⬚"$
+g:$取中间 ⬚ %d%⬚"hot":"⬚"$
+h:$取中间 ⬚ %d%⬚"url":"⬚"$
+i:$取中间 ⬚ %c%⬚{"index":2,⬚}$
+j:$取中间 ⬚ %i%⬚"title":"⬚"$
+k:$取中间 ⬚ %i%⬚"pic":"⬚"$
+l:$取中间 ⬚ %i%⬚"hot":"⬚"$
+m:$取中间 ⬚ %i%⬚"url":"⬚"$
+n:$取中间 ⬚ %c%⬚{"index":3,⬚}$
+o:$取中间 ⬚ %n%⬚"title":"⬚"$
+p:$取中间 ⬚ %n%⬚"pic":"⬚"$
+q:$取中间 ⬚ %n%⬚"hot":"⬚"$
+r:$取中间 ⬚ %n%⬚"url":"⬚"$
+s:$取中间 ⬚ %c%⬚{"index":4,⬚}$
+t:$取中间 ⬚ %s%⬚"title":"⬚"$
+u:$取中间 ⬚ %s%⬚"pic":"⬚"$
+v:$取中间 ⬚ %s%⬚"hot":"⬚"$
+w:$取中间 ⬚ %s%⬚"url":"⬚"$
+x:$取中间 ⬚ %c%⬚{"index":5,⬚}$
+y:$取中间 ⬚ %x%⬚"title":"⬚"$
+z:$取中间 ⬚ %x%⬚"pic":"⬚"$
+1:$取中间 ⬚ %x%⬚"hot":"⬚"$
+2:$取中间 ⬚ %x%⬚"url":"⬚"$
+3:$取中间 ⬚ %c%⬚{"index":6,⬚}$
+4:$取中间 ⬚ %3%⬚"title":"⬚"$
+5:$取中间 ⬚ %3%⬚"pic":"⬚"$
+6:$取中间 ⬚ %3%⬚"hot":"⬚"$
+7:$取中间 ⬚ %3%⬚"url":"⬚"$
+8:$取中间 ⬚ %c%⬚{"index":7,⬚}$
+9:$取中间 ⬚ %8%⬚"title":"⬚"$
+0:$取中间 ⬚ %8%⬚"pic":"⬚"$
+A:$取中间 ⬚ %8%⬚"hot":"⬚"$
+B:$取中间 ⬚ %8%⬚"url":"⬚"$
+C:$取中间 ⬚ %c%⬚{"index":8,⬚}$
+D:$取中间 ⬚ %C%⬚"title":"⬚"$
+E:$取中间 ⬚ %C%⬚"pic":"⬚"$
+F:$取中间 ⬚ %C%⬚"hot":"⬚"$
+G:$取中间 ⬚ %C%⬚"url":"⬚"$
+H:$取中间 ⬚ %c%⬚{"index":9,⬚}$
+I:$取中间 ⬚ %H%⬚"title":"⬚"$
+J:$取中间 ⬚ %H%⬚"pic":"⬚"$
+K:$取中间 ⬚ %H%⬚"hot":"⬚"$
+L:$取中间 ⬚ %H%⬚"url":"⬚"$
+M:$取中间 ⬚ %c%⬚{"index":10,⬚}$
+N:$取中间 ⬚ %M%⬚"title":"⬚"$
+O:$取中间 ⬚ %M%⬚"pic":"⬚"$
+P:$取中间 ⬚ %M%⬚"hot":"⬚"$
+Q:$取中间 ⬚ %M%⬚"url":"⬚"$
+IT之家最新\n
+更新时间：%b%\n
+1.%e%
+±img=%f%±
+热度：%g%\n
+链接：%h%\n
+2.%j%
+±img=%k%±
+热度：%l%\n
+链接：%m%\n
+3.%o%
+±img=%p%±
+热度：%q%\n
+链接：%r%\n
+4.%t%
+±img=%u%±
+热度：%v%\n
+链接：%w%\n
+5.%y%
+±img=%z%±
+热度：%1%\n
+链接：%2%\n
+6.%4%
+±img=%5%±
+热度：%6%\n
+链接：%7%\n
+7.%9%
+±img=%0%±
+热度：%A%\n
+链接：%B%\n
+8.%D%
+±img=%E%±
+热度：%F%\n
+链接：%G%\n
+9.%I%
+±img=%J%±
+热度：%K%\n
+链接：%L%\n
+10.%N%
+±img=%O%±
+热度：%P%\n
+链接：%Q%
+
+气象图
+a:$访问 http://xiaobai.klizi.cn/API/other/tianqi_a.php$
+24小时降水量预报
+±img=https://xiaobai.klizi.cn/API/other/data/data/0.jpg±
+24小时最高气温预报
+±img=https://xiaobai.klizi.cn/API/other/data/data/1.jpg±
+1小时降水量实况
+±img=https://xiaobai.klizi.cn/API/other/data/data/2.jpg±
+全国雷达拼图
+±img=https://xiaobai.klizi.cn/API/other/data/data/3.jpg±
 
 藏头诗 ?([\s\S]*(.*)[\s\S]*)
 $访问 https://xiaobai.klizi.cn/API/other/betan.php?msg=%括号1%&a=1&b=7$
@@ -1065,6 +1411,117 @@ a:$访问 http://ovooa.com/API/dou/?type=text$
 摸@.*
 ±img=http://ovooa.com/API/face_petpet/?QQ=%AT0%±
 
+抓@.*
+±img=https://api.xingzhige.com/API/grab/?qq=%AT0%±
+
+顶球@.*
+±img=https://api.xingzhige.com/API/dingqiu/?qq=%AT0%±
+
+咬2@.*
+±img=https://api.xingzhige.com/API/bite/?qq=%AT0%±
+
+看这个@.*
+±img=https://api.xingzhige.com/API/Lookatthis/?qq=%AT0%±
+
+抱@.*
+±img=https://api.xingzhige.com/API/baororo/?qq=%AT0%±
+
+一起笑@.*
+±img=https://api.xingzhige.com/API/LaughTogether/?qq=%AT0%±
+
+招财@.*
+±img=https://api.xingzhige.com/API/FortuneCat/?qq=%AT0%±
+
+舞鸡腿@.*
+±img=https://api.xingzhige.com/API/DanceChickenLeg/?qq=%AT0%±
+
+锤@.*
+±img=https://api.xingzhige.com/API/pound/?qq=%AT0%±
+
+抓2@.*
+±img=http://xiaobai.klizi.cn/API/gif/tightly.php?qq=%AT0%±
+
+顶@.*
+±img=http://xiaobai.klizi.cn/API/gif/play.php?qq=%AT0%±
+
+垃圾桶@.*
+±img=http://xiaobai.klizi.cn/API/gif/garbage.php?qq=%AT0%±
+
+推@.*
+±img=http://xiaobai.klizi.cn/API/gif/roll.php?qq=%AT0%±
+
+快逃@.*
+±img=http://xiaobai.klizi.cn/API/gif/escape.php?qq=%AT0%±
+
+牵@.*
+±img=http://xiaobai.klizi.cn/API/ce/qian.php?qq=%QQ%&qq1=%AT0%±
+
+马冬梅 ?([\s\S]*(.*)[\s\S]*)
+±img=http://yysk.qingf.top/api/xb/api/gif.php?name=%括号1%
+
+听@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/listen_music.php?qq=%AT0%±
+
+警察@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/police2.php?qq=%AT0%±
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/police.php?qq=%AT0%±
+
+看2@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/play_game.php?qq=%AT0%±
+
+想@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/xiang.php?qq=%AT0%±
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/xiang_2.php?qq=%AT0%±
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/xiang_3.php?qq=%AT0%±
+
+瑞克@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/wallpaper.php?qq=%AT0%±
+
+at我@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/whyatme.php?qq=%AT0%±
+
+雪球@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/roll.php?qq=%AT0%±
+
+像画@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/hua.php?qq=%AT0%±
+
+脸@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/cover_face.php?qq=%AT0%±
+
+问号@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/wenhao.php?qq=%AT0%±
+
+抱着哭@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/ku.php?qq=%AT0%±
+
+精神支柱@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/jingshenzhizhu.php?qq=%AT0%±
+
+电视@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/kandianshi.php?qq=%AT0%±
+
+回去工作@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/back_to_work.php?qq=%AT0%±
+
+看3@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/kan_3.php?qq=%AT0%±
+
+跑2@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/run.php?qq=%AT0%±
+
+看4@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/kan_2.php?qq=%AT0%±
+
+看5@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/kan.php?qq=%AT0%±
+
+踢@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/ti.php?qq=%AT0%±
+
+举@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/ju.php?qq=%AT0%±
+
 以图搜番.*
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
@@ -1089,30 +1546,80 @@ a:$图片链接 %IMG0%$
 a:$图片链接 %IMG0%$
 ±img=https://ycx.mxjs.xyz/sqv8/tq/skey/rlfg.php?img=%a%±
 
-卫星图
-a:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/nmcWx.php$
-b:$取中间 ⬚ %b%⬚±img=⬚±$
-±img=%b%±
-
-降水图
-a:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/nmcQx.php?type=tq$
-b:$取中间 ⬚ %b%⬚±img=⬚±$
-1小时内降水量±img=%b%±
-
-气温图
-a:$访问 https://ycx.mxjs.xyz/sqv8/tq/skey/nmcQx.php?type=qw$
-b:$取中间 ⬚ %b%⬚±img=⬚±$
-1小时内气温±img=%b%±
-
 诗词
 a:$访问 https://v2.jinrishici.com/one.svg$
 b:$取中间 ⬚ %a%⬚000000">⬚</text>$
 %b%
 
-视频解析 ?([\s\S]*(.*)[\s\S]*)
-https://jx.kingtail.xyz/?url=%括号1%
+一言
+a:$访问 https://v1.hitokoto.cn/$
+b:$取中间 ⬚ %a%⬚"hitokoto":"⬚"$
+c:$取中间 ⬚ %a%⬚"id":⬚,$
+d:$取中间 ⬚ %a%⬚"from":"⬚"$
+e:$取中间 ⬚ %a%⬚"from_who":"⬚"$
+f:$取中间 ⬚ %a%⬚"creator":"⬚"$
+%b%\n
+来自：%d%（%e%）\n
+创建者：%f%\n
+ID：%c%
 
-说 ?([\s\S]*(.*)[\s\S]*)
+视频解析 ?([\s\S]*(.*)[\s\S]*)
+VIP解析：https://jx.kingtail.xyz/?url=%括号1%
+VIP解析：http://api.guaqb.cn/yi/?url=%括号1%
+短视频解析：http://api.guaqb.cn/ykyun/api.php?url=%括号1%\n
+支持：秒拍 美拍 bilibili 快手 yy神曲 酷我mv 音悦台MV 网易云MV 凤凰 激动视频 唱吧 第一视频网 天籁K歌MV 小咖秀 熊猫TV 花椒直播 全名直播 CCTV 小影 快视频 响巢看看 虎牙视频 爱拍 火山网 配音秀 内涵段子 全名k歌 微录客 蛙趣视频 百思不得姐 龙珠视频 土豆云 人民电视 迅雷 酷狗MV 抖音视频 360视频 抖音 微视
+
+影视 ?(.+)
+a:http://xiaobapi.top/api/xb/api/yingshi.php?msg=%括号1%
+A:$访问 %a%$
+如果:@A[code]!=200
+@A[msg]
+返回
+如果尾
+$访问 %a%&type=text$
+$写 cache/影视/%群号%/%QQ% 名 %括号1%$
+$写 cache/影视/%群号%/%QQ% 页 1$
+
+上一页
+A:$读 cache/影视/%群号%/%QQ% 名 0$
+P:$读 cache/影视/%群号%/%QQ% 页 0$
+a:http://xiaobapi.top/api/xb/api/yingshi.php?msg=%A%&page=[%P%-1]
+A:$访问 %a%$
+如果:@A[code]!=200
+没有上一页了
+返回
+如果尾
+$访问 %a%&type=text$
+$写 cache/影视/%群号%/%QQ% 页 [%P%-1]$
+
+下一页
+A:$读 cache/影视/%群号%/%QQ% 名 0$
+P:$读 cache/影视/%群号%/%QQ% 页 0$
+a:http://xiaobapi.top/api/xb/api/yingshi.php?msg=%A%&page=[%P%+1]
+A:$访问 %a%$
+如果:@A[code]!=200
+没有下一页了
+返回
+如果尾
+$访问 %a%&type=text$
+$写 cache/影视/%群号%/%QQ% 页 [%P%+1]$
+
+([0-9]+)
+A:$读 cache/影视/%群号%/%QQ% 名 0$
+P:$读 cache/影视/%群号%/%QQ% 页 0$
+如果:%A%==0
+返回
+如果尾
+A:$访问 http://xiaobapi.top/api/xb/api/yingshi.php?msg=%A%&page=%P%$
+N:[%括号1%-1]
+U:@A[list][%N%][vod_list]
+b:$访问 %U%&type=text$
+c:$取中间 ⬚ %b%⬚±img=⬚±$
+d:$取中间 ⬚ %b%⬚±\n⬚$
+±img=%c%±
+%d%
+
+语音 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ovooa.com/API/yuyin/api.php?msg=%括号1%&type=text$
 %a%\n
 此链接只保留30秒
@@ -1330,6 +1837,102 @@ P:%Json%
 P:@P[pskey]
 P:@P[qun.qq.com]
 $访问 http://ovooa.com/API/qunjy/api.php?qq=%Robot%&skey=%Skey%&Pskey=%P%&group=%群%&type=text$
+
+[群]群最近事件
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_shijian_caozuo.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+[群]群文件
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_wenjian_caozuo.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+[群]群活跃备用
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_activenumber.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+[群]群不活跃
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_Inactive_member.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+[群]群精华
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_jinghua_list.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+[群]群介绍
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_introduction_tag.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+[群]进群人数
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_joinnumber.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+[群]退群人数
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_exitnumber.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+[群]发言人数
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_msgnumber.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+[群]申请进群
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_applynumber.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+[群]群消息
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_infodata.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+[群]昨日发言
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_fayan_yesterday.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+[群]专属头衔
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_exclusive_title.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+少数派推荐
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/shaoshupai_recommend.php$
+
+少数派早报
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/shaoshupai_morning_paper.php$
+
+多地ping ?([\s\S]*(.*)[\s\S]*)
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/location_pings.php?host=%括号1%&num=10$
+
+摩斯电码编码 ?([\s\S]*(.*)[\s\S]*)
+$访问 http://yysk.qingf.top/api/xb/api/mesdm.php?type=en&msg=%括号1%$
+
+摩斯电码解码 ?([\s\S]*(.*)[\s\S]*)
+$访问 http://yysk.qingf.top/api/xb/api/mesdm.php?type=de&msg=%括号1%$
+
+不存在的人
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/bcz.php±
 
 [群]解禁全部
 如果:%QQ%==%主人%|$管理员 %QQ%$==%QQ%
