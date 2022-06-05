@@ -1,4 +1,4 @@
-# [dicpro.txt](https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/dicpro.txt)
+# [dicpro.txt](https://zgq-inc.github.io/ZGQs_QRbot/dicpro.txt)
 
 > 词库文件
 
