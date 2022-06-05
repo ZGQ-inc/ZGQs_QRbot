@@ -182,6 +182,7 @@ AGEFANS❌\n
 丢［@对象］\n
 赞［@对象］\n
 跑［@对象］\n
+跑2［@对象］\n
 谢谢［@对象］\n
 爬［@对象］\n
 比心［@对象］\n
@@ -194,19 +195,23 @@ AGEFANS❌\n
 玩［@对象］\n
 捣［@对象］\n
 咬［@对象］\n
+咬2［@对象］\n
 看［@对象］\n
+看2［@对象］\n
+看3［@对象］\n
+看4［@对象］\n
+看5［@对象］\n
 膜拜［@对象］\n
 摸［@对象］\n
 抓［@对象］\n
+抓2［@对象］\n
 顶球［@对象］\n
-咬2［@对象］\n
 看这个［@对象］\n
 抱［@对象］\n
 一起笑［@对象］\n
 招财［@对象］\n
 舞鸡腿［@对象］\n
 锤［@对象］\n
-抓2［@对象］\n
 顶［@对象］\n
 垃圾桶［@对象］\n
 推［@对象］\n
@@ -215,7 +220,6 @@ AGEFANS❌\n
 马什么梅［内容］\n
 听［@对象］\n
 警察［@对象］\n
-看2［@对象］\n
 想［@对象］\n
 瑞克［@对象］\n
 at我［@对象］\n
@@ -227,10 +231,6 @@ at我［@对象］\n
 精神支柱［@对象］\n
 电视［@对象］\n
 回去工作［@对象］\n
-看3［@对象］\n
-跑2［@对象］\n
-看4［@对象］\n
-看5［@对象］\n
 踢［@对象］\n
 举［@对象］
 
@@ -375,7 +375,7 @@ http://yysk.yitzu.cn.qingf.top/api/\n
 http://yysk.qingf.top/api/\n
 http://xiaobapi.top/api/\n
 ┅┅┅API大全┅┅┅\n
-https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/tutorial/API.txt\n
+https://zgq-inc.github.io/ZGQs_QRbot/tutorial/API.txt\n
 ┅┅┅QRSpeed教程┅┅┅\n
 QRSpeed安装与词库编写入门\n
 http://alouette.top/\n
@@ -411,25 +411,25 @@ https://zgq-inc.lanzouh.com/iGqdI04ri41a\n
 https://zgq-inc.lanzouh.com/iu0St04ri43c\n
 ┅┅┅┅┅┅\n
 ［词库主体］本地相对路径：/QR/QRDic/dicpro.txt\n
-https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/dicpro.txt\n
+https://zgq-inc.github.io/ZGQs_QRbot/dicpro.txt\n
 ［BSH文件］本地相对路径：/QR/QRDic/BSH/DeviceUtils.java\n
-https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/BSH/DeviceUtils.java\n
+https://zgq-inc.github.io/ZGQs_QRbot/BSH/DeviceUtils.java\n
 ┅┅┅┅┅┅\n
 提示：你可以保存网页为txt或者使用下载器比如ADM下载词库文件。
 
 开机|说明|帮助|查询
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012194.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012194.png±
 ❗请发送【回复列表】
 
 关机
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012194.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012194.png±
 ❗本AI少女无法被关闭哦
 
 查 ?([\s\S]*(.*)[\s\S]*)
 🚫禁止使用机器人查询Q 绑或进行违规违法信息宣传。
 
 疫情|疫情备用|二次元的|次元图|狗屁不通|随机视频|星座运势|天气|文案|藏头诗|兽语|樱花动漫|QQ音乐|网易云音乐|酷我音乐|酷狗音乐|咪咕音乐电音|下载音乐|备用下载音乐|下载哔哩哔哩|下载MV|梗搜索|搜电影|百度百科|翻译|IP查询|ping|URL解码|URL编码|HEX解码|HEX编码|base64解码|base64编码|unicode解码|unicode编码|md5编码|CRC32编码|禁言|解禁|踢|视频解析|说|github搜索仓库|github仓库|github用户|搜索
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030045.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030045.png±
 ⚠请按照［］指示输入内容！
 
 次元图1A
@@ -2270,7 +2270,7 @@ PowerPoint：微软办公套件之一PPT\n
 [\s\S]*(.*)[\s\S]*有人吗[\s\S]*(.*)[\s\S]*
 a:["我在哦～","有什么事吗？","怎么了？","我在！","我...我不是人怎么办","为什么非得是人呢（"]
 b:$随机数 1-6$
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_54972108.png±$JSON 获取 a %b%$
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_54972108.png±$JSON 获取 a %b%$
 
 114514|1919810|1145141919810|野兽先辈|臭[\s\S]*(.*)[\s\S]*
 a:["哼～哼哼～啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊啊啊啊"]
@@ -2280,31 +2280,31 @@ $JSON 获取 a %b%$
 早|早上好|早啊
 a:["早比草少了个艹，所以说早的人都欠艹。","早什么早！早上要说：你昨晚真棒。"]
 b:$随机数 1-2$
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012160.png±$JSON 获取 a %b%$
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012160.png±$JSON 获取 a %b%$
 
 草
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030099.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030099.png±
 青青草原，草！
 
 艹
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030099.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030099.png±
 青青草原，艹！
 
 [\s\S]*(.*)[\s\S]*涩图[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*色图[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273982.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67273982.png±
 整天涩图，把你变成涩图！
 
 [\s\S]*(.*)[\s\S]*涩涩[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030152.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030152.png±
 不能涩涩！
 
 [\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*蛤[\s\S]*(.*)[\s\S]*蛤[\s\S]*(.*)[\s\S]*蛤[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*hahaha[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*hhh[\s\S]*(.*)[\s\S]*
 a:["哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","www","wwww","wwwww","wwwwww","wwwwwww","wwwwwwww","wwwwwwwww","wwwwwwwwww","是什么这么好笑呢","笑死本AI少女了"]
 b:$随机数 1-17$
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012177.png±$JSON 获取 a %b%$
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012177.png±$JSON 获取 a %b%$
 
 [\s\S]*(.*)[\s\S]*爬[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*爪巴[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273951.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67273951.png±
 爬爬爬，我最会爬了
 
 酒酒口我！
@@ -2317,92 +2317,92 @@ b:$随机数 1-17$
 姬！
 
 笑死我了
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273918.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67273918.png±
 人口数-1（不是
 
 [\s\S]*(.*)[\s\S]*晚上好[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*回来了[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*回来啦[\s\S]*(.*)[\s\S]*
 欢迎回来，是先吃饭？还是洗澡？还是...我？
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030152.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030152.png±
 
 [\s\S]*(.*)[\s\S]*大家好[\s\S]*(.*)[\s\S]*|hi[\s\S]*(.*)[\s\S]*|Hi[\s\S]*(.*)[\s\S]*|嗨[\s\S]*(.*)[\s\S]*|你好
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030180.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030180.png±
 你好！
 
 [\s\S]*(.*)[\s\S]*来干我[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60011962.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60011962.png±
 114514，你现在在哪？
 
 [\s\S]*(.*)[\s\S]*干我[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60011962.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60011962.png±
 114514，那你可要主动一点哦（笑
 
 无聊|好无聊
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273959.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67273959.png±
 那...那就来调戏我吧
 
 日ZGQ|透ZGQ|操ZGQ|草ZGQ|艹ZGQ
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030267.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030267.png±
 不对不对，你在下，我在前，主人在后
 
 [\s\S]*(.*)[\s\S]*@.*[\s\S]*(.*)[\s\S]*我喜欢你[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*@.*[\s\S]*(.*)[\s\S]*我爱你[\s\S]*(.*)[\s\S]*
 如果:%AT0%==%Robot%
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273935.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67273935.png±
 我也爱你哦～
 
 笑了|笑
 我真的没笑！......哈↑哈↑哈↑哈↑哈↑啊唔～
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030074.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030074.png±
 
 [\s\S]*(.*)[\s\S]*芜湖[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030068.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030068.png±
 起飞！
 
 [\s\S]*(.*)[\s\S]*八嘎[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030267.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030267.png±
 八 口 戛！
 
 ！|!|[\s\S]*(.*)[\s\S]*！！！[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*!!![\s\S]*(.*)[\s\S]*
 a:["什么！","发生了什么！","怎么回事？","嚯嚯","什么什么！（惊讶","让我康康发生了什么！","哇！","卧槽","不得了呢"]
 b:$随机数 1-9$
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012194.png±$JSON 获取 a %b%$
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012194.png±$JSON 获取 a %b%$
 
 ？
 a:["我也不知道呢～","？","哈？","あ？","啊？","蛤？","嗯？","我不知道","诶？"]
 b:$随机数 1-9$
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030101.png±$JSON 获取 a %b%$
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030101.png±$JSON 获取 a %b%$
 
 [\s\S]*(.*)[\s\S]*？？？[\s\S]*(.*)[\s\S]*
 a:["我真的什么也不知道呢～","有什么问题嘛","啥意思？","这个世界充满了未知","为何不试试把问号扳直呢"]
 b:$随机数 1-5$
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030194.png±$JSON 获取 a %b%$
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030194.png±$JSON 获取 a %b%$
 
  |  |   |    |     |      |       |        |         |          
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030119.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030119.png±
 皇帝的新字！
 
 。
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012175.png±咕噜～
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012175.png±咕噜～
 
 。。
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012175.png±咕噜咕噜～
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012175.png±咕噜咕噜～
 
 。。。
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012175.png±咕噜咕噜咕噜～
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012175.png±咕噜咕噜咕噜～
 
 。。。。
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012175.png±咕噜咕噜咕噜咕噜～
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012175.png±咕噜咕噜咕噜咕噜～
 
 。。。。。[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030184.png±咕噜咕噜咕噜咕噜咕噜～（要溺水啦
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030184.png±咕噜咕噜咕噜咕噜咕噜～（要溺水啦
 
 [\s\S]*(.*)[\s\S]*@.*[\s\S]*(.*)[\s\S]*老婆[\s\S]*(.*)[\s\S]*
 如果:%AT0%==%Robot%
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012068.png±谁是你老婆
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012068.png±谁是你老婆
 
 [\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*吧[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*是[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*什么[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*啊[\s\S]*(.*)[\s\S]*|机器人
 a:["我不是机器人！我是AI少女（","你觉得呢","你猜","我是由ZGQ Inc.调♀教的屑机器人，啊不对，AI少女","啊对对对，我是AI少女（"]
 b:$随机数 1-5$
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030149.png±$JSON 获取 a %b%$
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030149.png±$JSON 获取 a %b%$
 
 [\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*名字[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*机器人[\s\S]*(.*)[\s\S]*叫[\s\S]*(.*)[\s\S]*
 本机器人没有名字哦，如果你是群主或群管理员，可以修改我的群昵称 给我起个好听的名字。
@@ -2410,66 +2410,66 @@ b:$随机数 1-5$
 哦|[\s\S]*(.*)[\s\S]*懂了
 a:["我也懂了（其实没懂","我也知道了（其实没懂","我好像懂了（其实没懂","我懂了！（其实没懂","我知道了！（其实没懂","我也明白了（其实没懂"]
 b:$随机数 1-6$
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030131.png±$JSON 获取 a %b%$
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030131.png±$JSON 获取 a %b%$
 
 嗯
 a:["好！","没问题！","搞定"]
 b:$随机数 1-3$
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012160.png±$JSON 获取 a %b%$
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012160.png±$JSON 获取 a %b%$
 
 [\s\S]*(.*)[\s\S]*我爱你[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030141.png±是在说我吗？我也爱你哦～
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030141.png±是在说我吗？我也爱你哦～
 
 [\s\S]*(.*)[\s\S]*呜呜呜[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273906.png±不哭不哭～
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67273906.png±不哭不哭～
 
 不愧是我
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012096.png±不愧是你
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012096.png±不愧是你
 
 [\s\S]*(.*)[\s\S]*啊对对对[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273918.png±你说什么都对对对
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67273918.png±你说什么都对对对
 
 [\s\S]*(.*)[\s\S]*猫羽雫[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*nacho[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030546.png±老婆！
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030546.png±老婆！
 
 [\s\S]*(.*)[\s\S]*甘城老师[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*甘城[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*甘城なつき[\s\S]*(.*)[\s\S]*|Nachoneko
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012170.png±甘城老师yyds！
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012170.png±甘城老师yyds！
 
 [\s\S]*(.*)[\s\S]*达咩[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012173.png±❎
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012173.png±❎
 
 禁止[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012173.png±达咩
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012173.png±达咩
 
 谢谢
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012186.png±不用谢（？
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012186.png±不用谢（？
 
 离谱
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60011966.png±太离谱！
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60011966.png±太离谱！
 
 好吧
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012175.png±没事了吧
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012175.png±没事了吧
 
 [\s\S]*(.*)[\s\S]*为什么[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030101.png±我也想知道
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030101.png±我也想知道
 
 雀氏|确实
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030099.png±真的诶
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030099.png±真的诶
 
 穷
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60011938.png±我也是（哭
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60011938.png±我也是（哭
 
 贴贴
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030141.png±贴～贴～
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030141.png±贴～贴～
 
 额|额额|额额额|呃|呃呃|呃呃呃|诶|诶诶|诶诶诶|e|ee|eee
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012086.png±尴～尬～
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012086.png±尴～尬～
 
 啊
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012190.png±啊～嗯～（？
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012190.png±啊～嗯～（？
 
 啊这|阿哲|az
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030184.png±阿巴阿巴，我是谁？我在哪？发生了什么？
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030184.png±阿巴阿巴，我是谁？我在哪？发生了什么？
 
 高考加油
 谢谢对我主人的支持！
@@ -2501,7 +2501,7 @@ b:$随机数 1-3$
 [\s\S]*(.*)[\s\S]*是[\s\S]*(.*)[\s\S]*真人[\s\S]*(.*)[\s\S]*
 a:["我是AI少女（","我是由ZGQ Inc.调♀教的屑机器人，啊不对，AI少女","你猜","不告诉你"]
 b:$随机数 1-4$
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_63030149.png±$JSON 获取 a %b%$
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030149.png±$JSON 获取 a %b%$
 
 [\s\S]*(.*)[\s\S]*我是谁[\s\S]*(.*)[\s\S]*
 你是%昵称%
@@ -2509,13 +2509,13 @@ b:$随机数 1-4$
 [\s\S]*(.*)[\s\S]*斯哈斯哈[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*嘶哈嘶哈[\s\S]*(.*)[\s\S]*
 a:["斯哈","斯哈斯哈","斯哈斯哈斯哈","斯哈斯哈斯哈","斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈","斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈斯哈"]
 b:$随机数 1-10$
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_60012190.png±$JSON 获取 a %b%$
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012190.png±$JSON 获取 a %b%$
 
 [\s\S]*(.*)[\s\S]*呐[\s\S]*(.*)[\s\S]*呐[\s\S]*(.*)[\s\S]*呐[\s\S]*(.*)[\s\S]*|呐|NYA[\s\S]*(.*)[\s\S]*|nya[\s\S]*(.*)[\s\S]*
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273993.png±
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274005.png±
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274002.png±
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67273988.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67273993.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67274005.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67274002.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67273988.png±
 
 [\s\S]*(.*)[\s\S]*咕[\s\S]*(.*)[\s\S]*咕[\s\S]*(.*)[\s\S]*咕[\s\S]*(.*)[\s\S]*
 来炖鸽子汤吧
@@ -2541,11 +2541,11 @@ b:$随机数 1-10$
 Q群管家我肏你🐴
 
 清屏
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274027.png±
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274033.png±
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274033.png±
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274033.png±
-±img=https://cdn.jsdelivr.net/gh/ZGQ-inc/ZGQs_QRbot@master/pictures/file_67274038.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67274027.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67274033.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67274033.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67274033.png±
+±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67274038.png±
 
 有没有[\s\S]*(.*)[\s\S]*|谁有[\s\S]*(.*)[\s\S]*|有[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*|哪位[\s\S]*(.*)[\s\S]*有[\s\S]*(.*)[\s\S]*|哪位[\s\S]*(.*)[\s\S]*给[\s\S]*(.*)[\s\S]*|发一下[\s\S]*(.*)[\s\S]*吗[\s\S]*(.*)[\s\S]*
 发送【回复列表】可获取资源
