@@ -1463,11 +1463,11 @@ a:$访问 http://ovooa.com/API/dou/?type=text$
 ±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/listen_music.php?qq=%AT0%±
 
 警察@.*
-±img=https://yysk.yitzu.cn.qingf.top/api/xb/police2.php?qq=%AT0%±
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/police2.php?qq=%AT0%±
 ±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/police.php?qq=%AT0%±
 
 看2@.*
-±img=https://yysk.yitzu.cn.qingf.top/api/xb/play_game.php?qq=%AT0%±
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/play_game.php?qq=%AT0%±
 
 想@.*
 ±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/xiang.php?qq=%AT0%±
