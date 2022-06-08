@@ -141,11 +141,13 @@ QQ音乐［歌名］\n
 🎞️━━━视频━━━🎞️\n
 影视［关键词］\n
 搜电影［名字］\n
+哔哩哔哩\n
 AGEFANS❌\n
 樱花动漫［动漫名］\n
 随机视频［明星/热舞/风景/游戏/动物］\n
 下载哔哩哔哩［视频链接］\n
-下载MV［名字］\n
+波点音乐［歌名］\n
+下载MV［歌名］\n
 视频解析［视频播放地址］
 
 娱乐
@@ -154,6 +156,7 @@ AGEFANS❌\n
 一言\n
 次元一言\n
 一文\n
+小说\n
 诗词\n
 笑话\n
 绕口令\n
@@ -232,13 +235,19 @@ at我［@对象］\n
 电视［@对象］\n
 回去工作［@对象］\n
 踢［@对象］\n
-举［@对象］
+举［@对象］\n
+咸鱼［@对象］\n
+高质量［@对象］\n
+哭［@对象］\n
+求婚［@对象］\n
+牵2
 
 网络
 💻━━━网络━━━💻\n
 ping［网址/IP地址］\n
 多地ping［网址/IP地址］\n
 端口扫描［网址/IP地址］\n
+whois［网址］\n
 备案［网址］\n
 URL解码［文本］\n
 URL编码［文本］\n
@@ -374,6 +383,8 @@ https://hitokoto.cn/\n
 http://yysk.yitzu.cn.qingf.top/api/\n
 http://yysk.qingf.top/api/\n
 http://xiaobapi.top/api/\n
+TenAPI\n
+https://tenapi.cn/\n
 ┅┅┅API大全┅┅┅\n
 https://zgq-inc.github.io/ZGQs_QRbot/tutorial/API.txt\n
 ┅┅┅QRSpeed教程┅┅┅\n
@@ -726,6 +737,24 @@ h:$取中间 ⬚ %a%⬚"最近检测：": "⬚"$
 网站首页：%f%\n
 审核时间：%g%\n
 最近检测：%h%
+
+whois ?([\s\S]*(.*)[\s\S]*)
+a:$访问 https://tenapi.cn/whois/?url=%括号1%$
+b:$取中间 ⬚ %a%⬚"url":"⬚"$
+c:$取中间 ⬚ %a%⬚"registrar":" ⬚"$
+d:$取中间 ⬚ %a%⬚"registrant":"⬚"$
+e:$取中间 ⬚ %a%⬚"mail":"⬚"$
+f:$取中间 ⬚ %a%⬚"registration":" ⬚"$
+g:$取中间 ⬚ %a%⬚"expiration":"⬚"$
+h:$取中间 ⬚ %a%⬚"dns":"⬚"$
+i:$替换 ⬚ %h%⬚<br/>⬚ | $
+地址：%b%\n
+注册商：%c%\n
+注册人：%d%\n
+邮箱：%e%\n
+创建时间：%f%\n
+过期时间：%g%\n
+DNS：%i%
 
 端口扫描 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ffy.shengapi.cn/api/openport.php?ip=%括号1%&port=$
@@ -1321,6 +1350,21 @@ c:$取中间 ⬚ %a%⬚歌曲：⬚$
 ±img=%b%±
 歌名：%c%
 
+波点音乐 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://xiaobai.klizi.cn/API/music/bodian.php?msg=%括号1%&n=1$
+b:$取中间 ⬚ %a%⬚"songName": "⬚"$
+c:$取中间 ⬚ %a%⬚"artist": "⬚"$
+d:$取中间 ⬚ %a%⬚"coverUrl": "⬚"$
+e:$取中间 ⬚ %a%⬚"highUrl": "⬚"$
+f:$取中间 ⬚ %a%⬚"lowUrl": "⬚"$
+g:$取中间 ⬚ %a%⬚"shortLowUrl": "⬚"$
+±img=%d%±
+歌名：%b%\n
+歌手：%c%\n
+超清：%e%\n
+高清：%f%\n
+标清：%g%
+
 兽语 ?([\s\S]*(.*)[\s\S]*)
 兽语翻译：$访问 http://ovooa.com/API/sho_u/?msg=%括号1%&type=text$
 
@@ -1344,6 +1388,19 @@ $访问 http://ovooa.com/API/xiaohua/api.php$
 
 绕口令
 $访问 https://ovooa.com/API/rao/api.php?type=text$
+
+小说 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 http://xiaobai.klizi.cn/API/other/novel.php?msg=%括号1%&n=1$
+b:$取中间 ⬚ %a%⬚"title": "⬚"$
+c:$取中间 ⬚ %a%⬚"author": "⬚"$
+d:$取中间 ⬚ %a%⬚"img": "⬚"$
+e:$取中间 ⬚ %a%⬚"download": "⬚"$
+f:$取中间 ⬚ %a%⬚"js": "⬚"$
+±img=%d%±
+标题：%b%\n
+作者：%c%\n
+描述：%f%\n
+下载地址：%e%
 
 丢@.*
 ±img=http://ovooa.com/API/diu/api.php?QQ=%AT0%±
@@ -1522,6 +1579,21 @@ at我@.*
 举@.*
 ±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/ju.php?qq=%AT0%±
 
+咸鱼@.*
+±img=http://ovooa.com/API/face_yu/?QQ=%AT0%±
+
+高质量@.*
+±img=http://ovooa.com/API/face_gao/?QQ=%AT0%±
+
+哭@.*
+±img=https://ovooa.com/API/face_touch/?QQ=%AT0%±
+
+求婚@.*
+±img=https://ovooa.com/API/face_propose/?QQ=%AT0%±
+
+牵2@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/qian.php?qq=%QQ%&qq2=%AT0%±
+
 以图搜番.*
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
@@ -1618,6 +1690,318 @@ c:$取中间 ⬚ %b%⬚±img=⬚±$
 d:$取中间 ⬚ %b%⬚±\n⬚$
 ±img=%c%±
 %d%
+
+哔哩哔哩
+申请B站二维码~验证\r
+我的用户播放情况\r
+我的专栏数据\r
+我的播放数据\r
+我的历史播放\r
+我的创作首页\r
+我的未读信息\r
+我的私信信息\r
+我的历史播放+页数(默认1)\r
+昵称查重：昵称查重+用户名\r
+用户详情：B站+UID\r
+搜索视频：搜索视频+视频名\r
+视频详情：bv+视频BV\r
+最新视频：最新视频+用户名\r
+B站粉丝量：粉丝量查询\r
+获取热搜榜：B站热搜榜\r
+随机B站主页视频：B站视频\r
+查看收藏夹：收藏夹+UID\r
+收藏夹详情+uid[空格]收藏夹序号[空格]第几个视频
+
+我的未读信息
+a:$读 哔哩哔哩/B站/%QQ% SESSDATA 0$
+如果:%a%==0
+你还没有登录呢，请先发送申请B站二维码
+返回
+如果尾
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_read_message_list.php?SESSDATA=%a%$
+
+我的私信信息
+a:$读 哔哩哔哩/B站/%QQ% SESSDATA 0$
+如果:%a%==0
+你还没有登录呢，请先发送申请B站二维码
+返回
+如果尾
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_message_list.php?SESSDATA=%a%$
+
+申请B站二维码
+a:$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_qrcode.php$
+请在30秒内扫码!\r
+扫完后请手动回复指令"验证"二字
+±img=@a[url]±
+$写 哔哩哔哩/B站/%QQ% key @a[oauthKey]$
+
+验证
+K:$读 哔哩哔哩/B站/%QQ% key 0$
+a:$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_qrcode.php?oauthKey=%K%$
+如果:@a[code]==-1
+二维码已过期
+返回
+如果尾
+如果:@a[DedeUserID]==
+$调用 1000 验证$
+返回
+如果尾
+如果:@a[code]==1
+$写 哔哩哔哩/B站/%QQ% DedeUserID @a[DedeUserID]$
+$写 哔哩哔哩/B站/%QQ% DedeUserID__ckMd5 @a[DedeUserID__ckMd5]$
+$写 哔哩哔哩/B站/%QQ% Expires @a[Expires]$
+$写 哔哩哔哩/B站/%QQ% SESSDATA @a[SESSDATA]$
+$写 哔哩哔哩/B站/%QQ% bili_jct @a[bili_jct]$
+$写 哔哩哔哩/B站/%QQ% gourl @a[gourl]$
+成功啦
+返回
+如果尾
+@a[msg]\r还没有扫码登录吗？
+
+我的历史播放(.*)
+a:$读 哔哩哔哩/B站/%QQ% SESSDATA 0$
+如果:%a%==0
+你还没有登录呢，请先发送申请B站二维码
+返回
+如果尾
+如果:%括号1%==
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_history.php?SESSDATA=%a%&page=1$
+发送"查看我的历史播放+序号"查看详情
+返回
+如果尾
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_history.php?SESSDATA=%a%&page=%括号1%$
+发送"查看我的历史播放+序号"查看详情
+
+查看我的历史播放(.*)
+a:$读 哔哩哔哩/B站/%QQ% SESSDATA 0$
+如果:%a%==0
+你还没有登录呢，请先发送申请B站二维码
+返回
+如果尾
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_history.php?SESSDATA=%a%&n=%括号1%$
+
+我的用户播放情况
+a:$读 哔哩哔哩/B站/%QQ% SESSDATA 0$
+如果:%a%==0
+你还没有登录呢，请先发送申请B站二维码
+返回
+如果尾
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_User_playback_condition.php?SESSDATA=%a%$
+
+我的播放数据
+a:$读 哔哩哔哩/B站/%QQ% SESSDATA 0$
+如果:%a%==0
+你还没有登录呢，请先发送申请B站二维码
+返回
+如果尾
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_Playback_Source_Data.php?SESSDATA=%a%$
+
+我的专栏数据
+a:$读 哔哩哔哩/B站/%QQ% SESSDATA 0$
+如果:%a%==0
+你还没有登录呢，请先发送申请B站二维码
+返回
+如果尾
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_Column_Data.php?SESSDATA=%a%$
+
+我的创作首页
+a:$读 哔哩哔哩/B站/%QQ% SESSDATA 0$
+如果:%a%==0
+你还没有登录呢，请先发送申请B站二维码
+返回
+如果尾
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_Authoring_Home_Page_Data.php?SESSDATA=%a%$
+
+我的历史播放(.*)
+a:$读 哔哩哔哩/B站/%QQ% SESSDATA 0$
+如果:%a%==0
+你还没有登录呢，请先发送申请B站二维码
+返回
+如果尾
+如果:%括号1%==
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_history.php?SESSDATA=%a%&page=1$
+返回
+如果尾
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_history.php?SESSDATA=%a%&page=%括号1%$
+发送"查看我的历史播放+序号"查看详情
+
+查看我的历史播放(.*)
+a:$读 哔哩哔哩/B站/%QQ% SESSDATA 0$
+如果:%a%==0
+你还没有登录呢，请先发送申请B站二维码
+返回
+如果尾
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/bilibili_history.php?SESSDATA=%a%&page=%括号1%&n=%括号1%$
+
+收藏夹([0-9]+)
+a:$访问 http://yysk.yitzu.cn.qingf.top/api/x/biliscj.php?uid=%括号1%$
+如果:%a%==该用户没有收藏视频！
+该用户没有收藏视频！请重新输入
+返回
+如果尾
+$写 哔哩哔哩/B站/%QQ% 收藏夹 %括号1%$
+%a%
+获取收藏夹详情：收藏夹详情+收藏夹列表的序号
+
+收藏夹详情(.*)
+u:$读 哔哩哔哩/B站/%QQ% 收藏夹 0$
+如果:%u%==0
+你还没有获取收藏夹信息呢，请输入收藏夹+UID
+返回
+如果尾
+如果:$访问 http://yysk.yitzu.cn.qingf.top/api/x/biliscj.php?uid=%u%$==该用户没有收藏视频！
+该用户没有收藏视频！请重新输入
+返回
+如果尾
+a:$读 哔哩哔哩/B站/%QQ% SESSDATA 0$
+如果:%a%==0
+你还没有登录呢，请先发送申请B站二维码
+返回
+如果尾
+$写 哔哩哔哩/B站/%QQ% 收藏夹详情 %括号1%$
+b:$访问 http://yysk.yitzu.cn.qingf.top/api/x/biliscj.php?uid=%u%&n=%括号1%$
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/fav.php?SESSDATA=%a%&id=%b%$
+获取视频详情：收藏夹视频+收藏夹列表的序号
+
+收藏夹视频(.*)
+x:$读 哔哩哔哩/B站/%QQ% 收藏夹详情 0$
+如果:%x%==
+你还没有获取收藏夹详情呢，请输入收藏夹详情+收藏夹序号
+返回
+如果尾
+u:$读 哔哩哔哩/B站/%QQ% 收藏夹 0$
+如果:%u%==0
+你还没有获取收藏夹信息呢，请输入收藏夹+UID
+返回
+如果尾
+如果:$访问 http://yysk.yitzu.cn.qingf.top/api/x/biliscj.php?uid=%u%$==该用户没有收藏视频！
+该用户没有收藏视频！请重新输入
+返回
+如果尾
+a:$读 哔哩哔哩/B站/%QQ% SESSDATA 0$
+如果:%a%==0
+你还没有登录呢，请先发送申请B站二维码
+返回
+如果尾
+b:$访问 http://yysk.yitzu.cn.qingf.top/api/x/biliscj.php?uid=%u%&n=%x%$
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/fav.php?SESSDATA=%a%&id=%b%&n=%括号1%$
+
+昵称查重(.*)
+$访问 http://yysk.yitzu.cn.qingf.top/api/xb/api/biliname.php?name=%括号1%$
+
+搜索视频(.*)
+$写 哔哩哔哩/小冰/搜索/%群号%.txt %QQ% %括号1%$
+$访问 http://yysk.yitzu.cn.qingf.top/api/x/search.php?msg=%括号1%$
+
+选视频(.*)
+a:$读 哔哩哔哩/小冰/搜索/%群号%.txt %QQ% 1$
+$访问 http://yysk.yitzu.cn.qingf.top/api/x/search.php?msg=%a%&n=%括号1%$
+
+bv(.*)
+$访问 http://yysk.yitzu.cn.qingf.top/api/x/bv.php?bv=%括号1%$
+
+.*BV(.*)
+$访问 http://yysk.yitzu.cn.qingf.top/api/x/bv.php?bv=BV%括号1%$
+
+最新视频(.*)
+$访问 http://yysk.yitzu.cn.qingf.top/api/x/video.php?msg=%括号1%$
+
+B站热搜榜
+$访问 http://yysk.yitzu.cn.qingf.top/api/x/bl.php$
+
+随机视频(.*)
+$访问 http://yysk.yitzu.cn.qingf.top/api/x/bvvideo.php?id=%括号1%$
+
+B站([0-9]+)
+$访问 http://yysk.yitzu.cn.qingf.top/api/x/grxx.php?uid=%括号1%$
+
+[内部](.*)粉丝量调用
+f:$读 哔哩哔哩/up主/%括号1%.txt uid 0$
+如果:%f%==0
+该up主没有收录噢~\r
+如果想收录请输入\r
+添加up主 [up主名字] [b站uid]
+返回
+如果尾
+p:$读 哔哩哔哩/up主/%括号1%.txt time null$
+b:$访问 http://yysk.yitzu.cn.qingf.top/api/x/uid.php?uid=%f%$
+b:@b[fs]
+$访问 http://yysk.yitzu.cn.qingf.top/api/api/bili.php?uid=%f%$\r
+%括号1%当前粉丝量为:%b%\r
+e:%时间yyyy年M月d日HH时mm分ss秒%-%时间EEEE-aa%
+相比上次查询\r
+$回调 涨掉$\r
+当前时间:%e%\r
+上次查询:%p%
+$写 哔哩哔哩/up主/%括号1%.txt time %e%$
+$写 哔哩哔哩/up主/粉丝.txt a %括号1%$
+
+粉丝量查询
+<up主>粉丝量\r
+添加up主 <up主名> <b站uid>
+
+up主大全
+h:$读 哔哩哔哩/up主/总.txt a []$
+h:$替换 ❃ %h%❃["❃$
+h:$替换 ❃ %h%❃","❃\r
+$
+h:$替换 ❃ %h%❃"]❃$
+已收录:\r
+%h%\r
+可查询
+
+查询(.*)
+f:$读 哔哩哔哩/up主/%括号1%.txt uid 0$
+如果:%f%==0
+该up主没有收录噢~\r
+如果想收录请输入\r
+添加up主 [up主名字] [b站uid]
+返回
+如果尾
+p:$读 哔哩哔哩/up主/%括号1%.txt time null$
+b:$访问 http://yysk.yitzu.cn.qingf.top/api/x/uid.php?uid=%f%$
+b:@b[fs]
+$访问 http://yysk.yitzu.cn.qingf.top/api/api/bili.php?uid=%f%$\r
+%括号1%当前粉丝量为:%b%\r
+e:%时间yyyy年M月d日HH时mm分ss秒%-%时间EEEE-aa%
+相比上次查询\r
+$回调 涨掉$\r
+当前时间:%e%\r
+上次查询:%p%
+$写 哔哩哔哩/up主/%括号1%.txt time %e%$
+$写 哔哩哔哩/up主/粉丝.txt a %括号1%$
+
+[内部]涨掉
+我:$读 哔哩哔哩/up主/粉丝.txt a 0$
+f:$读 哔哩哔哩/up主/%我%.txt uid 0$
+b:$访问 http://yysk.yitzu.cn.qingf.top/api/x/uid.php?uid=%f%$
+b:@b[fs]
+r:$读 哔哩哔哩/up主/%我%.txt fensi 0$
+差:[%r%-%b%]
+如果:%差%==0
+粉丝量没有变化
+返回
+如果尾
+如果:%差%>0
+掉了%差%个粉丝
+$写 哔哩哔哩/up主/%我%.txt fensi %b%$
+返回
+如果尾
+如果:%差%<0
+涨了[%b%-%r%]个粉丝
+$写 哔哩哔哩/up主/%我%.txt fensi %b%$
+
+添加up主 (.*) ([0-9]+)
+f:$读 哔哩哔哩/up主/%括号1%.txt uid 0$
+如果:%f%!=0
+该up主（%括号1%）已收录！
+返回
+如果尾
+（%括号1%）已收录！
+$写 哔哩哔哩/up主/%括号1%.txt uid %括号2%$
+h:$读 哔哩哔哩/up主/总 a []$
+$JSON 添加 h %括号1%$
+$写 哔哩哔哩/up主/总.txt a %h%$
 
 语音 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ovooa.com/API/yuyin/api.php?msg=%括号1%&type=text$
@@ -1923,7 +2307,7 @@ $访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/shaoshupai_recommend.php$
 $访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/shaoshupai_morning_paper.php$
 
 多地ping ?([\s\S]*(.*)[\s\S]*)
-$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/location_pings.php?host=%括号1%&num=10$
+$访问 http://xiaoapi.cn/API/sping.php?url=%括号1%$
 
 摩斯电码编码 ?([\s\S]*(.*)[\s\S]*)
 $访问 http://yysk.qingf.top/api/xb/api/mesdm.php?type=en&msg=%括号1%$
