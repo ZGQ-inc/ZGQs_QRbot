@@ -90,6 +90,7 @@ github用户［用户名］
 踢［@对象］\n
 @全体\n
 群信息\n
+群成员\n
 群龙王\n
 群活跃\n
 清屏\n
@@ -178,7 +179,8 @@ AGEFANS❌\n
 表情列表\n
 语音［内容］\n
 不存在的人\n
-禁言我
+禁言我\n
+改头衔［内容］
 
 表情列表
 😜━━━表情━━━😜\n
@@ -240,7 +242,8 @@ at我［@对象］\n
 高质量［@对象］\n
 哭［@对象］\n
 求婚［@对象］\n
-牵2
+牵2［@对象］\n
+好友［@对象］说［内容］
 
 网络
 💻━━━网络━━━💻\n
@@ -271,7 +274,8 @@ dev回复\n
 删除管理员［@对象］\n
 查看管理员\n
 发［内容］到［群号］\n
-强制说［内容］
+强制说［内容］\n
+群列表
 
 [\s\S]*(.*)[\s\S]*次元图接口列表[\s\S]*(.*)[\s\S]*
 <━━━━次元图接口━━━━>\n
@@ -1594,6 +1598,9 @@ at我@.*
 牵2@.*
 ±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/qian.php?qq=%QQ%&qq2=%AT0%±
 
+好友@.* 说 ?([\s\S]*(.*)[\s\S]*)
+±img=http://api.tangdouz.com/wz/py.php?q=%AT0%&nr=%括号1%±
+
 以图搜番.*
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
@@ -2162,10 +2169,7 @@ $CRC32 %括号1%$
 
 //机器人加入的群
 群列表
-P:%Json%
-P:@P[pskey]
-P:@P[qun.qq.com]
-$访问 http://ovooa.com/API/Group_list/?Skey=%Skey%&Pskey=%P%&QQ=%Robot%&type=text$
+$获取群列表$
 
 //入群欢迎&申请进群提示
 [系统]
@@ -2298,6 +2302,12 @@ P:%Json%
 P:@P[pskey]
 P:@P[qun.qq.com]
 $访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_exclusive_title.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+[群]群成员
+$获取群成员 %群%$
+
+[群]改头衔 ?([\s\S]*(.*)[\s\S]*)
+$群头衔 %群% %QQ% %括号1%$
 
 少数派推荐
 $访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/shaoshupai_recommend.php$
@@ -2955,12 +2965,12 @@ $点赞 %QQ% 10$今日已给【%昵称%】10个赞\n
 
 转链接.*
 如果:%IMG0%!=
-//a:$替换 ⬚ %IMG0%⬚.jpg⬚$
+a:$替换 ⬚ %IMG0%⬚.jpg⬚$
 //±img=%a%±
-链接：$图片链接 %IMG0%$
+链接1：$图片链接 %IMG0%$
+链接2：http://gchat.qpic.cn/gchatpic_new/0/0-0-%a%/0
 %a%\n
-MD5：%IMG0%\n
-已转链接
+MD5：%a%
 
 //调用BSH文件
 运行信息|运行状态|系统信息
