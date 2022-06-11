@@ -107,7 +107,8 @@ github用户［用户名］
 申请进群\n
 群消息\n
 昨日发言\n
-专属头衔
+专属头衔\n
+改头衔［内容］
 
 音乐
 🎵━━━音乐━━━🎵\n
@@ -179,8 +180,7 @@ AGEFANS❌\n
 表情列表\n
 语音［内容］\n
 不存在的人\n
-禁言我\n
-改头衔［内容］
+禁言我
 
 表情列表
 😜━━━表情━━━😜\n
@@ -243,7 +243,10 @@ at我［@对象］\n
 哭［@对象］\n
 求婚［@对象］\n
 牵2［@对象］\n
-好友［@对象］说［内容］
+好友［@对象］说［内容］\n
+捧［@对象］\n
+有害垃圾［@对象］\n
+咕咕咕［@对象］
 
 网络
 💻━━━网络━━━💻\n
@@ -1601,6 +1604,15 @@ at我@.*
 好友@.* 说 ?([\s\S]*(.*)[\s\S]*)
 ±img=http://api.tangdouz.com/wz/py.php?q=%AT0%&nr=%括号1%±
 
+捧@.*
+±img=http://xiaobapi.top/api/xb/api/peng.php?qq=%AT0%±
+
+有害垃圾@.*
+±img=http://xiaobapi.top/api/xb/api/youhailaji.php?qq=%AT0%±
+
+咕咕咕@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/play_game_2.php?qq=%AT0%±
+
 以图搜番.*
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
@@ -1655,7 +1667,9 @@ A:$访问 %a%$
 @A[msg]
 返回
 如果尾
-$访问 %a%&type=text$
+$访问 %a%&type=text$\n
+发送【［上一页］［下一页］】翻页\n
+发送【观看［序号］】选择内容
 $写 cache/影视/%群号%/%QQ% 名 %括号1%$
 $写 cache/影视/%群号%/%QQ% 页 1$
 
@@ -1665,10 +1679,14 @@ P:$读 cache/影视/%群号%/%QQ% 页 0$
 a:http://xiaobapi.top/api/xb/api/yingshi.php?msg=%A%&page=[%P%-1]
 A:$访问 %a%$
 如果:@A[code]!=200
-没有上一页了
+没有上一页了\n
+发送【［上一页］［下一页］】翻页\n
+发送【查看［序号］】选择内容
 返回
 如果尾
-$访问 %a%&type=text$
+$访问 %a%&type=text$\n
+发送【［上一页］［下一页］】翻页\n
+发送【观看［序号］】选择内容
 $写 cache/影视/%群号%/%QQ% 页 [%P%-1]$
 
 下一页
@@ -1677,13 +1695,17 @@ P:$读 cache/影视/%群号%/%QQ% 页 0$
 a:http://xiaobapi.top/api/xb/api/yingshi.php?msg=%A%&page=[%P%+1]
 A:$访问 %a%$
 如果:@A[code]!=200
-没有下一页了
+没有下一页了\n
+发送【［上一页］［下一页］】翻页\n
+发送【观看［序号］】选择内容
 返回
 如果尾
-$访问 %a%&type=text$
+$访问 %a%&type=text$\n
+发送【［上一页］［下一页］】翻页\n
+发送【查看［序号］】选择内容
 $写 cache/影视/%群号%/%QQ% 页 [%P%+1]$
 
-([0-9]+)
+观看([0-9]+)
 A:$读 cache/影视/%群号%/%QQ% 名 0$
 P:$读 cache/影视/%群号%/%QQ% 页 0$
 如果:%A%==0
