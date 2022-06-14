@@ -87,7 +87,7 @@ github用户［用户名］
 解禁［@对象］\n
 群禁言\n
 解禁全部\n
-踢［@对象］\n
+踢出［@对象］\n
 @全体\n
 群信息\n
 群成员\n
@@ -126,7 +126,7 @@ QQ音乐［歌名］\n
 
 图片
 🖼️━━━图片━━━🖼️\n
-次元图［1A/1B/1C/2A/2B/2C/2D/2E/2F/2G/2H/2X/3/4/5/6/7/8］\n
+次元图［1A/1B/1C/2A/2B/2C/2D/2E/2F/2G/2H/2X/3/4/5/6/7/8/9A/9B/10］\n
 必应壁纸\n
 转链接［图片］\n
 ［闪照捕获］（自动）\n
@@ -142,7 +142,6 @@ QQ音乐［歌名］\n
 视频
 🎞️━━━视频━━━🎞️\n
 影视［关键词］\n
-搜电影［名字］\n
 哔哩哔哩\n
 AGEFANS❌\n
 樱花动漫［动漫名］\n
@@ -278,7 +277,10 @@ dev回复\n
 查看管理员\n
 发［内容］到［群号］\n
 强制说［内容］\n
-群列表
+群列表\n
+关闭服务［群号］\n
+开启服务［群号］\n
+关闭当前群服务
 
 [\s\S]*(.*)[\s\S]*次元图接口列表[\s\S]*(.*)[\s\S]*
 <━━━━次元图接口━━━━>\n
@@ -446,7 +448,7 @@ https://zgq-inc.github.io/ZGQs_QRbot/BSH/DeviceUtils.java\n
 查 ?([\s\S]*(.*)[\s\S]*)
 🚫禁止使用机器人查询Q 绑或进行违规违法信息宣传。
 
-疫情|疫情备用|二次元的|次元图|狗屁不通|随机视频|星座运势|天气|文案|藏头诗|兽语|樱花动漫|QQ音乐|网易云音乐|酷我音乐|酷狗音乐|咪咕音乐电音|下载音乐|备用下载音乐|下载哔哩哔哩|下载MV|梗搜索|搜电影|百度百科|翻译|IP查询|ping|URL解码|URL编码|HEX解码|HEX编码|base64解码|base64编码|unicode解码|unicode编码|md5编码|CRC32编码|禁言|解禁|踢|视频解析|说|github搜索仓库|github仓库|github用户|搜索
+疫情|疫情备用|天气|梗搜索|百度百科|翻译|搜索|github搜索仓库|github仓库|github用户|禁言|解禁|踢出|强制打开|改头衔|QQ音乐|网易云音乐|酷我音乐|酷狗音乐|咪咕音乐|电音|下载音乐|备用下载音乐|次元图|以图搜番|动漫化|上色|抠图|影视|樱花动漫|随机视频|下载哔哩哔哩|波点音乐|下载MV|视频解析|文案|二次元的|狗屁不通|星座运势|藏头诗|兽语|语音|ping|多地ping|端口扫描|whois|备案|URL解码|URL编码|HEX解码|HEX编码|base64解码|base64编码|unicode解码|unicode编码|md5编码|CRC32编码|摩斯电码编码|摩斯电码解码|添加管理员|删除管理员|强制说|关闭服务
 ±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030045.png±
 ⚠请按照［］指示输入内容！
 
@@ -587,6 +589,25 @@ c:$替换 ⬚ %b%⬚\⬚$
 📎接口：清風（有点涩）
 ±img=%c%±
 
+//摆烂模式（
+搜图.*
+如果:%IMG0%!=
+a:$图片链接 %IMG0%$
+谷歌识图：\n
+https://www.google.com/searchbyimage?&image_url=%a%\n
+Yandex识图：\n
+https://yandex.com/images/search?url=%a%&rpt=imageview\n
+必应识图：\n
+https://www.bing.com/images/search?q=imgurl:%a%\n
+天眼识图：\n
+https://tineye.com/search?url=%a%\n
+Saucenao搜图：\n
+https://saucenao.com/search.php?url=%a%\n
+Ascii2d搜图：\n
+https://ascii2d.net/search/url/%a%\n
+Trace.moe以图搜番：\n
+https://trace.moe/?auto&url=%a%
+
 //saucenao搜图.*
 //如果:%IMG0%!=
 //1:$图片链接 %IMG0%$
@@ -649,25 +670,6 @@ c:$替换 ⬚ %b%⬚\⬚$
 //作品链接：%s%\n
 //画师：%w%\n
 //画师链接：%v%
-
-//摆烂模式（
-搜图.*
-如果:%IMG0%!=
-a:$图片链接 %IMG0%$
-谷歌识图：\n
-https://www.google.com/searchbyimage?&image_url=%a%\n
-Yandex识图：\n
-https://yandex.com/images/search?url=%a%&rpt=imageview\n
-必应识图：\n
-https://www.bing.com/images/search?q=imgurl:%a%\n
-天眼识图：\n
-https://tineye.com/search?url=%a%\n
-Saucenao搜图：\n
-https://saucenao.com/search.php?url=%a%\n
-Ascii2d搜图：\n
-https://ascii2d.net/search/url/%a%\n
-Trace.moe以图搜番：\n
-https://trace.moe/?auto&url=%a%
 
 时间
 现在是%时间zzzz（ZZZZ）%\n
@@ -1271,13 +1273,6 @@ a:$访问 https://xiaobai.klizi.cn/API/other/bing.php$
 
 今日60
 ±img=https://xiaobai.klizi.cn/API/other/60s.php±
-
-搜电影 ?([\s\S]*(.*)[\s\S]*)
-a:$访问 http://hm.suol.cc/API/dy.php?msg=%括号1%&n=1$
-b:$取中间 ⬚ %a%⬚名称⬚图片$
-c:$取中间 ⬚ %a%⬚图片：⬚$
-±img=%c%±
-名称%b%
 
 百度百科 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 http://ovooa.com/API/bdbk/?Msg=%括号1%&type=text$
@@ -2226,8 +2221,7 @@ f:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=tex
 群等级：%e%\n
 群人数：%b%/%c%\n
 群主：%a%\n
-管理员：%f%\n
-群最多管理员：%d%
+管理员：%f%/%d%
 
 [群]群龙王
 P:%Json%
@@ -2434,7 +2428,7 @@ $禁 %群号% %AT0% 0$已解禁%括号1%
 如果尾
 ⚠你不是主人/机器人管理员
 
-[群]踢(@.*)
+[群]踢出(@.*)
 如果:%QQ%==%主人%|$管理员 %QQ%$==%QQ%
 $踢 %群% %AT0%$已踢出%括号1%
 返回
@@ -2471,6 +2465,27 @@ $删除管理员 %AT0%$已成功移除〔%AT0%〕的管理权限
 发(.*)到(.*)
 如果:%QQ%==%主人%
 $发送 群 msg %括号2% %括号1%$
+返回
+如果尾
+⚠你不是主人
+
+关闭服务(.*)
+如果:%QQ%==%主人%
+$设置群状态 %括号1% 关$
+返回
+如果尾
+⚠你不是主人
+
+开启服务(.*)
+如果:%QQ%==%主人%
+$设置群状态 %括号1% 开$
+返回
+如果尾
+⚠你不是主人
+
+关闭当前群服务
+如果:%QQ%==%主人%
+$设置群状态 %群% 关$
 返回
 如果尾
 ⚠你不是主人
@@ -2616,8 +2631,10 @@ https://zgq-inc.github.io/SB-Tencent/\n
 
 [\s\S]*(.*)[\s\S]*百度网盘[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*百毒网盘[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*度盘[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*百度云[\s\S]*(.*)[\s\S]*
 百毒网盘如何破限速：\n
-KinhDown（加速！永无止境）\n
-https://kinhdown.kinh.cc/\n
+━━━━━━━━\n
+Antdownload 度盘下载器 v3.0.6 - 果核剥壳\n
+https://www.ghxi.com/antdownload.html\n
+┅┅┅┅┅┅┅┅\n
 伪Pandownload v0.0.4 公测版 - 果核剥壳\n
 https://www.ghxi.com/wpandownload.html\n
 PanDownload - PanDownload\n
@@ -2636,7 +2653,7 @@ https://zgq-inc.github.io/overthefirewall/sponsor.html
 p站列表|P站列表
 Pixiv：不用说\n
 https://zgq-inc.github.io/overthefirewall/#Pixiv\n
-P**nhub：昔日最大𝐀𝐕网站\n
+P**nhub：昔日最大??𝐕网站\n
 Petreon：作者恰饭平台，用于支付费用\n
 Picsart：图片编辑\n
 Photoshop：Adobe Photoshop\n
