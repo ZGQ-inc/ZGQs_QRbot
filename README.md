@@ -10,4 +10,10 @@
 
 > 插件
 
+# 功能一览
+
+![function-menu](https://zgq-inc.github.io/ZGQs_QRbot/preview/Screenshot_20220615-111052_Gallery.jpg)
+
+![function](https://zgq-inc.github.io/ZGQs_QRbot/ZGQs_QRbot/preview/Screenshot_20220615-111052_Gallery.jpg)
+
 # [个人主页](https://zgq-inc.github.io)
