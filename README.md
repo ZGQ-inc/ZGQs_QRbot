@@ -14,6 +14,6 @@
 
 ![function-menu](https://zgq-inc.github.io/ZGQs_QRbot/preview/Screenshot_20220615-111052_Gallery.jpg)
 
-![function](https://zgq-inc.github.io/ZGQs_QRbot/preview/Screenshot_20220615-111052_Gallery.jpg)
+![function](https://zgq-inc.github.io/ZGQs_QRbot/preview/PSX_20220615_111627.jpg)
 
 # [个人主页](https://zgq-inc.github.io)
