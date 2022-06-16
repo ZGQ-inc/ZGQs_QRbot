@@ -142,7 +142,14 @@ QQ音乐［歌名］\n
 动漫化［图片］❌\n
 上色［图片］❌\n
 抠图［图片］❌\n
-气象图
+气象图\n
+空气质量\n
+地球\n
+人造天体\n
+星空\n
+太阳\n
+太阳系\n
+月相
 
 视频
 🎞️━━━视频━━━🎞️\n
@@ -404,6 +411,14 @@ http://yysk.qingf.top/api/\n
 http://xiaobapi.top/api/\n
 TenAPI\n
 https://tenapi.cn/\n
+NSMC Home\n
+https://www.nsmc.org.cn/nsmc/en/home/index.html\n
+Heavens-Above\n
+https://heavens-above.com/main.aspx\n
+全国空气质量指数查询 - PM2.5实时地图、空气污染排名 - AirLevel\n
+http://m.air-level.com/\n
+NASA's Goddard Space Flight Center | NASA\n
+https://www.nasa.gov/goddard\n
 ┅┅┅API大全┅┅┅\n
 https://zgq-inc.github.io/ZGQs_QRbot/tutorial/API.txt\n
 ┅┅┅QRSpeed教程┅┅┅\n
@@ -1434,6 +1449,63 @@ f:$取中间 ⬚ %a%⬚"js": "⬚"$
 描述：%f%\n
 下载地址：%e%
 
+空气质量
+a:$访问 http://m.air-level.com/$
+b:$取中间 ⬚ %a%⬚<div class="text-center">⬚</div>$
+c:$取中间 ⬚ %b%⬚<h4>⬚</h4>$
+d:$取中间 ⬚ %b%⬚<img src="⬚"$
+全国空气质量指数(AQI) PM2.5实时地图\n
+%c%
+±img=%d%±
+说明：全国各城市空气质量及PM2.5实时数据来自于中国环保部，每小时更新
+
+地球
+FY3D
+±img=http://img.nsmc.org.cn/CLOUDIMAGE/FY3D/MIPS/FY3D_MERSI_GLOBAL.jpg±
+GEO
+±img=http://img.nsmc.org.cn/CLOUDIMAGE/GEOS/MOS/IRX/PIC/GBAL/GEOS_IMAGR_GBAL_L2_MOS_IRX_GLL_YYYYMMDD_HHmm_10KM_MS.jpg±
+
+人造天体
+知名人造天体实时位置\n
+国际空间站（ISS）俯视图
+±img=https://www.heavens-above.com/orbitdisplay.aspx?icon=iss&width=800&height=800&mode=A&satid=25544±
+星下点轨迹
+±img=https://www.heavens-above.com/orbitdisplay.aspx?icon=iss&width=1200&height=600&mode=M&satid=25544±
+高度
+±img=https://heavens-above.com/OrbitHeightPlot.aspx?Width=2000&Height=600&satid=25544&cul=zh±
+天宫号空间站俯视图
+±img=https://www.heavens-above.com/orbitdisplay.aspx?icon=default&width=800&height=800&mode=A&satid=48274±
+星下点轨迹
+±img=https://www.heavens-above.com/orbitdisplay.aspx?icon=default&width=1200&height=600&mode=M&satid=48274±
+哈勃空间望远镜俯视图
+±img=https://www.heavens-above.com/orbitdisplay.aspx?icon=default&width=800&height=800&mode=A&satid=20580±
+星下点轨迹
+±img=https://www.heavens-above.com/orbitdisplay.aspx?icon=default&width=1200&height=600&mode=M&satid=20580±
+
+星空
+实时星空图
+±img=https://heavens-above.com/wholeskychart.ashx?lat=0&lng=0&loc=Unspecified&alt=0&tz=UCT&size=800&SL=1&SN=1&BW=0&ecl=1&cb=1±
+
+太阳
+AIA 0193  Å
+±img=https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0193pfss.jpg±
+AIA 0304  Å
+±img=https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0304pfss.jpg±
+AIA 211 Å, 193 Å, 171 Å
+±img=https://sdo.gsfc.nasa.gov/assets/img/latest/f_211_193_171pfss_1024.jpg±
+HMI Colorized Magnetogram
+±img=https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_HMIBC.jpg±
+HMI Intensitygram - colored
+±img=https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_HMIIC.jpg±
+
+太阳系
+实时太阳系各天体位置
+±img=https://heavens-above.com/SolarSystemPic.aspx?&Width=1000&Height=1000&cul=zh±
+
+月相
+实时月相
+±img=https://heavens-above.com/moonchart.aspx?sz=500±
+
 丢@.*
 ±img=http://ovooa.com/API/diu/api.php?QQ=%AT0%±
 
@@ -1758,7 +1830,7 @@ d:$取中间 ⬚ %b%⬚±\n⬚$
 昵称查重［昵称］\r
 用户［UID］\r
 搜索视频［关键词］\r
-bv［BV号］\r
+BV［BV号］\r
 最新视频［昵称］\r
 粉丝量查询\r
 B站热搜榜\r
@@ -1951,7 +2023,7 @@ $访问 http://yysk.yitzu.cn.qingf.top/api/x/search.php?msg=%括号1%$
 a:$读 哔哩哔哩/小冰/搜索/%群号%.txt %QQ% 1$
 $访问 http://yysk.yitzu.cn.qingf.top/api/x/search.php?msg=%a%&n=%括号1%$
 
-bv(.*)
+BV(.*)
 $访问 http://yysk.yitzu.cn.qingf.top/api/x/bv.php?bv=%括号1%$
 
 .*BV(.*)
