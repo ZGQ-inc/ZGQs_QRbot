@@ -193,7 +193,10 @@ AGEFANS❌\n
 获取表情编号［QQ表情］\n
 语音［内容］\n
 不存在的人\n
-禁言我
+禁言我\n
+丢漂流瓶［内容］\n
+捡漂流瓶\n
+漂流瓶总数
 
 表情列表
 😜━━━表情━━━😜\n
@@ -296,7 +299,8 @@ dev回复\n
 关闭服务［群号］\n
 开启服务［群号］\n
 关闭本群服务\n
-申请进群［群号］理由［内容］
+申请进群［群号］理由［内容］\n
+清空漂流瓶
 
 [\s\S]*(.*)[\s\S]*次元图接口列表[\s\S]*(.*)[\s\S]*
 <━━━━次元图接口━━━━>\n
@@ -2231,6 +2235,31 @@ Github主页：%e%\n
 账号创建日期：%o%\n
 最后更新时间：%p%
 
+丢漂流瓶 ?([\s\S]*(.*)[\s\S]*)
+a:$读文件 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt$
+b:$读 漂流瓶/number.txt n 0$
+$写文件 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt %a%\n\n[%b%+1]:%括号1%\n来自〔%昵称%〕QQ%QQ%$
+$写 漂流瓶/number.txt n [%b%+1]$漂流瓶已飘向远方～
+
+捡漂流瓶
+a:$读文件 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt$
+b:$读 漂流瓶/number.txt n 0$
+c:$随机数 1-%b%$
+你打开了漂流瓶：\n
+$取中间 ⬚ %a%⬚%c%:⬚QQ$
+
+漂流瓶总数
+b:$读 漂流瓶/number.txt n 0$
+本地漂流瓶数目为%b%个
+
+清空漂流瓶
+如果:%QQ%==%主人%
+$删除 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt$
+$删除 /storage/emulated/0/QR/QRDic/data/漂流瓶/number.txt$已删除所有漂流瓶
+返回
+如果尾
+⚠你不是主人
+
 搜索 ?([\s\S]*(.*)[\s\S]*)
 a:$URLEncoder %括号1%$
 你就不能百度一下吗？\n
@@ -2331,7 +2360,8 @@ f:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=tex
 群等级：%e%\n
 群人数：%b%/%c%\n
 群主：%a%\n
-管理员：%f%/%d%
+管理员：%f%\n
+最多管理员：%d%
 
 [群]群龙王
 P:%Json%
