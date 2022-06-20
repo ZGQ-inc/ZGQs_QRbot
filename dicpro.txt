@@ -2292,8 +2292,8 @@ $CRC32 %括号1%$
 群列表
 $获取群列表$
 
-[退群]
-〔$群昵称 0 %QQ%$〕%QQ%退出了本群
+//[退群]
+//〔$群昵称 0 %QQ%$〕%QQ%退出了本群
 
 //入群欢迎&申请进群提示
 [系统]
@@ -2625,13 +2625,13 @@ $申请群 %括号1% %括号2%$
 //$进群审核 %群% %括号1% 2001 11 0$
 
 发表情 ?([\s\S]*(.*)[\s\S]*)
-普通表情：±face 187±
-新表情：±facenew 277±
+普通表情：±face 187±\n
+新表情：±facenew 277±\n
 会员小表情：±facepro 4194325±
 
 获取表情编号 ?([\s\S]*(.*)[\s\S]*)
-普通表情：%FACE0%
-新表情：%FACENEW0%
+普通表情：%FACE0%\n
+新表情：%FACENEW0%\n
 会员小表情：%FACEPRO0%
 
 [\s\S]*(.*)[\s\S]*国外软件[\s\S]*(.*)[\s\S]*
@@ -3163,6 +3163,9 @@ MD5：%b%
 系统运行时间：$BSH DeviceUtils.java getBootTimeStr$\n
 手机型号：$BSH DeviceUtils.java getPhone$\n
 $BSH DeviceUtils.java getDeviceInfo$
+
+抖一抖
+±shake 1±
 
 .*
 如果:%FIMG0%!=
