@@ -1,5 +1,6 @@
 &&©2022 ZGQ Inc. | 版权所有。
 &&项目地址：https://github.com/ZGQ-inc/ZGQs_QRbot
+&&网站：https://zgq-inc.github.io/ZGQs_QRbot/
 &&个人主页：https://zgq-inc.github.io
 
 //检测状态，调用BSH文件
@@ -393,7 +394,7 @@ http://hm.suol.cc/\n
 http://api.tangdouz.com/\n
 言溪API\n
 http://api.yanxi520.cn/\n
-御坂妹妹API（爆炸，涉及以图搜番、动漫化、上色、抠图、卫星图、降水图、气温图、全国疫情）\n
+御坂妹妹API\n
 https://imcys.com/%e5%be%a1%e5%9d%82%e5%a6%b9%e5%a6%b9api#\n
 今日诗词API\n
 https://www.jinrishici.com/\n
@@ -419,7 +420,7 @@ NSMC Home\n
 https://www.nsmc.org.cn/nsmc/en/home/index.html\n
 Heavens-Above\n
 https://heavens-above.com/main.aspx\n
-全国空气质量指数查询 - PM2.5实时地图、空气污染排名 - AirLevel\n
+AirLevel\n
 http://m.air-level.com/\n
 NASA's Goddard Space Flight Center | NASA\n
 https://www.nasa.gov/goddard\n
@@ -454,17 +455,7 @@ https://icean.moe/
 [\s\S]*(.*)[\s\S]*查看词库[\s\S]*(.*)[\s\S]*
 〔词库〕\n
 ━━━━━━\n
-使用后台：QRSpeed\n
-https://zgq-inc.lanzouh.com/iGqdI04ri41a\n
-使用插件：QRDICPro\n
-https://zgq-inc.lanzouh.com/iu0St04ri43c\n
-┅┅┅┅┅┅\n
-［词库主体］本地相对路径：/QR/QRDic/dicpro.txt\n
-https://zgq-inc.github.io/ZGQs_QRbot/dicpro.txt\n
-［BSH文件］本地相对路径：/QR/QRDic/BSH/DeviceUtils.java\n
-https://zgq-inc.github.io/ZGQs_QRbot/BSH/DeviceUtils.java\n
-┅┅┅┅┅┅\n
-提示：你可以保存网页为txt或者使用下载器比如ADM下载词库文件。
+https://zgq-inc.github.io/ZGQs_QRbot/
 
 开机|说明|帮助|查询
 ±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012194.png±
