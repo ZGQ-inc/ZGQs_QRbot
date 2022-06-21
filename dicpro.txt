@@ -341,7 +341,7 @@ https://www.google.com/searchbyimage?&image_url=［图片链接］\n
 Yandex识图：\n
 https://yandex.com/images/search?url=［图片链接］&rpt=imageview\n
 必应识图：\n
-https://www.bing.com/images/search?q=imgurl:［图片链接］\n
+https://www.bing.com/images/search?q=imgurl:［图片链接］&view=detailv2&iss=sbi\n
 天眼搜图：\n
 https://tineye.com/search?url=［图片链接］\n
 Saucenao搜图：\n
@@ -2286,7 +2286,7 @@ $获取群列表$
 //入群欢迎&申请进群提示
 [系统]
 如果:%Status%==33
-欢迎〔$群昵称 0 %QQ%$〕%QQ%加入本群！\n
+欢迎〔$群昵称 0 %QQ%$〕加入本群！\n
 想了解如何使♀用我？请发送【回复列表】
 返回
 如果尾
