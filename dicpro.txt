@@ -709,7 +709,7 @@ https://trace.moe/?auto&url=%a%
 //画师链接：%v%
 
 时间
-现在是%时间zzzz（ZZZZ）%\n
+现在是$时间 zzzz（ZZZZ）$\n
 $时间格式 %NDTime% yyyy年MM月dd日$\n
 $时间格式 %NDTime% ah:mm EEEE$\n
 同步自服务器原子钟\n
@@ -2019,7 +2019,7 @@ b:$访问 http://yysk.yitzu.cn.qingf.top/api/x/uid.php?uid=%f%$
 b:@b[fs]
 $访问 http://yysk.yitzu.cn.qingf.top/api/api/bili.php?uid=%f%$\r
 %括号1%当前粉丝量为:%b%\r
-e:%时间yyyy年M月d日HH时mm分ss秒%-%时间EEEE-aa%
+e:$时间 yyyy年M月d日HH时mm分ss秒$-$时间EEEE-aa$
 相比上次查询\r
 $回调 涨掉$\r
 当前时间:%e%\r
@@ -2053,7 +2053,7 @@ b:$访问 http://yysk.yitzu.cn.qingf.top/api/x/uid.php?uid=%f%$
 b:@b[fs]
 $访问 http://yysk.yitzu.cn.qingf.top/api/api/bili.php?uid=%f%$\r
 %括号1%当前粉丝量为:%b%\r
-e:%时间yyyy年M月d日HH时mm分ss秒%-%时间EEEE-aa%
+e:$时间yyyy年M月d日HH时mm分ss秒$-$时间EEEE-aa$
 相比上次查询\r
 $回调 涨掉$\r
 当前时间:%e%\r
@@ -3147,7 +3147,7 @@ MD5：%b%
 运行信息|运行状态|系统信息
 电量：$BSH DeviceUtils.java getDevicePower$%\n
 运存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$\n
-系统本地时间：%时间yyyy年MM月dd日HH时mm分ss秒SSS毫秒%\n
+系统本地时间：$时间 yyyy年MM月dd日HH时mm分ss秒SSS毫秒$\n
 系统运行时间：$BSH DeviceUtils.java getBootTimeStr$\n
 手机型号：$BSH DeviceUtils.java getPhone$\n
 $BSH DeviceUtils.java getDeviceInfo$
