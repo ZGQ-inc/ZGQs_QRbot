@@ -1464,7 +1464,7 @@ HMI Intensitygram - colored
 ±img=https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_HMIIC.jpg±
 
 太阳系
-实时太阳系各天体位置
+实时太阳系各天体 位置
 ±img=https://heavens-above.com/SolarSystemPic.aspx?&Width=1000&Height=1000&cul=zh±
 
 月相
@@ -2299,11 +2299,11 @@ $获取群列表$
 
 [上下管理]
 如果:%Value%==1
-〔%昵称%〕%QQ%被群主设置为群管理员
+〔$群昵称 0 %QQ%$〕%QQ%被群主设置为群管理员
 返回
 如果尾
 如果:%Value%==0
-〔%昵称%〕%QQ%被群主撤销了群管理员
+〔$群昵称 0 %QQ%$〕%QQ%被群主撤销了群管理员
 
 强制打开 ?([\s\S]*(.*)[\s\S]*)
 强制打开名片：http://ovooa.com/API/tzmp/api.php?qq=%括号1%
