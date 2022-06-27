@@ -263,7 +263,11 @@ at我［@对象］\n
 好友［@对象］说［内容］\n
 捧［@对象］\n
 有害垃圾［@对象］\n
-咕咕咕［@对象］
+咕咕咕［@对象］\n
+坤坤［@对象］\n
+屏幕［@对象］\n
+儿子［@对象］\n
+女儿［@对象］
 
 网络
 💻━━━网络━━━💻\n
@@ -1676,6 +1680,18 @@ at我@.*
 咕咕咕@.*
 ±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/play_game_2.php?qq=%AT0%±
 
+坤坤@.*
+±img=http://xiaobapi.top/api/xb/api/kunkun.php?qq=%AT0%±
+
+屏幕@.*
+±img=http://xiaobapi.top/api/xb/api/bqb_8.php?qq=%AT0%±
+
+儿子@.*
+±img=http://xiaobapi.top/api/xb/api/bqb_2.php?qq=%AT0%±
+
+女儿@.*
+±img=http://xiaobapi.top/api/xb/api/bqb_6.php?qq=%AT0%±
+
 以图搜番.*
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
@@ -2727,8 +2743,8 @@ LINE相机\n
 https://zgq-inc.github.io/overthefirewall/#LINE\n
 第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
 
-怎么[\s\S]*(.*)[\s\S]*Steam[\s\S]*(.*)[\s\S]*|怎么[\s\S]*(.*)[\s\S]*steam[\s\S]*(.*)[\s\S]*|steam|Steam|steam++|Steam++
-Steam++|SteamTools|steamtools\n
+怎么[\s\S]*(.*)[\s\S]*Steam[\s\S]*(.*)[\s\S]*|怎么[\s\S]*(.*)[\s\S]*steam[\s\S]*(.*)[\s\S]*|steam|Steam|steam++|Steam++|SteamTools|steamtools
+解决Steam社区无法访问的问题\n
 https://zgq-inc.github.io/overthefirewall/#SteamTools
 
 [\s\S]*(.*)[\s\S]*Apple[\s\S]*(.*)[\s\S]*ID[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*apple[\s\S]*(.*)[\s\S]*id[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*苹果[\s\S]*(.*)[\s\S]*ID[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*苹果[\s\S]*(.*)[\s\S]*id[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*apple[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*Apple[\s\S]*(.*)[\s\S]*
@@ -2757,7 +2773,7 @@ https://github.com/ZGQ-inc/sitebox
 书源、图源、订阅源、规则、直播源、各种源 大型整合\n
 https://github.com/ZGQ-inc/source
 
-[\s\S]*(.*)[\s\S]*梯子[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*加速器[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*翻墙[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*挂梯子[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*节点[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*科学上网[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*魔法上网[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*V[\s\S]*(.*)[\s\S]*P[\s\S]*(.*)[\s\S]*N[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*v[\s\S]*(.*)[\s\S]*p[\s\S]*(.*)[\s\S]*n[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*节点订阅[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*overthefirewall[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*木弟子[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*clash[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*Clash[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*v2ray[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*V2ray[\s\S]*(.*)[\s\S]*
+[\s\S]*(.*)[\s\S]*梯子[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*加速器[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*翻墙[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*挂梯子[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*节点[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*科学上网[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*魔法上网[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*VPN[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*vpn[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*节点订阅[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*overthefirewall[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*木弟子[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*clash[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*Clash[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*v2ray[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*V2ray[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*机场[\s\S]*(.*)[\s\S]*
 节点订阅 β\n
 https://zgq-inc.github.io/overthefirewall/
 
@@ -2790,7 +2806,7 @@ https://zgq-inc.github.io/overthefirewall/sponsor.html
 p站列表|P站列表
 Pixiv：不用说\n
 https://zgq-inc.github.io/overthefirewall/#Pixiv\n
-P**nhub：昔日最大??𝐕网站\n
+P**nhub：昔日最大𝐀𝐕网站\n
 Petreon：作者恰饭平台，用于支付费用\n
 Picsart：图片编辑\n
 Photoshop：Adobe Photoshop\n
