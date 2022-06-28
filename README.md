@@ -4,15 +4,11 @@
 
 ## [QRDICPro.ver.1.3.0.build.43.apk](https://zgq-inc.lanzouh.com/iNg2V06iwy4f)
 
-# 词库文件 & BSH
+# 词库文件
 
 ## [dicpro.txt](https://zgq-inc.github.io/ZGQs_QRbot/dicpro.txt)
 
 > 本地相对路径：/QR/QRDic/dicpro.txt
-
-## [DeviceUtils.java](https://zgq-inc.github.io/ZGQs_QRbot/BSH/DeviceUtils.java)
-
-> 本地相对路径：/QR/QRDic/BSH/DeviceUtils.java
 
 > *提示：你可以保存网页为txt或者使用下载器比如ADM下载词库文件。
 
