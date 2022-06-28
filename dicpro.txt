@@ -5,9 +5,29 @@
 
 //检测状态，调用BSH文件
 [\s\S]*(.*)[\s\S]*dev回复[\s\S]*(.*)[\s\S]*
+a:$读文件 /storage/emulated/0/QR/QRDic/BSH/DeviceUtils.java$
+b:$取中间 ⬚ %a%⬚import ⬚.app$
+如果:%b%==android
 ✅全局回复功能正常\n
 电量：$BSH DeviceUtils.java getDevicePower$%\n
 运存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$
+返回
+如果尾
+❌〔DeviceUtils.java〕不存在，正在下载所需文件......
+$下载 /storage/emulated/0/QR/QRDic/BSH/DeviceUtils.java https://zgq-inc.github.io/ZGQs_QRbot/BSH/DeviceUtils.java$
+$调用 10000 DeviceUtils_min$
+
+[内部]DeviceUtils_min
+a:$读文件 /storage/emulated/0/QR/QRDic/BSH/DeviceUtils.java$
+b:$取中间 ⬚ %a%⬚import ⬚.app$
+如果:%b%==android
+✅下载成功\n
+✅全局回复功能正常\n
+电量：$BSH DeviceUtils.java getDevicePower$%\n
+运存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$
+返回
+如果尾
+❌下载失败，请检查网络
 
 [\s\S]*(.*)[\s\S]*回复列表[\s\S]*(.*)[\s\S]*|菜单
 〔关键词列表〕\n
@@ -2127,10 +2147,26 @@ c:$替换 ⬚ %b%⬚\n━━━━━━━━━\nTips:天一API技术支持⬚
 %c%
 
 祖安
-a:$随机数 1-5$
-b:$访问 http://tianyi.qrspeed.pro/api/Ridicule.php?msg=%a%$
-c:$替换 ⬚ %b%⬚\n⬚$
-%c%
+a:$读文件 /storage/emulated/0/QR/QRDic/data/祖安/祖安.txt$
+b:$取中间 ⬚ %a%⬚【⬚】$
+如果:%b%==祖安
+c:$随机数 1-1080$
+$取中间 ⬚ %a%⬚%c%:⬚\n$
+返回
+如果尾
+❌〔祖安.txt〕不存在，正在下载所需文件......
+$下载 /storage/emulated/0/QR/QRDic/data/祖安/祖安.txt https://zgq-inc.github.io/ZGQs_QRbot/data/祖安.txt$
+$调用 10000 祖安.txt$
+
+[内部]祖安.txt
+a:$读文件 /storage/emulated/0/QR/QRDic/data/祖安/祖安.txt$
+b:$取中间 ⬚ %a%⬚【⬚】$
+如果:%b%==祖安
+✅下载成功\n
+词库来源：https://github.com/cndiandian/zuanbot.com
+返回
+如果尾
+❌下载失败，请检查网络
 
 github搜索仓库 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 https://api.github.com/search/repositories?q=%括号1%$
@@ -3171,12 +3207,35 @@ MD5：%b%
 
 //调用BSH文件
 运行信息|运行状态|系统信息
+a:$读文件 /storage/emulated/0/QR/QRDic/BSH/DeviceUtils.java$
+b:$取中间 ⬚ %a%⬚import ⬚.app$
+如果:%b%==android
 电量：$BSH DeviceUtils.java getDevicePower$%\n
 运存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$\n
 系统本地时间：$时间 yyyy年MM月dd日HH时mm分ss秒SSS毫秒$\n
 系统运行时间：$BSH DeviceUtils.java getBootTimeStr$\n
 手机型号：$BSH DeviceUtils.java getPhone$\n
 $BSH DeviceUtils.java getDeviceInfo$
+返回
+如果尾
+❌〔DeviceUtils.java〕不存在，正在下载所需文件......
+$下载 /storage/emulated/0/QR/QRDic/BSH/DeviceUtils.java https://zgq-inc.github.io/ZGQs_QRbot/BSH/DeviceUtils.java$
+$调用 10000 DeviceUtils$
+
+[内部]DeviceUtils
+a:$读文件 /storage/emulated/0/QR/QRDic/BSH/DeviceUtils.java$
+b:$取中间 ⬚ %a%⬚import ⬚.app$
+如果:%b%==android
+✅下载成功\n
+电量：$BSH DeviceUtils.java getDevicePower$%\n
+运存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$\n
+系统本地时间：$时间 yyyy年MM月dd日HH时mm分ss秒SSS毫秒$\n
+系统运行时间：$BSH DeviceUtils.java getBootTimeStr$\n
+手机型号：$BSH DeviceUtils.java getPhone$\n
+$BSH DeviceUtils.java getDeviceInfo$
+返回
+如果尾
+❌下载失败，请检查网络
 
 查 ?([\s\S]*(.*)[\s\S]*)
 🚫禁止使用机器人查询Q 绑或进行违规违法信息宣传。
