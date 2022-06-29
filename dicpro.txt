@@ -1352,6 +1352,7 @@ k:$取中间 ⬚ %a%⬚\r提示：⬚$
 提示：%k%
 
 运势
+〔%昵称%〕的今日运势：\n
 $访问 https://ovooa.com/API/Ren/?name=%昵称%&type=text$
 
 网易云热评
@@ -2257,7 +2258,7 @@ Github主页：%e%\n
 丢漂流瓶 ?([\s\S]*(.*)[\s\S]*)
 a:$读文件 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt$
 b:$读 漂流瓶/number.txt n 0$
-$写文件 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt %a%\n\n[%b%+1]:%括号1%\n来自〔%昵称%〕QQ%QQ%$
+$写文件 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt %a%\n\n[%b%+1]:%括号1%\n来自〔%昵称%〕QQ%QQ%群%群号%$
 $写 漂流瓶/number.txt n [%b%+1]$漂流瓶已飘向远方～
 
 捡漂流瓶
