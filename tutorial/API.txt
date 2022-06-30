@@ -194,3 +194,5 @@ https://api.guaqb.cn/
 https://api.oick.cn/
 云图API
 https://api.ooomn.com/
+小燃API
+http://oqmm.top/oxr/
