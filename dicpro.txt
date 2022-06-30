@@ -2,6 +2,7 @@
 &&项目地址：https://github.com/ZGQ-inc/ZGQs_QRbot
 &&网站：https://zgq-inc.github.io/ZGQs_QRbot/
 &&个人主页：https://zgq-inc.github.io
+&&<配置>兼容模式:是
 
 //检测状态，调用BSH文件
 [\s\S]*(.*)[\s\S]*dev回复[\s\S]*(.*)[\s\S]*
@@ -326,7 +327,8 @@ dev回复\n
 关闭本群服务\n
 申请进群［群号］理由［内容］\n
 清空漂流瓶\n
-反馈［内容］
+反馈［内容］\n
+导入［内容］
 
 [\s\S]*(.*)[\s\S]*次元图接口列表[\s\S]*(.*)[\s\S]*
 <━━━━次元图接口━━━━>\n
@@ -2684,6 +2686,15 @@ $申请群 %括号1% %括号2%$已发送入群申请
 反馈 ?([\s\S]*(.*)[\s\S]*)
 a:$读文件 /storage/emulated/0/QR/QRDic/data/反馈/群.txt$
 $发送 群 msg %a% QQ：%QQ%\n反馈内容：%括号1%$
+
+导入 ?([\s\S]*(.*)[\s\S]*)
+如果:%QQ%==%主人%
+a:$读文件 /storage/emulated/0/QR/QRDic/import.txt$
+$写文件 /storage/emulated/0/QR/QRDic/import.txt %a%\n\n%括号1%$
+✅导入完成
+返回
+如果尾
+⚠你不是主人
 
 [\s\S]*(.*)[\s\S]*国外软件[\s\S]*(.*)[\s\S]*
 回复以下关键词自助获取：\n
