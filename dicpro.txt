@@ -3268,9 +3268,8 @@ $BSH DeviceUtils.java getDeviceInfo$
 ±shake 1±
 
 网络检查
+正在检测网络连通性......
 $调用 1000 网络连通性检查$
-$调用 2000 API自检$
-$调用 3000 次元图API自检$
 
 [内部]网络连通性检查
 网络连通性检查\n
@@ -3278,6 +3277,11 @@ $回调 网络1$\n
 $回调 网络2$\n
 $回调 网络3$\n
 $回调 网络4$
+$调用 1000 API自检开始$
+
+[内部]API自检开始
+正在自检API质量......
+$调用 1000 API自检$
 
 [内部]API自检
 API自检\n
@@ -3293,233 +3297,266 @@ $回调 网络13$\n
 $回调 网络14$\n
 $回调 网络15$\n
 $回调 网络16$\n
-$回调 网络17$
-
-[内部]次元图API自检
-次元图API自检\n
+$回调 网络17$\n
 $回调 网络18$\n
 $回调 网络19$\n
 $回调 网络20$\n
 $回调 网络21$\n
 $回调 网络22$\n
 $回调 网络23$\n
-$回调 网络24$
+$回调 网络24$\n
+$回调 网络25$\n
+$回调 网络26$\n
+$回调 网络27$\n
+$回调 网络28$\n
+$回调 网络29$\n
+$回调 网络30$
+$调用 1000 网络检查完毕$
+
+[内部]网络检查完毕
+网络检查完毕
 
 [内部]网络1
 a:$访问 https://www.baidu.com/$
-b:$取中间 ⬚ %a%⬚<!--STATUS ⬚-->$
-如果:%b%==OK
-✅〔百度baidu.com〕访问正常
+如果:%a%==
+❌〔baidu.com〕百度
 返回
 如果尾
-❌〔百度baidu.com〕访问失败
+✅〔baidu.com〕百度
 
 [内部]网络2
 a:$访问 https://www.google.com/$
-b:$取中间 ⬚ %a%⬚<html lang=⬚>$
-如果:%b%=="zh-CN"
-✅〔谷歌google.com〕访问正常
+如果:%a%==
+❌〔google.com〕谷歌
 返回
 如果尾
-❌〔谷歌google.com〕访问失败
+✅〔google.com〕谷歌
 
 [内部]网络3
 a:$访问 https://github.com/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="utf-8"
-✅〔github.com〕访问正常
+如果:%a%==
+❌〔github.com〕Github
 返回
 如果尾
-❌〔github.com〕访问失败
+✅〔github.com〕Github
 
 [内部]网络4
 a:$访问 https://www.bing.com/$
-b:$取中间 ⬚ %a%⬚<html ⬚=$
-如果:%b%==lang
-✅〔必应bing.com〕访问正常
+如果:%a%==
+❌〔bing.com〕必应
 返回
 如果尾
-❌〔必应bing.com〕访问失败
+✅〔bing.com〕必应
 
 [内部]网络5
-a:$访问 https://ovooa.com/$
-b:$取中间 ⬚ %a%⬚<html lang=⬚>$
-如果:%b%=="zh-CN"
-✅〔独角兽API〕访问正常
+a:$访问 https://iw233.cn/main.html$
+如果:%a%==
+❌〔MirlKoi图库〕
 返回
 如果尾
-❌〔独角兽API〕访问失败
+✅〔MirlKoi图库〕
 
 [内部]网络6
-a:$访问 https://xiaobai.klizi.cn/$
-b:$取中间 ⬚ %a%⬚<html lang=⬚>$
-如果:%b%=="zh-CN"
-✅〔小白API〕访问正常
+a:$访问 https://img.xjh.me/$
+如果:%a%==
+❌〔岁月小筑随机图片API〕
 返回
 如果尾
-❌〔小白API〕访问失败
+✅〔岁月小筑随机图片API〕
 
 [内部]网络7
-a:$访问 http://hm.suol.cc/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚ />$
-如果:%b%=="utf-8"
-✅〔慕名API〕访问正常
+a:$访问 https://api.lolicon.app/$
+如果:%a%==
+❌〔Lolicon API〕
 返回
 如果尾
-❌〔慕名API〕访问失败
+✅〔Lolicon API〕
 
 [内部]网络8
-a:$访问 http://api.yanxi520.cn/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="UTF-8"
-✅〔言溪API〕访问正常
+a:$访问 http://175.24.95.94/$
+如果:%a%==
+❌〔随机图未知接口〕
 返回
 如果尾
-❌〔言溪API〕访问失败
+✅〔随机图未知接口〕
 
 [内部]网络9
-a:$访问 https://imcys.com/%e5%be%a1%e5%9d%82%e5%a6%b9%e5%a6%b9api#$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="UTF-8"
-✅〔御坂妹妹API〕访问正常
+a:$访问 https://www.dmoe.cc/$
+如果:%a%==
+❌〔樱花随机二次元图片API〕
 返回
 如果尾
-❌〔御坂妹妹API〕访问失败
+✅〔樱花随机二次元图片API〕
 
 [内部]网络10
-a:$访问 https://www.jinrishici.com/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="utf-8"
-✅〔今日诗词API〕访问正常
+a:$访问 https://api.mtyqx.cn/$
+如果:%a%==
+❌〔墨天逸随机图片API〕
 返回
 如果尾
-❌〔今日诗词API〕访问失败
+✅〔墨天逸随机图片API〕
 
 [内部]网络11
-a:$访问 https://api.vvhan.com/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="UTF-8"
-✅〔韩小韩API〕访问正常
+a:$访问 https://api.ixiaowai.cn/$
+如果:%a%==
+❌〔小歪API〕
 返回
 如果尾
-❌〔韩小韩API〕访问失败
+✅〔小歪API〕
 
 [内部]网络12
-a:$访问 https://hitokoto.cn/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="UTF-8"
-✅〔Hitokoto一言API〕访问正常
+a:$访问 http://www.oqmm.top/wangy/$
+如果:%a%==
+❌〔清風涩图随机查看器〕
 返回
 如果尾
-❌〔Hitokoto一言API〕访问失败
+✅〔清風涩图随机查看器〕
 
 [内部]网络13
-a:$访问 http://yysk.yitzu.cn.qingf.top/api/$$访问 http://yysk.qingf.top/api/$$访问 http://xiaobapi.top/api/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="UTF-8"
-✅〔小冰科技API〕访问正常
+a:$访问 https://ovooa.com/$
+如果:%a%==
+❌〔独角兽API〕
 返回
 如果尾
-❌〔小冰科技API〕访问失败
+✅〔独角兽API〕
 
 [内部]网络14
-a:$访问 https://www.nsmc.org.cn/nsmc/en/home/index.html$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="utf-8"
-✅〔NSMC Home〕访问正常
+a:$访问 https://xiaobai.klizi.cn/$
+如果:%a%==
+❌〔小白API〕
 返回
 如果尾
-❌〔NSMC Home〕访问失败
+✅〔小白API〕
 
 [内部]网络15
-a:$访问 https://heavens-above.com/main.aspx$
-b:$取中间 ⬚ %a%⬚<html lang=⬚>$
-如果:%b%=="zh" dir="ltr"
-✅〔Heavens-Above〕访问正常
+a:$访问 http://hm.suol.cc/$
+如果:%a%==
+❌〔慕名API〕
 返回
 如果尾
-❌〔Heavens-Above〕访问失败
+✅〔慕名API〕
 
 [内部]网络16
-a:$访问 http://m.air-level.com/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚ />$
-如果:%b%=="utf-8"
-✅〔AirLevel〕访问正常
+a:$访问 http://api.tangdouz.com/$
+如果:%a%==
+❌〔糖豆子API〕
 返回
 如果尾
-❌〔AirLevel〕访问失败
+✅〔糖豆子API〕
 
 [内部]网络17
-a:$访问 https://www.nasa.gov/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚ />$
-如果:%b%=="utf-8"
-✅〔NASA官网〕访问正常
+a:$访问 http://api.yanxi520.cn/$
+如果:%a%==
+❌〔言溪API〕
 返回
 如果尾
-❌〔NASA官网〕访问失败
+✅〔言溪API〕
 
 [内部]网络18
-a:$访问 https://iw233.cn/main.html$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="UTF-8"
-✅〔MirlKoi图库〕访问正常
+a:$访问 https://imcys.com/$
+如果:%a%==
+❌〔御坂妹妹API〕
 返回
 如果尾
-❌〔MirlKoi图库〕访问失败
+✅〔御坂妹妹API〕
 
 [内部]网络19
-a:$访问 https://img.xjh.me/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="UTF-8"
-✅〔岁月小筑随机图片API〕访问正常
+a:$访问 https://www.jinrishici.com/$
+如果:%a%==
+❌〔今日诗词API〕
 返回
 如果尾
-❌〔岁月小筑随机图片API〕访问失败
+✅〔今日诗词API〕
 
 [内部]网络20
-a:$访问 https://api.lolicon.app/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="UTF-8"
-✅〔Lolicon API〕访问正常
+a:$访问 https://jx.kingtail.xyz/$
+如果:%a%==
+❌〔kingtail智能解析〕
 返回
 如果尾
-❌〔Lolicon API〕访问失败
+✅〔kingtail智能解析〕
 
 [内部]网络21
-a:$访问 https://www.dmoe.cc/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="utf-8"
-✅〔樱花随机二次元图片API〕访问正常
+a:$访问 http://ff.shengapi.cn/$
+如果:%a%==
+❌〔福福API〕
 返回
 如果尾
-❌〔樱花随机二次元图片API〕访问失败
+✅〔福福API〕
 
 [内部]网络22
-a:$访问 https://api.mtyqx.cn/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="utf-8"
-✅〔墨天逸随机图片API〕访问正常
+a:$访问 http://tianyi.qrspeed.pro/$
+如果:%a%==
+❌〔天一API〕
 返回
 如果尾
-❌〔墨天逸随机图片API〕访问失败
+✅〔天一API〕
 
 [内部]网络23
-a:$访问 https://api.ixiaowai.cn/$
-b:$取中间 ⬚ %a%⬚<meta charset=⬚>$
-如果:%b%=="utf-8"
-✅〔小歪API〕访问正常
+a:$访问 https://api.vvhan.com/$
+如果:%a%==
+❌〔韩小韩API〕
 返回
 如果尾
-❌〔小歪API〕访问失败
+✅〔韩小韩API〕
 
 [内部]网络24
-a:$访问 http://www.oqmm.top/wangy/$
-b:$取中间 ⬚ %a%⬚charset=⬚'>$
-如果:%b%==utf-8
-✅〔清風涩图随机查看器〕访问正常
+a:$访问 https://hitokoto.cn/$
+如果:%a%==
+❌〔Hitokoto一言API〕
 返回
 如果尾
-❌〔清風涩图随机查看器〕访问失败
+✅〔Hitokoto一言API〕
+
+[内部]网络25
+a:$访问 http://yysk.yitzu.cn.qingf.top/api/$
+b:$访问 http://yysk.qingf.top/api/$
+c:$访问 http://xiaobapi.top/api/$
+如果:%a%==&%b%==&%c%==
+❌〔小冰科技API〕
+返回
+如果尾
+✅〔小冰科技API〕
+
+[内部]网络26
+a:$访问 https://tenapi.cn/$
+如果:%a%==
+❌〔TenAPI〕
+返回
+如果尾
+✅〔TenAPI〕
+
+[内部]网络27
+a:$访问 https://www.nsmc.org.cn/nsmc/en/home/index.html$
+如果:%a%==
+❌〔NSMC Home〕
+返回
+如果尾
+✅〔NSMC Home〕
+
+[内部]网络28
+a:$访问 https://heavens-above.com/$
+如果:%a%==
+❌〔Heavens-Above〕
+返回
+如果尾
+✅〔Heavens-Above〕
+
+[内部]网络29
+a:$访问 http://m.air-level.com/$
+如果:%a%==
+❌〔AirLevel〕
+返回
+如果尾
+✅〔AirLevel〕
+
+[内部]网络30
+a:$访问 https://www.nasa.gov/$
+如果:%a%==
+❌〔NASA GOV〕
+返回
+如果尾
+✅〔NASA GOV〕
 
 .*
 如果:%FIMG0%!=
