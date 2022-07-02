@@ -331,7 +331,8 @@ dev回复\n
 申请进群［群号］理由［内容］\n
 清空漂流瓶\n
 反馈［内容］\n
-导入［内容］
+导入［内容］\n
+清空导入
 
 [\s\S]*(.*)[\s\S]*次元图接口列表[\s\S]*(.*)[\s\S]*
 <━━━━次元图接口━━━━>\n
@@ -2280,7 +2281,7 @@ b:$读 漂流瓶/number.txt n 0$
 清空漂流瓶
 如果:%QQ%==%主人%
 $删除 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt$
-$删除 /storage/emulated/0/QR/QRDic/data/漂流瓶/number.txt$已删除所有漂流瓶
+$删除 /storage/emulated/0/QR/QRDic/data/漂流瓶/number.txt$✅已删除所有漂流瓶
 返回
 如果尾
 ⚠你不是主人
@@ -2703,7 +2704,15 @@ $发送 群 msg %a% QQ：%QQ%\n反馈内容：%括号1%$
 如果:%QQ%==%主人%
 a:$读文件 /storage/emulated/0/QR/QRDic/import.txt$
 $写文件 /storage/emulated/0/QR/QRDic/import.txt %a%\n\n%括号1%$
-✅导入完成
+✅导入完成\n
+初次导入请打开〔QRDICPro〕，点击词库路径下方并添加〔import.txt〕
+返回
+如果尾
+⚠你不是主人
+
+清空导入
+如果:%QQ%==%主人%
+$删除 /storage/emulated/0/QR/QRDic/import.txt$✅已清空导入词库
 返回
 如果尾
 ⚠你不是主人
@@ -3147,6 +3156,12 @@ b:$随机数 1-3$
 
 有手就行
 没错！
+
+[\s\S]*(.*)[\s\S]*（
+）
+
+[\s\S]*(.*)[\s\S]*）
+（
 
 [\s\S]*(.*)[\s\S]*是[\s\S]*(.*)[\s\S]*真人[\s\S]*(.*)[\s\S]*
 a:["我是AI少女（","我是由ZGQ Inc.调♀教的屑机器人，啊不对，AI少女","你猜","不告诉你"]
