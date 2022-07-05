@@ -9,7 +9,9 @@
 a:$读文件 /storage/emulated/0/QR/QRDic/BSH/DeviceUtils.java$
 b:$取中间 ⬚ %a%⬚import ⬚.app$
 如果:%b%==android
+z:$BSH DeviceUtils.java getDevicePower$
 ✅全局回复功能正常\n
+±img=http://api.tangdouz.com/wz/dl.php?dl=%z%±
 电量：$BSH DeviceUtils.java getDevicePower$%\n
 运存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$
 返回
@@ -22,8 +24,10 @@ $调用 10000 DeviceUtils_min$
 a:$读文件 /storage/emulated/0/QR/QRDic/BSH/DeviceUtils.java$
 b:$取中间 ⬚ %a%⬚import ⬚.app$
 如果:%b%==android
+z:$BSH DeviceUtils.java getDevicePower$
 ✅下载成功\n
 ✅全局回复功能正常\n
+±img=http://api.tangdouz.com/wz/dl.php?dl=%z%±
 电量：$BSH DeviceUtils.java getDevicePower$%\n
 运存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$
 返回
@@ -83,6 +87,7 @@ P站列表\n
 实用
 🛠️━━━实用━━━🛠️\n
 时间\n
+节气\n
 问候图\n
 ［中国城市］疫情\n
 ［中国城市］疫情备用\n
@@ -164,7 +169,7 @@ QQ音乐［歌名］\n
 以图搜番［图片］❌\n
 动漫化［图片］❌\n
 上色［图片］❌\n
-抠图［图片］❌\n
+抠图［图片］\n
 气象图\n
 空气质量\n
 地球\n
@@ -204,6 +209,7 @@ AGEFANS❌\n
 二次元的［名字］\n
 神奇海螺\n
 狗屁不通［内容］\n
+写检讨［内容］字数［1～2000］类型［1～7］\n
 主页生成\n
 运势\n
 星座运势［星座］\n
@@ -215,11 +221,14 @@ AGEFANS❌\n
 发表情［QQ表情编号］\n
 获取表情编号［QQ表情］\n
 语音［内容］\n
+［人物］语音\n
 不存在的人\n
 禁言我\n
 丢漂流瓶［内容］\n
 捡漂流瓶\n
-漂流瓶总数
+漂流瓶总数\n
+处CP［@对象］\n
+缘分［@对象］
 
 表情列表
 😜━━━表情━━━😜\n
@@ -289,7 +298,11 @@ at我［@对象］\n
 坤坤［@对象］\n
 屏幕［@对象］\n
 儿子［@对象］\n
-女儿［@对象］
+女儿［@对象］\n
+处男［@对象］\n
+桶［@对象］\n
+吃2［@对象］\n
+锤2［@对象］
 
 网络
 💻━━━网络━━━💻\n
@@ -309,7 +322,10 @@ unicode编码［文本］\n
 md5编码［文本］\n
 CRC32编码［文本］\n
 摩斯电码编码［文本］\n
-摩斯电码解码［文本］
+摩斯电码解码［文本］\n
+punycode编码［文本］\n
+punycode解码［文本］\n
+［2～36］进制转［2～36］进制［数字］
 
 调试
 〔调试指令〕\n
@@ -748,9 +764,16 @@ https://trace.moe/?auto&url=%a%
 时间
 现在是$时间 zzzz（ZZZZ）$\n
 $时间格式 %NDTime% yyyy年MM月dd日$\n
-$时间格式 %NDTime% ah:mm EEEE$\n
-同步自服务器原子钟\n
-当前UNIX时间戳：%NDTime%
+$时间格式 %NDTime% ah:mm EEEE$
+±img=http://xiaobapi.top/api/xb/api/rili.php±\n
+今年第$访问 http://api.tangdouz.com/qg/qg3.php$周\n
+今年第$访问 http://api.tangdouz.com/qg/qg2.php$天\n
+当前UNIX时间戳：%NDTime%\n
+同步自服务器原子钟
+
+节气
+a:$访问 http://api.tangdouz.com/jieq.php$
+±img=http://file.tangdouz.com/jq/%a%.jpg±
 
 问候图
 ±img=http://ovooa.com/API/image_Tnem/?QR_str=https://zgq-inc.github.io&QR_img=https://cdn.jsdelivr.net/gh/ZGQ-inc/homepage@master/images/logo.png&QR_str_ud=个人主页±
@@ -1725,6 +1748,18 @@ at我@.*
 女儿@.*
 ±img=http://xiaobapi.top/api/xb/api/bqb_6.php?qq=%AT0%±
 
+处男@.*
+±img=http://xiaobapi.top/api/xb/api/chunan.php?qq=%AT0%±
+
+桶@.*
+±img=http://xiaobapi.top/api/xb/api/tong.php?qq=%QQ%&qq2=%AT0%±
+
+吃2@.*
+±img=http://xiaobapi.top/api/xb/api/eat_2.php?qq=%AT0%±
+
+锤2@.*
+±img=http://xiaobapi.top/api/xb/api/chui.php?qq=%AT0%±
+
 以图搜番.*
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
@@ -1743,11 +1778,6 @@ a:$图片链接 %IMG0%$
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
 ±img=https://ycx.mxjs.xyz/sqv8/tq/skey/hb.php?img=%a%±
-
-抠图.*
-如果:%IMG0%!=
-a:$图片链接 %IMG0%$
-±img=https://ycx.mxjs.xyz/sqv8/tq/skey/rlfg.php?img=%a%±
 
 诗词
 a:$访问 https://v2.jinrishici.com/one.svg$
@@ -1771,6 +1801,64 @@ VIP解析：https://jx.kingtail.xyz/?url=%括号1%
 VIP解析：http://api.guaqb.cn/yi/?url=%括号1%
 短视频解析：http://api.guaqb.cn/ykyun/api.php?url=%括号1%\n
 支持：秒拍 美拍 bilibili 快手 yy神曲 酷我mv 音悦台MV 网易云MV 凤凰 激动视频 唱吧 第一视频网 天籁K歌MV 小咖秀 熊猫TV 花椒直播 全名直播 CCTV 小影 快视频 响巢看看 虎牙视频 爱拍 火山网 配音秀 内涵段子 全名k歌 微录客 蛙趣视频 百思不得姐 龙珠视频 土豆云 人民电视 迅雷 酷狗MV 抖音视频 360视频 抖音 微视
+
+处CP@(.*)
+a:$访问 https://api.xingzhige.com/API/cp_generate/?g=%昵称%&s=%括号1%$
+b:@a[code]
+如果:%b%==0
+@a[data][msg]
+返回
+如果尾
+@a[message]
+
+缘分@(.*)
+a:$访问 https://api.xingzhige.com/API/yuanfen/?name1=%昵称%&name2=%括号1%$
+b:@a[code]
+如果:%b%==0
+@a[data][name]\n
+@a[data][yan]\n
+@a[data][text]
+返回
+如果尾
+@a[msg]
+
+写检讨(.*)字数([0-9]+)类型([1-7])
+a:$访问 https://api.xingzhige.com/API/jts/?msg=%括号1%&long=%括号2%&type=%括号3%$
+b:@a[code]
+如果:%b%==0
+关键词：@a[data][msg]\n
+类型：@a[data][type]\n
+@a[data][jts]
+返回
+如果尾
+@a[msg]\n
+类型可填\n
+1：学生检讨\n
+2：退社（部）申请书\n
+3：给女朋友检讨\n
+4：领导演讲稿 实习报告\n
+5：给男朋友检讨\n
+6：朋友道歉信\n
+最多2000字
+
+punycode编码 ?([\s\S]*(.*)[\s\S]*)
+$访问 http://ovooa.com/API/Punycode/?string=%括号1%&format=encode&type=text$
+
+punycode解码 ?([\s\S]*(.*)[\s\S]*)
+$访问 http://ovooa.com/API/Punycode/?string=%括号1%&format=decode&type=text$
+
+(.*)语音
+http://xiaobapi.top/api/xb/api/voice_packet.php?msg=%括号1%\n
+人物名字：阿嫲，杰哥，彬彬，阿伟，淑慧阿姨，电棍，炫神，山泥若，卢本伟，呆妹，孙笑川，药水哥，旭旭宝宝，大司马，周淑怡，茄子，PDD，包桑，王思聪，小猪佩奇，楚云飞，李云龙，哲学，JOJO，王司徒，波澜哥，蔡徐坤，刘海柱，乔碧萝，郭老师，金坷垃，寒王，冬泳怪鸽，章金莱，老八，阿福，giao，切格瓦拉
+
+(.*)进制转(.*)进制(.*)
+%括号1%进制：%括号3%\n
+%括号2%进制：$访问 http://api.tangdouz.com/qg/qg6.php?num=%括号3%&a=%括号1%&b=%括号2%$
+
+抠图.*
+如果:%IMG0%!=
+a:$图片链接 %IMG0%$
+±img=http://api.tangdouz.com/wz/tm.php?lj=%a%±
 
 影视 ?(.+)
 a:http://xiaobapi.top/api/xb/api/yingshi.php?msg=%括号1%
@@ -2939,7 +3027,7 @@ a:["我在哦～","有什么事吗？","怎么了？","我在！","我...我不�
 b:$随机数 1-6$
 ±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_54972108.png±$JSON 获取 a %b%$
 
-114514|1919810|1145141919810|野兽先辈|臭[\s\S]*(.*)[\s\S]*
+114514|1919810|1145141919810|野兽先辈|臭[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*娇喘[\s\S]*(.*)[\s\S]*
 a:["哼～哼哼～啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊啊啊","哼～哼哼～啊啊啊啊啊啊啊啊啊啊啊啊啊"]
 b:$随机数 1-9$
 $JSON 获取 a %b%$
@@ -3257,6 +3345,8 @@ MD5：%b%
 a:$读文件 /storage/emulated/0/QR/QRDic/BSH/DeviceUtils.java$
 b:$取中间 ⬚ %a%⬚import ⬚.app$
 如果:%b%==android
+z:$BSH DeviceUtils.java getDevicePower$
+±img=http://api.tangdouz.com/wz/dl.php?dl=%z%±
 电量：$BSH DeviceUtils.java getDevicePower$%\n
 运存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$\n
 系统本地时间：$时间 yyyy年MM月dd日HH时mm分ss秒SSS毫秒$\n
@@ -3273,7 +3363,9 @@ $调用 10000 DeviceUtils$
 a:$读文件 /storage/emulated/0/QR/QRDic/BSH/DeviceUtils.java$
 b:$取中间 ⬚ %a%⬚import ⬚.app$
 如果:%b%==android
+z:$BSH DeviceUtils.java getDevicePower$
 ✅下载成功\n
+±img=http://api.tangdouz.com/wz/dl.php?dl=%z%±
 电量：$BSH DeviceUtils.java getDevicePower$%\n
 运存：$BSH DeviceUtils.java getAvailMeTotalMemoryInfo$\n
 系统本地时间：$时间 yyyy年MM月dd日HH时mm分ss秒SSS毫秒$\n
