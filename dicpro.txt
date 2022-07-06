@@ -762,10 +762,11 @@ https://trace.moe/?auto&url=%a%
 //画师链接：%v%
 
 时间
+a:$时间 d$
 现在是$时间 zzzz（ZZZZ）$\n
 $时间格式 %NDTime% yyyy年MM月dd日$\n
 $时间格式 %NDTime% ah:mm EEEE$
-±img=http://xiaobapi.top/api/xb/api/rili.php±\n
+±img=https://api.xingzhige.com/API/Calendar/?Template=1&year=&month=&Tick=%a%±\n
 今年第$访问 http://api.tangdouz.com/qg/qg3.php$周\n
 今年第$访问 http://api.tangdouz.com/qg/qg2.php$天\n
 当前UNIX时间戳：%NDTime%\n
@@ -1848,7 +1849,8 @@ punycode解码 ?([\s\S]*(.*)[\s\S]*)
 $访问 http://ovooa.com/API/Punycode/?string=%括号1%&format=decode&type=text$
 
 (.*)语音
-http://xiaobapi.top/api/xb/api/voice_packet.php?msg=%括号1%\n
+a:$URLEncoder %括号1%$
+http://xiaobapi.top/api/xb/api/voice_packet.php?msg=%a%\n
 人物名字：阿嫲，杰哥，彬彬，阿伟，淑慧阿姨，电棍，炫神，山泥若，卢本伟，呆妹，孙笑川，药水哥，旭旭宝宝，大司马，周淑怡，茄子，PDD，包桑，王思聪，小猪佩奇，楚云飞，李云龙，哲学，JOJO，王司徒，波澜哥，蔡徐坤，刘海柱，乔碧萝，郭老师，金坷垃，寒王，冬泳怪鸽，章金莱，老八，阿福，giao，切格瓦拉
 
 (.*)进制转(.*)进制(.*)
