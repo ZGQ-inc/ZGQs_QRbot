@@ -518,7 +518,7 @@ https://zgq-inc.github.io/ZGQs_QRbot/\n
 ±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_60012194.png±
 ❗本AI少女无法被关闭哦
 
-疫情|疫情备用|天气|梗搜索|百度百科|翻译|搜索|github搜索仓库|github仓库|github用户|禁言|解禁|踢出|强制打开|改头衔|QQ音乐|网易云音乐|酷我音乐|酷狗音乐|咪咕音乐|电音|下载音乐|备用下载音乐|次元图|影视|樱花动漫|随机视频|下载哔哩哔哩|波点音乐|下载MV|视频解析|文案|二次元的|狗屁不通|星座运势|藏头诗|小说|兽语|语音|ping|多地ping|端口扫描|whois|备案|URL解码|URL编码|HEX解码|HEX编码|base64解码|base64编码|unicode解码|unicode编码|md5编码|CRC32编码|摩斯电码编码|摩斯电码解码|添加管理员|删除管理员|强制说|关闭服务|改昵称|机器人状态|发表情|获取表情编号|观看|我的历史播放|昵称查重|用户|搜索视频|bv|最新视频|收藏夹|收藏夹详情|查看我的历史播放|添加up主|粉丝量
+疫情|疫情备用|天气|梗搜索|百度百科|翻译|搜索|github搜索仓库|github仓库|github用户|禁言|解禁|踢出|强制打开|改头衔|改昵称|QQ音乐|网易云音乐|酷我音乐|酷狗音乐|咪咕音乐|电音|下载音乐|备用下载音乐|次元图|影视|樱花动漫|随机视频|下载哔哩哔哩|波点音乐|下载MV|视频解析|小说|文案|二次元的|狗屁不通|写检讨|星座运势|藏头诗|兽语|语音|丢漂流瓶|处CP|缘分|ping|多地ping|端口扫描|whois|备案|URL解码|URL编码|HEX解码|HEX编码|base64解码|base64编码|unicode解码|unicode编码|md5编码|CRC32编码|摩斯电码编码|摩斯电码解码|punycode编码|punycode解码|机器人状态|添加管理员|删除管理员|强制说|关闭服务|开启服务|反馈|导入|执行|发表情|获取表情编号|观看|我的历史播放|昵称查重|用户|搜索视频|bv|最新视频|收藏夹|收藏夹详情|查看我的历史播放|添加up主|粉丝量
 ±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030045.png±
 ⚠请按照［］指示输入内容！
 
@@ -2355,8 +2355,12 @@ Github主页：%e%\n
 丢漂流瓶 ?([\s\S]*(.*)[\s\S]*)
 a:$读文件 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt$
 b:$读 漂流瓶/number.txt n 0$
-$写文件 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt %a%\n\n[%b%+1]:%括号1%\n来自〔%昵称%〕QQ%QQ%群%群号%$
+c:$时间 yyyy-MM-dd HH:mm:ss.SSS$
+$写文件 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt %a%\n\n[%b%+1]:%括号1%\n来自〔%昵称%〕QQ:%QQ%;Group:%群号%;Time:%c%$
 $写 漂流瓶/number.txt n [%b%+1]$漂流瓶已飘向远方～
+
+测试
+$时间 yyyy-MM-dd HH:mm:ss.SSS$
 
 捡漂流瓶
 a:$读文件 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt$
