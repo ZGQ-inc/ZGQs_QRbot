@@ -2829,14 +2829,14 @@ $调用 1000 已执行$
 a:$读文件 /storage/emulated/0/QR/QRDic/dicpro.txt$
 $写文件 /storage/emulated/0/QR/QRDic/backups/dicpro.txt %a%$
 ✅备份旧词库文件成功，正在更新词库文件......
-$回调 update$
+$调用 3000 update$
 返回
 如果尾
 ⚠你不是主人
 
 [内部]update
 $下载 /storage/emulated/0/QR/QRDic/dicpro.txt https://zgq-inc.github.io/ZGQs_QRbot/dicpro.txt$
-$调用 10000 updateover$
+$调用 7000 updateover$
 
 [内部]updateover
 a:$读文件 /storage/emulated/0/QR/QRDic/dicpro.txt$
