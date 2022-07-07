@@ -2819,6 +2819,33 @@ $调用 1000 已执行$
 [内部]已执行
 代码执行完毕
 
+更新词库
+❗️此操作将会覆盖dicpro.txt，更新前将会自动备份旧词库文件到本地相对路径/QR/QRDic/backups/文件夹，如果你对本词库进行过二次演绎，请在更新后及时查看备份文件，是否继续？\n
+发送【我已知晓并继续更新】
+
+我已知晓并继续更新
+如果:%QQ%==%主人%
+a:$读文件 /storage/emulated/0/QR/QRDic/dicpro.txt$
+$写文件 /storage/emulated/0/QR/QRDic/backups/dicpro.txt %a%$
+✅备份旧词库文件成功，正在更新词库文件......
+$回调 update$
+返回
+如果尾
+⚠你不是主人
+
+[内部]update
+$下载 /storage/emulated/0/QR/QRDic/dicpro.txt https://zgq-inc.github.io/ZGQs_QRbot/dicpro.txt$
+$调用 10000 updateover$
+
+[内部]updateover
+a:$读文件 /storage/emulated/0/QR/QRDic/dicpro.txt$
+b:$读文件 /storage/emulated/0/QR/QRDic/backups/dicpro.txt$
+如果:%a%==%b%
+❌更新失败，请检查网络
+返回
+如果尾
+✅词库文件更新完毕
+
 [\s\S]*(.*)[\s\S]*国外软件[\s\S]*(.*)[\s\S]*
 回复以下关键词自助获取：\n
 Telegram\n
