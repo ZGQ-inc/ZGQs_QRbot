@@ -2842,7 +2842,7 @@ $调用 7000 updateover$
 a:$读文件 /storage/emulated/0/QR/QRDic/dicpro.txt$
 b:$读文件 /storage/emulated/0/QR/QRDic/backups/dicpro.txt$
 如果:%a%==%b%
-❌更新失败，请检查网络
+❌更新失败，云端文件可能没有更新或网络问题
 返回
 如果尾
 ✅词库文件更新完毕
