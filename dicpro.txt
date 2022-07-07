@@ -110,7 +110,8 @@ IT最新\n
 搜索［关键词］\n
 github搜索仓库［关键词］\n
 github仓库［用户名+/+仓库］\n
-github用户［用户名］
+github用户［用户名］\n
+查重［文本1］和［文本2］
 
 群管
 ⚖️━━━群管━━━⚖️\n
@@ -1857,6 +1858,12 @@ http://xiaobapi.top/api/xb/api/voice_packet.php?msg=%a%\n
 (.*)进制转(.*)进制(.*)
 %括号1%进制：%括号3%\n
 %括号2%进制：$访问 http://api.tangdouz.com/qg/qg6.php?num=%括号3%&a=%括号1%&b=%括号2%$
+
+查重(.*)和(.*)
+a:$访问 http://api.tangdouz.com/zz.php?nr=%括号1%&nr1=%括号2%&f=2$
+文本1：%括号1%\n
+文本2：%括号2%\n
+查重率：%a%%
 
 抠图.*
 如果:%IMG0%!=
