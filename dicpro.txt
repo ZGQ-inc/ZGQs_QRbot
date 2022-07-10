@@ -2800,8 +2800,10 @@ $申请群 %括号1% %括号2%$已发送入群申请
 会员小表情：%FACEPRO0%
 
 反馈 ?([\s\S]*(.*)[\s\S]*)
-a:$读文件 /storage/emulated/0/QR/QRDic/data/反馈/群.txt$
-$发送 群 msg %a% QQ：%QQ%\n反馈内容：%括号1%$
+a:$读文件 /storage/emulated/0/QR/QRDic/data/反馈/反馈.txt$
+$写文件 /storage/emulated/0/QR/QRDic/data/反馈/反馈.txt %a%\n\nQQ：%QQ%\n群号：%群%\n反馈内容：%括号1%$
+✅反馈成功\n
+请主人查看本地相对路径/data/反馈/反馈.txt
 
 导入 ?([\s\S]*(.*)[\s\S]*)
 如果:%QQ%==%主人%
