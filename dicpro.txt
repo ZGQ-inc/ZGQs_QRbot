@@ -184,7 +184,7 @@ QQ音乐［歌名］\n
 🎞️━━━视频━━━🎞️\n
 影视［关键词］\n
 哔哩哔哩\n
-AGEFANS❌\n
+AGEFANS\n
 樱花动漫［动漫名］\n
 随机视频［明星/热舞/风景/游戏/动物］\n
 下载哔哩哔哩［视频链接］\n
@@ -229,7 +229,10 @@ AGEFANS❌\n
 捡漂流瓶\n
 漂流瓶总数\n
 处CP［@对象］\n
-缘分［@对象］
+缘分［@对象］\n
+资料卡1签名［内容］\n
+资料卡2QID［内容］\n
+资料卡3QID［内容］签名［内容］
 
 表情列表
 😜━━━表情━━━😜\n
@@ -1912,6 +1915,15 @@ a:$访问 http://api.tangdouz.com/zz.php?nr=%括号1%&nr1=%括号2%&f=2$
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
 ±img=http://api.tangdouz.com/wz/tm.php?lj=%a%±
+
+资料卡1签名 ?([\s\S]*(.*)[\s\S]*)
+±img=http://xiaobai.klizi.cn/API/ce/qqcard.php?qq=%QQ%&name=ZGQ&nick=$群昵称 0 %QQ%$&msg=%括号1%±
+
+资料卡2QID ?([\s\S]*(.*)[\s\S]*)
+±img=http://xiaobai.klizi.cn/API/ce/qqcard_1.php?qq=%QQ%&name=$群昵称 0 %QQ%$&qid=%括号1%±
+
+资料卡3QID(.*)签名(.*)
+±img=http://xiaobai.klizi.cn/API/ce/qqcard_2.php?qq=%QQ%&name=$群昵称 0 %QQ%$&qid=%括号1%&msg=%括号2%±
 
 影视 ?(.+)
 a:http://xiaobapi.top/api/xb/api/yingshi.php?msg=%括号1%
