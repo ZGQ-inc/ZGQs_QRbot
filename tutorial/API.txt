@@ -196,3 +196,5 @@ https://api.oick.cn/
 https://api.ooomn.com/
 小燃API
 http://oqmm.top/oxr/
+宇のAPI
+http://bh.ayud.top/
