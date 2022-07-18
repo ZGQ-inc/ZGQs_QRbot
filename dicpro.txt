@@ -40,6 +40,23 @@ z:$BSH DeviceUtils.java getDevicePower$
 ┃公告┃功能┃资源┃调试┃\n
 ┗━━┻━━┻━━┻━━┛\n
 🤖机器人主人：\n
+%主人% ZGQ Inc.
+$调用 100 风控$
+$调用 200 风控2$
+
+[内部]风控
+🌐个人主页：zgq-inc.github.io\n
+┅┅┅┅┅┅┅┅\n
+©2022 ZGQ Inc. All rights reserved.
+
+[内部]风控2
+原菜单被风控
+
+〔关键词列表〕\n
+┏━━┳━━┳━━┳━━┓\n
+┃公告┃功能┃资源┃调试┃\n
+┗━━┻━━┻━━┻━━┛\n
+🤖机器人主人：\n
 %主人% ZGQ Inc.\n
 🌐个人主页：\n
 https://zgq-inc.github.io\n
@@ -3801,3 +3818,11 @@ a:$替换 ⬚ %FIMG0%⬚.jpg⬚$
 链接2：http://gchat.qpic.cn/gchatpic_new/0/0-0-%a%/0\n
 MD5：%a%\n
 闪照捕获成功！
+//防刷屏，有需要自行删除注释符
+//如果尾
+//如果:%JSON0%!=
+//捕获到JSON卡片：%JSON0%
+//如果尾
+//如果:%XML0%!=
+//捕获到XML卡片：%XML0%
+//如果尾
