@@ -431,7 +431,17 @@ https://search.bilibili.com/all?keyword=［关键词］\n
 Yahoo\n
 https://hk.search.yahoo.com/search?p=［关键词］\n
 Yandex\n
-https://yandex.com/search/?text=［关键词］
+https://yandex.com/search/?text=［关键词］\n
+Wikipedia\n
+https://zh.wikipedia.org/w/index.php?search=［关键词］\n
+萌娘百科 万物皆可萌的百科全书 - zh.moegirl.org\n
+https://zh.moegirl.org.cn/index.php?search=［关键词］&profile=default&fulltext=1\n
+小鸡词典 - 好多梗啊！\n
+https://jikipedia.com/search?phrase=［关键词］\n
+Fandom\n
+https://www.fandom.com/?s=［关键词］\n
+wikiHow: How-to instructions you can trust.\n
+https://www.wikihow.com/wikiHowTo?search=［关键词］
 
 [\s\S]*(.*)[\s\S]*接口列表[\s\S]*(.*)[\s\S]*
 <━━━━接口━━━━>\n
@@ -2413,7 +2423,17 @@ https://search.bilibili.com/all?keyword=%a%\n
 你就不能Yahoo一下吗？\n
 https://hk.search.yahoo.com/search?p=%a%\n
 你就不能Yandex一下吗？\n
-https://yandex.com/search/?text=%a%
+https://yandex.com/search/?text=%a%\n
+你就不能维基百科一下吗？\n
+https://zh.wikipedia.org/w/index.php?search=%括号1%\n
+你就不能萌娘百科一下吗？\n
+https://zh.moegirl.org.cn/index.php?search=%括号1%&profile=default&fulltext=1\n
+你就不能小鸡词典一下吗？\n
+https://jikipedia.com/search?phrase=%括号1%\n
+你就不能Fandom一下吗？\n
+https://www.fandom.com/?s=%括号1%\n
+你就不能wikiHow一下吗？\n
+https://www.wikihow.com/wikiHowTo?search=%括号1%
 
 URL解码 ?([\s\S]*)
 $URLDecoder %括号1%$
