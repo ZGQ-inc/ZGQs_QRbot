@@ -160,7 +160,7 @@ QQ音乐［歌名］\n
 
 图片
 🖼️━━━图片━━━🖼️\n
-次元图［1A/1B/1C/2A/2B/2C/2D/2E/2F/2G/2H/2X/3/4A/4B/5/6/7/8/9A/9B/10］\n
+次元图［1A/1B/1C/2A/2B/2C/2D/2E/2F/2G/2H/2X/3/4A/4B/5/6/7/8/9A/9B/10/11A/11B］\n
 必应壁纸\n
 转链接［图片］\n
 ［闪照捕获］（自动）\n
@@ -184,7 +184,7 @@ QQ音乐［歌名］\n
 🎞️━━━视频━━━🎞️\n
 影视［关键词］\n
 哔哩哔哩\n
-AGEFANS❌\n
+AGEFANS\n
 樱花动漫［动漫名］\n
 随机视频［明星/热舞/风景/游戏/动物］\n
 下载哔哩哔哩［视频链接］\n
@@ -229,7 +229,10 @@ AGEFANS❌\n
 捡漂流瓶\n
 漂流瓶总数\n
 处CP［@对象］\n
-缘分［@对象］
+缘分［@对象］\n
+资料卡1签名［内容］\n
+资料卡2QID［内容］\n
+资料卡3QID［内容］签名［内容］
 
 表情列表
 😜━━━表情━━━😜\n
@@ -303,7 +306,9 @@ at我［@对象］\n
 处男［@对象］\n
 桶［@对象］\n
 吃2［@对象］\n
-锤2［@对象］
+锤2［@对象］\n
+结婚［@对象］\n
+踢2［@对象］
 
 网络
 💻━━━网络━━━💻\n
@@ -384,6 +389,9 @@ https://api.ixiaowai.cn/\n
 9A竖版壁纸；9B精选（参见【接口列表】）\n
 ［10］清風涩图随机查看器\n
 http://www.oqmm.top/wangy/
+［11A/11B］SexPhoto API\n
+11A无涩图；11B为R18\n
+https://sex.nyan.xyz/
 
 [\s\S]*(.*)[\s\S]*搜图接口列表[\s\S]*(.*)[\s\S]*
 <━━━━搜图接口━━━━>\n
@@ -485,6 +493,8 @@ AirLevel\n
 http://m.air-level.com/\n
 NASA's Goddard Space Flight Center | NASA\n
 https://www.nasa.gov/goddard\n
+宇のAPI\n
+http://bh.ayud.top/\n
 ┅┅┅API大全┅┅┅\n
 https://zgq-inc.github.io/ZGQs_QRbot/tutorial/API.txt\n
 ┅┅┅QRSpeed教程┅┅┅\n
@@ -691,6 +701,40 @@ b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
 c:$替换 ⬚ %b%⬚\⬚$
 📎接口：清風（有点涩）
 ±img=%c%±
+
+次元图11A
+a:$访问 https://sex.nyan.xyz/api/v2/?r18=false$
+b:$取中间 ⬚ %a%⬚"pid":⬚,$
+c:$取中间 ⬚ %a%⬚"author":"⬚"$
+d:$取中间 ⬚ %a%⬚"author_uid":⬚,$
+e:$取中间 ⬚ %a%⬚"title":"⬚"$
+f:$取中间 ⬚ %a%⬚"tags":[⬚],$
+g:$取中间 ⬚ %a%⬚"url":"⬚"}$
+📎接口：SexPhoto
+±img=%g%±
+标题：%e%\n
+画师：%c%\n
+标签：%f%\n
+链接：%g%\n
+作品ID：%b%\n
+画师ID：%d%
+
+次元图11B
+a:$访问 https://sex.nyan.xyz/api/v2/?r18=true$
+b:$取中间 ⬚ %a%⬚"pid":⬚,$
+c:$取中间 ⬚ %a%⬚"author":"⬚"$
+d:$取中间 ⬚ %a%⬚"author_uid":⬚,$
+e:$取中间 ⬚ %a%⬚"title":"⬚"$
+f:$取中间 ⬚ %a%⬚"tags":[⬚],$
+g:$取中间 ⬚ %a%⬚"url":"⬚"}$
+📎接口：SexPhoto\n
+🔞包含R18，使用链接\n
+标题：%e%\n
+画师：%c%\n
+标签：%f%\n
+链接：%g%\n
+作品ID：%b%\n
+画师ID：%d%
 
 //摆烂模式（
 搜图.*
@@ -1774,6 +1818,12 @@ at我@.*
 锤2@.*
 ±img=http://xiaobapi.top/api/xb/api/chui.php?qq=%AT0%±
 
+结婚@.*
+±img=http://bh.ayud.top/img/jh.php?qq=%AT0%±
+
+踢2@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/ti_2.php?qq=%AT0%±
+
 以图搜番.*
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
@@ -1880,6 +1930,15 @@ a:$访问 http://api.tangdouz.com/zz.php?nr=%括号1%&nr1=%括号2%&f=2$
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
 ±img=http://api.tangdouz.com/wz/tm.php?lj=%a%±
+
+资料卡1签名 ?([\s\S]*(.*)[\s\S]*)
+±img=http://xiaobai.klizi.cn/API/ce/qqcard.php?qq=%QQ%&name=ZGQ&nick=$群昵称 0 %QQ%$&msg=%括号1%±
+
+资料卡2QID ?([\s\S]*(.*)[\s\S]*)
+±img=http://xiaobai.klizi.cn/API/ce/qqcard_1.php?qq=%QQ%&name=$群昵称 0 %QQ%$&qid=%括号1%±
+
+资料卡3QID(.*)签名(.*)
+±img=http://xiaobai.klizi.cn/API/ce/qqcard_2.php?qq=%QQ%&name=$群昵称 0 %QQ%$&qid=%括号1%&msg=%括号2%±
 
 影视 ?(.+)
 a:http://xiaobapi.top/api/xb/api/yingshi.php?msg=%括号1%
@@ -2311,6 +2370,7 @@ forks：%g%\n
 推送于%k%\n
 网页：%l%\n
 仓库大小：%m%
+±img=https://opengraph.githubassets.com/0/%b%±
 
 github仓库 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 https://api.github.com/repos/%括号1%$
@@ -2337,6 +2397,7 @@ forks：%g%\n
 推送于%k%\n
 网页：%l%\n
 仓库大小：%m%
+±img=https://opengraph.githubassets.com/0/%括号1%±
 
 github用户 ?([\s\S]*(.*)[\s\S]*)
 a:$访问 https://api.github.com/users/%括号1%$
@@ -2377,9 +2438,6 @@ b:$读 漂流瓶/number.txt n 0$
 c:$时间 yyyy-MM-dd HH:mm:ss.SSS$
 $写文件 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt %a%\n\n[%b%+1]:%括号1%\n来自〔%昵称%〕QQ:%QQ%;Group:%群号%;Time:%c%$
 $写 漂流瓶/number.txt n [%b%+1]$漂流瓶已飘向远方～
-
-测试
-$时间 yyyy-MM-dd HH:mm:ss.SSS$
 
 捡漂流瓶
 a:$读文件 /storage/emulated/0/QR/QRDic/data/漂流瓶/drifting-bottle.txt$
@@ -2844,8 +2902,12 @@ $删除 /storage/emulated/0/QR/QRDic/import.txt$✅已清空导入词库
 ⚠你不是主人
 
 执行 ?([\s\S]*(.*)[\s\S]*)
+如果:%QQ%==%主人%
 $执行 %括号1%$
 $调用 1000 已执行$
+返回
+如果尾
+⚠你不是主人
 
 [内部]已执行
 代码执行完毕
@@ -3486,7 +3548,9 @@ $回调 网络26$\n
 $回调 网络27$\n
 $回调 网络28$\n
 $回调 网络29$\n
-$回调 网络30$
+$回调 网络30$\n
+$回调 网络31$\n
+$回调 网络32$
 $调用 1000 网络检查完毕$
 
 [内部]网络检查完毕
@@ -3734,6 +3798,22 @@ a:$访问 https://www.nasa.gov/$
 如果尾
 ✅〔NASA GOV〕
 
+[内部]网络31
+a:$访问 https://sex.nyan.xyz/$
+如果:%a%==
+❌〔SexPhoto API〕
+返回
+如果尾
+✅〔SexPhoto API〕
+
+[内部]网络32
+a:$访问 http://bh.ayud.top/$
+如果:%a%==
+❌〔宇のAPI〕
+返回
+如果尾
+✅〔宇のAPI〕
+
 .*
 如果:%FIMG0%!=
 a:$替换 ⬚ %FIMG0%⬚.jpg⬚$
@@ -3742,3 +3822,11 @@ a:$替换 ⬚ %FIMG0%⬚.jpg⬚$
 链接2：http://gchat.qpic.cn/gchatpic_new/0/0-0-%a%/0\n
 MD5：%a%\n
 闪照捕获成功！
+//防刷屏，有需要自行删除注释符
+//如果尾
+//如果:%JSON0%!=
+//捕获到JSON卡片：%JSON0%
+//如果尾
+//如果:%XML0%!=
+//捕获到XML卡片：%XML0%
+//如果尾
