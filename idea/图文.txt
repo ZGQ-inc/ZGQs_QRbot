@@ -1,0 +1,59 @@
+自适应图文
+图文\n
+开启/关闭：加粗、下划线、抗锯齿、删除线、抖动处理\n
+设置边距\n
+设置背景
+
+图文 ?(.*)
+±img=$BSH Image-text.java imagettftext %括号1%$±
+
+(开启|关闭)(加粗|下划线|抗锯齿|删除线|抖动处理)
+B:
+K:
+如果:%括号1%==开启
+B:true
+如果尾
+如果:%括号1%==关闭
+B:false
+如果尾
+如果:%括号2%==加粗
+K:bold
+如果尾
+如果:%括号2%==下划线
+K:underline
+如果尾
+如果:%括号2%==抗锯齿
+K:antialias
+如果尾
+如果:%括号2%==删除线
+K:strikethru
+如果尾
+如果:%括号2%==抖动处理
+K:dither
+如果尾
+如果:%K%==||%B%==
+错误
+返回
+如果尾
+R:$BSH Image-text.java putBool %K% %B%$
+如果:%R%==true
+设置成功
+返回
+如果尾
+设置失败
+
+设置边距 ?([0-9]+)
+R:$BSH Image-text.java putInt padding %括号1%$
+如果:%R%==true
+设置成功
+返回
+如果尾
+设置失败
+
+设置背景 ?(.*)
+R:$BSH Image-text.java putString background %括号1%$
+如果:%R%==true
+设置成功
+返回
+如果尾
+设置失败

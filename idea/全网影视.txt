@@ -1,0 +1,49 @@
+影视 ?(.+)
+a:http://xiaobapi.top/api/xb/api/yingshi.php?msg=%括号1%
+A:$访问 %a%$
+如果:@A[code]!=200
+@A[msg]
+返回
+如果尾
+$访问 %a%&type=text$
+$写 cache/影视/%群号%/%QQ% 名 %括号1%$
+$写 cache/影视/%群号%/%QQ% 页 1$
+
+上一页
+A:$读 cache/影视/%群号%/%QQ% 名 0$
+P:$读 cache/影视/%群号%/%QQ% 页 0$
+a:http://xiaobapi.top/api/xb/api/yingshi.php?msg=%A%&page=[%P%-1]
+A:$访问 %a%$
+如果:@A[code]!=200
+没有上一页了
+返回
+如果尾
+$访问 %a%&type=text$
+$写 cache/影视/%群号%/%QQ% 页 [%P%-1]$
+
+下一页
+A:$读 cache/影视/%群号%/%QQ% 名 0$
+P:$读 cache/影视/%群号%/%QQ% 页 0$
+a:http://xiaobapi.top/api/xb/api/yingshi.php?msg=%A%&page=[%P%+1]
+A:$访问 %a%$
+如果:@A[code]!=200
+没有下一页了
+返回
+如果尾
+$访问 %a%&type=text$
+$写 cache/影视/%群号%/%QQ% 页 [%P%+1]$
+
+([0-9]+)
+A:$读 cache/影视/%群号%/%QQ% 名 0$
+P:$读 cache/影视/%群号%/%QQ% 页 0$
+如果:%A%==0
+返回
+如果尾
+A:$访问 http://xiaobapi.top/api/xb/api/yingshi.php?msg=%A%&page=%P%$
+N:[%括号1%-1]
+U:@A[list][%N%][vod_list]
+b:$访问 %U%&type=text$
+c:$取中间 ⬚ %b%⬚±img=⬚±$
+d:$取中间 ⬚ %b%⬚±\n⬚$
+±img=%c%±
+%d%
