@@ -3584,18 +3584,15 @@ Q群管家我肏你🐴
 
 [\s\S]*(.*)[\s\S]*点赞[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*签到[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*冒泡[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*赞我[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*打卡[\s\S]*(.*)[\s\S]*
 ±img=https://q.qlogo.cn/headimg_dl?dst_uin=%QQ%&spec=5±
-$点赞 %QQ% 10$今日已给〔%昵称%〕10个赞\n
-⚠仅限好友
-$调用 1000 名片赞$
-
-[内部]名片赞
-a:$访问 https://xiaobai.klizi.cn/API/other/mpz.php?qq=%QQ%
+$点赞 %QQ% 10$
+a:$访问 https://xiaobai.klizi.cn/API/other/mpz.php?qq=%QQ%$
 如果:%a%==都领过了还领你个头
-〔%QQ%〕今日已签到\n
+〔$群昵称 0 %QQ%$〕%QQ%今日已签到\n
+已领取100名片赞\n
 一天只能领取一次名片赞
 返回
 如果尾
-〔%QQ%〕签到成功\n
+〔$群昵称 0 %QQ%$〕%QQ%签到成功\n
 已领取100名片赞
 
 @.*
