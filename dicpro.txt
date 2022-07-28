@@ -142,7 +142,14 @@ github用户［用户名］\n
 专属头衔\n
 我的头衔\n
 改头衔［内容］\n
-改昵称［内容］
+改昵称［内容］\n
+信息［QQ号］\n
+群性别\n
+群生日［年-月-日（选填）］\n
+群分布\n
+管理员操作\n
+强制打开名片备用［QQ号］\n
+强制打开群聊［QQ号］
 
 音乐
 🎵━━━音乐━━━🎵\n
@@ -232,7 +239,12 @@ AGEFANS\n
 缘分［@对象］\n
 资料卡1签名［内容］\n
 资料卡2QID［内容］\n
-资料卡3QID［内容］签名［内容］
+资料卡3QID［内容］签名［内容］\n
+资料卡4QID［内容］签名［内容］\n
+资料卡5QID［内容］\n
+资料卡6QID［内容］\n
+鲁迅说\n
+艺术字效果［内容］内容［内容］
 
 表情列表
 😜━━━表情━━━😜\n
@@ -308,7 +320,18 @@ at我［@对象］\n
 吃2［@对象］\n
 锤2［@对象］\n
 结婚［@对象］\n
-踢2［@对象］
+踢2［@对象］\n
+踢3［@对象］\n
+看6［@对象］\n
+看7［@对象］\n
+看8［@对象］\n
+看9［@对象］\n
+看10［@对象］\n
+看11［@对象］\n
+看12［@对象］\n
+打火机［@对象］\n
+打［@对象］\n
+打2［@对象］
 
 网络
 💻━━━网络━━━💻\n
@@ -348,6 +371,7 @@ dev回复\n
 强制说［内容］\n
 群列表\n
 群数目\n
+好友列表\n
 关闭服务［群号］\n
 开启服务［群号］\n
 关闭本群服务\n
@@ -1824,6 +1848,39 @@ at我@.*
 踢2@.*
 ±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/ti_2.php?qq=%AT0%±
 
+踢3@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/ti_2.php?qq=%AT0%±
+
+看6@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/kan_11.php?qq=%AT0%±
+
+看7@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/kan_9.php?qq=%AT0%±
+
+看8@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/kan_8.php?qq=%AT0%±
+
+看9@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/kan_7.php?qq=%AT0%±
+
+看10@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/kan_6.php?qq=%AT0%±
+
+看11@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/kan_5.php?qq=%AT0%±
+
+看12@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/kan_4.php?qq=%AT0%±
+
+打火机@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/bqb_12.php?qq=%AT0%±
+
+打@.*
+±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/jojo.php?qq=%AT0%&qq2=%QQ%±
+
+打2@.*
+±img=https://xiaobai.klizi.cn/API/gif/boxing.php?qq=%QQ%±
+
 以图搜番.*
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
@@ -1939,6 +1996,15 @@ a:$图片链接 %IMG0%$
 
 资料卡3QID(.*)签名(.*)
 ±img=http://xiaobai.klizi.cn/API/ce/qqcard_2.php?qq=%QQ%&name=$群昵称 0 %QQ%$&qid=%括号1%&msg=%括号2%±
+
+资料卡4QID(.*)签名(.*)
+±img=https://xiaobai.klizi.cn/API/ce/qqcard_3.php?qq=%QQ%&name=$群昵称 0 %QQ%$&qid=%括号1%&msg=%括号2%±
+
+资料卡5QID ?([\s\S]*(.*)[\s\S]*)
+±img=https://xiaobai.klizi.cn/API/ce/qqcard_4.php?qq=%QQ%&name=$群昵称 0 %QQ%$&qid=%括号1%±
+
+资料卡6QID ?([\s\S]*(.*)[\s\S]*)
+±img=https://xiaobai.klizi.cn/API/ce/qqcard_5.php?qq=%QQ%&name=$群昵称 0 %QQ%$&qid=%括号1%±
 
 影视 ?(.+)
 a:http://xiaobapi.top/api/xb/api/yingshi.php?msg=%括号1%
@@ -2458,6 +2524,45 @@ $删除 /storage/emulated/0/QR/QRDic/data/漂流瓶/number.txt$✅已删除所�
 如果尾
 ⚠你不是主人
 
+头像
+a:$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/jingxuantouxiang.php$
+b:$取中间 ⬚ %a%⬚img=⬚±$
+±img=%b%±
+
+ASCII艺术.*
+如果:%IMG0%!=
+a:$图片链接 %IMG0%$
+±img=http://www.dreamling.xyz/API/character_painting/api.php?imgurl=%a%±
+
+管理员操作
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://www.dreamling.xyz/API/QQ/get_group_admin_operation_record_list/api.php?uin=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+强制打开名片备用 ?([\s\S]*(.*)[\s\S]*)
+http://www.dreamling.xyz/API/QQ/Internalsearch_qq/api.php?qq=%括号1%
+
+强制打开群聊 ?([\s\S]*(.*)[\s\S]*)
+http://www.dreamling.xyz/API/QQ/Internalsearch_qq/api.php?group=%括号1%
+
+好友列表
+如果:%QQ%==%主人%
+$访问 http://www.dreamling.xyz/API/QQ/get_friend_list/api.php?uin=%Robot%&skey=%Skey%&pskey=%P%&type=text$
+返回
+如果尾
+⚠你不是主人
+
+艺术字效果(.*)内容(.*)
+±img=http://www.dreamling.xyz/API/yishuzi/api.php?way=%括号1%&msg=%括号2%±
+发送【艺术字效果列表】查看支持的效果
+
+艺术字效果
+手写荧光字/手写荧光红/手写荧光绿/手写荧光黄/手写火焰字/手写炫彩字/连笔荧光字/连笔荧光红/连笔荧光绿/连笔荧光黄/连笔火焰字/连笔黑色字/连笔玉雕字/连笔雕刻字/连笔暗红字/连笔粉色字/连笔绿色字/艺术花鸟签/一笔艺术签/连笔商务签/一笔商务签/手气不错哦/明星手写体/签名字体/草书体/真人手写/手写字/行书/连笔草书/连笔草字/猫猫字体/情书常规体/真人手写/倾倒特效手写/垂直特效手写/水平特效手写/三十度角仰望天/四十五度角仰望/娃娃体/手写体/静心楷体/硬笔行书/手写文字/肥圆手写/钢笔体/艺术体/硬笔行书/丹徒米蒂/学生钢笔字/学生手写字/潦草体/钢笔体/暴躁字/书法字体/天真娃娃体/太极体/钢笔字/和楷体/手写体/灵芝体/鼠标体/硬草书/小丸子/大草体字/连笔艺术字/卡通趣圆字/连笔手写字/毛泽东字体/黑体/楷体/仿宋/菱心/行楷/雁翔/行楷繁/舒同/古文篆书/繁中变/隶书/隶书繁/行楷/大篆体字/小篆字体/篆书篆体字/仿宋体/秀英/娃娃篆/双线/空心繁/雪峰/花蝶/彩蝶/飞翔/萝卜文/火柴文/太极文/黛玉字体/嘟嘟字/凌波字体/清韵字体/水波文字/萝莉字/空心体/一起去看海/一起恋爱/万圣节快乐/他夏了夏天/你最疼爱的人/信心相随/单翼雪蝶/南辞遇蝶/卷卷爱红唇/后会有期/咯咯哒的梦想/圈圈泡泡/地狱引路人/夏天的风/安静的美女子/小兔闹革命/小肥泡中文/幸福四叶草/开开的蛋糕/恋爱写真/恋爱蝴蝶结/恬夕别乱/恬夕恋夕/恰逢其会/星心甜甜圈/星火爱情/星际Cream/春田小蜜蜂/暮夏何其孽/梦中的婚礼/玉米荡漾/甜菜五道杠/绿光森林/花俏公主/钢笔楷书/花里胡哨/草莓之心/荼蘼花开/蝴蝶结云彩/蝶恋之樱/迪斯尼美丽/阿苗笑笑/佳丽体/马卡龙
+
+鲁迅说
+$访问 http://wenxin110.top/api/luxun_sayings$
+
 搜索 ?([\s\S]*(.*)[\s\S]*)
 a:$URLEncoder %括号1%$
 你就不能百度一下吗？\n
@@ -2512,10 +2617,10 @@ base64编码 ?([\s\S]*(.*)[\s\S]*)
 $Base64Encoder %括号1%$
 
 unicode解码 ?([\s\S]*)
-$UincodeDecoder %括号1%$
+$UnicodeDecoder %括号1%$
 
 unicode编码 ?([\s\S]*(.*)[\s\S]*)
-$UincodeEncoder %括号1%$
+$UnicodeEncoder %括号1%$
 
 md5编码 ?([\s\S]*(.*)[\s\S]*)
 $MD5 %括号1%$
@@ -2559,7 +2664,7 @@ $写文件 /storage/emulated/0/QR/QRDic/data/群列表/群.txt %a%$
 如果:%Value%==0
 〔$群昵称 0 %QQ%$〕%QQ%被群主撤销了群管理员
 
-强制打开 ?([\s\S]*(.*)[\s\S]*)
+强制打开名片 ?([\s\S]*(.*)[\s\S]*)
 强制打开名片：http://ovooa.com/API/tzmp/api.php?qq=%括号1%
 
 [群]群信息
@@ -2676,6 +2781,30 @@ $访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_exclusive_title.php?qq=%Ro
 
 我的头衔
 〔%昵称%〕的本群专属头衔为：%Title%
+
+信息 ?([\s\S]*(.*)[\s\S]*)
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 http://ovooa.com/API/QQ_find/?Uin=%Robot%&Skey=%Skey%&QQ=%括号1%&type=text$
+
+群性别
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_ti_sex.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
+
+群生日 ?([\s\S]*(.*)[\s\S]*)
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_birthday_list.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text&date=%括号1%$
+
+群分布
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+$访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_statistic_member.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
 
 [群]群成员
 $获取群成员 %群%$
@@ -2857,6 +2986,14 @@ $发送 群 msg %括号1% 已远程开启本群服务\n发送【回复列表】�
 ⚠你不是主人
 
 机器人状态 ?([\s\S]*(.*)[\s\S]*)
+a:$获取群列表$
+$写文件 /storage/emulated/0/QR/QRDic/data/群列表/群.txt %a%$
+正则:%a%==.*%括号1%.*
+机器人〔在〕此群内\n
+群（%括号1%）状态：$获取群状态 %括号1%$
+返回
+如果尾
+机器人〔不在〕此群内\n
 群（%括号1%）状态：$获取群状态 %括号1%$
 
 申请进群(.*)理由(.*)
@@ -3441,6 +3578,17 @@ Q群管家我肏你🐴
 ±img=https://q.qlogo.cn/headimg_dl?dst_uin=%QQ%&spec=5±
 $点赞 %QQ% 10$今日已给〔%昵称%〕10个赞\n
 ⚠仅限好友
+$调用 1000 名片赞$
+
+[内部]名片赞
+a:$访问 https://xiaobai.klizi.cn/API/other/mpz.php?qq=%QQ%
+如果:%a%==都领过了还领你个头
+〔%QQ%〕今日已签到\n
+一天只能领取一次名片赞
+返回
+如果尾
+〔%QQ%〕签到成功\n
+已领取100名片赞
 
 @.*
 如果:%AT0%==%Robot%
