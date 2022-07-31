@@ -1,12 +1,12 @@
 # QRSpeed & 词库Pro插件
 
-## [QRSpeed.ver.3.6.6.build.306.apk](https://zgq-inc.lanzouh.com/ipwNQ06iwyde)
+[QRSpeed.ver.3.6.6.build.306.apk](https://zgq-inc.lanzouh.com/ipwNQ06iwyde)
 
-## [QRDICPro.ver.1.3.0.build.43.apk](https://zgq-inc.lanzouh.com/iNg2V06iwy4f)
+[QRDICPro.ver.1.3.0.build.43.apk](https://zgq-inc.lanzouh.com/iNg2V06iwy4f)
 
 # 词库文件
 
-## [dicpro.txt](https://zgq-inc.github.io/ZGQs_QRbot/dicpro.txt)
+[dicpro.txt](https://zgq-inc.github.io/ZGQs_QRbot/dicpro.txt)
 
 > 本地相对路径：/QR/QRDic/dicpro.txt
 
