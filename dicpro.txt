@@ -2917,19 +2917,19 @@ P:@P[pskey]
 P:@P[qun.qq.com]
 $访问 http://ovooa.com/API/QQ_find/?Uin=%Robot%&Skey=%Skey%&QQ=%括号1%&type=text$
 
-群性别
+[群]群性别
 P:%Json%
 P:@P[pskey]
 P:@P[qun.qq.com]
 $访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_ti_sex.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
 
-群生日 ?([\s\S]*(.*)[\s\S]*)
+[群]群生日 ?([\s\S]*(.*)[\s\S]*)
 P:%Json%
 P:@P[pskey]
 P:@P[qun.qq.com]
 $访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_birthday_list.php?qq=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text&date=%括号1%$
 
-群分布
+[群]群分布
 P:%Json%
 P:@P[pskey]
 P:@P[qun.qq.com]
@@ -3689,6 +3689,127 @@ b:$随机数 1-10$
 
 [\s\S]*(.*)[\s\S]*你的消息违反了群主设定的发言管理规则[\s\S]*(.*)[\s\S]*
 Q群管家我肏你🐴
+
+[\s\S]*(.*)[\s\S]*Creeper[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*creeper[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*¿ɹədəəɹɔ[\s\S]*(.*)[\s\S]*
+Awww man
+
+So we back in the mine
+Got our pickaxe swinging from side to side
+
+Side-side to side|ss2s|SS2S
+This task a grueling one
+
+Hope to find some diamonds tonight night night
+Diamonds tonight
+
+Heads up
+You hear a sound turn around and look up
+
+Total shock fills your body
+Oh no its you again
+
+I can never forget those eyes eyes eyes
+Eyes-eye-eyes
+
+Cause baby tonight
+The creepers tryna steal all our stuff again
+
+Cause baby tonight
+You grab your pick shovel and bolt again
+
+Bolt again-gain
+And run run until its done done
+
+Until the sun comes up in the morn
+Cause baby tonight
+
+The creepers tryna steal all our stuff again
+Stuff again-gain
+
+Just when you think youre safe
+Overhear some hissing from right behind
+
+Right-right behind
+Thats a nice life you have
+
+Shame its gotta end at this time time time
+Time-time-time-time
+
+Blows up
+Then your health bar drops and you could use a one-up
+
+Get inside dont be tardy
+So now youre stuck in there
+
+Half a heart is left but dont die die die
+Die-die-die
+
+Cause baby tonight
+The creepers tryna steal all our stuff again
+
+Cause baby tonight
+You grab your pick shovel and bolt again
+
+Bolt again-gain
+And run run until its done done
+
+Until the sun comes up in the morn
+Cause baby tonight
+
+The creepers tryna steal all our stuff again
+Creepers youre mine haha
+
+Dig up diamonds and craft those diamonds
+And make some armor get it baby
+
+Go and forge that like you so MLG pro
+The swords made of diamonds so come at me bro huh
+
+Training in your room under the torchlight
+Hone that form to get you ready for the big fight
+
+Every single day and the whole night
+Creepers out prowlin hoo alright
+
+Look at me look at you
+Take my revenge thats what Im gonna do
+
+Im a warrior baby what else is new
+And my blades gonna tear through you bring it
+
+Cause baby tonight
+The creepers tryna steal all our stuff again
+
+Gather your stuff yeah lets take back the world
+Yeah baby tonight
+
+Haha
+Grab your sword armor and go
+
+Its on
+Take your revenge
+
+Woo oh-oh oh-oh
+So fight fight like its the last last night
+
+Of your life life show them your bite
+Woo
+Cause baby tonight
+
+The creepers tryna steal all our stuff again
+Cause baby tonight
+
+You grab your pick shovel and bolt again
+Bolt again-gain woo
+
+And run run until its done done
+Until the sun comes up in the morn
+
+Cause baby tonight
+Come on swing your sword up high
+
+Come on jab your sword down low
+Woo
 
 清屏
 ±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67274027.png±
