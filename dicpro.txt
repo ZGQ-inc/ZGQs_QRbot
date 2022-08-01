@@ -3148,21 +3148,29 @@ $申请群 %括号1% %括号2%$已发送入群申请
 a:$读文件 /storage/emulated/0/QR/QRDic/data/反馈/反馈.txt$
 $写文件 /storage/emulated/0/QR/QRDic/data/反馈/反馈.txt %a%\n\nQQ：%QQ%\n群号：%群%\n反馈内容：%括号1%$
 ✅反馈成功\n
-请主人查看本地相对路径/data/反馈/反馈.txt
+请主人查看本地相对路径/QR/QRDic/data/反馈/反馈.txt
 
 导入 ?([\s\S]*(.*)[\s\S]*)
 如果:%QQ%==%主人%
 a:$读文件 /storage/emulated/0/QR/QRDic/import.txt$
-$写文件 /storage/emulated/0/QR/QRDic/import.txt %a%\n\n%括号1%$
+如果:%a%==
+$写文件 /storage/emulated/0/QR/QRDic/import.txt %括号1%$
 ✅导入完成\n
 初次导入请打开〔QRDICPro〕，点击词库路径下方并添加〔import.txt〕
 返回
 如果尾
+$写文件 /storage/emulated/0/QR/QRDic/import.txt %a%\n\n%括号1%$
+✅导入完成
+返回
+如果尾
 ⚠你不是主人
+
+[内部]import
+$回调 import$
 
 清空导入
 如果:%QQ%==%主人%
-$删除 /storage/emulated/0/QR/QRDic/import.txt$✅已清空导入词库
+$写文件 /storage/emulated/0/QR/QRDic/import.txt ini$✅已清空导入词库
 返回
 如果尾
 ⚠你不是主人
@@ -3176,7 +3184,7 @@ $调用 1000 已执行$
 ⚠你不是主人
 
 [内部]已执行
-代码执行完毕
+✅代码执行完毕
 
 更新词库
 ❗️此操作将会覆盖dicpro.txt，更新前将会自动备份旧词库文件到本地相对路径/QR/QRDic/backups/文件夹，如果你对本词库进行过二次演绎，请在更新后及时查看备份文件，是否继续？\n
