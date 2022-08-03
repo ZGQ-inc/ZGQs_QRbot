@@ -2663,10 +2663,10 @@ P:@P[qun.qq.com]
 $访问 https://www.dreamling.xyz/API/QQ/get_group_admin_operation_record_list/api.php?uin=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
 
 强制打开名片备用 ?([\s\S]*(.*)[\s\S]*)
-http://www.dreamling.xyz/API/QQ/Internalsearch_qq/api.php?qq=%括号1%
+强制打开名片：http://www.dreamling.xyz/API/QQ/Internalsearch_qq/api.php?qq=%括号1%
 
 强制打开群聊 ?([\s\S]*(.*)[\s\S]*)
-http://www.dreamling.xyz/API/QQ/Internalsearch_qq/api.php?group=%括号1%
+强制打开群聊：http://www.dreamling.xyz/API/QQ/Internalsearch_qq/api.php?group=%括号1%
 
 好友列表
 如果:%QQ%==%主人%
