@@ -208,5 +208,17 @@ http://dreamling.xyz/
 https://apii.gq/
 问心API
 http://wenxin110.top/api/
-欢迎访问杀手API
+杀手API
 http://fuyhi.top/
+D云API
+https://api.d5.nz/
+JSON API
+https://www.bejson.com/knownjson/webInterface/
+免费API
+https://www.juhe.cn/docs
+万维易源API
+https://www.showapi.com/?renqun_youhua=259537
+极速数据API
+https://www.jisuapi.com/api/?isfree=1
+开放API
+https://api.apiopen.top/
