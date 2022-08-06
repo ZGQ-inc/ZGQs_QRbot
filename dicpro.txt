@@ -117,7 +117,9 @@ github用户［用户名］\n
 查重［文本1］和［文本2］
 运行JAVA［代码］\n
 运行PHP［代码］\n
-运行C#［代码］
+运行C#［代码］\n
+能不能好好说话［缩写］\n
+这是什么垃圾［垃圾名］
 
 群管
 ⚖️━━━群管━━━⚖️\n
@@ -174,7 +176,7 @@ QQ音乐［歌名］\n
 
 图片
 🖼️━━━图片━━━🖼️\n
-次元图［1A/1B/1C/2A/2B/2C/2D/2E/2F/2G/2H/2X/3/4A/4B/5/6/7/8/9A/9B/10/11A/11B］\n
+次元图［1A/1B/1C/2A/2B/2C/2D/2E/2F/2G/2H/2X/3/4A/4B/5/6/7/8/9A/9B/10/11A/11B/12A/12B］\n
 必应壁纸\n
 转链接［图片］\n
 ［闪照捕获］（自动）\n
@@ -256,7 +258,8 @@ AGEFANS\n
 资料卡7签名［内容］\n
 资料卡8签名［内容］\n
 鲁迅说\n
-艺术字效果［内容］内容［内容］
+艺术字效果［内容］内容［内容］\n
+疯狂星期四
 
 表情列表
 😜━━━表情━━━😜\n
@@ -344,7 +347,18 @@ at我［@对象］\n
 打火机［@对象］\n
 打［@对象］\n
 打2［@对象］\n
-看13［@对象］
+看13［@对象］\n
+阿尼亚［@对象］\n
+洗衣机［@对象］\n
+单身狗［@对象］\n
+帅［@对象］\n
+我要［@对象］\n
+敲［@对象］\n
+OK［@对象］\n
+鄙视［@对象］\n
+勾引［@对象］\n
+比心2［@对象］\n
+偷瞄［@对象］
 
 网络
 💻━━━网络━━━💻\n
@@ -430,6 +444,9 @@ http://www.oqmm.top/wangy/
 ［11A/11B］SexPhoto API\n
 11A无涩图；11B为R18\n
 https://sex.nyan.xyz/
+［12A/12B］weijieyue API\n
+12A无涩图；12B为R18\n
+https://1.weijieyue.co/pixiv/image.php
 
 [\s\S]*(.*)[\s\S]*搜图接口列表[\s\S]*(.*)[\s\S]*
 <━━━━搜图接口━━━━>\n
@@ -656,7 +673,7 @@ c:$替换 ⬚ %b%⬚\⬚$
 ±img=%c%±
 
 次元图2X
-a:$访问 http://iw233.fgimax2.fgnwctvip.com/API/Ghs.php?type=json$
+a:$访问 https://qiafan.vip/api/ghs.php?type=json$
 b:$取中间 ⬚ %a%⬚{"pic":"⬚"}$
 c:$替换 ⬚ %b%⬚\⬚$
 📎接口：MirlKoi（秘密接口）\n
@@ -773,6 +790,42 @@ g:$取中间 ⬚ %a%⬚"url":"⬚"}$
 链接：%g%\n
 作品ID：%b%\n
 画师ID：%d%
+
+次元图12A
+a:$访问 https://1.weijieyue.co/pixiv/image.php?ys=no$
+b:$取中间 ⬚ %a%⬚"title":⬚,$
+c:$取中间 ⬚ %a%⬚"pixiv_id":"⬚"$
+d:$取中间 ⬚ %a%⬚"user":⬚,$
+e:$取中间 ⬚ %a%⬚"user_id":"⬚"$
+f:$取中间 ⬚ %a%⬚"tag":[⬚],$
+1:$替换 ⬚ %h%⬚\n        ⬚$
+g:$取中间 ⬚ %a%⬚"url":"⬚"$
+📎接口：weijieyue
+±img=%g%±
+标题：%a%\n
+画师：%d%\n
+标签：%1%\n
+链接：%g%\n
+作品ID：%c%\n
+画师ID：%e%
+
+次元图12B
+a:$访问 https://1.weijieyue.co/pixiv/image.php?ys=yes$
+b:$取中间 ⬚ %a%⬚"title":⬚,$
+c:$取中间 ⬚ %a%⬚"pixiv_id":"⬚"$
+d:$取中间 ⬚ %a%⬚"user":⬚,$
+e:$取中间 ⬚ %a%⬚"user_id":"⬚"$
+f:$取中间 ⬚ %a%⬚"tag":[⬚],$
+1:$替换 ⬚ %h%⬚\n        ⬚$
+g:$取中间 ⬚ %a%⬚"url":"⬚"$
+📎接口：weijieyue\n
+🔞包含R18，使用链接\n
+标题：%a%\n
+画师：%d%\n
+标签：%1%\n
+链接：%g%\n
+作品ID：%c%\n
+画师ID：%e%
 
 //摆烂模式（
 搜图.*
@@ -924,21 +977,7 @@ IP归 属地：%d%\n
 总耗时：%k%
 
 备案 ?([\s\S]*(.*)[\s\S]*)
-a:$访问 http://xiaoapi.cn/API/zs_icp.php?url=%括号1%$
-b:$取中间 ⬚ %a%⬚"主办单位：": "⬚"$
-c:$取中间 ⬚ %a%⬚"单位性质：": "⬚"$
-d:$取中间 ⬚ %a%⬚"备案号：": "⬚"$
-e:$取中间 ⬚ %a%⬚"网站名称：": "⬚"$
-f:$取中间 ⬚ %a%⬚"网站首页：": "⬚"$
-g:$取中间 ⬚ %a%⬚"审核时间：": "⬚"$
-h:$取中间 ⬚ %a%⬚"最近检测：": "⬚"$
-主办单位：%b%\n
-单位性质：%c%\n
-备案号：%d%\n
-网站名称：%e%\n
-网站首页：%f%\n
-审核时间：%g%\n
-最近检测：%h%
+a:$访问 http://ovooa.com/API/icp/?url=%括号1%&type=text$
 
 whois ?([\s\S]*(.*)[\s\S]*)
 a:$访问 https://tenapi.cn/whois/?url=%括号1%$
@@ -1898,6 +1937,39 @@ at我@.*
 看13@.*
 ±img=https://xiaobai.klizi.cn/API/ce/ju.php?qq=%AT0%±
 
+阿尼亚@.*
+±img=http://xiaobapi.top/api/xb/api/any.php?qq=%AT0%±
+
+洗衣机@.*
+±img=http://xiaobapi.top/api/xb/api/xiyiji.php?qq=%AT0%±
+
+单身狗@.*
+±img=http://xiaobapi.top/api/xb/api/single_idcard.php?qq=%AT0%±
+
+帅@.*
+±img=http://xiaobapi.top/api/xb/api/zuishuai.php?qq=%AT0%±
+
+我要@.*
+±img=http://xiaobapi.top/api/xb/api/this.php?qq=%AT0%±
+
+敲@.*
+±img=http://xiaobapi.top/api/xb/api/qiao.php?qq=%AT0%±
+
+OK@.*
+±img=http://xiaobapi.top/api/xb/api/okk.php?qq=%AT0%±
+
+鄙视@.*
+±img=http://xiaobapi.top/api/xb/api/bishi.php?qq=%AT0%±
+
+勾引@.*
+±img=http://xiaobapi.top/api/xb/api/gouyin.php?qq=%AT0%±
+
+比心2@.*
+±img=http://xiaobapi.top/api/xb/api/bixinxin.php?qq=%AT0%±
+
+偷瞄@.*
+±img=http://xiaobapi.top/api/xb/api/toumiao.php?qq=%AT0%±
+
 以图搜番.*
 如果:%IMG0%!=
 b:$替换 Э %IMG0%Э.jpgЭ$
@@ -2693,6 +2765,17 @@ c:$访问 http://www.dreamling.xyz/API/yishuzi/api.php?way=%b%&msg=%括号2%$
 鲁迅说
 $访问 http://wenxin110.top/api/luxun_sayings$
 
+疯狂星期四
+$访问 http://xiaobapi.top/api/xb/api/crazy_thursday.php$
+
+能不能好好说话 ?([\s\S]*(.*)[\s\S]*)
+$访问 http://xiaobapi.top/api/xb/api/can_you_speak_in_a_good_way.php?msg=%括号1%&type=text$
+
+这是什么垃圾 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 https://api.vvhan.com/api/la.ji?lj=%括号1%$
+b:$取中间 ⬚ %a%⬚"sort":"⬚"$
+%括号1%属于%b%
+
 搜索 ?([\s\S]*(.*)[\s\S]*)
 a:$URLEncoder %括号1%$
 你就不能百度一下吗？\n
@@ -3463,10 +3546,19 @@ b:$随机数 1-2$
 [\s\S]*(.*)[\s\S]*涩图[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*色图[\s\S]*(.*)[\s\S]*
 ±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_67273982.png±
 整天涩图，把你变成涩图！
+$调用 2000 rickroll$
 
 [\s\S]*(.*)[\s\S]*涩涩[\s\S]*(.*)[\s\S]*
 ±img=https://zgq-inc.github.io/ZGQs_QRbot/pictures/file_63030152.png±
 不能涩涩！
+$调用 2000 rickroll$
+
+[内部]rickroll
+发送【神秘链接】有惊喜
+
+[\s\S]*(.*)[\s\S]*never gonna give you up[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*Never gonna give you up[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*你被骗了[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*神秘链接[\s\S]*(.*)[\s\S]*
+神秘链接：\n
+https://zgq-inc.github.io/homepage/FBI_WARNING.html
 
 [\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*哈[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*蛤[\s\S]*(.*)[\s\S]*蛤[\s\S]*(.*)[\s\S]*蛤[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*hahaha[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*hhh[\s\S]*(.*)[\s\S]*
 a:["哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑哈↑","www","wwww","wwwww","wwwwww","wwwwwww","wwwwwwww","wwwwwwwww","wwwwwwwwww","是什么这么好笑呢","笑死本AI少女了"]
