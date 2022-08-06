@@ -119,7 +119,7 @@ github用户［用户名］\n
 运行PHP［代码］\n
 运行C#［代码］\n
 能不能好好说话［缩写］\n
-这是什么垃圾［垃圾名］
+［垃圾名］是什么垃圾
 
 群管
 ⚖️━━━群管━━━⚖️\n
@@ -2771,10 +2771,10 @@ $访问 http://xiaobapi.top/api/xb/api/crazy_thursday.php$
 能不能好好说话 ?([\s\S]*(.*)[\s\S]*)
 $访问 http://xiaobapi.top/api/xb/api/can_you_speak_in_a_good_way.php?msg=%括号1%&type=text$
 
-这是什么垃圾 ?([\s\S]*(.*)[\s\S]*)
+ ?([\s\S]*(.*)[\s\S]*)是什么垃圾
 a:$访问 https://api.vvhan.com/api/la.ji?lj=%括号1%$
 b:$取中间 ⬚ %a%⬚"sort":"⬚"$
-%括号1%属于%b%
+〔%括号1%〕属于%b%
 
 搜索 ?([\s\S]*(.*)[\s\S]*)
 a:$URLEncoder %括号1%$
