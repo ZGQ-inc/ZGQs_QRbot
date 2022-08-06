@@ -6,7 +6,9 @@
 
 # 词库文件
 
-[dicpro.txt](https://zgq-inc.github.io/ZGQs_QRbot/dicpro.txt)
+[点此下载最新发布版](https://github.com/ZGQ-inc/ZGQs_QRbot/releases/download/220806/dicpro.txt)
+
+[查看预发布的测试版](https://zgq-inc.github.io/ZGQs_QRbot/dicpro.txt)
 
 > 本地相对路径：/QR/QRDic/dicpro.txt
 
