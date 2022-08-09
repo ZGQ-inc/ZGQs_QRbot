@@ -2776,6 +2776,23 @@ a:$访问 https://api.vvhan.com/api/la.ji?lj=%括号1%$
 b:$取中间 ⬚ %a%⬚"sort":"⬚"$
 〔%括号1%〕属于%b%
 
+转中文 ?([\s\S]*(.*)[\s\S]*)
+$数字转中文 %括号1%$
+
+转大写 ?([\s\S]*(.*)[\s\S]*)
+$转大写 %括号1%$
+
+转小写 ?([\s\S]*(.*)[\s\S]*)
+$转小写 %括号1%$
+
+字数 ?([\s\S]*(.*)[\s\S]*)
+字符数：$字符长度 %括号1%$
+字数：$字节长度 %括号1%$
+
+弱密码生成 ?([\s\S]*(.*)[\s\S]*)
+$随机字符 %括号1%$
+
+
 搜索 ?([\s\S]*(.*)[\s\S]*)
 a:$URLEncoder %括号1%$
 你就不能百度一下吗？\n
@@ -3253,8 +3270,7 @@ $写文件 /storage/emulated/0/QR/QRDic/data/反馈/反馈.txt %a%\n\nQQ：%QQ%\
 a:$读文件 /storage/emulated/0/QR/QRDic/import.txt$
 如果:%a%==
 $写文件 /storage/emulated/0/QR/QRDic/import.txt %括号1%$
-✅导入完成\n
-初次导入请打开〔QRDICPro〕，点击词库路径下方并添加〔import.txt〕
+✅导入完成$词库操作 添加 import.txt$
 返回
 如果尾
 $写文件 /storage/emulated/0/QR/QRDic/import.txt %a%\n\n%括号1%$
@@ -3488,6 +3504,7 @@ Poweramp：最强大的音乐播放器\n
 Puffin：支持运行flash程序的浏览器\n
 Python：强大的编程语言之一\n
 PowerPoint：微软办公套件之一PPT\n
+PanDownload：百毒网盘破限速下载器\n
 发送【软件库】自助搜索\n
 （部分不可见，发送【个人主页】见机行事）
 
