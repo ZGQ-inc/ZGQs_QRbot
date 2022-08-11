@@ -2588,16 +2588,17 @@ c:$替换 ⬚ %b%⬚\n━━━━━━━━━\nTips:天一API技术支持⬚
 %c%
 
 祖安
-a:$读文件 /storage/emulated/0/QR/QRDic/data/祖安/祖安.txt$
-b:$取中间 ⬚ %a%⬚【⬚】$
-如果:%b%==祖安
-c:$随机数 1-1080$
-$取中间 ⬚ %a%⬚%c%:⬚\n$
-返回
-如果尾
-❌〔祖安.txt〕不存在，正在下载所需文件......
-$下载 /storage/emulated/0/QR/QRDic/data/祖安/祖安.txt https://zgq-inc.github.io/ZGQs_QRbot/data/祖安.txt$
-$调用 10000 祖安.txt$
+//a:$读文件 /storage/emulated/0/QR/QRDic/data/祖安/祖安.txt$
+//b:$取中间 ⬚ %a%⬚【⬚】$
+//如果:%b%==祖安
+//c:$随机数 1-1080$
+//$取中间 ⬚ %a%⬚%c%:⬚\n$
+//返回
+//如果尾
+//❌〔祖安.txt〕不存在，正在下载所需文件......
+//$下载 /storage/emulated/0/QR/QRDic/data/祖安/祖安.txt https://zgq-inc.github.io/ZGQs_QRbot/data/祖安.txt$
+//$调用 10000 祖安.txt$
+近期风控严重，此功能关闭
 
 [内部]祖安.txt
 a:$读文件 /storage/emulated/0/QR/QRDic/data/祖安/祖安.txt$
@@ -3348,7 +3349,8 @@ Instagram\n
 VKontakte\n
 TikTok\n
 Twitch\n
-LINE
+LINE\n
+Discord
 
 [\s\S]*(.*)[\s\S]*软件库[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*软件
 安卓软件&游戏：2000个安卓破解软件\n
@@ -3431,6 +3433,10 @@ https://zgq-inc.github.io/overthefirewall/#Twitch\n
 LINE相机\n
 https://zgq-inc.github.io/overthefirewall/#LINE\n
 第三方&破解版不一定好用，推荐首选官方版，发送【谷歌商店】获取谷歌商店。
+
+[\s\S]*(.*)[\s\S]*Discord[\s\S]*(.*)[\s\S]*|[\s\S]*(.*)[\s\S]*discord[\s\S]*(.*)[\s\S]*
+Discord修改版\n
+https://zgq-inc.github.io/overthefirewall/#Discord
 
 怎么[\s\S]*(.*)[\s\S]*Steam[\s\S]*(.*)[\s\S]*|怎么[\s\S]*(.*)[\s\S]*steam[\s\S]*(.*)[\s\S]*|steam|Steam|steam++|Steam++|SteamTools|steamtools
 解决Steam社区无法访问的问题\n
