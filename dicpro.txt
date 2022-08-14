@@ -186,6 +186,7 @@ QQ音乐［歌名］\n
 转链接［图片］\n
 ［闪照捕获］（自动）\n
 搜图［图片］\n
+动漫人物［图片］\n
 //saucenao搜图［图片］（可能有BUG）\n
 //ascii2d搜图［图片］（有BUG勿使用）\n
 以图搜番［图片］❌\n
@@ -2204,6 +2205,17 @@ $访问 https://api.misakaloli.com/api/bilibili/OnLineRun.php?type=php&run=%括�
 
 运行C# ?([\s\S]*(.*)[\s\S]*)
 $访问 https://api.misakaloli.com/api/bilibili/OnLineRun.php?type=c#&run=%括号1%$
+
+动漫人物.*
+如果:%IMG0%!=
+a:$图片链接 %IMG0%$
+b:$访问 http://xiaobapi.top/api/xb/api/dmsb.php?url=%a%$
+c:$取中间 ⬚ %b%⬚"name": "⬚"$
+d:$取中间 ⬚ %b%⬚"cartoonname": "⬚"$
+e:$取中间 ⬚ %b%⬚"acc_percent": ⬚,$
+名字：%c%\n
+出处：%d%\n
+相似度：%e%
 
 影视 ?(.+)
 a:http://xiaobapi.top/api/xb/api/yingshi.php?msg=%括号1%
