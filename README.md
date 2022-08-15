@@ -25,14 +25,23 @@
 
 返回，点击 `QRDICPro` 一栏，设置 `主人` 为自己的**大号**。
 
+***
+
 接下来的步骤可供选择。
 
 方法①：下载词库文件 `dicpro.txt` 到本地相对路径 `内部存储/QR/QRDic/` 文件夹下。
 
 如果无法成功移动文件，可以选用方法②。
 
-方法②：打开 `QRDICPro` ，点击右边的编辑按钮，填入
+方法②：打开 `QRDICPro` ，点击右边的 `编辑按钮` ，填入
 
+```
+一键部署
+$下载 /storage/emulated/0/QR/QRDic/dicpro.txt https://github.com/ZGQ-inc/ZGQs_QRbot/releases/download/dicpro/dicpro.txt$
+```
+
+打开 `QQ` ，私聊**小号**，发送 `一键部署` 。
+***
 
 同理返回到主界面，点击左上角 `侧边栏` ，点击 `后台权限` ，点击 `电池优化白名单` ，在弹出的对话框点击 `确认` 。
 
