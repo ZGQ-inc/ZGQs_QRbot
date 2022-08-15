@@ -1,8 +1,8 @@
 # QRSpeed & 词库Pro插件
 
-[QRSpeed.ver.3.6.6.build.306.apk](https://zgq-inc.lanzouh.com/ipwNQ06iwyde)
+[QRSpeed.ver.3.7.0.build.310.apk](https://zgq-inc.lanzouv.com/iHM0409m2ash)
 
-[QRDICPro.ver.1.3.0.build.43.apk](https://zgq-inc.lanzouh.com/iNg2V06iwy4f)
+[QRDICPro.ver.1.3.1.build.44.apk](https://zgq-inc.lanzouv.com/iGdvh09m2awb)
 
 # 词库文件
 
