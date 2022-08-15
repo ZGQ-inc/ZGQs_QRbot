@@ -38,9 +38,10 @@
 方法②：打开 `QRDICPro` ，点击右边的 `编辑按钮` ，填入
 
 ```
-一键部署
-$下载 /storage/emulated/0/QR/QRDic/dicpro.txt https://github.com/ZGQ-inc/ZGQs_QRbot/releases/download/dicpro/dicpro.txt$
+一键部署$下载 /storage/emulated/0/QR/QRDic/dicpro.txt https://github.com/ZGQ-inc/ZGQs_QRbot/releases/download/dicpro/dicpro.txt$
 ```
+
+__*请手动在 `一键部署` 后面添加换行。__
 
 点击 `保存` ，打开 `QQ` ，私聊**小号**，发送 `一键部署` 。
 
