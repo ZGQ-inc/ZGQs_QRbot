@@ -2649,7 +2649,7 @@ forks：%g%\n
 更新于%j%\n
 推送于%k%\n
 网页：%l%\n
-仓库大小：%m%
+仓库大小：%m%KB
 ±img=https://opengraph.githubassets.com/0/%b%±
 
 github仓库 ?([\s\S]*(.*)[\s\S]*)
@@ -2676,7 +2676,7 @@ forks：%g%\n
 更新于%j%\n
 推送于%k%\n
 网页：%l%\n
-仓库大小：%m%
+仓库大小：%m%KB
 ±img=https://opengraph.githubassets.com/0/%括号1%±
 
 github用户 ?([\s\S]*(.*)[\s\S]*)
@@ -2838,15 +2838,15 @@ https://hk.search.yahoo.com/search?p=%a%\n
 你就不能Yandex一下吗？\n
 https://yandex.com/search/?text=%a%\n
 你就不能维基百科一下吗？\n
-https://zh.wikipedia.org/w/index.php?search=%括号1%\n
+https://zh.wikipedia.org/w/index.php?search=%a%\n
 你就不能萌娘百科一下吗？\n
-https://zh.moegirl.org.cn/index.php?search=%括号1%&profile=default&fulltext=1\n
+https://zh.moegirl.org.cn/index.php?search=%a%&profile=default&fulltext=1\n
 你就不能小鸡词典一下吗？\n
-https://jikipedia.com/search?phrase=%括号1%\n
+https://jikipedia.com/search?phrase=%a%\n
 你就不能Fandom一下吗？\n
-https://www.fandom.com/?s=%括号1%\n
+https://www.fandom.com/?s=%a%\n
 你就不能wikiHow一下吗？\n
-https://www.wikihow.com/wikiHowTo?search=%括号1%
+https://www.wikihow.com/wikiHowTo?search=%a%
 
 URL解码 ?([\s\S]*)
 $URLDecoder %括号1%$
