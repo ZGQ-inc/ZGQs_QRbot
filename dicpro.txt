@@ -137,6 +137,7 @@ github用户［用户名］\n
 @全体\n
 群信息\n
 群成员\n
+群成员［QQ号］\n
 群龙王\n
 群活跃\n
 群最近事件\n
@@ -2167,7 +2168,7 @@ a:$访问 http://xiaoapi.cn/API/zs_dybd.php?type=douban&n=1&num=10$
 @a[msg]
 
 网站信息 ?([\s\S]*(.*)[\s\S]*)
-a:$访问 http://xiaoapi.cn/API/wzjp.php?url=%括号1%$
+a:$访问 http://ovooa.com/API/Website_snapshot/?url=%括号1%$
 b:$访问 http://xiaoapi.cn/API/zs_wzxx.php?url=%括号1%$
 ±img=%a%±
 标题：@b[title]\n
@@ -3058,6 +3059,20 @@ $访问 https://yysk.yitzu.cn.qingf.top/api/xb/api/qq_qun_statistic_member.php?q
 
 [群]群成员
 $获取群成员 %群%$
+
+[群]群成员 ?([\s\S]*(.*)[\s\S]*)
+P:%Json%
+P:@P[pskey]
+P:@P[qun.qq.com]
+a:$获取群成员 %群%$
+b:$访问 http://ovooa.com/API/QQ_find/?Uin=%Robot%&Skey=%Skey%&QQ=%括号1%&type=text$
+正则:%a%==.*%括号1%.*
+%b%\n
+TA〔在〕此群内
+返回
+如果尾
+%b%\n
+TA〔不在〕此群内
 
 [群]改头衔 ?([\s\S]*(.*)[\s\S]*)
 $群头衔 %群% %QQ% %括号1%$
