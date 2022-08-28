@@ -114,12 +114,14 @@ IT最新\n
 github搜索仓库［关键词］\n
 github仓库［用户名+/+仓库］\n
 github用户［用户名］\n
-查重［文本1］和［文本2］
+查重［文本1］和［文本2］\n
+去重［文本］\n
 运行JAVA［代码］\n
 运行PHP［代码］\n
 运行C#［代码］\n
 能不能好好说话［缩写］\n
 ［垃圾名］是什么垃圾\n
+垃圾详情［垃圾名］\n
 转中文［数字］\n
 转大写［英文］\n
 转小写［英文］\n
@@ -164,7 +166,8 @@ github用户［用户名］\n
 清屏\n
 强制打开名片［QQ号］\n
 强制打开名片备用［QQ号］\n
-强制打开群聊［群号］
+强制打开群聊［群号］\n
+强制打开群聊备用［群号］
 
 音乐
 🎵━━━音乐━━━🎵\n
@@ -215,7 +218,8 @@ AGEFANS\n
 波点音乐［歌名］\n
 下载MV［歌名］\n
 视频解析［视频播放地址］\n
-哔哩哔哩［番剧/短视频］搜索［内容］
+哔哩哔哩［番剧/短视频］搜索［内容］\n
+哔哩哔哩解析［BV号］
 
 娱乐
 🎮━━━娱乐━━━🎮\n
@@ -311,7 +315,10 @@ AGEFANS\n
 马冬梅［内容］\n
 听［@对象］\n
 警察［@对象］\n
+警察2［@对象］\n
 想［@对象］\n
+想2［@对象］\n
+想3［@对象］\n
 瑞克［@对象］\n
 at我［@对象］\n
 雪球［@对象］\n
@@ -330,6 +337,7 @@ at我［@对象］\n
 求婚［@对象］\n
 牵2［@对象］\n
 好友［@对象］说［内容］\n
+群员［@对象］说［内容］身份［群主/管理员/群员］\n
 捧［@对象］\n
 有害垃圾［@对象］\n
 咕咕咕［@对象］\n
@@ -365,7 +373,11 @@ OK［@对象］\n
 鄙视［@对象］\n
 勾引［@对象］\n
 比心2［@对象］\n
-偷瞄［@对象］
+偷瞄［@对象］\n
+想4［@对象］\n
+想5［@对象］\n
+想6［@对象］\n
+证书［@对象］
 
 网络
 💻━━━网络━━━💻\n
@@ -1795,6 +1807,8 @@ a:$访问 http://ovooa.com/API/dou/?type=text$
 
 警察@.*
 ±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/police2.php?qq=%AT0%±
+
+警察2@.*
 ±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/police.php?qq=%AT0%±
 
 看2@.*
@@ -1802,7 +1816,11 @@ a:$访问 http://ovooa.com/API/dou/?type=text$
 
 想@.*
 ±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/xiang.php?qq=%AT0%±
+
+想2@.*
 ±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/xiang_2.php?qq=%AT0%±
+
+想3@.*
 ±img=https://yysk.yitzu.cn.qingf.top/api/xb/api/xiang_3.php?qq=%AT0%±
 
 瑞克@.*
@@ -1870,6 +1888,9 @@ at我@.*
 
 好友@.* 说 ?([\s\S]*(.*)[\s\S]*)
 ±img=http://api.tangdouz.com/wz/py.php?q=%AT0%&nr=%括号1%±
+
+群员@.* 说(.*)身份(.*)
+±img=http://api.tangdouz.com/wz/qunshuo.php?qq=%AT0%&nr=%括号1%&sf=%括号2%±
 
 捧@.*
 ±img=http://xiaobapi.top/api/xb/api/peng.php?qq=%AT0%±
@@ -1979,6 +2000,18 @@ OK@.*
 偷瞄@.*
 ±img=http://xiaobapi.top/api/xb/api/toumiao.php?qq=%AT0%±
 
+想4@.*
+±img=http://xiaobapi.top/api/xb/api/xiang_6.php?qq=%AT0%±
+
+想5@.*
+±img=http://xiaobapi.top/api/xb/api/xiang_5.php?qq=%AT0%±
+
+想6@.*
+±img=http://xiaobapi.top/api/xb/api/xiang_4.php?qq=%AT0%±
+
+证书@.*
+±img=https://xiaobai.klizi.cn/API/ce/zs.php?qq=%AT0%±
+
 以图搜番.*
 如果:%IMG0%!=
 b:$替换 Э %IMG0%Э.jpgЭ$
@@ -2087,6 +2120,9 @@ a:$访问 http://api.tangdouz.com/zz.php?nr=%括号1%&nr1=%括号2%&f=2$
 文本2：%括号2%\n
 查重率：%a%%
 
+去重 ?([\s\S]*(.*)[\s\S]*)
+$访问 https://xiaobai.klizi.cn/API/other/wb_qc.php?msg=%括号1%$
+
 抠图.*
 如果:%IMG0%!=
 a:$图片链接 %IMG0%$
@@ -2151,6 +2187,19 @@ CV：@c[cv]\n
 类型：@c[type]\n
 简介：@c[desc]\n
 链接：@c[url]
+
+哔哩哔哩解析 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 https://xiaobai.klizi.cn/API/video/bilibili_sp.php?bv=%括号1%$
+b:$取中间 ⬚ %a%⬚"author": "⬚"$
+c:$取中间 ⬚ %a%⬚"time": "⬚"$
+d:$取中间 ⬚ %a%⬚"title": "⬚"$
+e:$取中间 ⬚ %a%⬚"cover": "⬚"$
+f:$取中间 ⬚ %a%⬚"url": ⬚,$
+±img=%e%±
+标题：%d%\n
+UP主：%b%\n
+时间：%c%\n
+视频直链：%f%
 
 新闻
 a:$访问 http://xiaoapi.cn/API/zs_xw.php?num=20&n=$
@@ -2756,10 +2805,16 @@ P:@P[qun.qq.com]
 $访问 https://www.dreamling.xyz/API/QQ/get_group_admin_operation_record_list/api.php?uin=%Robot%&skey=%Skey%&pskey=%P%&group=%群%&type=text$
 
 强制打开名片备用 ?([\s\S]*(.*)[\s\S]*)
-强制打开名片：http://www.dreamling.xyz/API/QQ/Internalsearch_qq/api.php?qq=%括号1%
+强制打开名片：https://xiaobai.klizi.cn/API/qqgn/qz_jhy.php?uin=%括号1%
+
+强制打开名片 ?([\s\S]*(.*)[\s\S]*)
+强制打开名片：http://ovooa.com/API/tzmp/api.php?qq=%括号1%
+
+强制打开群聊备用 ?([\s\S]*(.*)[\s\S]*)
+强制打开群聊：http://www.dreamling.xyz/API/QQ/Internalsearch_qq/api.php?group=%括号1%
 
 强制打开群聊 ?([\s\S]*(.*)[\s\S]*)
-强制打开群聊：http://www.dreamling.xyz/API/QQ/Internalsearch_qq/api.php?group=%括号1%
+强制打开群聊：https://xiaobai.klizi.cn/API/qqgn/qz_jq.php?guin=%括号1%
 
 好友列表
 如果:%QQ%==%主人%
@@ -2796,6 +2851,17 @@ $访问 http://xiaobapi.top/api/xb/api/can_you_speak_in_a_good_way.php?msg=%括�
 a:$访问 https://api.vvhan.com/api/la.ji?lj=%括号1%$
 b:$取中间 ⬚ %a%⬚"sort":"⬚"$
 〔%括号1%〕属于%b%
+
+垃圾详情 ?([\s\S]*(.*)[\s\S]*)
+a:$访问 https://xiaobai.klizi.cn/API/other/laji.php?msg=%括号1%$
+b:$取中间 ⬚ %a%⬚"articles": "⬚"$
+c:$取中间 ⬚ %a%⬚"prompt": "⬚"$
+d:$取中间 ⬚ %a%⬚"abstract": "⬚"$
+e:$取中间 ⬚ %a%⬚"claim": "⬚"$
+%b%\n
+%c%\n
+%d%\n
+%e%
 
 转中文 ?([\s\S]*(.*)[\s\S]*)
 $数字转中文 %括号1%$
@@ -2914,9 +2980,6 @@ $写文件 /storage/emulated/0/QR/QRDic/data/群列表/群.txt %a%$
 如果尾
 如果:%Value%==0
 〔$群昵称 0 %QQ%$〕%QQ%被群主撤销了群管理员
-
-强制打开名片 ?([\s\S]*(.*)[\s\S]*)
-强制打开名片：http://ovooa.com/API/tzmp/api.php?qq=%括号1%
 
 [群]群信息
 a:$访问 http://ovooa.com/API/qunl/api?qq=%Robot%&s=%Skey%&group=%群%&type=text&op=1$
