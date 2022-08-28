@@ -7,7 +7,7 @@
 # 词库文件
 
 [点此下载最新发布版](https://github.com/ZGQ-inc/ZGQs_QRbot/releases/download/dicpro/dicpro.txt)
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/ZGQ-inc/ZGQs_QRbot/dicpro/total?color=666666&label=%E4%B8%8B%E8%BD%BD%E9%87%8F&logo=Github&style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/ZGQ-inc/ZGQs_QRbot/total?color=666666&label=%E4%B8%8B%E8%BD%BD%E9%87%8F&logo=Github&style=flat-square)
 
 [查看预发布的测试版](https://zgq-inc.github.io/ZGQs_QRbot/dicpro.txt)
 
